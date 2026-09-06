@@ -1,0 +1,291 @@
+{
+  "EVENT_DEFEAT_ROXANNE": {
+    "name": "RUSTBORO GYM - Gym Leader Battle",
+    "item": "Defeat ROXANNE",
+    "category": "EVENT"
+  },
+  "EVENT_DEFEAT_BRAWLY": {
+    "name": "DEWFORD GYM - Gym Leader Battle",
+    "item": "Defeat BRAWLY",
+    "category": "EVENT"
+  },
+  "EVENT_DEFEAT_WATTSON": {
+    "name": "MAUVILLE GYM - Gym Leader Battle",
+    "item": "Defeat WATTSON",
+    "category": "EVENT"
+  },
+  "EVENT_DEFEAT_FLANNERY": {
+    "name": "LAVARIDGE GYM - Gym Leader Battle",
+    "item": "Defeat FLANNERY",
+    "category": "EVENT"
+  },
+  "EVENT_DEFEAT_NORMAN": {
+    "name": "PETALBURG GYM - Gym Leader Battle",
+    "item": "Defeat NORMAN",
+    "category": "EVENT"
+  },
+  "EVENT_DEFEAT_WINONA": {
+    "name": "FORTREE GYM - Gym Leader Battle",
+    "item": "Defeat WINONA",
+    "category": "EVENT"
+  },
+  "EVENT_DEFEAT_TATE_AND_LIZA": {
+    "name": "MOSSDEEP GYM - Gym Leader Battle",
+    "item": "Defeat TATE AND LIZA",
+    "category": "EVENT"
+  },
+  "EVENT_DEFEAT_JUAN": {
+    "name": "SOOTOPOLIS GYM - Gym Leader Battle",
+    "item": "Defeat JUAN",
+    "category": "EVENT"
+  },
+  "EVENT_DEFEAT_CHAMPION": {
+    "name": "HOENN POKEMON LEAGUE - CHAMPION Battle",
+    "item": "Enter HALL OF FAME",
+    "category": "EVENT"
+  },
+  "EVENT_DEFEAT_STEVEN": {
+    "name": "METEOR FALLS - STEVEN Battle",
+    "item": "Defeat STEVEN",
+    "category": "EVENT"
+  },
+
+  "EVENT_MEET_FLOWER_SHOP_OWNER": {
+    "name": "PRETTY PETAL FLOWER SHOP - Meet Owner",
+    "item": "Meet FLOWER SHOP Owner",
+    "category": "EVENT"
+  },
+  "EVENT_RECOVER_DEVON_GOODS": {
+    "name": "RUSTURF TUNNEL - Recover DEVON GOODS",
+    "item": "Recover DEVON GOODS",
+    "category": "EVENT"
+  },
+  "EVENT_RETURN_DEVON_GOODS": {
+    "name": "RUSTBORO CITY - Return DEVON GOODS",
+    "item": "Return DEVON GOODS",
+    "category": "EVENT"
+  },
+  "EVENT_TALK_TO_MR_STONE": {
+    "name": "DEVON CORP. 3F - Meet MR. STONE",
+    "item": "Meet MR. STONE",
+    "category": "EVENT"
+  },
+  "EVENT_DELIVER_LETTER": {
+    "name": "GRANITE CAVE 1F - Delivery for STEVEN",
+    "item": "Deliver LETTER",
+    "category": "EVENT"
+  },
+  "EVENT_BUY_HARBOR_MAIL": {
+    "name": "SLATEPORT CITY - Buy HARBOR MAIL",
+    "item": "Buy HARBOR MAIL",
+    "category": "EVENT"
+  },
+  "EVENT_TALK_TO_DOCK": {
+    "name": "STERN'S SHIPYARD 1F - Talk to DOCK",
+    "item": "Talk to DOCK",
+    "category": "EVENT"
+  },
+  "EVENT_RESCUE_CAPT_STERN": {
+    "name": "OCEANIC MUSEUM - Rescue CAPT. STERN",
+    "item": "Liberate OCEANIC MUSEUM",
+    "category": "EVENT"
+  },
+  "EVENT_MAGMA_STEALS_METEORITE": {
+    "name": "METEOR FALLS 1F Main Room - TEAM MAGMA Steals METEORITE",
+    "item": "TEAM MAGMA Steals METEORITE",
+    "category": "EVENT"
+  },
+  "EVENT_RECOVER_METEORITE": {
+    "name": "MT. CHIMNEY - Recover METEORITE",
+    "item": "Recover METEORITE",
+    "category": "EVENT"
+  },
+  "EVENT_TURN_OFF_GENERATOR": {
+    "name": "NEW MAUVILLE - Turn Off Generator",
+    "item": "Turn Off Generator",
+    "category": "EVENT"
+  },
+  "EVENT_DEFEAT_SHELLY": {
+    "name": "WEATHER INSTUTUTE 2F - Shelly Battle",
+    "item": "Liberate WEATHER INSTITUTE",
+    "category": "EVENT"
+  },
+  "EVENT_WINGULL_QUEST_1": {
+    "name": "FORTREE CITY - WINGULL Departs",
+    "item": "WINGULL Quest Begins",
+    "category": "EVENT"
+  },
+  "EVENT_WINGULL_QUEST_2": {
+    "name": "MOSSDEEP CITY - WINGULL Returns",
+    "item": "WINGULL Quest Finishes",
+    "category": "EVENT"
+  },
+  "EVENT_DEFEAT_MAXIE_AT_SPACE_STATION": {
+    "name": "MOSSDEEP SPACE STATION 2F - MAXIE Battle",
+    "item": "Liberate MOSSDEEP SPACE STATION",
+    "category": "EVENT"
+  },
+  "EVENT_STEVEN_GIVES_DIVE": {
+    "name": "MOSSDEEP CITY - STEVEN Gives DIVE",
+    "item": "STEVEN Gives DIVE",
+    "category": "EVENT"
+  },
+  "EVENT_AQUA_STEALS_SUBMARINE": {
+    "name": "SLATEPORT HARBOR - TEAM AQUA Steals SUBMARINE EXPLORER 1",
+    "item": "TEAM AQUA Steals SUBMARINE EXPLORER 1",
+    "category": "EVENT"
+  },
+  "EVENT_RELEASE_GROUDON": {
+    "name": "MAGMA HIDEOUT - Release GROUDON",
+    "item": "Release GROUDON",
+    "category": "EVENT"
+  },
+  "EVENT_CLEAR_AQUA_HIDEOUT": {
+    "name": "AQUA HIDEOUT - MATT Battle",
+    "item": "Clear AQUA HIDEOUT",
+    "category": "EVENT"
+  },
+  "EVENT_RELEASE_KYOGRE": {
+    "name": "SEAFLOOR CAVERN - Release KYOGRE",
+    "item": "Release KYOGRE",
+    "category": "EVENT"
+  },
+  "EVENT_RAYQUAZA_STOPS_FIGHT": {
+    "name": "SOOTOPOLIS CITY - RAYQUAZA Stops Fight",
+    "item": "RAYQUAZA Stops Fight",
+    "category": "EVENT"
+  },
+  "EVENT_UNDO_REGI_SEAL": {
+    "name": "SEALED CHAMBER - Release LEGENDARY GIANTS",
+    "item": "Release LEGENDARY GIANTS",
+    "category": "EVENT"
+  },
+
+  "EVENT_COMPLETE_TRICK_HOUSE_1": {
+    "name": "TRICK HOUSE - Complete Puzzle 1",
+    "item": "Complete TRICK HOUSE Puzzle 1",
+    "category": "EVENT"
+  },
+  "EVENT_COMPLETE_TRICK_HOUSE_2": {
+    "name": "TRICK HOUSE - Complete Puzzle 2",
+    "item": "Complete TRICK HOUSE Puzzle 2",
+    "category": "EVENT"
+  },
+  "EVENT_COMPLETE_TRICK_HOUSE_3": {
+    "name": "TRICK HOUSE - Complete Puzzle 3",
+    "item": "Complete TRICK HOUSE Puzzle 3",
+    "category": "EVENT"
+  },
+  "EVENT_COMPLETE_TRICK_HOUSE_4": {
+    "name": "TRICK HOUSE - Complete Puzzle 4",
+    "item": "Complete TRICK HOUSE Puzzle 4",
+    "category": "EVENT"
+  },
+  "EVENT_COMPLETE_TRICK_HOUSE_5": {
+    "name": "TRICK HOUSE - Complete Puzzle 5",
+    "item": "Complete TRICK HOUSE Puzzle 5",
+    "category": "EVENT"
+  },
+  "EVENT_COMPLETE_TRICK_HOUSE_6": {
+    "name": "TRICK HOUSE - Complete Puzzle 6",
+    "item": "Complete TRICK HOUSE Puzzle 6",
+    "category": "EVENT"
+  },
+  "EVENT_COMPLETE_TRICK_HOUSE_7": {
+    "name": "TRICK HOUSE - Complete Puzzle 7",
+    "item": "Complete TRICK HOUSE Puzzle 7",
+    "category": "EVENT"
+  },
+
+  "EVENT_MOVE_TUTOR_DIG": {
+    "name": "FORTREE CITY - Met DIG Move Tutor",
+    "item": "Can Learn DIG",
+    "category": "EVENT"
+  },
+
+  "EVENT_VISITED_LITTLEROOT_TOWN": {
+    "name": "LITTLEROOT TOWN - First Visit",
+    "item": "Visited LITTLEROOT TOWN",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_OLDALE_TOWN": {
+    "name": "OLDALE TOWN - First Visit",
+    "item": "Visited OLDALE TOWN",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_PETALBURG_CITY": {
+    "name": "PETALBURG CITY - First Visit",
+    "item": "Visited PETALBURG CITY",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_RUSTBORO_CITY": {
+    "name": "RUSTBORO CITY - First Visit",
+    "item": "Visited RUSTBORO CITY",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_DEWFORD_TOWN": {
+    "name": "DEWFORD TOWN - First Visit",
+    "item": "Visited DEWFORD TOWN",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_SLATEPORT_CITY": {
+    "name": "SLATEPORT CITY - First Visit",
+    "item": "Visited SLATEPORT CITY",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_MAUVILLE_CITY": {
+    "name": "MAUVILLE CITY - First Visit",
+    "item": "Visited MAUVILLE CITY",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_VERDANTURF TOWN": {
+    "name": "VERDANTURF TOWN - First Visit",
+    "item": "Visited VERDANTURF TOWN",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_FALLARBOR_TOWN": {
+    "name": "FALLARBOR TOWN - First Visit",
+    "item": "Visited FALLARBOR TOWN",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_LAVARIDGE_TOWN": {
+    "name": "LAVARIDGE TOWN - First Visit",
+    "item": "Visited LAVARIDGE TOWN",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_FORTREE_CITY": {
+    "name": "FORTREE CITY - First Visit",
+    "item": "Visited FORTREE CITY",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_LILYCOVE_CITY": {
+    "name": "LILYCOVE CITY - First Visit",
+    "item": "Visited LILYCOVE CITY",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_MOSSDEEP_CITY": {
+    "name": "MOSSDEEP CITY - First Visit",
+    "item": "Visited MOSSDEEP CITY",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_SOOTOPOLIS_CITY": {
+    "name": "SOOTOPOLIS CITY - First Visit",
+    "item": "Visited SOOTOPOLIS CITY",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_PACIFIDLOG_TOWN": {
+    "name": "PACIFIDLOG TOWN - First Visit",
+    "item": "Visited PACIFIDLOG TOWN",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_BATTLE_FRONTIER": {
+    "name": "BATTLE FRONTIER - First Visit",
+    "item": "Visited BATTLE FRONTIER",
+    "category": "EVENT"
+  },
+  "EVENT_VISITED_EVER_GRANDE_CITY": {
+    "name": "EVER GRANDE CITY - First Visit",
+    "item": "Visited EVER GRANDE CITY",
+    "category": "EVENT"
+  }
+}

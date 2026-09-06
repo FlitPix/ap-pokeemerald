@@ -1,0 +1,3687 @@
+{
+  "REGION_SKY_HOENN": {
+    "parent_map": "MAP_LITTLEROOT_TOWN",
+    "name": "Skies of HOENN",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LITTLEROOT_TOWN/MAIN": "LITTLEROOT TOWN Fly Point",
+      "REGION_OLDALE_TOWN/MAIN": "OLDALE TOWN Fly Point",
+      "REGION_PETALBURG_CITY/MAIN": "PETALBURG CITY Fly Point",
+      "REGION_RUSTBORO_CITY/MAIN": "RUSTBORO CITY Fly Point",
+      "REGION_DEWFORD_TOWN/MAIN": "DEWFORD TOWN Fly Point",
+      "REGION_SLATEPORT_CITY/MAIN": "SLATEPORT CITY Fly Point",
+      "REGION_MAUVILLE_CITY/MAIN": "MAUVILLE CITY Fly Point",
+      "REGION_VERDANTURF_TOWN/MAIN": "VERDANTURF TOWN Fly Point",
+      "REGION_FALLARBOR_TOWN/MAIN": "FALLARBOR TOWN Fly Point",
+      "REGION_LAVARIDGE_TOWN/MAIN": "LAVARIDGE TOWN Fly Point",
+      "REGION_FORTREE_CITY/MAIN": "FORTREE CITY Fly Point",
+      "REGION_LILYCOVE_CITY/MAIN": "LILYCOVE CITY Fly Point",
+      "REGION_MOSSDEEP_CITY/MAIN": "MOSSDEEP CITY Fly Point",
+      "REGION_SOOTOPOLIS_CITY/EAST": "SOOTOPOLIS CITY Fly Point",
+      "REGION_PACIFIDLOG_TOWN/MAIN": "PACIFIDLOG TOWN Fly Point",
+      "REGION_EVER_GRANDE_CITY/SOUTH": "EVER GRANDE CITY Fly Point",
+      "REGION_EVER_GRANDE_CITY/NORTH": "HOENN POKeMON LEAGUE Fly Point",
+      "REGION_BATTLE_FRONTIER_OUTSIDE_WEST/MAIN": "BATTLE FRONTIER Fly Point"
+    },
+    "warps": {}
+  },
+
+  "REGION_LITTLEROOT_TOWN/MAIN": {
+    "parent_map": "MAP_LITTLEROOT_TOWN",
+    "name": "LITTLEROOT TOWN",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE101/MAIN": "LITTLEROOT TOWN North Exit"
+    },
+    "warps": {
+      "MAP_LITTLEROOT_TOWN:0/MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F:1": "MAY's House",
+      "MAP_LITTLEROOT_TOWN:1/MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F:1": "BRENDAN's House",
+      "MAP_LITTLEROOT_TOWN:2/MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB:0": "PROF. BIRCH's Lab"
+    }
+  },
+  "REGION_LITTLEROOT_TOWN_MAYS_HOUSE_1F/MAIN": {
+    "parent_map": "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F",
+    "name": "MAY's House 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F:0,1/MAP_LITTLEROOT_TOWN:0": "MAY's House 1F Exit",
+      "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F:2/MAP_LITTLEROOT_TOWN_MAYS_HOUSE_2F:0": "MAY's House 1F Stairs"
+    }
+  },
+  "REGION_LITTLEROOT_TOWN_MAYS_HOUSE_2F/MAIN": {
+    "parent_map": "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_2F",
+    "name": "MAY's House 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_2F:0/MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F:2": "MAY's House 2F Stairs"
+    }
+  },
+  "REGION_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F/MAIN": {
+    "parent_map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
+    "name": "BRENDAN's House 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_AMULET_COIN",
+      "NPC_GIFT_RECEIVED_SS_TICKET",
+      "NPC_GIFT_RECEIVED_AURORA_TICKET",
+      "NPC_GIFT_RECEIVED_EON_TICKET",
+      "NPC_GIFT_RECEIVED_MYSTIC_TICKET",
+      "NPC_GIFT_RECEIVED_OLD_SEA_MAP"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F:0,1/MAP_LITTLEROOT_TOWN:1": "BRENDAN's House 1F Exit",
+      "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F:2/MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F:0": "BRENDAN's House 1F Stairs"
+    }
+  },
+  "REGION_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F/MAIN": {
+    "parent_map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F",
+    "name": "BRENDAN's House 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F:0/MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F:2": "BRENDAN's House 2F Stairs"
+    }
+  },
+  "REGION_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB/MAIN": {
+    "parent_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
+    "name": "PROF. BIRCH's Lab",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_5_POKE_BALLS"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB:0,1/MAP_LITTLEROOT_TOWN:2": "PROF. BIRCH's Lab Exit"
+    }
+  },
+
+  "REGION_OLDALE_TOWN/MAIN": {
+    "parent_map": "MAP_OLDALE_TOWN",
+    "name": "OLDALE TOWN",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_POTION_OLDALE"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE101/MAIN": "OLDALE TOWN South Exit",
+      "REGION_ROUTE102/MAIN": "OLDALE TOWN West Exit",
+      "REGION_ROUTE103/WEST": "OLDALE TOWN North Exit"
+    },
+    "warps": {
+      "MAP_OLDALE_TOWN:0/MAP_OLDALE_TOWN_HOUSE1:0": "OLDALE House North of POKeMON CENTER",
+      "MAP_OLDALE_TOWN:1/MAP_OLDALE_TOWN_HOUSE2:0": "OLDALE House East of POKeMON CENTER",
+      "MAP_OLDALE_TOWN:2/MAP_OLDALE_TOWN_POKEMON_CENTER_1F:0": "OLDALE POKeMON CENTER",
+      "MAP_OLDALE_TOWN:3/MAP_OLDALE_TOWN_MART:0": "OLDALE POKeMON MART"
+    }
+  },
+  "REGION_OLDALE_TOWN_HOUSE1/MAIN": {
+    "parent_map": "MAP_OLDALE_TOWN_HOUSE1",
+    "name": "OLDALE Party House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_OLDALE_TOWN_HOUSE1:0,1/MAP_OLDALE_TOWN:0": "OLDALE Party House Exit"
+    }
+  },
+  "REGION_OLDALE_TOWN_HOUSE2/MAIN": {
+    "parent_map": "MAP_OLDALE_TOWN_HOUSE2",
+    "name": "OLDALE Level House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_OLDALE_TOWN_HOUSE2:0,1/MAP_OLDALE_TOWN:1": "OLDALE Level House Exit"
+    }
+  },
+  "REGION_OLDALE_TOWN_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_OLDALE_TOWN_POKEMON_CENTER_1F",
+    "name": "OLDALE POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_OLDALE_TOWN_POKEMON_CENTER_1F:0,1/MAP_OLDALE_TOWN:2": "OLDALE POKeMON CENTER Exit",
+      "MAP_OLDALE_TOWN_POKEMON_CENTER_1F:2/MAP_OLDALE_TOWN_POKEMON_CENTER_2F:0": "OLDALE POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_OLDALE_TOWN_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_OLDALE_TOWN_POKEMON_CENTER_2F",
+    "name": "OLDALE POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_OLDALE_TOWN_POKEMON_CENTER_2F:0/MAP_OLDALE_TOWN_POKEMON_CENTER_1F:2": "OLDALE POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_OLDALE_TOWN_MART/MAIN": {
+    "parent_map": "MAP_OLDALE_TOWN_MART",
+    "name": "OLDALE POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_OLDALE_TOWN_MART:0,1/MAP_OLDALE_TOWN:3": "OLDALE POKeMON MART Exit"
+    }
+  },
+
+  "REGION_PETALBURG_CITY/MAIN": {
+    "parent_map": "MAP_PETALBURG_CITY",
+    "name": "PETALBURG CITY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_PETALBURG_CITY/SOUTH_POND": "PETALBURG CITY South Surfing Spot",
+      "REGION_PETALBURG_CITY/NORTH_POND": "PETALBURG CITY North Surfing Spot",
+      "REGION_ROUTE102/MAIN": "PETALBURG CITY East Exit",
+      "REGION_ROUTE104/SOUTH": "PETALBURG CITY West Exit"
+    },
+    "warps": {
+      "MAP_PETALBURG_CITY:0/MAP_PETALBURG_CITY_HOUSE1:0": "PETALBURG House Near South Pond",
+      "MAP_PETALBURG_CITY:1/MAP_PETALBURG_CITY_WALLYS_HOUSE:0": "WALLY's House",
+      "MAP_PETALBURG_CITY:2/MAP_PETALBURG_CITY_GYM:0": "PETALBURG GYM",
+      "MAP_PETALBURG_CITY:3/MAP_PETALBURG_CITY_POKEMON_CENTER_1F:0": "PETALBURG POKeMON CENTER",
+      "MAP_PETALBURG_CITY:4/MAP_PETALBURG_CITY_HOUSE2:0": "PETALBURG House South of POKeMON CENTER",
+      "MAP_PETALBURG_CITY:5/MAP_PETALBURG_CITY_MART:0": "PETALBURG POKeMON MART"
+    }
+  },
+  "REGION_PETALBURG_CITY/NORTH_POND": {
+    "parent_map": "MAP_PETALBURG_CITY",
+    "name": "PETALBURG North Pond",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_PETALBURG_CITY_MAX_REVIVE"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_PETALBURG_CITY/MAIN": "PETALBURG North Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_PETALBURG_CITY/SOUTH_POND": {
+    "parent_map": "MAP_PETALBURG_CITY",
+    "name": "PETALBURG South Pond",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_PETALBURG_CITY_ETHER",
+      "HIDDEN_ITEM_PETALBURG_CITY_RARE_CANDY"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_PETALBURG_CITY/MAIN": "PETALBURG South Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_PETALBURG_CITY_HOUSE1/MAIN": {
+    "parent_map": "MAP_PETALBURG_CITY_HOUSE1",
+    "name": "PETALBURG Travel House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_HOUSE1:0,1/MAP_PETALBURG_CITY:0": "PETALBURG Travel House Exit"
+    }
+  },
+  "REGION_PETALBURG_CITY_HOUSE2/MAIN": {
+    "parent_map": "MAP_PETALBURG_CITY_HOUSE2",
+    "name": "PETALBURG Leader House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_HOUSE2:0,1/MAP_PETALBURG_CITY:4": "PETALBURG Leader House Exit"
+    }
+  },
+  "REGION_PETALBURG_CITY_WALLYS_HOUSE/MAIN": {
+    "parent_map": "MAP_PETALBURG_CITY_WALLYS_HOUSE",
+    "name": "WALLY's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_HM_SURF"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_WALLYS_HOUSE:0,1/MAP_PETALBURG_CITY:1": "WALLY's House Exit"
+    }
+  },
+  "REGION_PETALBURG_CITY_GYM/ROOM_1": {
+    "parent_map": "MAP_PETALBURG_CITY_GYM",
+    "name": "PETALBURG GYM Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_GYM:0,1/MAP_PETALBURG_CITY:2": "PETALBURG GYM Exit",
+      "MAP_PETALBURG_CITY_GYM:2/MAP_PETALBURG_CITY_GYM:3": "Speed Room Door",
+      "MAP_PETALBURG_CITY_GYM:5/MAP_PETALBURG_CITY_GYM:6": "Accuracy Room Door"
+    }
+  },
+  "REGION_PETALBURG_CITY_GYM/ROOM_2": {
+    "parent_map": "MAP_PETALBURG_CITY_GYM",
+    "name": "PETALBURG GYM Accuracy Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_MARY_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_GYM:6,7/MAP_PETALBURG_CITY_GYM:5": "Accuracy Room Exit",
+      "MAP_PETALBURG_CITY_GYM:14/MAP_PETALBURG_CITY_GYM:16": "Right Defense Room Door",
+      "MAP_PETALBURG_CITY_GYM:15/MAP_PETALBURG_CITY_GYM:18": "Recovery Room Door"
+    }
+  },
+  "REGION_PETALBURG_CITY_GYM/ROOM_3": {
+    "parent_map": "MAP_PETALBURG_CITY_GYM",
+    "name": "PETALBURG GYM Speed Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_RANDALL_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_GYM:3,4/MAP_PETALBURG_CITY_GYM:2": "Speed Room Exit",
+      "MAP_PETALBURG_CITY_GYM:8/MAP_PETALBURG_CITY_GYM:10": "Confusion Room Door",
+      "MAP_PETALBURG_CITY_GYM:9/MAP_PETALBURG_CITY_GYM:12": "Left Defense Room Door"
+    }
+  },
+  "REGION_PETALBURG_CITY_GYM/ROOM_4": {
+    "parent_map": "MAP_PETALBURG_CITY_GYM",
+    "name": "PETALBURG GYM Recovery Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_GEORGE_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_GYM:18,19/MAP_PETALBURG_CITY_GYM:15": "Recovery Room Exit",
+      "MAP_PETALBURG_CITY_GYM:23/MAP_PETALBURG_CITY_GYM:30": "Right OHKO Room Door"
+    }
+  },
+  "REGION_PETALBURG_CITY_GYM/ROOM_5": {
+    "parent_map": "MAP_PETALBURG_CITY_GYM",
+    "name": "PETALBURG GYM Defense Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_ALEXIA_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_GYM:12,13/MAP_PETALBURG_CITY_GYM:9": "Left Defense Room Exit",
+      "MAP_PETALBURG_CITY_GYM:16,17/MAP_PETALBURG_CITY_GYM:14": "Right Defense Room Exit",
+      "MAP_PETALBURG_CITY_GYM:21/MAP_PETALBURG_CITY_GYM:26": "Right Strength Room Door",
+      "MAP_PETALBURG_CITY_GYM:22/MAP_PETALBURG_CITY_GYM:28": "Left OHKO Room Door"
+    }
+  },
+  "REGION_PETALBURG_CITY_GYM/ROOM_6": {
+    "parent_map": "MAP_PETALBURG_CITY_GYM",
+    "name": "PETALBURG GYM Confusion Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_PARKER_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_GYM:10,11/MAP_PETALBURG_CITY_GYM:8": "Confusion Room Exit",
+      "MAP_PETALBURG_CITY_GYM:20/MAP_PETALBURG_CITY_GYM:24": "Left Strength Room Door"
+    }
+  },
+  "REGION_PETALBURG_CITY_GYM/ROOM_7": {
+    "parent_map": "MAP_PETALBURG_CITY_GYM",
+    "name": "PETALBURG GYM OHKO Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_BERKE_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_GYM:28,29/MAP_PETALBURG_CITY_GYM:22": "Left OHKO Room Exit",
+      "MAP_PETALBURG_CITY_GYM:30,31/MAP_PETALBURG_CITY_GYM:23": "Right OHKO Room Exit",
+      "MAP_PETALBURG_CITY_GYM:33/MAP_PETALBURG_CITY_GYM:36": "Right NORMAN's Room Door"
+    }
+  },
+  "REGION_PETALBURG_CITY_GYM/ROOM_8": {
+    "parent_map": "MAP_PETALBURG_CITY_GYM",
+    "name": "PETALBURG GYM Strength Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_JODY_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_GYM:24,25/MAP_PETALBURG_CITY_GYM:20": "Left Strength Room Exit",
+      "MAP_PETALBURG_CITY_GYM:26,27/MAP_PETALBURG_CITY_GYM:21": "Right Strength Room Exit",
+      "MAP_PETALBURG_CITY_GYM:32/MAP_PETALBURG_CITY_GYM:34": "Left NORMAN's Room Door"
+    }
+  },
+  "REGION_PETALBURG_CITY_GYM/ROOM_9": {
+    "parent_map": "MAP_PETALBURG_CITY_GYM",
+    "name": "PETALBURG GYM NORMAN's Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_FACADE",
+      "BADGE_5",
+      "TRAINER_NORMAN_1_REWARD"
+    ],
+    "events": [
+      "EVENT_DEFEAT_NORMAN"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_GYM:34,35/MAP_PETALBURG_CITY_GYM:32": "Left NORMAN's Room Exit",
+      "MAP_PETALBURG_CITY_GYM:36,37/MAP_PETALBURG_CITY_GYM:33": "Right NORMAN's Room Exit"
+    }
+  },
+  "REGION_PETALBURG_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_PETALBURG_CITY_POKEMON_CENTER_1F",
+    "name": "PETALBURG POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_POKEMON_CENTER_1F:0,1/MAP_PETALBURG_CITY:3": "PETALBURG POKeMON CENTER Exit",
+      "MAP_PETALBURG_CITY_POKEMON_CENTER_1F:2/MAP_PETALBURG_CITY_POKEMON_CENTER_2F:0": "PETALBURG POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_PETALBURG_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_PETALBURG_CITY_POKEMON_CENTER_2F",
+    "name": "PETALBURG POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_POKEMON_CENTER_2F:0/MAP_PETALBURG_CITY_POKEMON_CENTER_1F:2": "PETALBURG POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_PETALBURG_CITY_MART/MAIN": {
+    "parent_map": "MAP_PETALBURG_CITY_MART",
+    "name": "PETALBURG POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PETALBURG_CITY_MART:0,1/MAP_PETALBURG_CITY:5": "PETALBURG POKeMON MART Exit"
+    }
+  },
+
+  "REGION_RUSTBORO_CITY/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY",
+    "name": "RUSTBORO CITY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_RUSTBORO_CITY_X_DEFEND",
+      "NPC_GIFT_RECEIVED_GREAT_BALL_RUSTBORO_CITY",
+      "TRAINER_BRENDAN_RUSTBORO_MUDKIP_REWARD"
+    ],
+    "events": [
+      "EVENT_RETURN_DEVON_GOODS"
+    ],
+    "exits": {
+      "REGION_ROUTE104/NORTH": "RUSTBORO CITY South Exit",
+      "REGION_ROUTE115/SOUTH_BELOW_LEDGE": "RUSTBORO CITY North Exit",
+      "REGION_ROUTE116/WEST": "RUSTBORO CITY East Exit"
+    },
+    "warps": {
+      "MAP_RUSTBORO_CITY:0/MAP_RUSTBORO_CITY_GYM:0": "RUSTBORO GYM",
+      "MAP_RUSTBORO_CITY:1/MAP_RUSTBORO_CITY_FLAT1_1F:0": "RUSTBORO Flat North of POKeMON CENTER",
+      "MAP_RUSTBORO_CITY:2/MAP_RUSTBORO_CITY_MART:0": "RUSTBORO POKeMON MART",
+      "MAP_RUSTBORO_CITY:3/MAP_RUSTBORO_CITY_POKEMON_CENTER_1F:0": "RUSTBORO POKeMON CENTER",
+      "MAP_RUSTBORO_CITY:4/MAP_RUSTBORO_CITY_POKEMON_SCHOOL:0": "RUSTBORO POKeMON TRAINER'S SCHOOL",
+      "MAP_RUSTBORO_CITY:5,6/MAP_RUSTBORO_CITY_DEVON_CORP_1F:0,1": "DEVON CORP.",
+      "MAP_RUSTBORO_CITY:7/MAP_RUSTBORO_CITY_HOUSE1:0": "RUSTBORO House East of GYM",
+      "MAP_RUSTBORO_CITY:8/MAP_RUSTBORO_CITY_CUTTERS_HOUSE:0": "RUSTBORO CUTTER's House",
+      "MAP_RUSTBORO_CITY:9/MAP_RUSTBORO_CITY_HOUSE2:0": "RUSTBORO House South of GYM",
+      "MAP_RUSTBORO_CITY:10/MAP_RUSTBORO_CITY_FLAT2_1F:0": "RUSTBORO Flat West of POKeMON MART",
+      "MAP_RUSTBORO_CITY:11/MAP_RUSTBORO_CITY_HOUSE3:0": "RUSTBORO House East of POKeMON MART"
+    }
+  },
+  "REGION_RUSTBORO_CITY_GYM/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_GYM",
+    "name": "RUSTBORO GYM",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_ROCK_TOMB",
+      "BADGE_1",
+      "TRAINER_JOSH_REWARD",
+      "TRAINER_TOMMY_REWARD",
+      "TRAINER_MARC_REWARD",
+      "TRAINER_ROXANNE_1_REWARD"
+    ],
+    "events": [
+      "EVENT_DEFEAT_ROXANNE"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_GYM:0,1/MAP_RUSTBORO_CITY:0": "RUSTBORO GYM Exit"
+    }
+  },
+  "REGION_RUSTBORO_CITY_MART/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_MART",
+    "name": "RUSTBORO POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_MART:0,1/MAP_RUSTBORO_CITY:2": "RUSTBORO POKeMON MART Exit"
+    }
+  },
+  "REGION_RUSTBORO_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_POKEMON_CENTER_1F",
+    "name": "RUSTBORO POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_POKEMON_CENTER_1F:0,1/MAP_RUSTBORO_CITY:3": "RUSTBORO POKeMON CENTER Exit",
+      "MAP_RUSTBORO_CITY_POKEMON_CENTER_1F:2/MAP_RUSTBORO_CITY_POKEMON_CENTER_2F:0": "RUSTBORO POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_RUSTBORO_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_POKEMON_CENTER_2F",
+    "name": "RUSTBORO POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_POKEMON_CENTER_2F:0/MAP_RUSTBORO_CITY_POKEMON_CENTER_1F:2": "RUSTBORO POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_RUSTBORO_CITY_POKEMON_SCHOOL/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_POKEMON_SCHOOL",
+    "name": "RUSTBORO POKeMON TRAINER'S SCHOOL",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_QUICK_CLAW"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_POKEMON_SCHOOL:0,1/MAP_RUSTBORO_CITY:4": "RUSTBORO POKeMON TRAINER'S SCHOOL Exit"
+    }
+  },
+  "REGION_RUSTBORO_CITY_DEVON_CORP_1F/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_DEVON_CORP_1F",
+    "name": "DEVON CORP. 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_DEVON_CORP_1F:0,1/MAP_RUSTBORO_CITY:5,6": "DEVON CORP. Exit",
+      "MAP_RUSTBORO_CITY_DEVON_CORP_1F:2/MAP_RUSTBORO_CITY_DEVON_CORP_2F:0": "DEVON CORP. 1F Stairs"
+    }
+  },
+  "REGION_RUSTBORO_CITY_DEVON_CORP_2F/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_DEVON_CORP_2F",
+    "name": "DEVON CORP. 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_DEVON_CORP_2F:0/MAP_RUSTBORO_CITY_DEVON_CORP_1F:2": "DEVON CORP. 2F Right Stairs",
+      "MAP_RUSTBORO_CITY_DEVON_CORP_2F:1/MAP_RUSTBORO_CITY_DEVON_CORP_3F:0": "DEVON CORP. 2F Left Stairs"
+    }
+  },
+  "REGION_RUSTBORO_CITY_DEVON_CORP_3F/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_DEVON_CORP_3F",
+    "name": "DEVON CORP. 3F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_LETTER",
+      "NPC_GIFT_RECEIVED_EXP_SHARE"
+    ],
+    "events": [
+      "EVENT_TALK_TO_MR_STONE"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_DEVON_CORP_3F:0/MAP_RUSTBORO_CITY_DEVON_CORP_2F:1": "DEVON CORP. 3F Stairs"
+    }
+  },
+  "REGION_RUSTBORO_CITY_FLAT1_1F/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_FLAT1_1F",
+    "name": "RUSTBORO WALDA's Flat 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_FLAT1_1F:0,1/MAP_RUSTBORO_CITY:1": "RUSTBORO WALDA's Flat Exit",
+      "MAP_RUSTBORO_CITY_FLAT1_1F:2/MAP_RUSTBORO_CITY_FLAT1_2F:0": "RUSTBORO WALDA's Flat 1F Stairs"
+    }
+  },
+  "REGION_RUSTBORO_CITY_FLAT1_2F/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_FLAT1_2F",
+    "name": "RUSTBORO WALDA's Flat 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_FLAT1_2F:0/MAP_RUSTBORO_CITY_FLAT1_1F:2": "RUSTBORO WALDA's Flat 2F Stairs"
+    }
+  },
+  "REGION_RUSTBORO_CITY_FLAT2_1F/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_FLAT2_1F",
+    "name": "RUSTBORO PREMIER BALL Flat 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_FLAT2_1F:0,1/MAP_RUSTBORO_CITY:10": "RUSTBORO PREMIER BALL Flat Exit",
+      "MAP_RUSTBORO_CITY_FLAT2_1F:2/MAP_RUSTBORO_CITY_FLAT2_2F:0": "RUSTBORO PREMIER BALL Flat 1F Stairs"
+    }
+  },
+  "REGION_RUSTBORO_CITY_FLAT2_2F/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_FLAT2_2F",
+    "name": "RUSTBORO PREMIER BALL Flat 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_PREMIER_BALL_RUSTBORO"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_FLAT2_2F:0/MAP_RUSTBORO_CITY_FLAT2_1F:2": "RUSTBORO PREMIER BALL Flat 2F Right Stairs",
+      "MAP_RUSTBORO_CITY_FLAT2_2F:1/MAP_RUSTBORO_CITY_FLAT2_3F:0": "RUSTBORO PREMIER BALL Flat 2F Left Stairs"
+    }
+  },
+  "REGION_RUSTBORO_CITY_FLAT2_3F/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_FLAT2_3F",
+    "name": "RUSTBORO PREMIER BALL Flat 3F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_FLAT2_3F:0/MAP_RUSTBORO_CITY_FLAT2_2F:1": "RUSTBORO PREMIER BALL Flat 3F Stairs"
+    }
+  },
+  "REGION_RUSTBORO_CITY_HOUSE1/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_HOUSE1",
+    "name": "RUSTBORO Trade House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_HOUSE1:0,1/MAP_RUSTBORO_CITY:7": "RUSTBORO Trade House Exit"
+    }
+  },
+  "REGION_RUSTBORO_CITY_HOUSE2/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_HOUSE2",
+    "name": "RUSTBORO Knowledge House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_HOUSE2:0,1/MAP_RUSTBORO_CITY:9": "RUSTBORO Knowledge House Exit"
+    }
+  },
+  "REGION_RUSTBORO_CITY_HOUSE3/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_HOUSE3",
+    "name": "RUSTBORO PEKACHU's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_HOUSE3:0,1/MAP_RUSTBORO_CITY:11": "RUSTBORO PEKACHU's House Exit"
+    }
+  },
+  "REGION_RUSTBORO_CITY_CUTTERS_HOUSE/MAIN": {
+    "parent_map": "MAP_RUSTBORO_CITY_CUTTERS_HOUSE",
+    "name": "RUSTBORO CUTTER's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_HM_CUT"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_RUSTBORO_CITY_CUTTERS_HOUSE:0,1/MAP_RUSTBORO_CITY:8": "RUSTBORO CUTTER's House Exit"
+    }
+  },
+
+  "REGION_DEWFORD_TOWN/MAIN": {
+    "parent_map": "MAP_DEWFORD_TOWN",
+    "name": "DEWFORD TOWN",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "NPC_GIFT_RECEIVED_OLD_ROD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_DEWFORD_TOWN/WATER": "DEWFORD TOWN Surfing Spot",
+      "REGION_ROUTE106/EAST": "DEWFORD TOWN North Exit",
+      "REGION_ROUTE107/MAIN": "DEWFORD TOWN East Exit",
+      "REGION_ROUTE104_MR_BRINEYS_HOUSE/MAIN": "MR. BRINEY Sails Home",
+      "REGION_ROUTE109/BEACH": "MR. BRINEY Sails to SLATEPORT"
+    },
+    "warps": {
+      "MAP_DEWFORD_TOWN:0/MAP_DEWFORD_TOWN_HALL:0": "DEWFORD TOWN HALL",
+      "MAP_DEWFORD_TOWN:1/MAP_DEWFORD_TOWN_POKEMON_CENTER_1F:0": "DEWFORD POKeMON CENTER",
+      "MAP_DEWFORD_TOWN:2/MAP_DEWFORD_TOWN_GYM:0": "DEWFORD GYM",
+      "MAP_DEWFORD_TOWN:3/MAP_DEWFORD_TOWN_HOUSE1:0": "DEWFORD House East of GYM",
+      "MAP_DEWFORD_TOWN:4/MAP_DEWFORD_TOWN_HOUSE2:0": "DEWFORD House North of GYM"
+    }
+  },
+  "REGION_DEWFORD_TOWN/WATER": {
+    "parent_map": "MAP_DEWFORD_TOWN",
+    "name": "DEWFORD TOWN Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_DEWFORD_TOWN/MAIN": "DEWFORD TOWN Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_DEWFORD_TOWN_HALL/MAIN": {
+    "parent_map": "MAP_DEWFORD_TOWN_HALL",
+    "name": "DEWFORD TOWN HALL",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_SLUDGE_BOMB"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_DEWFORD_TOWN_HALL:0,1/MAP_DEWFORD_TOWN:0": "DEWFORD TOWN HALL Exit"
+    }
+  },
+  "REGION_DEWFORD_TOWN_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_DEWFORD_TOWN_POKEMON_CENTER_1F",
+    "name": "DEWFORD POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_DEWFORD_TOWN_POKEMON_CENTER_1F:0,1/MAP_DEWFORD_TOWN:1": "DEWFORD POKeMON CENTER Exit",
+      "MAP_DEWFORD_TOWN_POKEMON_CENTER_1F:2/MAP_DEWFORD_TOWN_POKEMON_CENTER_2F:0": "DEWFORD POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_DEWFORD_TOWN_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_DEWFORD_TOWN_POKEMON_CENTER_2F",
+    "name": "DEWFORD POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_DEWFORD_TOWN_POKEMON_CENTER_2F:0/MAP_DEWFORD_TOWN_POKEMON_CENTER_1F:2": "DEWFORD POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_DEWFORD_TOWN_GYM/MAIN": {
+    "parent_map": "MAP_DEWFORD_TOWN_GYM",
+    "name": "DEWFORD GYM",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_BULK_UP",
+      "BADGE_2",
+      "TRAINER_LAURA_REWARD",
+      "TRAINER_LILITH_REWARD",
+      "TRAINER_BRENDEN_REWARD",
+      "TRAINER_TAKAO_REWARD",
+      "TRAINER_JOCELYN_REWARD",
+      "TRAINER_CRISTIAN_REWARD",
+      "TRAINER_BRAWLY_1_REWARD"
+    ],
+    "events": [
+      "EVENT_DEFEAT_BRAWLY"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_DEWFORD_TOWN_GYM:0,1/MAP_DEWFORD_TOWN:2": "DEWFORD GYM Exit"
+    }
+  },
+  "REGION_DEWFORD_TOWN_HOUSE1/MAIN": {
+    "parent_map": "MAP_DEWFORD_TOWN_HOUSE1",
+    "name": "DEWFORD House with ZIGZAGOON",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_DEWFORD_TOWN_HOUSE1:0,1/MAP_DEWFORD_TOWN:3": "DEWFORD House with ZIGZAGOON Exit"
+    }
+  },
+  "REGION_DEWFORD_TOWN_HOUSE2/MAIN": {
+    "parent_map": "MAP_DEWFORD_TOWN_HOUSE2",
+    "name": "DEWFORD SILK SCARF House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_SILK_SCARF"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_DEWFORD_TOWN_HOUSE2:0,1/MAP_DEWFORD_TOWN:4": "DEWFORD SILK SCARF House Exit"
+    }
+  },
+
+  "REGION_SLATEPORT_CITY/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY",
+    "name": "SLATEPORT CITY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "NPC_GIFT_RECEIVED_POWDER_JAR"
+    ],
+    "events": [
+      "EVENT_AQUA_STEALS_SUBMARINE"
+    ],
+    "exits": {
+      "REGION_SLATEPORT_CITY/WATER": "SLATEPORT CITY Surfing Spot",
+      "REGION_ROUTE109/BEACH": "SLATEPORT CITY South Exit",
+      "REGION_ROUTE110/SOUTH": "SLATEPORT CITY North Exit"
+    },
+    "warps": {
+      "MAP_SLATEPORT_CITY:0/MAP_SLATEPORT_CITY_POKEMON_CENTER_1F:0": "SLATEPORT POKeMON CENTER",
+      "MAP_SLATEPORT_CITY:1/MAP_SLATEPORT_CITY_MART:0": "SLATEPORT POKeMON MART",
+      "MAP_SLATEPORT_CITY:2/MAP_SLATEPORT_CITY_STERNS_SHIPYARD_1F:0": "STERN'S SHIPYARD",
+      "MAP_SLATEPORT_CITY:3/MAP_SLATEPORT_CITY_BATTLE_TENT_LOBBY:0": "SLATEPORT BATTLE TENT",
+      "MAP_SLATEPORT_CITY:4/MAP_SLATEPORT_CITY_POKEMON_FAN_CLUB:0": "SLATEPORT POKeMON FAN CLUB",
+      "MAP_SLATEPORT_CITY:5,7/MAP_SLATEPORT_CITY_OCEANIC_MUSEUM_1F:0,1": "OCEANIC MUSEUM",
+      "MAP_SLATEPORT_CITY:6/MAP_SLATEPORT_CITY_NAME_RATERS_HOUSE:0": "SLATEPORT NAME RATER's House",
+      "MAP_SLATEPORT_CITY:8/MAP_SLATEPORT_CITY_HARBOR:0": "SLATEPORT HARBOR",
+      "MAP_SLATEPORT_CITY:9/MAP_SLATEPORT_CITY_HARBOR:2": "SLATEPORT CITY Warp That Exists For Some Reason",
+      "MAP_SLATEPORT_CITY:10/MAP_SLATEPORT_CITY_HOUSE:0": "SLATEPORT East of MARKET"
+    }
+  },
+  "REGION_SLATEPORT_CITY/WATER": {
+    "parent_map": "MAP_SLATEPORT_CITY",
+    "name": "SLATEPORT CITY Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SLATEPORT_CITY/MAIN": "SLATEPORT CITY Landing Spot",
+      "REGION_ROUTE134/WEST": "SLATEPORT CITY East Exit"
+    },
+    "warps": {}
+  },
+  "REGION_SLATEPORT_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_POKEMON_CENTER_2F",
+    "name": "SLATEPORT POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SLATEPORT_CITY_POKEMON_CENTER_2F:0/MAP_SLATEPORT_CITY_POKEMON_CENTER_1F:2": "SLATEPORT POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_SLATEPORT_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_POKEMON_CENTER_1F",
+    "name": "SLATEPORT POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SLATEPORT_CITY_POKEMON_CENTER_1F:0,1/MAP_SLATEPORT_CITY:0": "SLATEPORT POKeMON CENTER Exit",
+      "MAP_SLATEPORT_CITY_POKEMON_CENTER_1F:2/MAP_SLATEPORT_CITY_POKEMON_CENTER_2F:0": "SLATEPORT POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_SLATEPORT_CITY_MART/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_MART",
+    "name": "SLATEPORT POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [
+      "EVENT_BUY_HARBOR_MAIL"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_SLATEPORT_CITY_MART:0,1/MAP_SLATEPORT_CITY:1": "SLATEPORT POKeMON MART Exit"
+    }
+  },
+  "REGION_SLATEPORT_CITY_STERNS_SHIPYARD_1F/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_STERNS_SHIPYARD_1F",
+    "name": "STERN'S SHIPYARD 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [
+      "EVENT_TALK_TO_DOCK"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_SLATEPORT_CITY_STERNS_SHIPYARD_1F:0,1/MAP_SLATEPORT_CITY:2": "STERN'S SHIPYARD Exit",
+      "MAP_SLATEPORT_CITY_STERNS_SHIPYARD_1F:2/MAP_SLATEPORT_CITY_STERNS_SHIPYARD_2F:0": "STERN'S SHIPYARD 1F Stairs"
+    }
+  },
+  "REGION_SLATEPORT_CITY_STERNS_SHIPYARD_2F/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_STERNS_SHIPYARD_2F",
+    "name": "STERN'S SHIPYARD 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SLATEPORT_CITY_STERNS_SHIPYARD_2F:0/MAP_SLATEPORT_CITY_STERNS_SHIPYARD_1F:2": "STERN'S SHIPYARD 2F Stairs"
+    }
+  },
+  "REGION_SLATEPORT_CITY_BATTLE_TENT_LOBBY/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_BATTLE_TENT_LOBBY",
+    "name": "SLATEPORT BATTLE TENT Lobby",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_TORMENT"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SLATEPORT_CITY_BATTLE_TENT_LOBBY:0,1/MAP_SLATEPORT_CITY:3": "SLATEPORT BATTLE TENT Exit"
+    }
+  },
+  "REGION_SLATEPORT_CITY_POKEMON_FAN_CLUB/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_POKEMON_FAN_CLUB",
+    "name": "SLATEPORT POKeMON FAN CLUB",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_SOOTHE_BELL"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SLATEPORT_CITY_POKEMON_FAN_CLUB:0,1/MAP_SLATEPORT_CITY:4": "SLATEPORT POKeMON FAN CLUB Exit"
+    }
+  },
+  "REGION_SLATEPORT_CITY_OCEANIC_MUSEUM_1F/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_OCEANIC_MUSEUM_1F",
+    "name": "OCEANIC MUSEUM 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_THIEF"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SLATEPORT_CITY_OCEANIC_MUSEUM_1F:0,1/MAP_SLATEPORT_CITY:5,7": "OCEANIC MUSEUM Exit",
+      "MAP_SLATEPORT_CITY_OCEANIC_MUSEUM_1F:2/MAP_SLATEPORT_CITY_OCEANIC_MUSEUM_2F:0": "OCEANIC MUSEUM 1F Stairs"
+    }
+  },
+  "REGION_SLATEPORT_CITY_OCEANIC_MUSEUM_2F/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_OCEANIC_MUSEUM_2F",
+    "name": "OCEANIC MUSEUM 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_GRUNT_MUSEUM_1_REWARD",
+      "TRAINER_GRUNT_MUSEUM_2_REWARD"
+    ],
+    "events": [
+      "EVENT_RESCUE_CAPT_STERN"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_SLATEPORT_CITY_OCEANIC_MUSEUM_2F:0/MAP_SLATEPORT_CITY_OCEANIC_MUSEUM_1F:2": "OCEANIC MUSEUM 2F Stairs"
+    }
+  },
+  "REGION_SLATEPORT_CITY_NAME_RATERS_HOUSE/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_NAME_RATERS_HOUSE",
+    "name": "SLATEPORT NAME RATER's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SLATEPORT_CITY_NAME_RATERS_HOUSE:0,1/MAP_SLATEPORT_CITY:6": "SLATEPORT NAME RATER's House Exit"
+    }
+  },
+  "REGION_SLATEPORT_CITY_HARBOR/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_HARBOR",
+    "name": "SLATEPORT HARBOR",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_DEEP_SEA_TOOTH",
+      "NPC_GIFT_RECEIVED_DEEP_SEA_SCALE"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_SS_TIDAL_CORRIDOR/MAIN": "SLATEPORT HARBOR Board S.S. TIDAL"
+    },
+    "warps": {
+      "MAP_SLATEPORT_CITY_HARBOR:0,1/MAP_SLATEPORT_CITY:8": "SLATEPORT HARBOR Exit",
+      "MAP_SLATEPORT_CITY_HARBOR:2,3/MAP_SLATEPORT_CITY:9": "SLATEPORT HARBOR Out of Bounds Warp That Exists For Some Reason"
+    }
+  },
+  "REGION_SLATEPORT_CITY_HOUSE/MAIN": {
+    "parent_map": "MAP_SLATEPORT_CITY_HOUSE",
+    "name": "SLATEPORT Nature House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SLATEPORT_CITY_HOUSE:0,1/MAP_SLATEPORT_CITY:10": "SLATEPORT Nature House Exit"
+    }
+  },
+
+  "REGION_MAUVILLE_CITY/MAIN": {
+    "parent_map": "MAP_MAUVILLE_CITY",
+    "name": "MAUVILLE CITY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_MAUVILLE_CITY_X_SPEED",
+      "NPC_GIFT_GOT_BASEMENT_KEY_FROM_WATTSON",
+      "NPC_GIFT_GOT_TM_THUNDERBOLT_FROM_WATTSON",
+      "TRAINER_WALLY_MAUVILLE_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE111/SOUTH": "MAUVILLE CITY North Exit",
+      "REGION_ROUTE117/MAIN": "MAUVILLE CITY West Exit",
+      "REGION_ROUTE110/MAIN": "MAUVILLE CITY South Exit",
+      "REGION_ROUTE118/WEST": "MAUVILLE CITY East Exit"
+    },
+    "warps": {
+      "MAP_MAUVILLE_CITY:0/MAP_MAUVILLE_CITY_GYM:0": "MAUVILLE GYM",
+      "MAP_MAUVILLE_CITY:1/MAP_MAUVILLE_CITY_POKEMON_CENTER_1F:0": "MAUVILLE POKeMON CENTER",
+      "MAP_MAUVILLE_CITY:2/MAP_MAUVILLE_CITY_BIKE_SHOP:0": "RYDEL'S CYCLES",
+      "MAP_MAUVILLE_CITY:3/MAP_MAUVILLE_CITY_MART:0": "MAUVILLE POKeMON MART",
+      "MAP_MAUVILLE_CITY:4/MAP_MAUVILLE_CITY_HOUSE1:0": "MAUVILLE House East of POKeMON MART",
+      "MAP_MAUVILLE_CITY:5/MAP_MAUVILLE_CITY_GAME_CORNER:0": "MAUVILLE GAME CORNER",
+      "MAP_MAUVILLE_CITY:6/MAP_MAUVILLE_CITY_HOUSE2:0": "MAUVILLE House West of POKeMON MART"
+    }
+  },
+  "REGION_MAUVILLE_CITY_GYM/MAIN": {
+    "parent_map": "MAP_MAUVILLE_CITY_GYM",
+    "name": "MAUVILLE GYM",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_SHOCK_WAVE",
+      "BADGE_3",
+      "TRAINER_VIVIAN_REWARD",
+      "TRAINER_KIRK_REWARD",
+      "TRAINER_BEN_REWARD",
+      "TRAINER_ANGELO_REWARD",
+      "TRAINER_SHAWN_REWARD",
+      "TRAINER_WATTSON_1_REWARD"
+    ],
+    "events": [
+      "EVENT_DEFEAT_WATTSON"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_MAUVILLE_CITY_GYM:0,1/MAP_MAUVILLE_CITY:0": "MAUVILLE GYM Exit"
+    }
+  },
+  "REGION_MAUVILLE_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_MAUVILLE_CITY_POKEMON_CENTER_1F",
+    "name": "MAUVILLE POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MAUVILLE_CITY_POKEMON_CENTER_1F:0,1/MAP_MAUVILLE_CITY:1": "MAUVILLE POKeMON CENTER Exit",
+      "MAP_MAUVILLE_CITY_POKEMON_CENTER_1F:2/MAP_MAUVILLE_CITY_POKEMON_CENTER_2F:0": "MAUVILLE POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_MAUVILLE_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_MAUVILLE_CITY_POKEMON_CENTER_2F",
+    "name": "MAUVILLE POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MAUVILLE_CITY_POKEMON_CENTER_2F:0/MAP_MAUVILLE_CITY_POKEMON_CENTER_1F:2": "MAUVILLE POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_MAUVILLE_CITY_BIKE_SHOP/MAIN": {
+    "parent_map": "MAP_MAUVILLE_CITY_BIKE_SHOP",
+    "name": "RYDEL'S CYCLES",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_ACRO_BIKE",
+      "NPC_GIFT_RECEIVED_MACH_BIKE"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MAUVILLE_CITY_BIKE_SHOP:0,1/MAP_MAUVILLE_CITY:2": "RYDEL'S CYCLES Exit"
+    }
+  },
+  "REGION_MAUVILLE_CITY_MART/MAIN": {
+    "parent_map": "MAP_MAUVILLE_CITY_MART",
+    "name": "MAUVILLE POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MAUVILLE_CITY_MART:0,1/MAP_MAUVILLE_CITY:3": "MAUVILLE POKeMON MART Exit"
+    }
+  },
+  "REGION_MAUVILLE_CITY_HOUSE1/MAIN": {
+    "parent_map": "MAP_MAUVILLE_CITY_HOUSE1",
+    "name": "MAUVILLE ROCK SMASH House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_HM_ROCK_SMASH"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MAUVILLE_CITY_HOUSE1:0,1/MAP_MAUVILLE_CITY:4": "MAUVILLE ROCK SMASH House Exit"
+    }
+  },
+  "REGION_MAUVILLE_CITY_HOUSE2/MAIN": {
+    "parent_map": "MAP_MAUVILLE_CITY_HOUSE2",
+    "name": "MAUVILLE MAIL Trade House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_COIN_CASE"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MAUVILLE_CITY_HOUSE2:0,1/MAP_MAUVILLE_CITY:6": "MAUVILLE MAIL Trade House Exit"
+    }
+  },
+  "REGION_MAUVILLE_CITY_GAME_CORNER/MAIN": {
+    "parent_map": "MAP_MAUVILLE_CITY_GAME_CORNER",
+    "name": "MAUVILLE GAME CORNER",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MAUVILLE_CITY_GAME_CORNER:0,1/MAP_MAUVILLE_CITY:5": "MAUVILLE GAME CORNER Exit"
+    }
+  },
+
+  "REGION_VERDANTURF_TOWN/MAIN": {
+    "parent_map": "MAP_VERDANTURF_TOWN",
+    "name": "VERDANTURF TOWN",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE117/MAIN": "VERDANTURF TOWN East Exit"
+    },
+    "warps": {
+      "MAP_VERDANTURF_TOWN:0/MAP_VERDANTURF_TOWN_BATTLE_TENT_LOBBY:0": "VERDANTURF BATTLE TENT",
+      "MAP_VERDANTURF_TOWN:1/MAP_VERDANTURF_TOWN_MART:0": "VERDANTURF POKeMON MART",
+      "MAP_VERDANTURF_TOWN:2/MAP_VERDANTURF_TOWN_POKEMON_CENTER_1F:0": "VERDANTURF POKeMON CENTER",
+      "MAP_VERDANTURF_TOWN:3/MAP_VERDANTURF_TOWN_WANDAS_HOUSE:0": "WANDA's House",
+      "MAP_VERDANTURF_TOWN:4/MAP_RUSTURF_TUNNEL:1": "RUSTURF TUNNEL East Entrance",
+      "MAP_VERDANTURF_TOWN:5/MAP_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE:0": "VERDANTURF Friendship Rater's House",
+      "MAP_VERDANTURF_TOWN:6/MAP_VERDANTURF_TOWN_HOUSE:0": "VERDANTURF Southeast House"
+    }
+  },
+  "REGION_VERDANTURF_TOWN_BATTLE_TENT_LOBBY/MAIN": {
+    "parent_map": "MAP_VERDANTURF_TOWN_BATTLE_TENT_LOBBY",
+    "name": "VERDANTURF BATTLE TENT Lobby",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_ATTRACT"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_VERDANTURF_TOWN_BATTLE_TENT_LOBBY:0,1/MAP_VERDANTURF_TOWN:0": "VERDANTURF BATTLE TENT Exit"
+    }
+  },
+  "REGION_VERDANTURF_TOWN_MART/MAIN": {
+    "parent_map": "MAP_VERDANTURF_TOWN_MART",
+    "name": "VERDANTURF POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_VERDANTURF_TOWN_MART:0,1/MAP_VERDANTURF_TOWN:1": "VERDANTURF POKeMON MART Exit"
+    }
+  },
+  "REGION_VERDANTURF_TOWN_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_VERDANTURF_TOWN_POKEMON_CENTER_1F",
+    "name": "VERDANTURF POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_VERDANTURF_TOWN_POKEMON_CENTER_1F:0,1/MAP_VERDANTURF_TOWN:2": "VERDANTURF POKeMON CENTER Exit",
+      "MAP_VERDANTURF_TOWN_POKEMON_CENTER_1F:2/MAP_VERDANTURF_TOWN_POKEMON_CENTER_2F:0": "VERDANTURF POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_VERDANTURF_TOWN_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_VERDANTURF_TOWN_POKEMON_CENTER_2F",
+    "name": "VERDANTURF POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_VERDANTURF_TOWN_POKEMON_CENTER_2F:0/MAP_VERDANTURF_TOWN_POKEMON_CENTER_1F:2": "VERDANTURF POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_VERDANTURF_TOWN_WANDAS_HOUSE/MAIN": {
+    "parent_map": "MAP_VERDANTURF_TOWN_WANDAS_HOUSE",
+    "name": "WANDA's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_VERDANTURF_TOWN_WANDAS_HOUSE:0,1/MAP_VERDANTURF_TOWN:3": "WANDA's House Exit"
+    }
+  },
+  "REGION_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE/MAIN": {
+    "parent_map": "MAP_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE",
+    "name": "VERDANTURF Friendship Rater's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE:0,1/MAP_VERDANTURF_TOWN:5": "VERDANTURF Friendship Rater's House Exit"
+    }
+  },
+  "REGION_VERDANTURF_TOWN_HOUSE/MAIN": {
+    "parent_map": "MAP_VERDANTURF_TOWN_HOUSE",
+    "name": "VERDANTURF POKeMON LEAGUE House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_VERDANTURF_TOWN_HOUSE:0,1/MAP_VERDANTURF_TOWN:6": "VERDANTURF POKeMON LEAGUE House Exit"
+    }
+  },
+
+  "REGION_FALLARBOR_TOWN/MAIN": {
+    "parent_map": "MAP_FALLARBOR_TOWN",
+    "name": "FALLARBOR TOWN",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_FALLARBOR_TOWN_NUGGET"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE114/MAIN": "FALLARBOR TOWN West Exit",
+      "REGION_ROUTE113/MAIN": "FALLARBOR TOWN East Exit"
+    },
+    "warps": {
+      "MAP_FALLARBOR_TOWN:0/MAP_FALLARBOR_TOWN_MART:0": "FALLARBOR POKeMON MART",
+      "MAP_FALLARBOR_TOWN:1/MAP_FALLARBOR_TOWN_BATTLE_TENT_LOBBY:0": "FALLARBOR BATTLE TENT",
+      "MAP_FALLARBOR_TOWN:2/MAP_FALLARBOR_TOWN_POKEMON_CENTER_1F:0": "FALLARBOR POKeMON CENTER",
+      "MAP_FALLARBOR_TOWN:3/MAP_FALLARBOR_TOWN_COZMOS_HOUSE:0": "COZMO's House",
+      "MAP_FALLARBOR_TOWN:4/MAP_FALLARBOR_TOWN_MOVE_RELEARNERS_HOUSE:0": "FALLARBOR Move Relearner's House"
+    }
+  },
+  "REGION_FALLARBOR_TOWN_MART/MAIN": {
+    "parent_map": "MAP_FALLARBOR_TOWN_MART",
+    "name": "FALLARBOR POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FALLARBOR_TOWN_MART:0,1/MAP_FALLARBOR_TOWN:0": "FALLARBOR POKeMON MART Exit"
+    }
+  },
+  "REGION_FALLARBOR_TOWN_BATTLE_TENT_LOBBY/MAIN": {
+    "parent_map": "MAP_FALLARBOR_TOWN_BATTLE_TENT_LOBBY",
+    "name": "FALLARBOR BATTLE TENT Lobby",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FALLARBOR_TOWN_BATTLE_TENT_LOBBY:0,1/MAP_FALLARBOR_TOWN:1": "FALLARBOR BATTLE TENT Exit"
+    }
+  },
+  "REGION_FALLARBOR_TOWN_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_FALLARBOR_TOWN_POKEMON_CENTER_1F",
+    "name": "FALLARBOR POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FALLARBOR_TOWN_POKEMON_CENTER_1F:0,1/MAP_FALLARBOR_TOWN:2": "FALLARBOR POKeMON CENTER Exit",
+      "MAP_FALLARBOR_TOWN_POKEMON_CENTER_1F:2/MAP_FALLARBOR_TOWN_POKEMON_CENTER_2F:0": "FALLARBOR POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_FALLARBOR_TOWN_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_FALLARBOR_TOWN_POKEMON_CENTER_2F",
+    "name": "FALLARBOR POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FALLARBOR_TOWN_POKEMON_CENTER_2F:0/MAP_FALLARBOR_TOWN_POKEMON_CENTER_1F:2": "FALLARBOR POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_FALLARBOR_TOWN_COZMOS_HOUSE/MAIN": {
+    "parent_map": "MAP_FALLARBOR_TOWN_COZMOS_HOUSE",
+    "name": "COZMO's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_RETURN"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FALLARBOR_TOWN_COZMOS_HOUSE:0,1/MAP_FALLARBOR_TOWN:3": "COZMO's House Exit"
+    }
+  },
+  "REGION_FALLARBOR_TOWN_MOVE_RELEARNERS_HOUSE/MAIN": {
+    "parent_map": "MAP_FALLARBOR_TOWN_MOVE_RELEARNERS_HOUSE",
+    "name": "FALLARBOR Move Relearner's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FALLARBOR_TOWN_MOVE_RELEARNERS_HOUSE:0,1/MAP_FALLARBOR_TOWN:4": "FALLARBOR Move Relearner's House Exit"
+    }
+  },
+
+  "REGION_LAVARIDGE_TOWN/MAIN": {
+    "parent_map": "MAP_LAVARIDGE_TOWN",
+    "name": "LAVARIDGE TOWN",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_GO_GOGGLES"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE112/SOUTH_WEST": "LAVARIDGE TOWN East Exit"
+    },
+    "warps": {
+      "MAP_LAVARIDGE_TOWN:0/MAP_LAVARIDGE_TOWN_HERB_SHOP:0": "LAVARIDGE HERB SHOP",
+      "MAP_LAVARIDGE_TOWN:1/MAP_LAVARIDGE_TOWN_GYM_1F:0": "LAVARIDGE GYM",
+      "MAP_LAVARIDGE_TOWN:2/MAP_LAVARIDGE_TOWN_MART:0": "LAVARIDGE POKeMON MART",
+      "MAP_LAVARIDGE_TOWN:3/MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F:0": "LAVARIDGE POKeMON CENTER",
+      "MAP_LAVARIDGE_TOWN:4/MAP_LAVARIDGE_TOWN_HOUSE:0": "LAVARIDGE Southeast House"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN/SPRINGS": {
+    "parent_map": "MAP_LAVARIDGE_TOWN",
+    "name": "LAVARIDGE TOWN Springs",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_LAVARIDGE_TOWN_ICE_HEAL"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN:5/MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F:3": "LAVARIDGE TOWN Springs Exit"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_HERB_SHOP/MAIN": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_HERB_SHOP",
+    "name": "LAVARIDGE HERB SHOP",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_CHARCOAL"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_HERB_SHOP:0,1/MAP_LAVARIDGE_TOWN:0": "LAVARIDGE HERB SHOP Exit"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_1F/ENTRANCE": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_1F",
+    "name": "LAVARIDGE GYM Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_1F:0,1/MAP_LAVARIDGE_TOWN:1": "LAVARIDGE GYM Exit",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:2/MAP_LAVARIDGE_TOWN_GYM_B1F:0": "LAVARIDGE GYM 1F Entrance South Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:3/MAP_LAVARIDGE_TOWN_GYM_B1F:2": "LAVARIDGE GYM 1F Entrance North Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:24/MAP_LAVARIDGE_TOWN_GYM_B1F:22": "LAVARIDGE GYM 1F Entrance Hole That Doesn't Exist"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_1F/BOTTOM_LEFT_LOWER": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_1F",
+    "name": "LAVARIDGE GYM 1F Bottom Left Lower",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_AXLE_REWARD",
+      "TRAINER_GERALD_REWARD",
+      "TRAINER_COLE_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_1F:4/MAP_LAVARIDGE_TOWN_GYM_B1F:4": "LAVARIDGE GYM 1F BLL Hole That Doesn't Exist 1",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:6/MAP_LAVARIDGE_TOWN_GYM_B1F:1": "LAVARIDGE GYM 1F BLL Bottom Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:8/MAP_LAVARIDGE_TOWN_GYM_B1F:6": "LAVARIDGE GYM 1F BLL Hole That Doesn't Exist 2",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:9/MAP_LAVARIDGE_TOWN_GYM_B1F:7": "LAVARIDGE GYM 1F BLL Hole That Doesn't Exist 3",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:10/MAP_LAVARIDGE_TOWN_GYM_B1F:8": "LAVARIDGE GYM 1F BLL Middle Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:11/MAP_LAVARIDGE_TOWN_GYM_B1F:9": "LAVARIDGE GYM 1F BLL Top Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:12/MAP_LAVARIDGE_TOWN_GYM_B1F:10": "LAVARIDGE GYM 1F BLL Hole That Doesn't Exist 4",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:21/MAP_LAVARIDGE_TOWN_GYM_B1F:20": "LAVARIDGE GYM 1F BLL Hole That Doesn't Exist 5"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_1F/BOTTOM_LEFT_UPPER": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_1F",
+    "name": "LAVARIDGE GYM 1F Bottom Left Upper",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LAVARIDGE_TOWN_GYM_1F/BOTTOM_LEFT_LOWER": "LAVARIDGE GYM 1F BLU Ledge"
+    },
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_1F:5/MAP_LAVARIDGE_TOWN_GYM_B1F:3": "LAVARIDGE GYM 1F BLU Bottom Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:7/MAP_LAVARIDGE_TOWN_GYM_B1F:5": "LAVARIDGE GYM 1F BLU Top Hole"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_1F/TOP_LEFT": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_1F",
+    "name": "LAVARIDGE GYM 1F Top Left",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_DANIELLE_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_1F:13/MAP_LAVARIDGE_TOWN_GYM_B1F:11": "LAVARIDGE GYM 1F TL Lower Left Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:14/MAP_LAVARIDGE_TOWN_GYM_B1F:12": "LAVARIDGE GYM 1F TL Hole That Doesn't Exist 1",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:15/MAP_LAVARIDGE_TOWN_GYM_B1F:13": "LAVARIDGE GYM 1F TL Lower Right Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:16/MAP_LAVARIDGE_TOWN_GYM_B1F:14": "LAVARIDGE GYM 1F TL Upper Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:17/MAP_LAVARIDGE_TOWN_GYM_B1F:15": "LAVARIDGE GYM 1F TL Hole That Doesn't Exist 2"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_1F/TOP_CENTER": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_1F",
+    "name": "LAVARIDGE GYM 1F Top Center",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_1F:18/MAP_LAVARIDGE_TOWN_GYM_B1F:16": "LAVARIDGE GYM 1F Top Upper Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:19/MAP_LAVARIDGE_TOWN_GYM_B1F:17": "LAVARIDGE GYM 1F Top Lower Left Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:20/MAP_LAVARIDGE_TOWN_GYM_B1F:18": "LAVARIDGE GYM 1F Top Lower Right Hole"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_1F/TOP_RIGHT": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_1F",
+    "name": "LAVARIDGE GYM 1F Top Right",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_1F:22/MAP_LAVARIDGE_TOWN_GYM_B1F:19": "LAVARIDGE GYM 1F TR Upper Hole",
+      "MAP_LAVARIDGE_TOWN_GYM_1F:23/MAP_LAVARIDGE_TOWN_GYM_B1F:21": "LAVARIDGE GYM 1F TR Lower Hole"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_1F/FLANNERY": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_1F",
+    "name": "LAVARIDGE GYM 1F FLANNERY's Platform",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_OVERHEAT",
+      "BADGE_4",
+      "TRAINER_FLANNERY_1_REWARD"
+    ],
+    "events": [
+      "EVENT_DEFEAT_FLANNERY"
+    ],
+    "exits": {
+      "REGION_LAVARIDGE_TOWN_GYM_1F/ENTRANCE": "LAVARIDGE GYM 1F FLANNERY's Platform Ledge"
+    },
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_1F:25/MAP_LAVARIDGE_TOWN_GYM_B1F:23": "LAVARIDGE GYM 1F FLANNERY's Platform Hole"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_B1F/TOP": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
+    "name": "LAVARIDGE GYM B1F Top",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:14/MAP_LAVARIDGE_TOWN_GYM_1F:16": "LAVARIDGE GYM B1F Top Left Geyser",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:15/MAP_LAVARIDGE_TOWN_GYM_1F:17": "LAVARIDGE GYM B1F Top Geyser That Doesn't Exist",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:16/MAP_LAVARIDGE_TOWN_GYM_1F:18": "LAVARIDGE GYM B1F Top Middle Geyser",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:19/MAP_LAVARIDGE_TOWN_GYM_1F:22": "LAVARIDGE GYM B1F Top Right Geyser"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_LEFT_LOWER": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
+    "name": "LAVARIDGE GYM B1F Bottom Left Lower",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_JACE_REWARD",
+      "TRAINER_ELI_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:1/MAP_LAVARIDGE_TOWN_GYM_1F:6": "LAVARIDGE GYM B1F BLL Lower Geyser",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:2/MAP_LAVARIDGE_TOWN_GYM_1F:3": "LAVARIDGE GYM B1F BLL Upper Geyser",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:3/MAP_LAVARIDGE_TOWN_GYM_1F:5": "LAVARIDGE GYM B1F BLL Middle Right Geyser",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:4/MAP_LAVARIDGE_TOWN_GYM_1F:4": "LAVARIDGE GYM B1F BLL Geyser That Doesn't Exist 1",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:6/MAP_LAVARIDGE_TOWN_GYM_1F:8": "LAVARIDGE GYM B1F BLL Geyser That Doesn't Exist 2",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:7/MAP_LAVARIDGE_TOWN_GYM_1F:9": "LAVARIDGE GYM B1F BLL Geyser That Doesn't Exist 3",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:8/MAP_LAVARIDGE_TOWN_GYM_1F:10": "LAVARIDGE GYM B1F BLL Middle Left Geyser",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:17/MAP_LAVARIDGE_TOWN_GYM_1F:19": "LAVARIDGE GYM B1F BLL Geyser That Doesn't Exist 4",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:20/MAP_LAVARIDGE_TOWN_GYM_1F:21": "LAVARIDGE GYM B1F BLL Geyser That Doesn't Exist 5"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_LEFT_UPPER_1": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
+    "name": "LAVARIDGE GYM B1F Bottom Left Upper 1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_KEEGAN_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_LEFT_LOWER": "LAVARIDGE GYM B1F BLU1 Ledge"
+    },
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:9/MAP_LAVARIDGE_TOWN_GYM_1F:11": "LAVARIDGE GYM B1F BLU1 Lower Geyser",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:10/MAP_LAVARIDGE_TOWN_GYM_1F:12": "LAVARIDGE GYM B1F BLU1 Geyser That Doesn't Exist 1",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:11/MAP_LAVARIDGE_TOWN_GYM_1F:13": "LAVARIDGE GYM B1F BLU1 Upper Geyser",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:12/MAP_LAVARIDGE_TOWN_GYM_1F:14": "LAVARIDGE GYM B1F BLU1 Geyser That Doesn't Exist 2"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_LEFT_UPPER_2": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
+    "name": "LAVARIDGE GYM B1F Bottom Left Upper 2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_LEFT_LOWER": "LAVARIDGE GYM B1F BLU2 Ledge"
+    },
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:5/MAP_LAVARIDGE_TOWN_GYM_1F:7": "LAVARIDGE GYM B1F BLU2 Upper Geyser That Doesn't Exist",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:13/MAP_LAVARIDGE_TOWN_GYM_1F:15": "LAVARIDGE GYM B1F BLU2 Lower Geyser That Doesn't Exist"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_RIGHT_LOWER": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
+    "name": "LAVARIDGE GYM B1F Bottom Right Lower",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_JEFF_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:0/MAP_LAVARIDGE_TOWN_GYM_1F:2": "LAVARIDGE GYM B1F BRL Geyser",
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:22/MAP_LAVARIDGE_TOWN_GYM_1F:24": "LAVARIDGE GYM B1F BRL Geyser That Doesn't Exist"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_RIGHT_MIDDLE": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
+    "name": "LAVARIDGE GYM B1F Bottom Right Middle",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_RIGHT_LOWER": "LAVARIDGE GYM B1F BRM Ledge"
+    },
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:23/MAP_LAVARIDGE_TOWN_GYM_1F:25": "LAVARIDGE GYM B1F BRM Geyser"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_RIGHT_UPPER_1": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
+    "name": "LAVARIDGE GYM B1F Bottom Right Upper 1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_RIGHT_MIDDLE": "LAVARIDGE GYM B1F BRU1 Ledge"
+    },
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:18/MAP_LAVARIDGE_TOWN_GYM_1F:20": "LAVARIDGE GYM B1F BRU1 Geyser That Doesn't Exist"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_RIGHT_UPPER_2": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
+    "name": "LAVARIDGE GYM B1F Bottom Right Upper 2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LAVARIDGE_TOWN_GYM_B1F/BOTTOM_RIGHT_LOWER": "LAVARIDGE GYM B1F BRU2 Ledge"
+    },
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_GYM_B1F:21/MAP_LAVARIDGE_TOWN_GYM_1F:23": "LAVARIDGE GYM B1F BRU2 Geyser That Doesn't Exist"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_MART/MAIN": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_MART",
+    "name": "LAVARIDGE POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_MART:0,1/MAP_LAVARIDGE_TOWN:2": "LAVARIDGE POKeMON MART Exit"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
+    "name": "LAVARIDGE POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F:0,1/MAP_LAVARIDGE_TOWN:3": "LAVARIDGE POKeMON CENTER Exit",
+      "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F:2/MAP_LAVARIDGE_TOWN_POKEMON_CENTER_2F:0": "LAVARIDGE POKeMON CENTER 1F Escalator",
+      "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F:3/MAP_LAVARIDGE_TOWN:5": "LAVARIDGE TOWN Springs"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_2F",
+    "name": "LAVARIDGE POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_2F:0/MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F:2": "LAVARIDGE POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_LAVARIDGE_TOWN_HOUSE/MAIN": {
+    "parent_map": "MAP_LAVARIDGE_TOWN_HOUSE",
+    "name": "LAVARIDGE MIMIC Tutor House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LAVARIDGE_TOWN_HOUSE:0,1/MAP_LAVARIDGE_TOWN:4": "LAVARIDGE MIMIC Tutor House Exit"
+    }
+  },
+
+  "REGION_FORTREE_CITY/MAIN": {
+    "parent_map": "MAP_FORTREE_CITY",
+    "name": "FORTREE CITY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_FORTREE_CITY/BEFORE_GYM": "FORTREE CITY Before Gym",
+      "REGION_ROUTE119/UPPER": "FORTREE CITY West Exit",
+      "REGION_ROUTE120/NORTH": "FORTREE CITY East Exit"
+    },
+    "warps": {
+      "MAP_FORTREE_CITY:0/MAP_FORTREE_CITY_POKEMON_CENTER_1F:0": "FORTREE CITY POKeMON CENTER",
+      "MAP_FORTREE_CITY:1/MAP_FORTREE_CITY_HOUSE1:0": "FORTREE Upper House Next to POKeMON CENTER",
+      "MAP_FORTREE_CITY:3/MAP_FORTREE_CITY_MART:0": "FORTREE CITY POKeMON MART",
+      "MAP_FORTREE_CITY:4/MAP_FORTREE_CITY_HOUSE2:0": "FORTREE Upper House 2",
+      "MAP_FORTREE_CITY:5/MAP_FORTREE_CITY_HOUSE3:0": "FORTREE Upper House Behind GYM",
+      "MAP_FORTREE_CITY:6/MAP_FORTREE_CITY_HOUSE4:0": "FORTREE Upper House 4",
+      "MAP_FORTREE_CITY:7/MAP_FORTREE_CITY_HOUSE5:0": "FORTREE House Next to POKeMON MART",
+      "MAP_FORTREE_CITY:8/MAP_FORTREE_CITY_DECORATION_SHOP:0": "FORTREE Lower Right House"
+    }
+  },
+  "REGION_FORTREE_CITY/BEFORE_GYM": {
+    "parent_map": "MAP_FORTREE_CITY",
+    "name": "FORTREE CITY Before GYM",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_FORTREE_CITY/MAIN": "FORTREE CITY Main"
+    },
+    "warps": {
+      "MAP_FORTREE_CITY:2/MAP_FORTREE_CITY_GYM:0": "FORTREE GYM"
+    }
+  },
+  "REGION_FORTREE_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_FORTREE_CITY_POKEMON_CENTER_1F",
+    "name": "FORTREE POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FORTREE_CITY_POKEMON_CENTER_1F:0,1/MAP_FORTREE_CITY:0": "FORTREE POKeMON CENTER Exit",
+      "MAP_FORTREE_CITY_POKEMON_CENTER_1F:2/MAP_FORTREE_CITY_POKEMON_CENTER_2F:0": "FORTREE POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_FORTREE_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_FORTREE_CITY_POKEMON_CENTER_2F",
+    "name": "FORTREE POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FORTREE_CITY_POKEMON_CENTER_2F:0/MAP_FORTREE_CITY_POKEMON_CENTER_1F:2": "FORTREE POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_FORTREE_CITY_HOUSE1/MAIN": {
+    "parent_map": "MAP_FORTREE_CITY_HOUSE1",
+    "name": "FORTREE Trade House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FORTREE_CITY_HOUSE1:0,1/MAP_FORTREE_CITY:1": "FORTREE Trade House Exit"
+    }
+  },
+  "REGION_FORTREE_CITY_HOUSE2/MAIN": {
+    "parent_map": "MAP_FORTREE_CITY_HOUSE2",
+    "name": "FORTREE HIDDEN POWER House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_HIDDEN_POWER"
+    ],
+    "events": [
+      "EVENT_MOVE_TUTOR_DIG"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_FORTREE_CITY_HOUSE2:0,1/MAP_FORTREE_CITY:4": "FORTREE HIDDEN POWER House Exit"
+    }
+  },
+  "REGION_FORTREE_CITY_HOUSE3/MAIN": {
+    "parent_map": "MAP_FORTREE_CITY_HOUSE3",
+    "name": "FORTREE POKeDEX House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FORTREE_CITY_HOUSE3:0,1/MAP_FORTREE_CITY:5": "FORTREE POKeDEX House Exit"
+    }
+  },
+  "REGION_FORTREE_CITY_HOUSE4/MAIN": {
+    "parent_map": "MAP_FORTREE_CITY_HOUSE4",
+    "name": "FORTREE WINGULL Quest House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_MENTAL_HERB"
+    ],
+    "events": [
+      "EVENT_WINGULL_QUEST_1"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_FORTREE_CITY_HOUSE4:0,1/MAP_FORTREE_CITY:6": "FORTREE WINGULL Quest House Exit"
+    }
+  },
+  "REGION_FORTREE_CITY_HOUSE5/MAIN": {
+    "parent_map": "MAP_FORTREE_CITY_HOUSE5",
+    "name": "FORTREE House with ZIGZAGOON",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FORTREE_CITY_HOUSE5:0,1/MAP_FORTREE_CITY:7": "FORTREE House with ZIGZAGOON Exit"
+    }
+  },
+  "REGION_FORTREE_CITY_GYM/MAIN": {
+    "parent_map": "MAP_FORTREE_CITY_GYM",
+    "name": "FORTREE GYM",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_AERIAL_ACE",
+      "BADGE_6",
+      "TRAINER_HUMBERTO_REWARD",
+      "TRAINER_ASHLEY_REWARD",
+      "TRAINER_JARED_REWARD",
+      "TRAINER_FLINT_REWARD",
+      "TRAINER_EDWARDO_REWARD",
+      "TRAINER_DARIUS_REWARD",
+      "TRAINER_WINONA_1_REWARD"
+    ],
+    "events": [
+      "EVENT_DEFEAT_WINONA"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_FORTREE_CITY_GYM:0,1/MAP_FORTREE_CITY:2": "FORTREE GYM Exit"
+    }
+  },
+  "REGION_FORTREE_CITY_MART/MAIN": {
+    "parent_map": "MAP_FORTREE_CITY_MART",
+    "name": "FORTREE POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FORTREE_CITY_MART:0,1/MAP_FORTREE_CITY:3": "FORTREE POKeMON MART Exit"
+    }
+  },
+  "REGION_FORTREE_CITY_DECORATION_SHOP/MAIN": {
+    "parent_map": "MAP_FORTREE_CITY_DECORATION_SHOP",
+    "name": "FORTREE Decor Shop",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_FORTREE_CITY_DECORATION_SHOP:0,1/MAP_FORTREE_CITY:8": "FORTREE Decor Shop Exit"
+    }
+  },
+
+  "REGION_LILYCOVE_CITY/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY",
+    "name": "LILYCOVE CITY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_LILYCOVE_CITY_MAX_REPEL",
+      "HIDDEN_ITEM_LILYCOVE_CITY_HEART_SCALE",
+      "HIDDEN_ITEM_LILYCOVE_CITY_PP_UP",
+      "HIDDEN_ITEM_LILYCOVE_CITY_POKE_BALL",
+      "NPC_GIFT_LILYCOVE_RECEIVED_BERRY",
+      "TRAINER_BRENDAN_LILYCOVE_MUDKIP_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE121/EAST": "LILYCOVE CITY West Exit",
+      "REGION_LILYCOVE_CITY/SEA": "LILYCOVE CITY Surfing Spot"
+    },
+    "warps": {
+      "MAP_LILYCOVE_CITY:0/MAP_LILYCOVE_CITY_DEPARTMENT_STORE_1F:0": "LILYCOVE DEPARTMENT STORE",
+      "MAP_LILYCOVE_CITY:1/MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_1F:0": "COVE LILY MOTEL",
+      "MAP_LILYCOVE_CITY:2/MAP_LILYCOVE_CITY_POKEMON_CENTER_1F:0": "LILYCOVE POKeMON CENTER",
+      "MAP_LILYCOVE_CITY:3,13/MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F:0,1": "LILYCOVE MUSEUM",
+      "MAP_LILYCOVE_CITY:4/MAP_LILYCOVE_CITY_CONTEST_LOBBY:0": "LILYCOVE CONTEST LOBBY",
+      "MAP_LILYCOVE_CITY:5/MAP_LILYCOVE_CITY_POKEMON_TRAINER_FAN_CLUB:1": "LILYCOVE POKeMON TRAINER FAN CLUB",
+      "MAP_LILYCOVE_CITY:7/MAP_LILYCOVE_CITY_MOVE_DELETERS_HOUSE:0": "LILYCOVE MOVE DELETER's House",
+      "MAP_LILYCOVE_CITY:8/MAP_LILYCOVE_CITY_HOUSE1:0": "LILYCOVE House Next to MOVE DELETER's House",
+      "MAP_LILYCOVE_CITY:9/MAP_LILYCOVE_CITY_HOUSE2:0": "LILYCOVE House Surrounded by Ledges",
+      "MAP_LILYCOVE_CITY:10/MAP_LILYCOVE_CITY_HOUSE3:0": "LILYCOVE House West of CONTEST LOBBY",
+      "MAP_LILYCOVE_CITY:11/MAP_LILYCOVE_CITY_HOUSE4:0": "LILYCOVE House West of POKeMON CENTER",
+      "MAP_LILYCOVE_CITY:12/MAP_LILYCOVE_CITY_HARBOR:0": "LILYCOVE HARBOR"
+    }
+  },
+  "REGION_LILYCOVE_CITY/SEA": {
+    "parent_map": "MAP_LILYCOVE_CITY",
+    "name": "LILYCOVE CITY Sea",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY/MAIN": "LILYCOVE CITY Landing Spot",
+      "REGION_ROUTE124/MAIN": "LILYCOVE CITY East Exit"
+    },
+    "warps": {
+      "MAP_LILYCOVE_CITY:6/MAP_AQUA_HIDEOUT_1F:0": "AQUA HIDEOUT"
+    }
+  },
+  "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_1F/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_1F",
+    "name": "LILYCOVE DEPARTMENT STORE 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR/MAIN": "LILYCOVE DEPARTMENT STORE 1F Elevator"
+    },
+    "warps": {
+      "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_1F:0,1/MAP_LILYCOVE_CITY:0": "LILYCOVE DEPARTMENT STORE Exit",
+      "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_1F:2/MAP_LILYCOVE_CITY_DEPARTMENT_STORE_2F:0": "LILYCOVE DEPARTMENT STORE 1F Stairs"
+    }
+  },
+  "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_2F/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_2F",
+    "name": "LILYCOVE DEPARTMENT STORE 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR/MAIN": "LILYCOVE DEPARTMENT STORE 2F Elevator"
+    },
+    "warps": {
+      "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_2F:0/MAP_LILYCOVE_CITY_DEPARTMENT_STORE_1F:2": "LILYCOVE DEPARTMENT STORE 2F Right Stairs",
+      "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_2F:1/MAP_LILYCOVE_CITY_DEPARTMENT_STORE_3F:0": "LILYCOVE DEPARTMENT STORE 2F Left Stairs"
+    }
+  },
+  "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_3F/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_3F",
+    "name": "LILYCOVE DEPARTMENT STORE 3F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR/MAIN": "LILYCOVE DEPARTMENT STORE 3F Elevator"
+    },
+    "warps": {
+      "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_3F:0/MAP_LILYCOVE_CITY_DEPARTMENT_STORE_2F:1": "LILYCOVE DEPARTMENT STORE 3F Left Stairs",
+      "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_3F:1/MAP_LILYCOVE_CITY_DEPARTMENT_STORE_4F:0": "LILYCOVE DEPARTMENT STORE 3F Right Stairs"
+    }
+  },
+  "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_4F/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_4F",
+    "name": "LILYCOVE DEPARTMENT STORE 4F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR/MAIN": "LILYCOVE DEPARTMENT STORE 4F Elevator"
+    },
+    "warps": {
+      "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_4F:0/MAP_LILYCOVE_CITY_DEPARTMENT_STORE_3F:1": "LILYCOVE DEPARTMENT STORE 4F Right Stairs",
+      "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_4F:1/MAP_LILYCOVE_CITY_DEPARTMENT_STORE_5F:0": "LILYCOVE DEPARTMENT STORE 4F Left Stairs"
+    }
+  },
+  "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_5F/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_5F",
+    "name": "LILYCOVE DEPARTMENT STORE 5F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR/MAIN": "LILYCOVE DEPARTMENT STORE 5F Elevator"
+    },
+    "warps": {
+      "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_5F:0/MAP_LILYCOVE_CITY_DEPARTMENT_STORE_4F:1": "LILYCOVE DEPARTMENT STORE 5F Left Stairs",
+      "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_5F:2/MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP:0": "LILYCOVE DEPARTMENT STORE 5F Right Stairs"
+    }
+  },
+  "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP",
+    "name": "LILYCOVE DEPARTMENT STORE Rooftop",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP:0/MAP_LILYCOVE_CITY_DEPARTMENT_STORE_5F:2": "LILYCOVE DEPARTMENT STORE Rooftop Stairs"
+    }
+  },
+  "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR",
+    "name": "LILYCOVE DEPARTMENT STORE Elevator",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_1F/MAIN": "LILYCOVE DEPARTMENT STORE Elevator to 1F",
+      "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_2F/MAIN": "LILYCOVE DEPARTMENT STORE Elevator to 2F",
+      "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_3F/MAIN": "LILYCOVE DEPARTMENT STORE Elevator to 3F",
+      "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_4F/MAIN": "LILYCOVE DEPARTMENT STORE Elevator to 4F",
+      "REGION_LILYCOVE_CITY_DEPARTMENT_STORE_5F/MAIN": "LILYCOVE DEPARTMENT STORE Elevator to 5F"
+    },
+    "warps": {}
+  },
+  "REGION_LILYCOVE_CITY_COVE_LILY_MOTEL_1F/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_1F",
+    "name": "COVE LILY MOTEL 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_1F:0,1/MAP_LILYCOVE_CITY:1": "COVE LILY MOTEL Exit",
+      "MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_1F:2/MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_2F:0": "COVE LILY MOTEL 1F Stairs"
+    }
+  },
+  "REGION_LILYCOVE_CITY_COVE_LILY_MOTEL_2F/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_2F",
+    "name": "COVE LILY MOTEL 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_2F:0/MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_1F:2": "COVE LILY MOTEL 2F Stairs"
+    }
+  },
+  "REGION_LILYCOVE_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_POKEMON_CENTER_1F",
+    "name": "LILYCOVE POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_POKEMON_CENTER_1F:0,1/MAP_LILYCOVE_CITY:2": "LILYCOVE POKeMON CENTER Exit",
+      "MAP_LILYCOVE_CITY_POKEMON_CENTER_1F:2/MAP_LILYCOVE_CITY_POKEMON_CENTER_2F:0": "LILYCOVE POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_LILYCOVE_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_POKEMON_CENTER_2F",
+    "name": "LILYCOVE POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_POKEMON_CENTER_2F:0/MAP_LILYCOVE_CITY_POKEMON_CENTER_1F:2": "LILYCOVE POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F",
+    "name": "LILYCOVE MUSEUM 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F:0,1/MAP_LILYCOVE_CITY:3,13": "LILYCOVE MUSEUM Exit",
+      "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F:2/MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_2F:0": "LILYCOVE MUSEUM 1F Stairs"
+    }
+  },
+  "REGION_LILYCOVE_CITY_LILYCOVE_MUSEUM_2F/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_2F",
+    "name": "LILYCOVE MUSEUM 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_2F:0/MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F:2": "LILYCOVE MUSEUM 2F Stairs"
+    }
+  },
+  "REGION_LILYCOVE_CITY_CONTEST_LOBBY/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_CONTEST_LOBBY",
+    "name": "LILYCOVE CONTEST HALL Lobby",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_POKEBLOCK_CASE"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_CONTEST_LOBBY:0,1/MAP_LILYCOVE_CITY:4": "LILYCOVE CONTEST HALL Exit",
+      "MAP_LILYCOVE_CITY_CONTEST_LOBBY:2/MAP_LILYCOVE_CITY_CONTEST_HALL:0": "LILYCOVE CONTEST HALL Left Door",
+      "MAP_LILYCOVE_CITY_CONTEST_LOBBY:3/MAP_LILYCOVE_CITY_CONTEST_HALL:1": "LILYCOVE CONTEST HALL Right Door"
+    }
+  },
+  "REGION_LILYCOVE_CITY_CONTEST_HALL/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_CONTEST_HALL",
+    "name": "LILYCOVE CONTEST HALL",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_CONTEST_HALL:0,2/MAP_LILYCOVE_CITY_CONTEST_LOBBY:2": "LILYCOVE CONTEST HALL Left Exit",
+      "MAP_LILYCOVE_CITY_CONTEST_HALL:1,3/MAP_LILYCOVE_CITY_CONTEST_LOBBY:3": "LILYCOVE CONTEST HALL Right Exit"
+    }
+  },
+  "REGION_LILYCOVE_CITY_POKEMON_TRAINER_FAN_CLUB/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_POKEMON_TRAINER_FAN_CLUB",
+    "name": "LILYCOVE POKeMON TRAINER FAN CLUB",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_POKEMON_TRAINER_FAN_CLUB:0,1/MAP_LILYCOVE_CITY:5": "LILYCOVE POKeMON TRAINER FAN CLUB Exit"
+    }
+  },
+  "REGION_LILYCOVE_CITY_MOVE_DELETERS_HOUSE/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_MOVE_DELETERS_HOUSE",
+    "name": "LILYCOVE MOVE DELETER's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_MOVE_DELETERS_HOUSE:0,1/MAP_LILYCOVE_CITY:7": "LILYCOVE MOVE DELETER's House Exit"
+    }
+  },
+  "REGION_LILYCOVE_CITY_HOUSE1/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_HOUSE1",
+    "name": "LILYCOVE House with KECLEON",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_HOUSE1:0,1/MAP_LILYCOVE_CITY:8": "LILYCOVE House with KECLEON Exit"
+    }
+  },
+  "REGION_LILYCOVE_CITY_HOUSE2/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_HOUSE2",
+    "name": "LILYCOVE TM44 House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_REST"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_HOUSE2:0,1/MAP_LILYCOVE_CITY:9": "LILYCOVE TM44 House Exit"
+    }
+  },
+  "REGION_LILYCOVE_CITY_HOUSE3/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_HOUSE3",
+    "name": "LILYCOVE Quadruple GBA House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_HOUSE3:0,1/MAP_LILYCOVE_CITY:10": "LILYCOVE Quadruple GBA House Exit"
+    }
+  },
+  "REGION_LILYCOVE_CITY_HOUSE4/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_HOUSE4",
+    "name": "LILYCOVE Rumormill House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_LILYCOVE_CITY_HOUSE4:0,1/MAP_LILYCOVE_CITY:11": "LILYCOVE Rumormill House Exit"
+    }
+  },
+  "REGION_LILYCOVE_CITY_HARBOR/MAIN": {
+    "parent_map": "MAP_LILYCOVE_CITY_HARBOR",
+    "name": "LILYCOVE HARBOR",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SS_TIDAL_CORRIDOR/MAIN": "LILYCOVE HARBOR Board with S.S. TICKET",
+      "REGION_SOUTHERN_ISLAND_EXTERIOR/MAIN": "LILYCOVE HARBOR Board with EON TICKET",
+      "REGION_FARAWAY_ISLAND_ENTRANCE/MAIN": "LILYCOVE HARBOR Board with OLD SEA MAP",
+      "REGION_BIRTH_ISLAND_HARBOR/MAIN": "LILYCOVE HARBOR Board with AURORATICKET",
+      "REGION_NAVEL_ROCK_HARBOR/MAIN": "LILYCOVE HARBOR Board with MYSTICTICKET"
+    },
+    "warps": {
+      "MAP_LILYCOVE_CITY_HARBOR:0,1/MAP_LILYCOVE_CITY:12": "LILYCOVE HARBOR Exit"
+    }
+  },
+  "REGION_SS_TIDAL_CORRIDOR/MAIN": {
+    "parent_map": "MAP_SS_TIDAL_CORRIDOR",
+    "name": "S.S. TIDAL Corridor",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SLATEPORT_CITY_HARBOR/MAIN": "S.S. TIDAL Arrive at SLATEPORT CITY",
+      "REGION_LILYCOVE_CITY_HARBOR/MAIN": "S.S. TIDAL Arrive at LILYCOVE CITY",
+      "REGION_BATTLE_FRONTIER_OUTSIDE_WEST/DOCK": "S.S. TIDAL Arrive at BATTLE FRONTIER"
+    },
+    "warps": {
+      "MAP_SS_TIDAL_CORRIDOR:0/MAP_SS_TIDAL_ROOMS:0": "S.S. TIDAL Cabin 1",
+      "MAP_SS_TIDAL_CORRIDOR:4/MAP_SS_TIDAL_ROOMS:8": "S.S. TIDAL Cabin 5",
+      "MAP_SS_TIDAL_CORRIDOR:1/MAP_SS_TIDAL_ROOMS:2": "S.S. TIDAL Cabin 2",
+      "MAP_SS_TIDAL_CORRIDOR:5/MAP_SS_TIDAL_ROOMS:9": "S.S. TIDAL Cabin 6",
+      "MAP_SS_TIDAL_CORRIDOR:2/MAP_SS_TIDAL_ROOMS:4": "S.S. TIDAL Cabin 3",
+      "MAP_SS_TIDAL_CORRIDOR:6/MAP_SS_TIDAL_ROOMS:10": "S.S. TIDAL Cabin 7",
+      "MAP_SS_TIDAL_CORRIDOR:3/MAP_SS_TIDAL_ROOMS:6": "S.S. TIDAL Cabin 4",
+      "MAP_SS_TIDAL_CORRIDOR:7/MAP_SS_TIDAL_ROOMS:11": "S.S. TIDAL Cabin 8",
+      "MAP_SS_TIDAL_CORRIDOR:8/MAP_SS_TIDAL_LOWER_DECK:0": "S.S. TIDAL Corridor Stairs"
+    }
+  },
+  "REGION_SS_TIDAL_ROOMS/MAIN": {
+    "parent_map": "MAP_SS_TIDAL_ROOMS",
+    "name": "S.S. TIDAL Rooms",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_SNATCH",
+      "TRAINER_COLTON_REWARD",
+      "TRAINER_NAOMI_REWARD",
+      "TRAINER_THOMAS_REWARD",
+      "TRAINER_MICAH_REWARD",
+      "TRAINER_GARRET_REWARD",
+      "TRAINER_LEA_AND_JED_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SS_TIDAL_ROOMS:0,1/MAP_SS_TIDAL_CORRIDOR:0": "S.S. TIDAL Cabin 1 Exit",
+      "MAP_SS_TIDAL_ROOMS:8/MAP_SS_TIDAL_CORRIDOR:4": "S.S. TIDAL Cabin 5 Exit",
+      "MAP_SS_TIDAL_ROOMS:2,3/MAP_SS_TIDAL_CORRIDOR:1": "S.S. TIDAL Cabin 2 Exit",
+      "MAP_SS_TIDAL_ROOMS:9/MAP_SS_TIDAL_CORRIDOR:5": "S.S. TIDAL Cabin 6 Exit",
+      "MAP_SS_TIDAL_ROOMS:4,5/MAP_SS_TIDAL_CORRIDOR:2": "S.S. TIDAL Cabin 3 Exit",
+      "MAP_SS_TIDAL_ROOMS:10/MAP_SS_TIDAL_CORRIDOR:6": "S.S. TIDAL Cabin 7 Exit",
+      "MAP_SS_TIDAL_ROOMS:6,7/MAP_SS_TIDAL_CORRIDOR:3": "S.S. TIDAL Cabin 4 Exit",
+      "MAP_SS_TIDAL_ROOMS:11/MAP_SS_TIDAL_CORRIDOR:7": "S.S. TIDAL Cabin 8 Exit"
+    }
+  },
+  "REGION_SS_TIDAL_LOWER_DECK/MAIN": {
+    "parent_map": "MAP_SS_TIDAL_LOWER_DECK",
+    "name": "S.S. TIDAL Lower Deck",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_SS_TIDAL_LOWER_DECK_LEFTOVERS",
+      "TRAINER_LEONARD_REWARD",
+      "TRAINER_PHILLIP_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SS_TIDAL_LOWER_DECK:0/MAP_SS_TIDAL_CORRIDOR:8": "S.S. TIDAL Lower Deck Stairs"
+    }
+  },
+
+  "REGION_MOSSDEEP_CITY/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY",
+    "name": "MOSSDEEP CITY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_MOSSDEEP_CITY_NET_BALL",
+      "NPC_GIFT_RECEIVED_KINGS_ROCK"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_MOSSDEEP_CITY/WATER": "MOSSDEEP CITY Surfing Spot"
+    },
+    "warps": {
+      "MAP_MOSSDEEP_CITY:0/MAP_MOSSDEEP_CITY_HOUSE1:0": "MOSSDEEP House North of POKeMON CENTER",
+      "MAP_MOSSDEEP_CITY:1/MAP_MOSSDEEP_CITY_GYM:0": "MOSSDEEP GYM",
+      "MAP_MOSSDEEP_CITY:2/MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F:0": "MOSSDEEP POKeMON CENTER",
+      "MAP_MOSSDEEP_CITY:3/MAP_MOSSDEEP_CITY_HOUSE2:0": "MOSSDEEP House Near SPACE CENTER",
+      "MAP_MOSSDEEP_CITY:4/MAP_MOSSDEEP_CITY_MART:0": "MOSSDEEP POKeMON MART",
+      "MAP_MOSSDEEP_CITY:5/MAP_MOSSDEEP_CITY_HOUSE3:0": "MOSSDEEP House East of GYM",
+      "MAP_MOSSDEEP_CITY:6/MAP_MOSSDEEP_CITY_STEVENS_HOUSE:0": "House Northwest of POKeMON CENTER",
+      "MAP_MOSSDEEP_CITY:7/MAP_MOSSDEEP_CITY_HOUSE4:1": "MOSSDEEP House West of POKeMON CENTER",
+      "MAP_MOSSDEEP_CITY:8/MAP_MOSSDEEP_CITY_SPACE_CENTER_1F:0": "MOSSDEEP SPACE CENTER",
+      "MAP_MOSSDEEP_CITY:9/MAP_MOSSDEEP_CITY_GAME_CORNER_1F:0": "MOSSDEEP GAME CORNER"
+    }
+  },
+  "REGION_MOSSDEEP_CITY/WATER": {
+    "parent_map": "MAP_MOSSDEEP_CITY",
+    "name": "MOSSDEEP CITY Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_MOSSDEEP_CITY/MAIN": "MOSSDEEP CITY Landing Spot",
+      "REGION_ROUTE124/MAIN": "MOSSDEEP CITY West Exit",
+      "REGION_ROUTE125/SEA": "MOSSDEEP CITY North Exit",
+      "REGION_ROUTE127/MAIN": "MOSSDEEP CITY South Exit"
+    },
+    "warps": {}
+  },
+  "REGION_MOSSDEEP_CITY_GYM/ROOM_1": {
+    "parent_map": "MAP_MOSSDEEP_CITY_GYM",
+    "name": "MOSSDEEP GYM Entrance Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_MAURA_REWARD",
+      "TRAINER_PRESTON_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_GYM:0,1/MAP_MOSSDEEP_CITY:1": "MOSSDEEP GYM Exit",
+      "MAP_MOSSDEEP_CITY_GYM:2/MAP_MOSSDEEP_CITY_GYM:3": "MOSSDEEP GYM ER Upper Warp Tile",
+      "MAP_MOSSDEEP_CITY_GYM:8/MAP_MOSSDEEP_CITY_GYM:9": "MOSSDEEP GYM ER Lower Warp Tile"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_GYM/ROOM_2": {
+    "parent_map": "MAP_MOSSDEEP_CITY_GYM",
+    "name": "MOSSDEEP GYM Yellow Switch Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_SAMANTHA_REWARD",
+      "TRAINER_BLAKE_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_GYM:3/MAP_MOSSDEEP_CITY_GYM:2": "MOSSDEEP GYM YS Lower Warp Tile",
+      "MAP_MOSSDEEP_CITY_GYM:4/MAP_MOSSDEEP_CITY_GYM:5": "MOSSDEEP GYM YS Upper Left Warp Tile",
+      "MAP_MOSSDEEP_CITY_GYM:6/MAP_MOSSDEEP_CITY_GYM:7": "MOSSDEEP GYM YS Upper Right Warp Tile"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_GYM/ROOM_3": {
+    "parent_map": "MAP_MOSSDEEP_CITY_GYM",
+    "name": "MOSSDEEP GYM Blue Switch Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_VIRGIL_REWARD",
+      "TRAINER_NATE_REWARD",
+      "TRAINER_SYLVIA_REWARD",
+      "TRAINER_HANNAH_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_GYM:5/MAP_MOSSDEEP_CITY_GYM:4": "MOSSDEEP GYM BS Lower Warp Tile",
+      "MAP_MOSSDEEP_CITY_GYM:10/MAP_MOSSDEEP_CITY_GYM:11": "MOSSDEEP GYM BS Upper Warp Tile"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_GYM/ROOM_4": {
+    "parent_map": "MAP_MOSSDEEP_CITY_GYM",
+    "name": "MOSSDEEP GYM Green Statue Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_GYM:11/MAP_MOSSDEEP_CITY_GYM:10": "MOSSDEEP GYM GSt Lower Warp Tile",
+      "MAP_MOSSDEEP_CITY_GYM:12/MAP_MOSSDEEP_CITY_GYM:13": "MOSSDEEP GYM GSt Upper Warp Tile"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_GYM/ROOM_5": {
+    "parent_map": "MAP_MOSSDEEP_CITY_GYM",
+    "name": "MOSSDEEP GYM Green Switch Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_KATHLEEN_REWARD",
+      "TRAINER_NICHOLAS_REWARD",
+      "TRAINER_MACEY_REWARD",
+      "TRAINER_CLIFFORD_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_GYM:7/MAP_MOSSDEEP_CITY_GYM:6": "MOSSDEEP GYM GSw Upper Warp Tile",
+      "MAP_MOSSDEEP_CITY_GYM:9/MAP_MOSSDEEP_CITY_GYM:8": "MOSSDEEP GYM GSw Left Warp Tile"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_GYM/ROOM_6": {
+    "parent_map": "MAP_MOSSDEEP_CITY_GYM",
+    "name": "MOSSDEEP GYM LIZA and TATE's Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_CALM_MIND",
+      "BADGE_7",
+      "TRAINER_TATE_AND_LIZA_1_REWARD"
+    ],
+    "events": [
+      "EVENT_DEFEAT_TATE_AND_LIZA"
+    ],
+    "exits": {
+      "REGION_MOSSDEEP_CITY_GYM/ROOM_1": "MOSSDEEP GYM L&T Upper Warp Tile"
+    },
+    "warps": {
+      "MAP_MOSSDEEP_CITY_GYM:13/MAP_MOSSDEEP_CITY_GYM:12": "MOSSDEEP GYM L&T Lower Warp Tile"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F",
+    "name": "MOSSDEEP POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F:0,1/MAP_MOSSDEEP_CITY:2": "MOSSDEEP POKeMON CENTER Exit",
+      "MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F:2/MAP_MOSSDEEP_CITY_POKEMON_CENTER_2F:0": "MOSSDEEP POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_MART/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_MART",
+    "name": "MOSSDEEP POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_MART:0,1/MAP_MOSSDEEP_CITY:4": "MOSSDEEP POKeMON MART Exit"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_POKEMON_CENTER_2F",
+    "name": "MOSSDEEP POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_POKEMON_CENTER_2F:0/MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F:2": "MOSSDEEP POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_SPACE_CENTER_1F/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_SPACE_CENTER_1F",
+    "name": "MOSSDEEP CITY SPACE CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_SUN_STONE_MOSSDEEP",
+      "TRAINER_GRUNT_SPACE_CENTER_1_REWARD",
+      "TRAINER_GRUNT_SPACE_CENTER_2_REWARD",
+      "TRAINER_GRUNT_SPACE_CENTER_3_REWARD",
+      "TRAINER_GRUNT_SPACE_CENTER_4_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_SPACE_CENTER_1F:0,1/MAP_MOSSDEEP_CITY:8": "MOSSDEEP CITY SPACE CENTER Exit",
+      "MAP_MOSSDEEP_CITY_SPACE_CENTER_1F:2/MAP_MOSSDEEP_CITY_SPACE_CENTER_2F:0": "MOSSDEEP CITY SPACE CENTER 1F Stairs"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_SPACE_CENTER_2F/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_SPACE_CENTER_2F",
+    "name": "MOSSDEEP CITY SPACE CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_GRUNT_SPACE_CENTER_5_REWARD",
+      "TRAINER_GRUNT_SPACE_CENTER_6_REWARD",
+      "TRAINER_GRUNT_SPACE_CENTER_7_REWARD"
+    ],
+    "events": [
+      "EVENT_DEFEAT_MAXIE_AT_SPACE_STATION"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_SPACE_CENTER_2F:0/MAP_MOSSDEEP_CITY_SPACE_CENTER_1F:2": "MOSSDEEP CITY SPACE CENTER 2F Stairs"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_GAME_CORNER_1F/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_GAME_CORNER_1F",
+    "name": "MOSSDEEP GAME CORNER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_GAME_CORNER_1F:0,1/MAP_MOSSDEEP_CITY:9": "MOSSDEEP GAME CORNER Exit",
+      "MAP_MOSSDEEP_CITY_GAME_CORNER_1F:2/MAP_MOSSDEEP_CITY_GAME_CORNER_B1F:0": "MOSSDEEP GAME CORNER 1F Stairs"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_GAME_CORNER_B1F/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_GAME_CORNER_B1F",
+    "name": "MOSSDEEP GAME CORNER B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_GAME_CORNER_B1F:0/MAP_MOSSDEEP_CITY_GAME_CORNER_1F:2": "MOSSDEEP GAME CORNER B1F Stairs"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_STEVENS_HOUSE/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_STEVENS_HOUSE",
+    "name": "STEVEN's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_HM_DIVE"
+    ],
+    "events": [
+      "EVENT_STEVEN_GIVES_DIVE"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_STEVENS_HOUSE:0,1/MAP_MOSSDEEP_CITY:6": "STEVEN's House Exit"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_HOUSE1/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_HOUSE1",
+    "name": "MOSSDEEP Flavor Checker House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_HOUSE1:0,1/MAP_MOSSDEEP_CITY:0": "MOSSDEEP Flavor Checker House Exit"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_HOUSE2/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_HOUSE2",
+    "name": "MOSSDEEP WINGULL Quest House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [
+      "EVENT_WINGULL_QUEST_2"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_HOUSE2:0,1/MAP_MOSSDEEP_CITY:3": "MOSSDEEP WINGULL Quest House Exit"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_HOUSE3/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_HOUSE3",
+    "name": "MOSSDEEP SUPER ROD House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_SUPER_ROD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_HOUSE3:0,1/MAP_MOSSDEEP_CITY:5": "MOSSDEEP SUPER ROD House Exit"
+    }
+  },
+  "REGION_MOSSDEEP_CITY_HOUSE4/MAIN": {
+    "parent_map": "MAP_MOSSDEEP_CITY_HOUSE4",
+    "name": "MOSSDEEP SECRET BASE House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_MOSSDEEP_CITY_HOUSE4:0,1/MAP_MOSSDEEP_CITY:7": "MOSSDEEP SECRET BASE House Exit"
+    }
+  },
+
+  "REGION_UNDERWATER_SOOTOPOLIS_CITY/MAIN": {
+    "parent_map": "MAP_UNDERWATER_SOOTOPOLIS_CITY",
+    "name": "Underwater, SOOTOPOLIS CITY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [
+      "EVENT_RAYQUAZA_STOPS_FIGHT"
+    ],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY/WATER": "Underwater, SOOTOPOLIS CITY Surface Spot"
+    },
+    "warps": {
+      "MAP_UNDERWATER_SOOTOPOLIS_CITY:0,1/MAP_UNDERWATER_ROUTE126:0": "Underwater, SOOTOPOLIS CITY Exit"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY/WATER": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY",
+    "name": "SOOTOPOLIS CITY Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_UNDERWATER_SOOTOPOLIS_CITY/MAIN": "SOOTOPOLIS CITY Dive Spot",
+      "REGION_SOOTOPOLIS_CITY/EAST": "SOOTOPOLIS CITY East Landing Spot",
+      "REGION_SOOTOPOLIS_CITY/WEST": "SOOTOPOLIS CITY West Landing Spot",
+      "REGION_SOOTOPOLIS_CITY/WEST_GRASS": "SOOTOPOLIS CITY KIRI's Island Landing Spot",
+      "REGION_SOOTOPOLIS_CITY/ISLAND": "SOOTOPOLIS CITY GYM Island Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_SOOTOPOLIS_CITY/EAST": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY",
+    "name": "SOOTOPOLIS CITY East",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY/WATER": "SOOTOPOLIS CITY East Surfing Spot"
+    },
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY:0/MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_1F:0": "SOOTOPOLIS POKeMON CENTER",
+      "MAP_SOOTOPOLIS_CITY:5/MAP_SOOTOPOLIS_CITY_HOUSE2:0": "SOOTOPOLIS Northernmost House",
+      "MAP_SOOTOPOLIS_CITY:7/MAP_SOOTOPOLIS_CITY_HOUSE4:0": "SOOTOPOLIS House North of POKeMON CENTER",
+      "MAP_SOOTOPOLIS_CITY:9/MAP_SOOTOPOLIS_CITY_HOUSE6:0": "SOOTOPOLIS House East of POKeMON CENTER",
+      "MAP_SOOTOPOLIS_CITY:11/MAP_SOOTOPOLIS_CITY_LOTAD_AND_SEEDOT_HOUSE:0": "SOOTOPOLIS House Northeast of POKeMON CENTER",
+      "MAP_SOOTOPOLIS_CITY:12/MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F:0": "SOOTOPOLIS House Southeast of POKeMON CENTER"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY/WEST": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY",
+    "name": "SOOTOPOLIS CITY West",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY/WATER": "SOOTOPOLIS CITY West Surfing Spot"
+    },
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY:1/MAP_SOOTOPOLIS_CITY_MART:0": "SOOTOPOLIS POKeMON MART",
+      "MAP_SOOTOPOLIS_CITY:6/MAP_SOOTOPOLIS_CITY_HOUSE3:0": "SOOTOPOLIS House Northwest of POKeMON MART",
+      "MAP_SOOTOPOLIS_CITY:3/MAP_CAVE_OF_ORIGIN_ENTRANCE:0": "CAVE OF ORIGIN",
+      "MAP_SOOTOPOLIS_CITY:4/MAP_SOOTOPOLIS_CITY_HOUSE1:0": "SOOTOPOLIS Northwesternmost House",
+      "MAP_SOOTOPOLIS_CITY:8/MAP_SOOTOPOLIS_CITY_HOUSE5:0": "SOOTOPOLIS House West of POKeMON MART",
+      "MAP_SOOTOPOLIS_CITY:10/MAP_SOOTOPOLIS_CITY_HOUSE7:0": "SOOTOPOLIS House Southwest of POKeMON MART"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY/WEST_GRASS": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY",
+    "name": "SOOTOPOLIS CITY KIRI's Island",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "NPC_GIFT_SOOTOPOLIS_RECEIVED_BERRY_1",
+      "NPC_GIFT_SOOTOPOLIS_RECEIVED_BERRY_2"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY/WATER": "SOOTOPOLIS CITY KIRI's Island Surfing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_SOOTOPOLIS_CITY/ISLAND": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY",
+    "name": "SOOTOPOLIS CITY GYM Island",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "NPC_GIFT_RECEIVED_HM_WATERFALL"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY/WATER": "SOOTOPOLIS CITY GYM Island Surfing Spot"
+    },
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY:2/MAP_SOOTOPOLIS_CITY_GYM_1F:0": "SOOTOPOLIS GYM"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_1F",
+    "name": "SOOTOPOLIS POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_1F:0,1/MAP_SOOTOPOLIS_CITY:0": "SOOTOPOLIS POKeMON CENTER Exit",
+      "MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_1F:2/MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_2F:0": "SOOTOPOLIS POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_2F",
+    "name": "SOOTOPOLIS POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_2F:0/MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_1F:2": "SOOTOPOLIS POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_MART/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_MART",
+    "name": "SOOTOPOLIS POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_MART:0,1/MAP_SOOTOPOLIS_CITY:1": "SOOTOPOLIS POKeMON MART Exit"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_GYM_1F/ENTRANCE": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_GYM_1F",
+    "name": "SOOTOPOLIS GYM Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY_GYM_1F/PUZZLE_1": "SOOTOPOLIS GYM Begin Puzzle 1"
+    },
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_GYM_1F:0,1/MAP_SOOTOPOLIS_CITY:2": "SOOTOPOLIS GYM Exit",
+      "MAP_SOOTOPOLIS_CITY_GYM_1F:2/MAP_SOOTOPOLIS_CITY_GYM_B1F:0": "SOOTOPOLIS GYM 1F Ladder"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_GYM_1F/PUZZLE_1": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_GYM_1F",
+    "name": "SOOTOPOLIS GYM Puzzle 1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY_GYM_1F/ENTRANCE": "SOOTOPOLIS GYM Puzzle 1 Backtrack",
+      "REGION_SOOTOPOLIS_CITY_GYM_1F/PUZZLE_2": "SOOTOPOLIS GYM Puzzle 1 Completed",
+      "REGION_SOOTOPOLIS_CITY_GYM_B1F/LEVEL_2": "SOOTOPOLIS GYM Puzzle 1 Failed"
+    },
+    "warps": {}
+  },
+  "REGION_SOOTOPOLIS_CITY_GYM_1F/PUZZLE_2": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_GYM_1F",
+    "name": "SOOTOPOLIS GYM Puzzle 2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY_GYM_1F/PUZZLE_1": "SOOTOPOLIS GYM Puzzle 2 Backtrack",
+      "REGION_SOOTOPOLIS_CITY_GYM_1F/PUZZLE_3": "SOOTOPOLIS GYM Puzzle 2 Completed",
+      "REGION_SOOTOPOLIS_CITY_GYM_B1F/LEVEL_3": "SOOTOPOLIS GYM Puzzle 2 Failed"
+    },
+    "warps": {}
+  },
+  "REGION_SOOTOPOLIS_CITY_GYM_1F/PUZZLE_3": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_GYM_1F",
+    "name": "SOOTOPOLIS GYM Puzzle 3",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY_GYM_1F/PUZZLE_2": "SOOTOPOLIS GYM Puzzle 3 Backtrack",
+      "REGION_SOOTOPOLIS_CITY_GYM_1F/TOP": "SOOTOPOLIS GYM Puzzle 3 Completed",
+      "REGION_SOOTOPOLIS_CITY_GYM_B1F/LEVEL_4": "SOOTOPOLIS GYM Puzzle 3 Failed"
+    },
+    "warps": {}
+  },
+  "REGION_SOOTOPOLIS_CITY_GYM_1F/TOP": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_GYM_1F",
+    "name": "SOOTOPOLIS GYM Top",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_WATER_PULSE",
+      "BADGE_8",
+      "TRAINER_JUAN_1_REWARD"
+    ],
+    "events": [
+      "EVENT_DEFEAT_JUAN"
+    ],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY_GYM_1F/PUZZLE_3": "SOOTOPOLIS GYM Top Backtrack"
+    },
+    "warps": {}
+  },
+  "REGION_SOOTOPOLIS_CITY_GYM_B1F/LEVEL_1": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_GYM_B1F",
+    "name": "SOOTOPOLIS GYM Level 1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_GYM_B1F:0/MAP_SOOTOPOLIS_CITY_GYM_1F:2": "SOOTOPOLIS GYM B1F Ladder"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_GYM_B1F/LEVEL_2": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_GYM_B1F",
+    "name": "SOOTOPOLIS GYM Level 2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_ANDREA_REWARD",
+      "TRAINER_CONNIE_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY_GYM_B1F/LEVEL_1": "SOOTOPOLIS GYM Level 2 Slide"
+    },
+    "warps": {}
+  },
+  "REGION_SOOTOPOLIS_CITY_GYM_B1F/LEVEL_3": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_GYM_B1F",
+    "name": "SOOTOPOLIS GYM Level 3",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_ANNIKA_REWARD",
+      "TRAINER_DAPHNE_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY_GYM_B1F/LEVEL_2": "SOOTOPOLIS GYM Level 3 Slide"
+    },
+    "warps": {}
+  },
+  "REGION_SOOTOPOLIS_CITY_GYM_B1F/LEVEL_4": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_GYM_B1F",
+    "name": "SOOTOPOLIS GYM Level 4",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_CRISSY_REWARD",
+      "TRAINER_TIFFANY_REWARD",
+      "TRAINER_BETHANY_REWARD",
+      "TRAINER_OLIVIA_REWARD",
+      "TRAINER_BRIDGET_REWARD",
+      "TRAINER_BRIANNA_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_SOOTOPOLIS_CITY_GYM_B1F/LEVEL_3": "SOOTOPOLIS GYM Level 4 Slide"
+    },
+    "warps": {}
+  },
+  "REGION_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F",
+    "name": "SOOTOPOLIS Mystery Event House Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F:0,1/MAP_SOOTOPOLIS_CITY:12": "SOOTOPOLIS Mystery Event House Exit",
+      "MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F:2/MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_B1F:0": "SOOTOPOLIS Mystery Event House Door"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_B1F/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_B1F",
+    "name": "SOOTOPOLIS Mystery Event House Battleground",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_B1F:0/MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F:2": "SOOTOPOLIS Mystery Event House Battleground Door"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_LOTAD_AND_SEEDOT_HOUSE/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_LOTAD_AND_SEEDOT_HOUSE",
+    "name": "SOOTOPOLIS LOTAD and SEEDOT House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_LOTAD_AND_SEEDOT_HOUSE:0,1/MAP_SOOTOPOLIS_CITY:11": "SOOTOPOLIS LOTAD and SEEDOT House Exit"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_HOUSE1/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_HOUSE1",
+    "name": "SOOTOPOLIS BRICK BREAK House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_BRICK_BREAK"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_HOUSE1:0,1/MAP_SOOTOPOLIS_CITY:4": "SOOTOPOLIS BRICK BREAK House Exit"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_HOUSE2/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_HOUSE2",
+    "name": "SOOTOPOLIS Orbs House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_HOUSE2:0,1/MAP_SOOTOPOLIS_CITY:5": "SOOTOPOLIS Orbs House Exit"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_HOUSE3/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_HOUSE3",
+    "name": "SOOTOPOLIS Fans House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_HOUSE3:0,1/MAP_SOOTOPOLIS_CITY:6": "SOOTOPOLIS Fans House Exit"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_HOUSE4/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_HOUSE4",
+    "name": "SOOTOPOLIS Ancient House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_HOUSE4:0,1/MAP_SOOTOPOLIS_CITY:7": "SOOTOPOLIS Ancient House"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_HOUSE5/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_HOUSE5",
+    "name": "SOOTOPOLIS Study House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_HOUSE5:0,1/MAP_SOOTOPOLIS_CITY:8": "SOOTOPOLIS Study House Exit"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_HOUSE6/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_HOUSE6",
+    "name": "SOOTOPOLIS Doll House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_HOUSE6:0,1/MAP_SOOTOPOLIS_CITY:9": "SOOTOPOLIS Doll House Exit"
+    }
+  },
+  "REGION_SOOTOPOLIS_CITY_HOUSE7/MAIN": {
+    "parent_map": "MAP_SOOTOPOLIS_CITY_HOUSE7",
+    "name": "SOOTOPOLIS Formation House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SOOTOPOLIS_CITY_HOUSE7:0,1/MAP_SOOTOPOLIS_CITY:10": "SOOTOPOLIS Formation House Exit"
+    }
+  },
+
+  "REGION_PACIFIDLOG_TOWN/MAIN": {
+    "parent_map": "MAP_PACIFIDLOG_TOWN",
+    "name": "PACIFIDLOG TOWN",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_PACIFIDLOG_TOWN/WATER": "PACIFIDLOG TOWN Surfing Spot"
+    },
+    "warps": {
+      "MAP_PACIFIDLOG_TOWN:0/MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_1F:0": "PACIFIDLOG POKeMON CENTER",
+      "MAP_PACIFIDLOG_TOWN:1/MAP_PACIFIDLOG_TOWN_HOUSE1:0": "PACIFIDLOG Northeast House",
+      "MAP_PACIFIDLOG_TOWN:2/MAP_PACIFIDLOG_TOWN_HOUSE2:0": "PACIFIDLOG Southwest House",
+      "MAP_PACIFIDLOG_TOWN:3/MAP_PACIFIDLOG_TOWN_HOUSE3:0": "PACIFIDLOG South House",
+      "MAP_PACIFIDLOG_TOWN:4/MAP_PACIFIDLOG_TOWN_HOUSE4:0": "PACIFIDLOG Northwest House",
+      "MAP_PACIFIDLOG_TOWN:5/MAP_PACIFIDLOG_TOWN_HOUSE5:0": "PACIFIDLOG Southeast House"
+    }
+  },
+  "REGION_PACIFIDLOG_TOWN/WATER": {
+    "parent_map": "MAP_PACIFIDLOG_TOWN",
+    "name": "PACIFIDLOG TOWN Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE131/MAIN": "PACIFIDLOG TOWN East Exit",
+      "REGION_ROUTE132/EAST": "PACIFIDLOG TOWN West Exit"
+    },
+    "warps": {}
+  },
+  "REGION_PACIFIDLOG_TOWN_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_1F",
+    "name": "PACIFIDLOG POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_1F:0,1/MAP_PACIFIDLOG_TOWN:0": "PACIFIDLOG POKeMON CENTER Exit",
+      "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_1F:2/MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_2F:0": "PACIFIDLOG POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_PACIFIDLOG_TOWN_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_2F",
+    "name": "PACIFIDLOG POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_2F:0/MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_1F:2": "PACIFIDLOG POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_PACIFIDLOG_TOWN_HOUSE1/MAIN": {
+    "parent_map": "MAP_PACIFIDLOG_TOWN_HOUSE1",
+    "name": "PACIFIDLOG Regi Hint House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PACIFIDLOG_TOWN_HOUSE1:0,1/MAP_PACIFIDLOG_TOWN:1": "PACIFIDLOG Regi Hint House Exit"
+    }
+  },
+  "REGION_PACIFIDLOG_TOWN_HOUSE2/MAIN": {
+    "parent_map": "MAP_PACIFIDLOG_TOWN_HOUSE2",
+    "name": "PACIFIDLOG TM House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_RETURN_2",
+      "NPC_GIFT_RECEIVED_TM_FRUSTRATION"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PACIFIDLOG_TOWN_HOUSE2:0,1/MAP_PACIFIDLOG_TOWN:2": "PACIFIDLOG TM House Exit"
+    }
+  },
+  "REGION_PACIFIDLOG_TOWN_HOUSE3/MAIN": {
+    "parent_map": "MAP_PACIFIDLOG_TOWN_HOUSE3",
+    "name": "PACIFIDLOG Trade House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PACIFIDLOG_TOWN_HOUSE3:0,1/MAP_PACIFIDLOG_TOWN:3": "PACIFIDLOG Trade House Exit"
+    }
+  },
+  "REGION_PACIFIDLOG_TOWN_HOUSE4/MAIN": {
+    "parent_map": "MAP_PACIFIDLOG_TOWN_HOUSE4",
+    "name": "PACIFIDLOG Yes No House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PACIFIDLOG_TOWN_HOUSE4:0,1/MAP_PACIFIDLOG_TOWN:4": "PACIFIDLOG Yes No House Exit"
+    }
+  },
+  "REGION_PACIFIDLOG_TOWN_HOUSE5/MAIN": {
+    "parent_map": "MAP_PACIFIDLOG_TOWN_HOUSE5",
+    "name": "PACIFIDLOG Island Sighting House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_PACIFIDLOG_TOWN_HOUSE5:0,1/MAP_PACIFIDLOG_TOWN:5": "PACIFIDLOG Island Sighting House Exit"
+    }
+  },
+
+  "REGION_EVER_GRANDE_CITY/SEA": {
+    "parent_map": "MAP_EVER_GRANDE_CITY",
+    "name": "EVER GRANDE CITY Sea",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_EVER_GRANDE_CITY/SOUTH": "EVER GRANDE CITY Landing Spot",
+      "REGION_ROUTE128/MAIN": "EVER GRANDE CITY West Exit"
+    },
+    "warps": {}
+  },
+  "REGION_EVER_GRANDE_CITY/SOUTH": {
+    "parent_map": "MAP_EVER_GRANDE_CITY",
+    "name": "EVER GRANDE CITY Before VICTORY ROAD",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_EVER_GRANDE_CITY/SEA": "EVER GRANDE CITY Surfing Spot"
+    },
+    "warps": {
+      "MAP_EVER_GRANDE_CITY:1/MAP_EVER_GRANDE_CITY_POKEMON_CENTER_1F:0": "EVER GRANDE POKeMON CENTER",
+      "MAP_EVER_GRANDE_CITY:2/MAP_VICTORY_ROAD_1F:0": "HOENN VICTORY ROAD South"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY/NORTH": {
+    "parent_map": "MAP_EVER_GRANDE_CITY",
+    "name": "EVER GRANDE CITY After VICTORY ROAD",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY:0/MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F:0": "HOENN POKeMON LEAGUE CENTER",
+      "MAP_EVER_GRANDE_CITY:3/MAP_VICTORY_ROAD_1F:1": "HOENN VICTORY ROAD North"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_POKEMON_CENTER_1F",
+    "name": "EVER GRANDE POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_POKEMON_CENTER_1F:0,1/MAP_EVER_GRANDE_CITY:1": "EVER GRANDE POKeMON CENTER Exit",
+      "MAP_EVER_GRANDE_CITY_POKEMON_CENTER_1F:2/MAP_EVER_GRANDE_CITY_POKEMON_CENTER_2F:0": "EVER GRANDE POKeMON CENTER 1F Escalator"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_POKEMON_CENTER_2F",
+    "name": "EVER GRANDE POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_POKEMON_CENTER_2F:0/MAP_EVER_GRANDE_CITY_POKEMON_CENTER_1F:2": "EVER GRANDE POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+    "name": "HOENN POKeMON LEAGUE CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F/BEHIND_BADGE_CHECKERS": "HOENN POKeMON LEAGUE Behind Badge Checkers"
+    },
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F:0,1/MAP_EVER_GRANDE_CITY:0": "HOENN POKeMON LEAGUE CENTER Exit",
+      "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F:4/MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_2F:0": "HOENN POKeMON LEAGUE CENTER 1F Escalator"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F/BEHIND_BADGE_CHECKERS": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+    "name": "HOENN POKeMON LEAGUE Behind Badge Checkers",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F/MAIN": "HOENN POKeMON LEAGUE In Front of Badge Checkers"
+    },
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F:2,3/MAP_EVER_GRANDE_CITY_HALL5:0": "HOENN POKeMON LEAGUE Hall to SIDNEY"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_POKEMON_LEAGUE_2F/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_2F",
+    "name": "HOENN POKeMON LEAGUE CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_2F:0/MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F:4": "HOENN POKeMON LEAGUE CENTER 2F Escalator"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_HALL5/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_HALL5",
+    "name": "HOENN POKeMON LEAGUE Hall to SIDNEY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_HALL5:1/MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM:0": "HOENN POKeMON LEAGUE Hall to SIDNEY North Exit",
+      "MAP_EVER_GRANDE_CITY_HALL5:0,2,3/MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F:2": "HOENN POKeMON LEAGUE Hall to SIDNEY South Exit"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_SIDNEYS_ROOM/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+    "name": "HOENN POKeMON LEAGUE SIDNEY's Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_SIDNEY_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM:1/MAP_EVER_GRANDE_CITY_HALL1:0": "HOENN POKeMON LEAGUE SIDNEY's Room North Exit",
+      "MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM:0/MAP_EVER_GRANDE_CITY_HALL5:1": "HOENN POKeMON LEAGUE SIDNEY's Room South Exit"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_HALL1/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_HALL1",
+    "name": "HOENN POKeMON LEAGUE Hall to PHOEBE",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_HALL1:1/MAP_EVER_GRANDE_CITY_PHOEBES_ROOM:0": "HOENN POKeMON LEAGUE Hall to PHOEBE North Exit",
+      "MAP_EVER_GRANDE_CITY_HALL1:0,2,3/MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM:1": "HOENN POKeMON LEAGUE Hall to PHOEBE South Exit"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_PHOEBES_ROOM/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_PHOEBES_ROOM",
+    "name": "HOENN POKeMON LEAGUE PHOEBE's Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_PHOEBE_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_PHOEBES_ROOM:1/MAP_EVER_GRANDE_CITY_HALL2:0": "HOENN POKeMON LEAGUE PHOEBE's Room North Exit",
+      "MAP_EVER_GRANDE_CITY_PHOEBES_ROOM:0/MAP_EVER_GRANDE_CITY_HALL1:1": "HOENN POKeMON LEAGUE PHOEBE's Room South Exit"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_HALL2/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_HALL2",
+    "name": "HOENN POKeMON LEAGUE Hall to GLACIA",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_HALL2:1/MAP_EVER_GRANDE_CITY_GLACIAS_ROOM:0": "HOENN POKeMON LEAGUE Hall to GLACIA North Exit",
+      "MAP_EVER_GRANDE_CITY_HALL2:0,2,3/MAP_EVER_GRANDE_CITY_PHOEBES_ROOM:1": "HOENN POKeMON LEAGUE Hall to GLACIA South Exit"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_GLACIAS_ROOM/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_GLACIAS_ROOM",
+    "name": "HOENN POKeMON LEAGUE GLACIA's Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_GLACIA_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_GLACIAS_ROOM:1/MAP_EVER_GRANDE_CITY_HALL3:0": "HOENN POKeMON LEAGUE GLACIA's Room North Exit",
+      "MAP_EVER_GRANDE_CITY_GLACIAS_ROOM:0/MAP_EVER_GRANDE_CITY_HALL2:1": "HOENN POKeMON LEAGUE GLACIA's Room South Exit"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_HALL3/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_HALL3",
+    "name": "HOENN POKeMON LEAGUE Hall to DRAKE",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_HALL3:1/MAP_EVER_GRANDE_CITY_DRAKES_ROOM:0": "HOENN POKeMON LEAGUE Hall to DRAKE North Exit",
+      "MAP_EVER_GRANDE_CITY_HALL3:0,2,3/MAP_EVER_GRANDE_CITY_GLACIAS_ROOM:1": "HOENN POKeMON LEAGUE Hall to DRAKE South Exit"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_DRAKES_ROOM/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_DRAKES_ROOM",
+    "name": "HOENN POKeMON LEAGUE DRAKE's Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_DRAKE_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_DRAKES_ROOM:1/MAP_EVER_GRANDE_CITY_HALL4:0": "HOENN POKeMON LEAGUE DRAKE's Room North Exit",
+"MAP_EVER_GRANDE_CITY_DRAKES_ROOM:0/MAP_EVER_GRANDE_CITY_HALL3:1": "HOENN POKeMON LEAGUE DRAKE's Room South Exit"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_CHAMPIONS_ROOM/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+    "name": "HOENN POKeMON LEAGUE CHAMPION's Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_WALLACE_REWARD"
+    ],
+    "events": [
+      "EVENT_DEFEAT_CHAMPION"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM:1/MAP_EVER_GRANDE_CITY_HALL_OF_FAME:0": "HOENN POKeMON LEAGUE CHAMPION's Room North Exit",
+      "MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM:0/MAP_EVER_GRANDE_CITY_HALL4:1": "HOENN POKeMON LEAGUE CHAMPION's Room South Exit"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_HALL4/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_HALL4",
+    "name": "HOENN POKeMON LEAGUE Hall to CHAMPION",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_HALL4:1/MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM:0": "HOENN POKeMON LEAGUE Hall to CHAMPION North Exit",
+      "MAP_EVER_GRANDE_CITY_HALL4:0/MAP_EVER_GRANDE_CITY_DRAKES_ROOM:1": "HOENN POKeMON LEAGUE Hall to CHAMPION South Exit"
+    }
+  },
+  "REGION_EVER_GRANDE_CITY_HALL_OF_FAME/MAIN": {
+    "parent_map": "MAP_EVER_GRANDE_CITY_HALL_OF_FAME",
+    "name": "HOENN HALL OF FAME",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_EVER_GRANDE_CITY_HALL_OF_FAME:0/MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM:1": "HOENN HALL OF FAME Exit"
+    }
+  }
+}

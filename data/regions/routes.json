@@ -1,0 +1,3508 @@
+{
+  "REGION_ROUTE101/MAIN": {
+    "parent_map": "MAP_ROUTE101",
+    "name": "ROUTE 101",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LITTLEROOT_TOWN/MAIN": "ROUTE 101 South Exit",
+      "REGION_OLDALE_TOWN/MAIN": "ROUTE 101 North Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE102/MAIN": {
+    "parent_map": "MAP_ROUTE102",
+    "name": "ROUTE 102",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_102_POTION",
+      "BERRY_TREE_01",
+      "BERRY_TREE_02",
+      "TRAINER_CALVIN_1_REWARD",
+      "TRAINER_RICK_REWARD",
+      "TRAINER_ALLEN_REWARD",
+      "TRAINER_TIANA_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_OLDALE_TOWN/MAIN": "ROUTE 102 East Exit",
+      "REGION_PETALBURG_CITY/MAIN": "ROUTE 102 West Exit",
+      "REGION_ROUTE102/POND": "ROUTE 102 Surfing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE102/POND": {
+    "parent_map": "MAP_ROUTE102",
+    "name": "ROUTE 102 Pond",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE103/WEST": {
+    "parent_map": "MAP_ROUTE103",
+    "name": "ROUTE 103 West",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_BRENDAN_ROUTE_103_MUDKIP_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE103/WATER": "ROUTE 103 West Surfing Spot",
+      "REGION_OLDALE_TOWN/MAIN": "ROUTE 103 West Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE103/WATER": {
+    "parent_map": "MAP_ROUTE103",
+    "name": "ROUTE 103 Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_ISABELLE_REWARD",
+      "TRAINER_PETE_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE103/WEST": "ROUTE 103 West Landing Spot",
+      "REGION_ROUTE103/EAST": "ROUTE 103 East Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE103/EAST": {
+    "parent_map": "MAP_ROUTE103",
+    "name": "ROUTE 103 East",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_ANDREW_REWARD",
+      "TRAINER_MIGUEL_1_REWARD",
+      "TRAINER_AMY_AND_LIV_1_REWARD",
+      "TRAINER_DAISY_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE103/WATER": "ROUTE 103 East Surfing Spot",
+      "REGION_ROUTE103/EAST_TREE_MAZE": "ROUTE 103 East CUT Tree",
+      "REGION_ROUTE110/MAIN": "ROUTE 103 East Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE103/EAST_TREE_MAZE": {
+    "parent_map": "MAP_ROUTE103",
+    "name": "ROUTE 103 East Tree Maze",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_103_GUARD_SPEC",
+      "ITEM_ROUTE_103_PP_UP",
+      "BERRY_TREE_05",
+      "BERRY_TREE_06",
+      "BERRY_TREE_07",
+      "TRAINER_MARCOS_REWARD",
+      "TRAINER_RHETT_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE103/EAST": "ROUTE 103 Exit Tree Maze"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE104/SOUTH": {
+    "parent_map": "MAP_ROUTE104",
+    "name": "ROUTE 104 South",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "HIDDEN_ITEM_ROUTE_104_POTION",
+      "HIDDEN_ITEM_ROUTE_104_HEART_SCALE",
+      "HIDDEN_ITEM_ROUTE_104_ANTIDOTE",
+      "BERRY_TREE_11",
+      "BERRY_TREE_12",
+      "BERRY_TREE_13",
+      "TRAINER_BILLY_REWARD",
+      "TRAINER_DARIAN_REWARD",
+      "TRAINER_CINDY_1_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_PETALBURG_CITY/MAIN": "ROUTE 104 Southeast Exit",
+      "REGION_ROUTE104/SOUTH_WATER": "ROUTE 104 South Surfing Spot"
+    },
+    "warps": {
+      "MAP_ROUTE104:0/MAP_ROUTE104_MR_BRINEYS_HOUSE:0": "MR. BRINEY's Cottage",
+      "MAP_ROUTE104:4,5/MAP_PETALBURG_WOODS:2,3": "ROUTE 104 South Exit to PETALBURG WOODS"
+    }
+  },
+  "REGION_ROUTE104/SOUTH_WATER": {
+    "parent_map": "MAP_ROUTE104",
+    "name": "ROUTE 104 South Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE104/SOUTH": "ROUTE 104 South Landing Spot",
+      "REGION_ROUTE105/MAIN": "ROUTE 104 South Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE104/SOUTH_LEDGE": {
+    "parent_map": "MAP_ROUTE104",
+    "name": "ROUTE 104 South Ledge",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_104_POKE_BALL"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE104/SOUTH": "ROUTE 104 South Ledge"
+    },
+    "warps": {
+      "MAP_ROUTE104:6,7/MAP_PETALBURG_WOODS:4,5": "ROUTE 104 Southeast Exit to PETALBURG WOODS"
+    }
+  },
+  "REGION_ROUTE104/NORTH": {
+    "parent_map": "MAP_ROUTE104",
+    "name": "ROUTE 104 North",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_104_POTION",
+      "HIDDEN_ITEM_ROUTE_104_SUPER_POTION",
+      "HIDDEN_ITEM_ROUTE_104_POKE_BALL",
+      "NPC_GIFT_RECEIVED_TM_BULLET_SEED",
+      "NPC_GIFT_RECEIVED_WHITE_HERB",
+      "NPC_GIFT_RECEIVED_CHESTO_BERRY_ROUTE_104",
+      "BERRY_TREE_03",
+      "BERRY_TREE_04",
+      "BERRY_TREE_08",
+      "BERRY_TREE_09",
+      "BERRY_TREE_10",
+      "BERRY_TREE_75",
+      "BERRY_TREE_76",
+      "TRAINER_WINSTON_1_REWARD",
+      "TRAINER_HALEY_1_REWARD",
+      "TRAINER_IVAN_REWARD",
+      "TRAINER_GINA_AND_MIA_1_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_RUSTBORO_CITY/MAIN": "ROUTE 104 North Exit",
+      "REGION_ROUTE104/NORTH_POND": "ROUTE 104 North Surfing Spot",
+      "REGION_ROUTE104/TREE_ALCOVE_2": "ROUTE 104 North Past CUT Tree"
+    },
+    "warps": {
+      "MAP_ROUTE104:1/MAP_ROUTE104_PRETTY_PETAL_FLOWER_SHOP:0": "PRETTY PETAL FLOWER SHOP",
+      "MAP_ROUTE104:2,3/MAP_PETALBURG_WOODS:0,1": "ROUTE 104 North Exit to PETALBURG WOODS"
+    }
+  },
+  "REGION_ROUTE104/NORTH_POND": {
+    "parent_map": "MAP_ROUTE104",
+    "name": "ROUTE 104 North Pond",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE104/NORTH": "ROUTE 104 North Landing Spot",
+      "REGION_ROUTE104/TREE_ALCOVE_1": "ROUTE 104 North Landing Spot East of TWINS",
+      "REGION_ROUTE104/TREE_ALCOVE_2": "ROUTE 104 North Landing Spot Past CUT Tree"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE104/TREE_ALCOVE_1": {
+    "parent_map": "MAP_ROUTE104",
+    "name": "ROUTE 104 Surf Alcove",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_104_PP_UP"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE104/TREE_ALCOVE_2": {
+    "parent_map": "MAP_ROUTE104",
+    "name": "ROUTE 104 Tree Alcove",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_104_X_ACCURACY"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE104_MR_BRINEYS_HOUSE/MAIN": {
+    "parent_map": "MAP_ROUTE104_MR_BRINEYS_HOUSE",
+    "name": "MR. BRINEY's Cottage",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_DEWFORD_TOWN/MAIN": "MR. BRINEY Sails to DEWFORD from Cottage"
+    },
+    "warps": {
+      "MAP_ROUTE104_MR_BRINEYS_HOUSE:0,1/MAP_ROUTE104:0": "MR. BRINEY's Cottage Exit"
+    }
+  },
+  "REGION_ROUTE104_PRETTY_PETAL_FLOWER_SHOP/MAIN": {
+    "parent_map": "MAP_ROUTE104_PRETTY_PETAL_FLOWER_SHOP",
+    "name": "PRETTY PETAL FLOWER SHOP",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_WAILMER_PAIL",
+      "NPC_GIFT_FLOWER_SHOP_RECEIVED_BERRY"
+    ],
+    "events": [
+      "EVENT_MEET_FLOWER_SHOP_OWNER"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE104_PRETTY_PETAL_FLOWER_SHOP:0,1/MAP_ROUTE104:1": "PRETTY PETAL FLOWER SHOP Exit"
+    }
+  },
+  "REGION_ROUTE105/MAIN": {
+    "parent_map": "MAP_ROUTE105",
+    "name": "ROUTE 105",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_105_IRON",
+      "HIDDEN_ITEM_ROUTE_105_HEART_SCALE",
+      "HIDDEN_ITEM_ROUTE_105_BIG_PEARL",
+      "TRAINER_IMANI_REWARD",
+      "TRAINER_DOMINIK_REWARD",
+      "TRAINER_LUIS_REWARD",
+      "TRAINER_FOSTER_REWARD",
+      "TRAINER_JOSUE_REWARD",
+      "TRAINER_ANDRES_1_REWARD",
+      "TRAINER_BEVERLY_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE104/SOUTH": "ROUTE 105 North Exit",
+      "REGION_ROUTE106/SEA": "ROUTE 105 South Exit",
+      "REGION_UNDERWATER_ROUTE105/MARINE_CAVE_ENTRANCE_1": "ROUTE 105 North Dive Spot",
+      "REGION_UNDERWATER_ROUTE105/MARINE_CAVE_ENTRANCE_2": "ROUTE 105 South Dive Spot"
+    },
+    "warps": {
+      "MAP_ROUTE105:0/MAP_ISLAND_CAVE:0": "ROUTE 105 Island Cave"
+    }
+  },
+  "REGION_UNDERWATER_ROUTE105/MARINE_CAVE_ENTRANCE_1": {
+    "parent_map": "MAP_UNDERWATER_ROUTE105",
+    "name": "Underwater, ROUTE 105 MARINE CAVE Entrance North",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE105/MAIN": "Underwater, ROUTE 105 MARINE CAVE Entrance North Surface Spot",
+      "REGION_UNDERWATER_MARINE_CAVE/MAIN": "Underwater, ROUTE 105 MARINE CAVE Entrance North Cave Exit"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE105/MARINE_CAVE_ENTRANCE_2": {
+    "parent_map": "MAP_UNDERWATER_ROUTE105",
+    "name": "Underwater, ROUTE 105 MARINE CAVE Entrance South",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE105/MAIN": "Underwater, ROUTE 105 MARINE CAVE Entrance South Surface Spot",
+      "REGION_UNDERWATER_MARINE_CAVE/MAIN": "Underwater, ROUTE 105 MARINE CAVE Entrance South Cave Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE106/WEST": {
+    "parent_map": "MAP_ROUTE106",
+    "name": "ROUTE 106 Alcove",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_106_PROTEIN"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE106/SEA": "ROUTE 106 Alcove Surfing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE106/SEA": {
+    "parent_map": "MAP_ROUTE106",
+    "name": "ROUTE 106 Sea",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_DOUGLAS_REWARD",
+      "TRAINER_KYLA_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE105/MAIN": "ROUTE 106 North Exit",
+      "REGION_ROUTE106/EAST": "ROUTE 106 East Landing Spot",
+      "REGION_ROUTE106/WEST": "ROUTE 106 Alcove Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE106/EAST": {
+    "parent_map": "MAP_ROUTE106",
+    "name": "ROUTE 106",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "HIDDEN_ITEM_ROUTE_106_POKE_BALL",
+      "HIDDEN_ITEM_ROUTE_106_STARDUST",
+      "HIDDEN_ITEM_ROUTE_106_HEART_SCALE",
+      "TRAINER_ELLIOT_1_REWARD",
+      "TRAINER_NED_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE106/SEA": "ROUTE 106 East Surfing Spot",
+      "REGION_DEWFORD_TOWN/MAIN": "ROUTE 106 South Exit"
+    },
+    "warps": {
+      "MAP_ROUTE106:0/MAP_GRANITE_CAVE_1F:0": "ROUTE 106 Cave"
+    }
+  },
+  "REGION_ROUTE107/MAIN": {
+    "parent_map": "MAP_ROUTE107",
+    "name": "ROUTE 107",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_DENISE_REWARD",
+      "TRAINER_TONY_1_REWARD",
+      "TRAINER_DARRIN_REWARD",
+      "TRAINER_CAMRON_REWARD",
+      "TRAINER_BETH_REWARD",
+      "TRAINER_LISA_AND_RAY_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_DEWFORD_TOWN/MAIN": "ROUTE 107 West Exit",
+      "REGION_ROUTE108/MAIN": "ROUTE 107 East Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE108/MAIN": {
+    "parent_map": "MAP_ROUTE108",
+    "name": "ROUTE 108",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_108_STAR_PIECE",
+      "HIDDEN_ITEM_ROUTE_108_RARE_CANDY",
+      "TRAINER_MISSY_REWARD",
+      "TRAINER_MATTHEW_REWARD",
+      "TRAINER_TARA_REWARD",
+      "TRAINER_CAROLINA_REWARD",
+      "TRAINER_CORY_1_REWARD",
+      "TRAINER_JEROME_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE107/MAIN": "ROUTE 108 West Exit",
+      "REGION_ROUTE109/SEA": "ROUTE 108 East Exit"
+    },
+    "warps": {
+      "MAP_ROUTE108:0/MAP_ABANDONED_SHIP_DECK:0": "ROUTE 108 ABANDONED SHIP"
+    }
+  },
+  "REGION_ROUTE109/SEA": {
+    "parent_map": "MAP_ROUTE109",
+    "name": "ROUTE 109 Sea",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_109_PP_UP",
+      "HIDDEN_ITEM_ROUTE_109_HEART_SCALE_3",
+      "TRAINER_AUSTINA_REWARD",
+      "TRAINER_GWEN_REWARD",
+      "TRAINER_ELIJAH_REWARD",
+      "TRAINER_CARTER_REWARD",
+      "TRAINER_ALICE_REWARD",
+      "TRAINER_DAVID_REWARD",
+      "TRAINER_MEL_AND_PAUL_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE109/BEACH": "ROUTE 109 Landing Spot",
+      "REGION_ROUTE108/MAIN": "ROUTE 109 Southwest Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE109/BEACH": {
+    "parent_map": "MAP_ROUTE109",
+    "name": "ROUTE 109 Beach",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_109_POTION",
+      "HIDDEN_ITEM_ROUTE_109_REVIVE",
+      "HIDDEN_ITEM_ROUTE_109_HEART_SCALE_1",
+      "HIDDEN_ITEM_ROUTE_109_GREAT_BALL",
+      "HIDDEN_ITEM_ROUTE_109_ETHER",
+      "HIDDEN_ITEM_ROUTE_109_HEART_SCALE_2",
+      "NPC_GIFT_RECEIVED_SOFT_SAND",
+      "TRAINER_HUEY_REWARD",
+      "TRAINER_HAILEY_REWARD",
+      "TRAINER_EDMOND_REWARD",
+      "TRAINER_RICKY_1_REWARD",
+      "TRAINER_LOLA_1_REWARD",
+      "TRAINER_CHANDLER_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE109/SEA": "ROUTE 109 Surfing Spot",
+      "REGION_SLATEPORT_CITY/MAIN": "ROUTE 109 North Exit",
+      "REGION_DEWFORD_TOWN/MAIN": "MR. BRINEY Sails to DEWFORD from SLATEPORT"
+    },
+    "warps": {
+      "MAP_ROUTE109:0/MAP_ROUTE109_SEASHORE_HOUSE:0": "ROUTE 109 House"
+    }
+  },
+  "REGION_ROUTE109_SEASHORE_HOUSE/MAIN": {
+    "parent_map": "MAP_ROUTE109_SEASHORE_HOUSE",
+    "name": "SEASHORE HOUSE",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_6_SODA_POP",
+      "TRAINER_DWAYNE_REWARD",
+      "TRAINER_JOHANNA_REWARD",
+      "TRAINER_SIMON_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE109_SEASHORE_HOUSE:0,1/MAP_ROUTE109:0": "SEASHORE HOUSE Exit"
+    }
+  },
+  "REGION_ROUTE110/MAIN": {
+    "parent_map": "MAP_ROUTE110",
+    "name": "ROUTE 110",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_110_DIRE_HIT",
+      "ITEM_ROUTE_110_ELIXIR",
+      "HIDDEN_ITEM_ROUTE_110_REVIVE",
+      "HIDDEN_ITEM_ROUTE_110_GREAT_BALL",
+      "HIDDEN_ITEM_ROUTE_110_POKE_BALL",
+      "HIDDEN_ITEM_ROUTE_110_FULL_HEAL",
+      "NPC_GIFT_RECEIVED_ITEMFINDER",
+      "BERRY_TREE_16",
+      "BERRY_TREE_17",
+      "BERRY_TREE_18",
+      "TRAINER_KALEB_REWARD",
+      "TRAINER_ISABEL_1_REWARD",
+      "TRAINER_TIMMY_REWARD",
+      "TRAINER_JOSEPH_REWARD",
+      "TRAINER_EDWIN_1_REWARD",
+      "TRAINER_ALYSSA_REWARD",
+      "TRAINER_EDWARD_REWARD",
+      "TRAINER_DALE_REWARD",
+      "TRAINER_BRENDAN_ROUTE_110_MUDKIP_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110/SOUTH": "ROUTE 110 Main -> South",
+      "REGION_ROUTE110/SOUTH_WATER": "ROUTE 110 South Surfing Spot",
+      "REGION_ROUTE110/NORTH_WATER": "ROUTE 110 North Surfing Spot",
+      "REGION_MAUVILLE_CITY/MAIN": "ROUTE 110 North Exit",
+      "REGION_ROUTE103/EAST": "ROUTE 110 Southwest Exit"
+    },
+    "warps": {
+      "MAP_ROUTE110:1/MAP_ROUTE110_TRICK_HOUSE_ENTRANCE:0": "ROUTE 110 TRICK HOUSE",
+      "MAP_ROUTE110:2/MAP_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE:0": "ROUTE 110 North CYCLING ROAD Reception"
+    }
+  },
+  "REGION_ROUTE110/SOUTH": {
+    "parent_map": "MAP_ROUTE110",
+    "name": "ROUTE 110 South",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110/MAIN": "ROUTE 110 South -> Main",
+      "REGION_SLATEPORT_CITY/MAIN": "ROUTE 110 South Exit"
+    },
+    "warps": {
+      "MAP_ROUTE110:4/MAP_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE:0": "ROUTE 110 South CYCLING ROAD Reception"
+    }
+  },
+  "REGION_ROUTE110/CYCLING_ROAD": {
+    "parent_map": "MAP_ROUTE110",
+    "name": "HOENN CYCLING ROAD",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_JACOB_REWARD",
+      "TRAINER_JASMINE_REWARD",
+      "TRAINER_BENJAMIN_1_REWARD",
+      "TRAINER_ANTHONY_REWARD",
+      "TRAINER_ABIGAIL_1_REWARD",
+      "TRAINER_JACLYN_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE110:3/MAP_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE:2": "HOENN CYCLING ROAD North Exit",
+      "MAP_ROUTE110:5/MAP_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE:2": "HOENN CYCLING ROAD South Exit"
+    }
+  },
+  "REGION_ROUTE110/SOUTH_WATER": {
+    "parent_map": "MAP_ROUTE110",
+    "name": "ROUTE 110 South Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_110_RARE_CANDY"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110/MAIN": "ROUTE 110 South Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE110/NORTH_WATER": {
+    "parent_map": "MAP_ROUTE110",
+    "name": "ROUTE 110 North Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110/MAIN": "ROUTE 110 North Landing Spot"
+    },
+    "warps": {
+      "MAP_ROUTE110:0/MAP_NEW_MAUVILLE_ENTRANCE:0": "ROUTE 110 Cave"
+    }
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_ENTRANCE/MAIN": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE",
+    "name": "TRICK HOUSE Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE2/ENTRANCE": "TRICK HOUSE Begin Puzzle 2",
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE3/ENTRANCE": "TRICK HOUSE Begin Puzzle 3",
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE4/ENTRANCE": "TRICK HOUSE Begin Puzzle 4",
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE5/ENTRANCE": "TRICK HOUSE Begin Puzzle 5",
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE6/ENTRANCE": "TRICK HOUSE Begin Puzzle 6",
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE7/ENTRANCE": "TRICK HOUSE Begin Puzzle 7",
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE8/ENTRANCE": "TRICK HOUSE Begin Puzzle 8"
+    },
+    "warps": {
+      "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE:0,1/MAP_ROUTE110:1": "TRICK HOUSE Entrance South Exit",
+      "MAP_ROUTE110_TRICK_HOUSE_ENTRANCE:2/MAP_ROUTE110_TRICK_HOUSE_PUZZLE1:0": "TRICK HOUSE Begin Puzzle 1"
+    }
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE1/ENTRANCE": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE1",
+    "name": "TRICK HOUSE Puzzle 1 Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE1/REWARDS": "TRICK HOUSE Complete Puzzle 1"
+    },
+    "warps": {
+      "MAP_ROUTE110_TRICK_HOUSE_PUZZLE1:0,1/MAP_ROUTE110_TRICK_HOUSE_ENTRANCE:2": "TRICK HOUSE Puzzle 1 South Exit"
+    }
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE1/REWARDS": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE1",
+    "name": "TRICK HOUSE Puzzle 1 Rewards",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_1",
+      "ITEM_TRICK_HOUSE_PUZZLE_1_ORANGE_MAIL"
+    ],
+    "events": [
+      "EVENT_COMPLETE_TRICK_HOUSE_1"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE110_TRICK_HOUSE_PUZZLE1:2/MAP_ROUTE110_TRICK_HOUSE_END:0": "TRICK HOUSE Puzzle Exit"
+    }
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE2/ENTRANCE": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE2",
+    "name": "TRICK HOUSE Puzzle 2 Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE2/REWARDS": "TRICK HOUSE Complete Puzzle 2"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE2/REWARDS": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE2",
+    "name": "TRICK HOUSE Puzzle 2 Rewards",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_2",
+      "ITEM_TRICK_HOUSE_PUZZLE_2_HARBOR_MAIL",
+      "ITEM_TRICK_HOUSE_PUZZLE_2_WAVE_MAIL"
+    ],
+    "events": [
+      "EVENT_COMPLETE_TRICK_HOUSE_2"
+    ],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE3/ENTRANCE": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE3",
+    "name": "TRICK HOUSE Puzzle 3 Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE3/REWARDS": "TRICK HOUSE Complete Puzzle 3"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE3/REWARDS": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE3",
+    "name": "TRICK HOUSE Puzzle 3 Rewards",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_3",
+      "ITEM_TRICK_HOUSE_PUZZLE_3_SHADOW_MAIL",
+      "ITEM_TRICK_HOUSE_PUZZLE_3_WOOD_MAIL"
+    ],
+    "events": [
+      "EVENT_COMPLETE_TRICK_HOUSE_3"
+    ],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE4/ENTRANCE": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE4",
+    "name": "TRICK HOUSE Puzzle 4 Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE4/REWARDS": "TRICK HOUSE Complete Puzzle 4"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE4/REWARDS": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE4",
+    "name": "TRICK HOUSE Puzzle 4 Rewards",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_4",
+      "ITEM_TRICK_HOUSE_PUZZLE_4_MECH_MAIL"
+    ],
+    "events": [
+      "EVENT_COMPLETE_TRICK_HOUSE_4"
+    ],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE5/ENTRANCE": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE5",
+    "name": "TRICK HOUSE Puzzle 5 Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE5/REWARDS": "TRICK HOUSE Complete Puzzle 5"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE5/REWARDS": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE5",
+    "name": "TRICK HOUSE Puzzle 5 Rewards",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_5"
+    ],
+    "events": [
+      "EVENT_COMPLETE_TRICK_HOUSE_5"
+    ],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE6/ENTRANCE": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE6",
+    "name": "TRICK HOUSE Puzzle 6 Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE6/REWARDS": "TRICK HOUSE Complete Puzzle 6"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE6/REWARDS": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE6",
+    "name": "TRICK HOUSE Puzzle 6 Rewards",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_6",
+      "ITEM_TRICK_HOUSE_PUZZLE_6_GLITTER_MAIL"
+    ],
+    "events": [
+      "EVENT_COMPLETE_TRICK_HOUSE_6"
+    ],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE7/ENTRANCE": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+    "name": "TRICK HOUSE Puzzle 7 Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE7/REWARDS": "TRICK HOUSE Complete Puzzle 7"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE7/REWARDS": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE7",
+    "name": "TRICK HOUSE Puzzle 7 Rewards",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_7",
+      "ITEM_TRICK_HOUSE_PUZZLE_7_TROPIC_MAIL"
+    ],
+    "events": [
+      "EVENT_COMPLETE_TRICK_HOUSE_7"
+    ],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE8/ENTRANCE": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE8",
+    "name": "TRICK HOUSE Puzzle 8 Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_TRICK_HOUSE_PUZZLE8/REWARDS": "TRICK HOUSE Complete Puzzle 8"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_PUZZLE8/REWARDS": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_PUZZLE8",
+    "name": "TRICK HOUSE Puzzle 8 Rewards",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_TRICK_HOUSE_PUZZLE_8_BEAD_MAIL"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_END/MAIN": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_END",
+    "name": "TRICK HOUSE End",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE110_TRICK_HOUSE_END:1/MAP_ROUTE110_TRICK_HOUSE_CORRIDOR:0": "TRICK HOUSE End Left Exit",
+      "MAP_ROUTE110_TRICK_HOUSE_END:0/MAP_ROUTE110_TRICK_HOUSE_PUZZLE1:2": "TRICK HOUSE End Right Exit"
+    }
+  },
+  "REGION_ROUTE110_TRICK_HOUSE_CORRIDOR/MAIN": {
+    "parent_map": "MAP_ROUTE110_TRICK_HOUSE_CORRIDOR",
+    "name": "TRICK HOUSE Corridor",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE110_TRICK_HOUSE_CORRIDOR:2,3/MAP_ROUTE110_TRICK_HOUSE_ENTRANCE:2!": "TRICK HOUSE Corridor South Exit",
+      "MAP_ROUTE110_TRICK_HOUSE_CORRIDOR:0,1/MAP_ROUTE110_TRICK_HOUSE_END:1": "TRICK HOUSE Corridor North Exit"
+    }
+  },
+  "REGION_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE/WEST": {
+    "parent_map": "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE",
+    "name": "HOENN CYCLING ROAD South Entrance West",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE/EAST": "HOENN CYCLING ROAD South Entrance West -> East"
+    },
+    "warps": {
+      "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE:0,1/MAP_ROUTE110:4": "HOENN CYCLING ROAD South Entrance West Exit"
+    }
+  },
+  "REGION_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE/EAST": {
+    "parent_map": "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE",
+    "name": "HOENN CYCLING ROAD South Entrance East",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE/WEST": "HOENN CYCLING ROAD South Entrance East -> West"
+    },
+    "warps": {
+      "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_SOUTH_ENTRANCE:2,3/MAP_ROUTE110:5": "HOENN CYCLING ROAD South Entrance East Exit"
+    }
+  },
+  "REGION_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE/WEST": {
+    "parent_map": "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE",
+    "name": "HOENN CYCLING ROAD North Entrance West",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE/EAST": "HOENN CYCLING ROAD North Entrance West -> East"
+    },
+    "warps": {
+      "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE:0,1/MAP_ROUTE110:2": "HOENN CYCLING ROAD North Entrance West Exit"
+    }
+  },
+  "REGION_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE/EAST": {
+    "parent_map": "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE",
+    "name": "HOENN CYCLING ROAD North Entrance East",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE/WEST": "HOENN CYCLING ROAD North Entrance East -> West"
+    },
+    "warps": {
+      "MAP_ROUTE110_SEASIDE_CYCLING_ROAD_NORTH_ENTRANCE:2,3/MAP_ROUTE110:3": "HOENN CYCLING ROAD North Entrance East Exit"
+    }
+  },
+  "REGION_ROUTE111/MIDDLE": {
+    "parent_map": "MAP_ROUTE111",
+    "name": "ROUTE 111 Middle",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_IRENE_REWARD",
+      "TRAINER_TRAVIS_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE111/DESERT": "ROUTE 111 Middle -> Desert",
+      "REGION_ROUTE111/SOUTH": "ROUTE 111 Middle Past Rocks",
+      "REGION_ROUTE112/SOUTH_EAST": "ROUTE 111 Southwest Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE111/SOUTH": {
+    "parent_map": "MAP_ROUTE111",
+    "name": "ROUTE 111 South",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_111_ELIXIR",
+      "TRAINER_CELINA_REWARD",
+      "TRAINER_TYRON_REWARD",
+      "TRAINER_BIANCA_REWARD",
+      "TRAINER_HAYDEN_REWARD",
+      "TRAINER_VICTOR_REWARD",
+      "TRAINER_VICKY_REWARD",
+      "TRAINER_VICTORIA_REWARD",
+      "TRAINER_VIVI_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE111/SOUTH_POND": "ROUTE 111 South Surfing Spot",
+      "REGION_ROUTE111/MIDDLE": "ROUTE 111 South Past Rocks",
+      "REGION_MAUVILLE_CITY/MAIN": "ROUTE 111 South Exit"
+    },
+    "warps": {
+      "MAP_ROUTE111:0/MAP_ROUTE111_WINSTRATE_FAMILYS_HOUSE:0": "WINSTRATE FAMILY's House",
+      "MAP_ROUTE111:4/MAP_TRAINER_HILL_ENTRANCE:0": "TRAINER HILL"
+    }
+  },
+  "REGION_ROUTE111/SOUTH_POND": {
+    "parent_map": "MAP_ROUTE111",
+    "name": "ROUTE 111 South Pond",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_111_HP_UP"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE111/SOUTH": "ROUTE 111 South Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE111/DESERT": {
+    "parent_map": "MAP_ROUTE111",
+    "name": "ROUTE 111 Desert",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_111_TM_SANDSTORM",
+      "ITEM_ROUTE_111_STARDUST",
+      "HIDDEN_ITEM_ROUTE_111_STARDUST",
+      "HIDDEN_ITEM_ROUTE_111_PROTEIN",
+      "HIDDEN_ITEM_ROUTE_111_RARE_CANDY",
+      "TRAINER_CELIA_REWARD",
+      "TRAINER_BRYAN_REWARD",
+      "TRAINER_BRANDEN_REWARD",
+      "TRAINER_DUSTY_1_REWARD",
+      "TRAINER_BECKY_REWARD",
+      "TRAINER_HEIDI_REWARD",
+      "TRAINER_BEAU_REWARD",
+      "TRAINER_DREW_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE111/NORTH": "ROUTE 111 Desert North Exit",
+      "REGION_ROUTE111/MIDDLE": "ROUTE 111 Desert South Exit"
+    },
+    "warps": {
+      "MAP_ROUTE111:1/MAP_DESERT_RUINS:0": "ROUTE 111 Desert Cave",
+      "MAP_ROUTE111:3/MAP_MIRAGE_TOWER_1F:0": "MIRAGE TOWER"
+    }
+  },
+  "REGION_ROUTE111/NORTH": {
+    "parent_map": "MAP_ROUTE111",
+    "name": "ROUTE 111 North",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_SECRET_POWER",
+      "NPC_GIFT_ROUTE_111_RECEIVED_BERRY",
+      "BERRY_TREE_19",
+      "BERRY_TREE_20",
+      "BERRY_TREE_80",
+      "BERRY_TREE_81",
+      "TRAINER_WILTON_1_REWARD",
+      "TRAINER_BROOKE_1_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE113/MAIN": "Route 111 Northwest Exit",
+      "REGION_ROUTE112/NORTH": "Route 111 West Exit",
+      "REGION_ROUTE111/ABOVE_SLOPE": "ROUTE 111 Up Slope",
+      "REGION_ROUTE111/DESERT": "ROUTE 111 North -> Desert"
+    },
+    "warps": {
+      "MAP_ROUTE111:2/MAP_ROUTE111_OLD_LADYS_REST_STOP:0": "OLD LADY'S REST STOP"
+    }
+  },
+  "REGION_ROUTE111/ABOVE_SLOPE": {
+    "parent_map": "MAP_ROUTE111",
+    "name": "ROUTE 111 Above Slope",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_DAISUKE_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE111/NORTH": "ROUTE 111 Down Slope"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE111_OLD_LADYS_REST_STOP/MAIN": {
+    "parent_map": "MAP_ROUTE111_OLD_LADYS_REST_STOP",
+    "name": "OLD LADY'S REST STOP",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE111_OLD_LADYS_REST_STOP:0,1/MAP_ROUTE111:2": "OLD LADY'S REST STOP Exit"
+    }
+  },
+  "REGION_ROUTE111_WINSTRATE_FAMILYS_HOUSE/MAIN": {
+    "parent_map": "MAP_ROUTE111_WINSTRATE_FAMILYS_HOUSE",
+    "name": "WINSTRATE FAMILY's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_MACHO_BRACE"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE111_WINSTRATE_FAMILYS_HOUSE:0,1/MAP_ROUTE111:0": "WINSTRATE FAMILY's House Exit"
+    }
+  },
+  "REGION_ROUTE112/SOUTH_EAST": {
+    "parent_map": "MAP_ROUTE112",
+    "name": "ROUTE 112 Southeast",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_LARRY_REWARD",
+      "TRAINER_CAROL_REWARD",
+      "TRAINER_TRENT_1_REWARD",
+      "TRAINER_BRICE_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE112/CABLE_CAR_STATION_ENTRANCE": "ROUTE 112 SE Past Fence",
+      "REGION_ROUTE111/MIDDLE": "ROUTE 112 Southeast Exit"
+    },
+    "warps": {
+      "MAP_ROUTE112:4/MAP_FIERY_PATH:0": "ROUTE 112 South Cave Exit"
+    }
+  },
+  "REGION_ROUTE112/CABLE_CAR_STATION_ENTRANCE": {
+    "parent_map": "MAP_ROUTE112",
+    "name": "ROUTE 112 CABLE CAR Station Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE112/SOUTH_EAST": "ROUTE 112 CABLE CAR Station Entrance Past Fence"
+    },
+    "warps": {
+      "MAP_ROUTE112:0,1/MAP_ROUTE112_CABLE_CAR_STATION:0,1": "ROUTE 112 CABLE CAR Station"
+    }
+  },
+  "REGION_ROUTE112/SOUTH_WEST": {
+    "parent_map": "MAP_ROUTE112",
+    "name": "ROUTE 112 Southwest",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_112_NUGGET"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE112/SOUTH_EAST": "ROUTE 112 SW Past Ledges",
+      "REGION_LAVARIDGE_TOWN/MAIN": "ROUTE 112 Southwest Exit"
+    },
+    "warps": {
+      "MAP_ROUTE112:2,3/MAP_JAGGED_PASS:0,1": "ROUTE 112 Forest Exit"
+    }
+  },
+  "REGION_ROUTE112/NORTH": {
+    "parent_map": "MAP_ROUTE112",
+    "name": "ROUTE 112 North",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "BERRY_TREE_21",
+      "BERRY_TREE_22",
+      "BERRY_TREE_23",
+      "BERRY_TREE_24",
+      "TRAINER_SHAYLA_REWARD",
+      "TRAINER_BRYANT_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE111/NORTH": "ROUTE 112 Northeast Exit"
+    },
+    "warps": {
+      "MAP_ROUTE112:5/MAP_FIERY_PATH:1": "ROUTE 112 North Cave Exit"
+    }
+  },
+  "REGION_ROUTE112_CABLE_CAR_STATION/MAIN": {
+    "parent_map": "MAP_ROUTE112_CABLE_CAR_STATION",
+    "name": "ROUTE 112 CABLE CAR Station",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_MT_CHIMNEY_CABLE_CAR_STATION/MAIN": "Take CABLE CAR From ROUTE 112"
+    },
+    "warps": {
+      "MAP_ROUTE112_CABLE_CAR_STATION:0,1/MAP_ROUTE112:0,1": "ROUTE 112 CABLE CAR Station Exit"
+    }
+  },
+  "REGION_MT_CHIMNEY_CABLE_CAR_STATION/MAIN": {
+    "parent_map": "MAP_MT_CHIMNEY_CABLE_CAR_STATION",
+    "name": "MT. CHIMNEY CABLE CAR Station",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE112_CABLE_CAR_STATION/MAIN": "Take CABLE CAR From MT. CHIMNEY"
+    },
+    "warps": {
+      "MAP_MT_CHIMNEY_CABLE_CAR_STATION:0,1/MAP_MT_CHIMNEY:0,1": "MT. CHIMNEY CABLE CAR Station"
+    }
+  },
+  "REGION_MT_CHIMNEY/MAIN": {
+    "parent_map": "MAP_MT_CHIMNEY",
+    "name": "MT. CHIMNEY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_METEORITE",
+      "TRAINER_SHIRLEY_REWARD",
+      "TRAINER_SHEILA_REWARD",
+      "TRAINER_SHELBY_1_REWARD",
+      "TRAINER_SAWYER_1_REWARD",
+      "TRAINER_MELISSA_REWARD",
+      "TRAINER_GRUNT_MT_CHIMNEY_1_REWARD",
+      "TRAINER_GRUNT_MT_CHIMNEY_2_REWARD",
+      "TRAINER_TABITHA_MT_CHIMNEY_REWARD",
+      "TRAINER_MAXIE_MT_CHIMNEY_REWARD"
+    ],
+    "events": [
+      "EVENT_RECOVER_METEORITE"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_MT_CHIMNEY:0,1/MAP_MT_CHIMNEY_CABLE_CAR_STATION:0,1": "MT. CHIMNEY Building",
+      "MAP_MT_CHIMNEY:2,3/MAP_JAGGED_PASS:2,3": "MT. CHIMNEY South Exit"
+    }
+  },
+  "REGION_JAGGED_PASS/TOP": {
+    "parent_map": "MAP_JAGGED_PASS",
+    "name": "JAGGED PASS Top",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_JAGGED_PASS_FULL_HEAL",
+      "TRAINER_ERIC_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_JAGGED_PASS/MIDDLE": "JAGGED PASS Top -> Middle"
+    },
+    "warps": {
+      "MAP_JAGGED_PASS:2,3/MAP_MT_CHIMNEY:2,3": "JAGGED PASS North Exit"
+    }
+  },
+  "REGION_JAGGED_PASS/MIDDLE": {
+    "parent_map": "MAP_JAGGED_PASS",
+    "name": "JAGGED PASS Middle",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_JAGGED_PASS_BURN_HEAL",
+      "HIDDEN_ITEM_JAGGED_PASS_GREAT_BALL",
+      "TRAINER_DIANA_1_REWARD",
+      "TRAINER_AUTUMN_REWARD",
+      "TRAINER_JULIO_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_JAGGED_PASS/TOP": "JAGGED PASS Middle -> Top",
+      "REGION_JAGGED_PASS/BOTTOM": "JAGGED PASS Middle -> Bottom"
+    },
+    "warps": {
+      "MAP_JAGGED_PASS:4/MAP_MAGMA_HIDEOUT_1F:0": "JAGGED PASS Cave"
+    }
+  },
+  "REGION_JAGGED_PASS/BOTTOM": {
+    "parent_map": "MAP_JAGGED_PASS",
+    "name": "JAGGED PASS Bottom",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_ETHAN_1_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_JAGGED_PASS/MIDDLE": "JAGGED PASS Bottom -> Middle"
+    },
+    "warps": {
+      "MAP_JAGGED_PASS:0,1/MAP_ROUTE112:2,3": "JAGGED PASS South Exit"
+    }
+  },
+  "REGION_ROUTE113/MAIN": {
+    "parent_map": "MAP_ROUTE113",
+    "name": "ROUTE 113",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_113_MAX_ETHER",
+      "ITEM_ROUTE_113_SUPER_REPEL",
+      "ITEM_ROUTE_113_HYPER_POTION",
+      "HIDDEN_ITEM_ROUTE_113_ETHER",
+      "HIDDEN_ITEM_ROUTE_113_TM_DOUBLE_TEAM",
+      "HIDDEN_ITEM_ROUTE_113_NUGGET",
+      "TRAINER_WYATT_REWARD",
+      "TRAINER_LAWRENCE_REWARD",
+      "TRAINER_LUNG_REWARD",
+      "TRAINER_JAYLEN_REWARD",
+      "TRAINER_MADELINE_1_REWARD",
+      "TRAINER_LAO_1_REWARD",
+      "TRAINER_TORI_AND_TIA_REWARD",
+      "TRAINER_DILLON_REWARD",
+      "TRAINER_COBY_REWARD",
+      "TRAINER_SOPHIE_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_FALLARBOR_TOWN/MAIN": "ROUTE 113 West Exit",
+      "REGION_ROUTE111/NORTH": "ROUTE 113 East Exit"
+    },
+    "warps": {
+      "MAP_ROUTE113:0/MAP_ROUTE113_GLASS_WORKSHOP:0": "GLASS WORKSHOP"
+    }
+  },
+  "REGION_ROUTE113_GLASS_WORKSHOP/MAIN": {
+    "parent_map": "MAP_ROUTE113_GLASS_WORKSHOP",
+    "name": "GLASS WORKSHOP",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_SOOT_SACK"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE113_GLASS_WORKSHOP:0,1/MAP_ROUTE113:0": "GLASS WORKSHOP Exit"
+    }
+  },
+  "REGION_ROUTE114/MAIN": {
+    "parent_map": "MAP_ROUTE114",
+    "name": "ROUTE 114",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_114_PROTEIN",
+      "ITEM_ROUTE_114_ENERGY_POWDER",
+      "HIDDEN_ITEM_ROUTE_114_REVIVE",
+      "HIDDEN_ITEM_ROUTE_114_CARBOS",
+      "NPC_GIFT_RECEIVED_TM_ROAR",
+      "NPC_GIFT_ROUTE_114_RECEIVED_BERRY",
+      "BERRY_TREE_68",
+      "BERRY_TREE_77",
+      "BERRY_TREE_78",
+      "TRAINER_NOLAN_REWARD",
+      "TRAINER_KAI_REWARD",
+      "TRAINER_CHARLOTTE_REWARD",
+      "TRAINER_CLAUDE_REWARD",
+      "TRAINER_NANCY_REWARD",
+      "TRAINER_SHANE_REWARD",
+      "TRAINER_STEVE_1_REWARD",
+      "TRAINER_BERNIE_1_REWARD",
+      "TRAINER_LUCAS_1_REWARD",
+      "TRAINER_ANGELINA_REWARD",
+      "TRAINER_LENNY_REWARD",
+      "TRAINER_TYRA_AND_IVY_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE114/WATER": "ROUTE 114 Surfing Spot",
+      "REGION_FALLARBOR_TOWN/MAIN": "ROUTE 114 North Exit",
+      "REGION_TERRA_CAVE_ENTRANCE/MAIN": "ROUTE 114 South TERRA CAVE Entrance"
+    },
+    "warps": {
+      "MAP_ROUTE114:0/MAP_METEOR_FALLS_1F_1R:0": "ROUTE 114 Cave",
+      "MAP_ROUTE114:1/MAP_ROUTE114_FOSSIL_MANIACS_HOUSE:0": "FOSSIL MANIAC's House",
+      "MAP_ROUTE114:2/MAP_ROUTE114_LANETTES_HOUSE:0": "LANETTE's House"
+    }
+  },
+  "REGION_ROUTE114/WATER": {
+    "parent_map": "MAP_ROUTE114",
+    "name": "ROUTE 114 Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE114/MAIN": "ROUTE 114 Landing Spot",
+      "REGION_ROUTE114/ABOVE_WATERFALL": "ROUTE 114 Ascend Waterfall"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE114/ABOVE_WATERFALL": {
+    "parent_map": "MAP_ROUTE114",
+    "name": "ROUTE 114 Above Waterfall",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_114_RARE_CANDY"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE114/WATER": "ROUTE 114 Descend Waterfall",
+      "REGION_TERRA_CAVE_ENTRANCE/MAIN": "ROUTE 114 North TERRA CAVE Entrance"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE114_FOSSIL_MANIACS_HOUSE/MAIN": {
+    "parent_map": "MAP_ROUTE114_FOSSIL_MANIACS_HOUSE",
+    "name": "FOSSIL MANIAC's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_TM_DIG"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE114_FOSSIL_MANIACS_HOUSE:0,1/MAP_ROUTE114:1": "FOSSIL MANIAC's House South Exit",
+      "MAP_ROUTE114_FOSSIL_MANIACS_HOUSE:2/MAP_ROUTE114_FOSSIL_MANIACS_TUNNEL:0": "FOSSIL MANIAC's House North Exit"
+    }
+  },
+  "REGION_ROUTE114_FOSSIL_MANIACS_TUNNEL/MAIN": {
+    "parent_map": "MAP_ROUTE114_FOSSIL_MANIACS_TUNNEL",
+    "name": "FOSSIL MANIAC's Tunnel",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE114_FOSSIL_MANIACS_TUNNEL:0,1/MAP_ROUTE114_FOSSIL_MANIACS_HOUSE:2": "FOSSIL MANIAC's Tunnel South Exit",
+      "MAP_ROUTE114_FOSSIL_MANIACS_TUNNEL:2/MAP_DESERT_UNDERPASS:0": "FOSSIL MANIAC's Tunnel North Exit"
+    }
+  },
+  "REGION_DESERT_UNDERPASS/MAIN": {
+    "parent_map": "MAP_DESERT_UNDERPASS",
+    "name": "DESERT UNDERPASS",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_DESERT_UNDERPASS:0/MAP_ROUTE114_FOSSIL_MANIACS_TUNNEL:2": "DESERT UNDERPASS Exit"
+    }
+  },
+  "REGION_ROUTE114_LANETTES_HOUSE/MAIN": {
+    "parent_map": "MAP_ROUTE114_LANETTES_HOUSE",
+    "name": "LANETTE's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE114_LANETTES_HOUSE:0,1/MAP_ROUTE114:2": "LANETTE's House Exit"
+    }
+  },
+  "REGION_ROUTE115/SOUTH_BELOW_LEDGE": {
+    "parent_map": "MAP_ROUTE115",
+    "name": "ROUTE 115 South Below Ledge",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_115_SUPER_POTION"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE115/SEA": "ROUTE 115 South Surfing Spot",
+      "REGION_ROUTE115/SOUTH_ABOVE_LEDGE": "ROUTE 115 South Below Ledge -> Above Ledge",
+      "REGION_RUSTBORO_CITY/MAIN": "ROUTE 115 South Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE115/SOUTH_BEACH_NEAR_CAVE": {
+    "parent_map": "MAP_ROUTE115",
+    "name": "ROUTE 115 Middle Beach",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "HIDDEN_ITEM_ROUTE_115_HEART_SCALE",
+      "TRAINER_CYNDY_1_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE115/SOUTH_ABOVE_LEDGE": "ROUTE 115 Middle Beach -> South Above Ledge",
+      "REGION_ROUTE115/SEA": "ROUTE 115 Middle Surfing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE115/SOUTH_ABOVE_LEDGE": {
+    "parent_map": "MAP_ROUTE115",
+    "name": "ROUTE 115 South Above Ledge",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_115_PP_UP",
+      "TRAINER_NOB_1_REWARD",
+      "TRAINER_MARLENE_REWARD",
+      "TRAINER_HECTOR_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE115/SOUTH_BEACH_NEAR_CAVE": "ROUTE 115 South Above Ledge -> Middle Beach",
+      "REGION_ROUTE115/SOUTH_BELOW_LEDGE": "ROUTE 115 Jump Down Ledge",
+      "REGION_ROUTE115/SOUTH_BEHIND_ROCK": "ROUTE 115 Past Rock"
+    },
+    "warps": {
+      "MAP_ROUTE115:0/MAP_METEOR_FALLS_1F_1R:1": "ROUTE 115 Cave"
+    }
+  },
+  "REGION_ROUTE115/SOUTH_BEHIND_ROCK": {
+    "parent_map": "MAP_ROUTE115",
+    "name": "ROUTE 115 South Behind Rock",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_115_GREAT_BALL",
+      "BERRY_TREE_55",
+      "BERRY_TREE_56"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE115/SOUTH_ABOVE_LEDGE": "ROUTE 115 South Behind Rock -> Above Ledge"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE115/NORTH_BELOW_SLOPE": {
+    "parent_map": "MAP_ROUTE115",
+    "name": "ROUTE 115 North Below Slope",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_115_HEAL_POWDER",
+      "ITEM_ROUTE_115_TM_FOCUS_PUNCH",
+      "BERRY_TREE_69",
+      "BERRY_TREE_70",
+      "BERRY_TREE_71",
+      "TRAINER_TIMOTHY_1_REWARD",
+      "TRAINER_KYRA_REWARD",
+      "TRAINER_KOICHI_REWARD",
+      "TRAINER_JAIDEN_REWARD",
+      "TRAINER_ALIX_REWARD",
+      "TRAINER_HELENE_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE115/NORTH_ABOVE_SLOPE": "ROUTE 115 Up Slope",
+      "REGION_ROUTE115/SEA": "ROUTE 115 North Surfing Spot",
+      "REGION_TERRA_CAVE_ENTRANCE/MAIN": "ROUTE 115 TERRA CAVE Entrance Below Slope"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE115/NORTH_ABOVE_SLOPE": {
+    "parent_map": "MAP_ROUTE115",
+    "name": "ROUTE 115 North Above Slope",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_115_IRON"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE115/NORTH_BELOW_SLOPE": "ROUTE 115 Down Slope",
+      "REGION_TERRA_CAVE_ENTRANCE/MAIN": "ROUTE 115 TERRA CAVE Entrance Above Slope"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE115/SEA": {
+    "parent_map": "MAP_ROUTE115",
+    "name": "ROUTE 115 Sea",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE115/SOUTH_BELOW_LEDGE": "ROUTE 115 South Landing Spot",
+      "REGION_ROUTE115/SOUTH_BEACH_NEAR_CAVE": "ROUTE 115 Middle Landing Spot",
+      "REGION_ROUTE115/NORTH_BELOW_SLOPE": "ROUTE 115 North Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE116/WEST": {
+    "parent_map": "MAP_ROUTE116",
+    "name": "ROUTE 116 West",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_116_REPEL",
+      "ITEM_ROUTE_116_X_SPECIAL",
+      "NPC_GIFT_RECEIVED_REPEAT_BALL",
+      "TRAINER_JOSE_REWARD",
+      "TRAINER_JOEY_REWARD",
+      "TRAINER_KAREN_1_REWARD",
+      "TRAINER_CLARK_REWARD",
+      "TRAINER_JOHNSON_REWARD",
+      "TRAINER_DEVAN_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE116/WEST_ABOVE_LEDGE": "ROUTE 116 Past CUT Tree",
+      "REGION_RUSTBORO_CITY/MAIN": "ROUTE 116 West Exit",
+      "REGION_TERRA_CAVE_ENTRANCE/MAIN": "ROUTE 116 West TERRA CAVE Entrance"
+    },
+    "warps": {
+      "MAP_ROUTE116:0/MAP_RUSTURF_TUNNEL:0": "ROUTE 116 West Cave",
+      "MAP_ROUTE116:1/MAP_ROUTE116_TUNNELERS_REST_HOUSE:0": "ROUTE 116 West House"
+    }
+  },
+  "REGION_ROUTE116/WEST_ABOVE_LEDGE": {
+    "parent_map": "MAP_ROUTE116",
+    "name": "ROUTE 116 West Above Ledge",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_116_ETHER",
+      "ITEM_ROUTE_116_POTION",
+      "HIDDEN_ITEM_ROUTE_116_SUPER_POTION",
+      "BERRY_TREE_25",
+      "BERRY_TREE_26",
+      "BERRY_TREE_66",
+      "BERRY_TREE_67",
+      "TRAINER_JANICE_REWARD",
+      "TRAINER_JERRY_1_REWARD",
+      "TRAINER_SARAH_REWARD",
+      "TRAINER_DAWSON_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE116/WEST": "ROUTE 116 Ledge"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE116/EAST": {
+    "parent_map": "MAP_ROUTE116",
+    "name": "ROUTE 116 East",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_116_HP_UP",
+      "HIDDEN_ITEM_ROUTE_116_BLACK_GLASSES"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_TERRA_CAVE_ENTRANCE/MAIN": "ROUTE 116 East TERRA CAVE Entrance"
+    },
+    "warps": {
+      "MAP_ROUTE116:2/MAP_RUSTURF_TUNNEL:2": "ROUTE 116 East Cave"
+    }
+  },
+  "REGION_ROUTE116_TUNNELERS_REST_HOUSE/MAIN": {
+    "parent_map": "MAP_ROUTE116_TUNNELERS_REST_HOUSE",
+    "name": "Tunneler's Rest House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE116_TUNNELERS_REST_HOUSE:0,1/MAP_ROUTE116:1": "Tunneler's Rest House Exit"
+    }
+  },
+  "REGION_ROUTE117/MAIN": {
+    "parent_map": "MAP_ROUTE117",
+    "name": "ROUTE 117",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_117_GREAT_BALL",
+      "ITEM_ROUTE_117_REVIVE",
+      "HIDDEN_ITEM_ROUTE_117_REPEL",
+      "BERRY_TREE_27",
+      "BERRY_TREE_28",
+      "BERRY_TREE_29",
+      "TRAINER_LYDIA_1_REWARD",
+      "TRAINER_DEREK_REWARD",
+      "TRAINER_BRANDI_REWARD",
+      "TRAINER_MELINA_REWARD",
+      "TRAINER_AISHA_REWARD",
+      "TRAINER_MARIA_1_REWARD",
+      "TRAINER_ISAAC_1_REWARD",
+      "TRAINER_DYLAN_1_REWARD",
+      "TRAINER_ANNA_AND_MEG_1_REWARD"
+    ],
+    "events": [
+      "EVENT_ENCOUNTER_LATIOS"
+    ],
+    "exits": {
+      "REGION_VERDANTURF_TOWN/MAIN": "ROUTE 117 West Exit",
+      "REGION_MAUVILLE_CITY/MAIN": "ROUTE 117 East Exit",
+      "REGION_ROUTE117/PONDS": "ROUTE 117 Surfing Spots"
+    },
+    "warps": {
+      "MAP_ROUTE117:0/MAP_ROUTE117_POKEMON_DAY_CARE:0": "HOENN POKeMON DAY CARE"
+    }
+  },
+  "REGION_ROUTE117/PONDS": {
+    "parent_map": "MAP_ROUTE117",
+    "name": "ROUTE 117 Ponds",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE117_POKEMON_DAY_CARE/MAIN": {
+    "parent_map": "MAP_ROUTE117_POKEMON_DAY_CARE",
+    "name": "HOENN POKeMON DAY CARE",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE117_POKEMON_DAY_CARE:0,1/MAP_ROUTE117:0": "HOENN POKeMON DAY CARE Exit"
+    }
+  },
+  "REGION_ROUTE118/WEST": {
+    "parent_map": "MAP_ROUTE118",
+    "name": "ROUTE 118 West",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "HIDDEN_ITEM_ROUTE_118_HEART_SCALE",
+      "TRAINER_DEANDRE_REWARD",
+      "TRAINER_ROSE_1_REWARD",
+      "TRAINER_WADE_REWARD",
+      "TRAINER_DALTON_1_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_MAUVILLE_CITY/MAIN": "ROUTE 118 West Exit",
+      "REGION_ROUTE118/WEST_WATER": "ROUTE 118 West Surfing Spot",
+      "REGION_ROUTE118/EAST": "ROUTE 118 West -> East",
+      "REGION_TERRA_CAVE_ENTRANCE/MAIN": "ROUTE 118 West TERRA CAVE Entrance"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE118/WEST_WATER": {
+    "parent_map": "MAP_ROUTE118",
+    "name": "ROUTE 118 West Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE118/WEST": "ROUTE 118 West Landing Spot",
+      "REGION_ROUTE118/EAST_WATER": "ROUTE 118 West Water -> East Water"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE118/EAST_WATER": {
+    "parent_map": "MAP_ROUTE118",
+    "name": "ROUTE 118 East Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE118/WEST_WATER": "ROUTE 118 East Water -> West Water",
+      "REGION_ROUTE118/EAST": "ROUTE 118 East Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE118/EAST": {
+    "parent_map": "MAP_ROUTE118",
+    "name": "ROUTE 118 East",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_118_HYPER_POTION",
+      "HIDDEN_ITEM_ROUTE_118_IRON",
+      "NPC_GIFT_RECEIVED_GOOD_ROD",
+      "BERRY_TREE_31",
+      "BERRY_TREE_32",
+      "BERRY_TREE_33",
+      "TRAINER_BARNY_REWARD",
+      "TRAINER_CHESTER_REWARD",
+      "TRAINER_PERRY_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE118/EAST_WATER": "ROUTE 118 East Surfing Spot",
+      "REGION_ROUTE118/WEST": "ROUTE 118 East -> West",
+      "REGION_ROUTE119/LOWER": "ROUTE 118 Northeast Exit",
+      "REGION_ROUTE123/WEST": "ROUTE 118 East Exit",
+      "REGION_TERRA_CAVE_ENTRANCE/MAIN": "ROUTE 118 East TERRA CAVE Entrance"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE119/LOWER": {
+    "parent_map": "MAP_ROUTE119",
+    "name": "ROUTE 119 South",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_119_SUPER_REPEL",
+      "ITEM_ROUTE_119_HYPER_POTION_1",
+      "HIDDEN_ITEM_ROUTE_119_FULL_HEAL",
+      "BERRY_TREE_85",
+      "BERRY_TREE_86",
+      "TRAINER_DONALD_REWARD",
+      "TRAINER_KENT_REWARD",
+      "TRAINER_TAYLOR_REWARD",
+      "TRAINER_GREG_REWARD",
+      "TRAINER_DOUG_REWARD",
+      "TRAINER_BRENT_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE119/MIDDLE": "ROUTE 119 South -> Middle",
+      "REGION_ROUTE119/LOWER_WATER": "ROUTE 119 South Surfing Spot",
+      "REGION_ROUTE119/LOWER_ACROSS_RAILS": "ROUTE 119 South Across ACRO Rails",
+      "REGION_ROUTE118/EAST": "ROUTE 119 South Exit"
+    },
+    "warps": {
+      "MAP_ROUTE119:1/MAP_ROUTE119_HOUSE:0": "ROUTE 119 South House"
+    }
+  },
+  "REGION_ROUTE119/LOWER_WATER": {
+    "parent_map": "MAP_ROUTE119",
+    "name": "ROUTE 119 South Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE119/LOWER": "ROUTE 119 South Landing Spot",
+      "REGION_ROUTE119/LOWER_ACROSS_WATER": "ROUTE 119 South Across Water"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE119/LOWER_ACROSS_WATER": {
+    "parent_map": "MAP_ROUTE119",
+    "name": "ROUTE 119 South Across Water",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_119_ZINC",
+      "TRAINER_CHRIS_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE119/LOWER_ACROSS_RAILS": {
+    "parent_map": "MAP_ROUTE119",
+    "name": "ROUTE 119 South Across ACRO Rails",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_ROUTE_119_CALCIUM"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE119/LOWER": "ROUTE 119 South Across ACRO Rails -> South"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE119/MIDDLE": {
+    "parent_map": "MAP_ROUTE119",
+    "name": "ROUTE 119 Middle",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_119_ELIXIR_1",
+      "ITEM_ROUTE_119_HYPER_POTION_2",
+      "TRAINER_CATHERINE_1_REWARD",
+      "TRAINER_JACKSON_1_REWARD",
+      "TRAINER_RACHEL_REWARD",
+      "TRAINER_PHIL_REWARD",
+      "TRAINER_HUGH_REWARD",
+      "TRAINER_DAYTON_REWARD",
+      "TRAINER_TAKASHI_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE119/LOWER": "ROUTE 119 Middle -> South",
+      "REGION_ROUTE119/UPPER": "ROUTE 119 Middle -> North"
+    },
+    "warps": {
+      "MAP_ROUTE119:0/MAP_ROUTE119_WEATHER_INSTITUTE_1F:0": "WEATHER INSTITUTE"
+    }
+  },
+  "REGION_ROUTE119/UPPER": {
+    "parent_map": "MAP_ROUTE119",
+    "name": "ROUTE 119 North",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_119_ELIXIR_2",
+      "NPC_GIFT_RECEIVED_HM_FLY",
+      "BERRY_TREE_34",
+      "BERRY_TREE_35",
+      "BERRY_TREE_36",
+      "TRAINER_FABIAN_REWARD",
+      "TRAINER_YASU_REWARD",
+      "TRAINER_HIDEO_REWARD",
+      "TRAINER_BRENDAN_ROUTE_119_MUDKIP_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE119/MIDDLE": "ROUTE 119 North -> Middle",
+      "REGION_ROUTE119/MIDDLE_RIVER": "ROUTE 119 North Surfing Spot",
+      "REGION_FORTREE_CITY/MAIN": "ROUTE 119 Northeast Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE119/MIDDLE_RIVER": {
+    "parent_map": "MAP_ROUTE119",
+    "name": "ROUTE 119 Middle River",
+    "has_grass": true,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_119_LEAF_STONE",
+      "HIDDEN_ITEM_ROUTE_119_ULTRA_BALL",
+      "HIDDEN_ITEM_ROUTE_119_MAX_ETHER"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE119/UPPER": "ROUTE 119 North Landing Spot",
+      "REGION_ROUTE119/ABOVE_WATERFALL": "ROUTE 119 Ascend Waterfall"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE119/ABOVE_WATERFALL": {
+    "parent_map": "MAP_ROUTE119",
+    "name": "ROUTE 119 Above Waterfall",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "BERRY_TREE_83",
+      "BERRY_TREE_84"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE119/MIDDLE_RIVER": "ROUTE 119 Descend Waterfall",
+      "REGION_ROUTE119/ABOVE_WATERFALL_ACROSS_RAILS": "ROUTE 119 Above Waterfall Cross ACRO Rails"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE119/ABOVE_WATERFALL_ACROSS_RAILS": {
+    "parent_map": "MAP_ROUTE119",
+    "name": "ROUTE 119 Above Waterfall Across Rails",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_119_RARE_CANDY",
+      "ITEM_ROUTE_119_NUGGET"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE119/ABOVE_WATERFALL": "ROUTE 119 Above Waterfall Backtrack Across ACRO Rails"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE119_WEATHER_INSTITUTE_1F/MAIN": {
+    "parent_map": "MAP_ROUTE119_WEATHER_INSTITUTE_1F",
+    "name": "WEATHER INSTITUTE 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_GRUNT_WEATHER_INST_1_REWARD",
+      "TRAINER_GRUNT_WEATHER_INST_4_REWARD"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE119_WEATHER_INSTITUTE_1F:0,1/MAP_ROUTE119:0": "WEATHER INSTITUTE Exit",
+      "MAP_ROUTE119_WEATHER_INSTITUTE_1F:2/MAP_ROUTE119_WEATHER_INSTITUTE_2F:0": "WEATHER INSTITUTE 1F Stairs"
+    }
+  },
+  "REGION_ROUTE119_WEATHER_INSTITUTE_2F/MAIN": {
+    "parent_map": "MAP_ROUTE119_WEATHER_INSTITUTE_2F",
+    "name": "WEATHER INSTITUTE 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_GRUNT_WEATHER_INST_2_REWARD",
+      "TRAINER_GRUNT_WEATHER_INST_3_REWARD",
+      "TRAINER_GRUNT_WEATHER_INST_5_REWARD",
+      "TRAINER_SHELLY_WEATHER_INSTITUTE_REWARD"
+    ],
+    "events": [
+      "EVENT_DEFEAT_SHELLY"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE119_WEATHER_INSTITUTE_2F:0/MAP_ROUTE119_WEATHER_INSTITUTE_1F:2": "WEATHER INSTITUTE 2F Stairs"
+    }
+  },
+  "REGION_ROUTE119_HOUSE/MAIN": {
+    "parent_map": "MAP_ROUTE119_HOUSE",
+    "name": "ROUTE 119 WINGULL House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE119_HOUSE:0,1/MAP_ROUTE119:1": "ROUTE 119 WINGULL House Exit"
+    }
+  },
+  "REGION_ROUTE120/NORTH": {
+    "parent_map": "MAP_ROUTE120",
+    "name": "ROUTE 120 North",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_ROUTE_120_RARE_CANDY_1",
+      "HIDDEN_ITEM_ROUTE_120_REVIVE",
+      "NPC_GIFT_RECEIVED_DEVON_SCOPE",
+      "TRAINER_CLARISSA_REWARD",
+      "TRAINER_ROBERT_1_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_FORTREE_CITY/MAIN": "ROUTE 120 Northwest Exit",
+      "REGION_ROUTE120/NORTH_POND_SHORE": "ROUTE 120 North Down Stairs",
+      "REGION_ROUTE120/SOUTH": "ROUTE 120 North -> South"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE120/NORTH_POND_SHORE": {
+    "parent_map": "MAP_ROUTE120",
+    "name": "ROUTE 120 North Pond Shore",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_120_NEST_BALL"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE120/NORTH": "ROUTE 120 North Up Stairs",
+      "REGION_ROUTE120/NORTH_POND": "ROUTE 120 North Surfing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE120/NORTH_POND": {
+    "parent_map": "MAP_ROUTE120",
+    "name": "ROUTE 120 North Pond",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE120/NORTH_POND_SHORE": "ROUTE 120 North Landing Spot"
+    },
+    "warps": {
+      "MAP_ROUTE120:1/MAP_SCORCHED_SLAB:0": "ROUTE 120 North Cave"
+    }
+  },
+  "REGION_ROUTE120/SOUTH": {
+    "parent_map": "MAP_ROUTE120",
+    "name": "ROUTE 120 South",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_120_NUGGET",
+      "ITEM_ROUTE_120_REVIVE",
+      "ITEM_ROUTE_120_HYPER_POTION",
+      "HIDDEN_ITEM_ROUTE_120_ZINC",
+      "NPC_GIFT_ROUTE_120_RECEIVED_BERRY",
+      "BERRY_TREE_40",
+      "BERRY_TREE_41",
+      "BERRY_TREE_42",
+      "BERRY_TREE_43",
+      "BERRY_TREE_44",
+      "BERRY_TREE_45",
+      "BERRY_TREE_46",
+      "TRAINER_COLIN_REWARD",
+      "TRAINER_LEONEL_REWARD",
+      "TRAINER_ANGELICA_REWARD",
+      "TRAINER_CALLIE_REWARD",
+      "TRAINER_RILEY_REWARD",
+      "TRAINER_JENNIFER_REWARD",
+      "TRAINER_JENNA_REWARD",
+      "TRAINER_LORENZO_REWARD",
+      "TRAINER_JEFFREY_1_REWARD",
+      "TRAINER_KEIGO_REWARD",
+      "TRAINER_CHIP_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE120/NORTH": "ROUTE 120 South -> North",
+      "REGION_ROUTE120/SOUTH_ALCOVE": "ROUTE 120 South Past CUT Tree",
+      "REGION_ROUTE120/SOUTH_PONDS": "ROUTE 120 South Ponds",
+      "REGION_ROUTE121/WEST": "ROUTE 120 Southwest Exit"
+    },
+    "warps": {
+      "MAP_ROUTE120:0/MAP_ANCIENT_TOMB:0": "ROUTE 120 South Cave"
+    }
+  },
+  "REGION_ROUTE120/SOUTH_ALCOVE": {
+    "parent_map": "MAP_ROUTE120",
+    "name": "ROUTE 120 South Alcove",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "BERRY_TREE_37",
+      "BERRY_TREE_38",
+      "BERRY_TREE_39"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE120/SOUTH": "ROUTE 120 South Alcove -> South"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE120/SOUTH_PONDS": {
+    "parent_map": "MAP_ROUTE120",
+    "name": "ROUTE 120 South Ponds",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "HIDDEN_ITEM_ROUTE_120_RARE_CANDY_2",
+      "ITEM_ROUTE_120_FULL_HEAL"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE121/WEST": {
+    "parent_map": "MAP_ROUTE121",
+    "name": "ROUTE 121 West",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_ROUTE_121_HP_UP",
+      "BERRY_TREE_47",
+      "BERRY_TREE_48",
+      "BERRY_TREE_49",
+      "BERRY_TREE_50",
+      "TRAINER_CALE_REWARD",
+      "TRAINER_TAMMY_REWARD",
+      "TRAINER_JESSICA_1_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE121/EAST": "ROUTE 121 West -> East",
+      "REGION_ROUTE120/SOUTH": "ROUTE 121 West Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE121/EAST": {
+    "parent_map": "MAP_ROUTE121",
+    "name": "ROUTE 121 East",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_121_CARBOS",
+      "ITEM_ROUTE_121_REVIVE",
+      "ITEM_ROUTE_121_ZINC",
+      "HIDDEN_ITEM_ROUTE_121_NUGGET",
+      "HIDDEN_ITEM_ROUTE_121_FULL_HEAL",
+      "HIDDEN_ITEM_ROUTE_121_MAX_REVIVE",
+      "BERRY_TREE_51",
+      "BERRY_TREE_52",
+      "BERRY_TREE_53",
+      "BERRY_TREE_54",
+      "TRAINER_KATE_AND_JOY_REWARD",
+      "TRAINER_WALTER_1_REWARD",
+      "TRAINER_PAT_REWARD",
+      "TRAINER_MYLES_REWARD",
+      "TRAINER_VANESSA_REWARD",
+      "TRAINER_MARCEL_REWARD",
+      "TRAINER_CRISTIN_1_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE121/WEST": "ROUTE 121 East -> West",
+      "REGION_ROUTE121/WATER": "ROUTE 121 Surfing Spot",
+      "REGION_LILYCOVE_CITY/MAIN": "ROUTE 121 East Exit"
+    },
+    "warps": {
+      "MAP_ROUTE121:0/MAP_ROUTE121_SAFARI_ZONE_ENTRANCE:2": "HOENN SAFARI ZONE Entrance"
+    }
+  },
+  "REGION_ROUTE121/WATER": {
+    "parent_map": "MAP_ROUTE121",
+    "name": "ROUTE 121 Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE121/EAST": "ROUTE 121 Landing Spot",
+      "REGION_ROUTE122/SEA": "ROUTE 121 South Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE121_SAFARI_ZONE_ENTRANCE/MAIN": {
+    "parent_map": "MAP_ROUTE121_SAFARI_ZONE_ENTRANCE",
+    "name": "HOENN SAFARI ZONE Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE121_SAFARI_ZONE_ENTRANCE:0,1/MAP_SAFARI_ZONE_SOUTH:0": "Enter HOENN SAFARI ZONE",
+      "MAP_ROUTE121_SAFARI_ZONE_ENTRANCE:2,3/MAP_ROUTE121:0": "HOENN SAFARI ZONE Entrance South Exit"
+    }
+  },
+  "REGION_SAFARI_ZONE_NORTH/MAIN": {
+    "parent_map": "MAP_SAFARI_ZONE_NORTH",
+    "name": "HOENN SAFARI ZONE North",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_SAFARI_ZONE_NORTH_CALCIUM"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_SAFARI_ZONE_SOUTH/MAIN": "HOENN SAFARI ZONE North -> South"
+    },
+    "warps": {}
+  },
+  "REGION_SAFARI_ZONE_NORTHWEST/MAIN": {
+    "parent_map": "MAP_SAFARI_ZONE_NORTHWEST",
+    "name": "HOENN SAFARI ZONE Northwest",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SAFARI_ZONE_NORTHWEST/POND": "HOENN SAFARI ZONE Northwest Surfing Spot",
+      "REGION_SAFARI_ZONE_SOUTHWEST/MAIN": "HOENN SAFARI ZONE Northwest -> Southwest"
+    },
+    "warps": {}
+  },
+  "REGION_SAFARI_ZONE_NORTHWEST/POND": {
+    "parent_map": "MAP_SAFARI_ZONE_NORTHWEST",
+    "name": "HOENN SAFARI ZONE Northwest Pond",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_SAFARI_ZONE_NORTH_WEST_TM_SOLAR_BEAM"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_SAFARI_ZONE_NORTHEAST/MAIN": {
+    "parent_map": "MAP_SAFARI_ZONE_NORTHEAST",
+    "name": "HOENN SAFARI ZONE Northeast",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET",
+      "HIDDEN_ITEM_SAFARI_ZONE_NORTH_EAST_RARE_CANDY",
+      "HIDDEN_ITEM_SAFARI_ZONE_NORTH_EAST_ZINC"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_SAFARI_ZONE_SOUTHEAST/MAIN": "HOENN SAFARI ZONE Northeast -> Southeast"
+    },
+    "warps": {}
+  },
+  "REGION_SAFARI_ZONE_SOUTH/MAIN": {
+    "parent_map": "MAP_SAFARI_ZONE_SOUTH",
+    "name": "HOENN SAFARI ZONE South",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SAFARI_ZONE_NORTH/MAIN": "HOENN SAFARI ZONE South -> North",
+      "REGION_SAFARI_ZONE_SOUTHEAST/MAIN": "HOENN SAFARI ZONE South -> Southeast",
+      "REGION_SAFARI_ZONE_SOUTHWEST/MAIN": "HOENN SAFARI ZONE South -> Southwest"
+    },
+    "warps": {
+      "MAP_SAFARI_ZONE_SOUTH:0/MAP_ROUTE121_SAFARI_ZONE_ENTRANCE:0": "Abort SAFARI GAME"
+    }
+  },
+  "REGION_SAFARI_ZONE_SOUTHWEST/MAIN": {
+    "parent_map": "MAP_SAFARI_ZONE_SOUTHWEST",
+    "name": "HOENN SAFARI ZONE Southwest",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SAFARI_ZONE_SOUTHWEST/POND": "HOENN SAFARI ZONE Southwest Surfing Spot",
+      "REGION_SAFARI_ZONE_SOUTH/MAIN": "HOENN SAFARI ZONE Southwest -> South",
+      "REGION_SAFARI_ZONE_NORTHWEST/MAIN": "HOENN SAFARI ZONE Southwest -> Northwest"
+    },
+    "warps": {
+      "MAP_SAFARI_ZONE_SOUTHWEST:0/MAP_SAFARI_ZONE_REST_HOUSE:0": "HOENN SAFARI ZONE Rest House"
+    }
+  },
+  "REGION_SAFARI_ZONE_SOUTHWEST/POND": {
+    "parent_map": "MAP_SAFARI_ZONE_SOUTHWEST",
+    "name": "HOENN SAFARI ZONE Southwest Pond",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_SAFARI_ZONE_SOUTH_WEST_MAX_REVIVE"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_SAFARI_ZONE_SOUTHEAST/MAIN": {
+    "parent_map": "MAP_SAFARI_ZONE_SOUTHEAST",
+    "name": "HOENN SAFARI ZONE Southeast",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "HIDDEN_ITEM_SAFARI_ZONE_SOUTH_EAST_PP_UP",
+      "HIDDEN_ITEM_SAFARI_ZONE_SOUTH_EAST_FULL_RESTORE"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_SAFARI_ZONE_SOUTHEAST/WATER": "HOENN SAFARI ZONE Southeast Surfing Spot",
+      "REGION_SAFARI_ZONE_SOUTH/MAIN": "HOENN SAFARI ZONE Southeast -> South",
+      "REGION_SAFARI_ZONE_NORTHEAST/MAIN": "HOENN SAFARI ZONE Southeast -> Northeast"
+    },
+    "warps": {}
+  },
+  "REGION_SAFARI_ZONE_SOUTHEAST/WATER": {
+    "parent_map": "MAP_SAFARI_ZONE_SOUTHEAST",
+    "name": "HOENN SAFARI ZONE Southeast Water",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SAFARI_ZONE_SOUTHEAST/MAIN": "HOENN SAFARI ZONE Southeast Main Landing Spot",
+      "REGION_SAFARI_ZONE_SOUTHEAST/ISLAND": "HOENN SAFARI ZONE Southeast Island Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_SAFARI_ZONE_SOUTHEAST/ISLAND": {
+    "parent_map": "MAP_SAFARI_ZONE_SOUTHEAST",
+    "name": "HOENN SAFARI ZONE Southeast Island",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_SAFARI_ZONE_REST_HOUSE/MAIN": {
+    "parent_map": "MAP_SAFARI_ZONE_REST_HOUSE",
+    "name": "HOENN SAFARI ZONE Rest House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_SAFARI_ZONE_REST_HOUSE:0,1/MAP_SAFARI_ZONE_SOUTHWEST:0": "HOENN SAFARI ZONE Rest House Exit"
+    }
+  },
+  "REGION_ROUTE122/SEA": {
+    "parent_map": "MAP_ROUTE122",
+    "name": "ROUTE 122",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE122/MT_PYRE_ENTRANCE": "ROUTE 122 Landing Spot",
+      "REGION_ROUTE121/WATER": "ROUTE 122 North Exit",
+      "REGION_ROUTE123/EAST": "ROUTE 122 South Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE122/MT_PYRE_ENTRANCE": {
+    "parent_map": "MAP_ROUTE122",
+    "name": "ROUTE 122 MT. PYRE Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE122/SEA": "ROUTE 122 Surfing Spot"
+    },
+    "warps": {
+      "MAP_ROUTE122:0/MAP_MT_PYRE_1F:0": "ROUTE 122 Cave"
+    }
+  },
+  "REGION_ROUTE123/WEST": {
+    "parent_map": "MAP_ROUTE123",
+    "name": "ROUTE 123 West",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ROUTE_123_ULTRA_BALL",
+      "HIDDEN_ITEM_ROUTE_123_REVIVE",
+      "BERRY_TREE_14",
+      "BERRY_TREE_15",
+      "BERRY_TREE_30",
+      "BERRY_TREE_58",
+      "BERRY_TREE_59",
+      "BERRY_TREE_60",
+      "BERRY_TREE_61",
+      "BERRY_TREE_65",
+      "BERRY_TREE_72",
+      "BERRY_TREE_73",
+      "BERRY_TREE_74",
+      "BERRY_TREE_79",
+      "TRAINER_JAZMYN_REWARD",
+      "TRAINER_DAVIS_REWARD",
+      "TRAINER_VIOLET_REWARD",
+      "TRAINER_MIU_AND_YUKI_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE118/EAST": "ROUTE 123 West Exit"
+    },
+    "warps": {
+      "MAP_ROUTE123:0/MAP_ROUTE123_BERRY_MASTERS_HOUSE:0": "BERRY MASTER's House"
+    }
+  },
+  "REGION_ROUTE123/EAST": {
+    "parent_map": "MAP_ROUTE123",
+    "name": "ROUTE 123 East",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_123_CALCIUM",
+      "ITEM_ROUTE_123_ELIXIR",
+      "ITEM_ROUTE_123_PP_UP",
+      "ITEM_ROUTE_123_REVIVAL_HERB",
+      "HIDDEN_ITEM_ROUTE_123_SUPER_REPEL",
+      "HIDDEN_ITEM_ROUTE_123_HYPER_POTION",
+      "NPC_GIFT_RECEIVED_TM_GIGA_DRAIN",
+      "BERRY_TREE_57",
+      "BERRY_TREE_62",
+      "BERRY_TREE_63",
+      "BERRY_TREE_64",
+      "BERRY_TREE_87",
+      "BERRY_TREE_88",
+      "TRAINER_JACKI_1_REWARD",
+      "TRAINER_FREDRICK_REWARD",
+      "TRAINER_BRAXTON_REWARD",
+      "TRAINER_FERNANDO_1_REWARD",
+      "TRAINER_ALBERTO_REWARD",
+      "TRAINER_WENDY_REWARD",
+      "TRAINER_KINDRA_REWARD",
+      "TRAINER_ED_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE123/WEST": "ROUTE 123 East Ledges",
+      "REGION_ROUTE123/EAST_BEHIND_TREE": "ROUTE 123 East Past CUT Tree",
+      "REGION_ROUTE123/POND": "ROUTE 123 East Pond Surfing Spot",
+      "REGION_ROUTE122/SEA": "ROUTE 123 Northeast Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE123/POND": {
+    "parent_map": "MAP_ROUTE123",
+    "name": "ROUTE 123 Pond",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE123/EAST_BEHIND_TREE": {
+    "parent_map": "MAP_ROUTE123",
+    "name": "ROUTE 123 East Behind CUT Tree",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_ROUTE_123_PP_UP",
+      "HIDDEN_ITEM_ROUTE_123_RARE_CANDY",
+      "TRAINER_CAMERON_1_REWARD",
+      "TRAINER_JONAS_REWARD",
+      "TRAINER_KAYLEY_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE123/EAST": "ROUTE 123 East Before CUT Tree"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE123_BERRY_MASTERS_HOUSE/MAIN": {
+    "parent_map": "MAP_ROUTE123_BERRY_MASTERS_HOUSE",
+    "name": "BERRY MASTER's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_BERRY_MASTER_RECEIVED_BERRY_1",
+      "NPC_GIFT_BERRY_MASTER_RECEIVED_BERRY_2",
+      "NPC_GIFT_BERRY_MASTERS_WIFE"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE123_BERRY_MASTERS_HOUSE:0,1/MAP_ROUTE123:0": "BERRY MASTER's House Exit"
+    }
+  },
+  "REGION_ROUTE124/MAIN": {
+    "parent_map": "MAP_ROUTE124",
+    "name": "ROUTE 124 Main",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_DECLAN_REWARD",
+      "TRAINER_GRACE_REWARD",
+      "TRAINER_LILA_AND_ROY_1_REWARD",
+      "TRAINER_SPENCER_REWARD",
+      "TRAINER_JENNY_1_REWARD",
+      "TRAINER_CHAD_REWARD",
+      "TRAINER_ROLAND_REWARD",
+      "TRAINER_ISABELLA_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY/SEA": "ROUTE 124 West Exit",
+      "REGION_MOSSDEEP_CITY/MAIN": "ROUTE 124 East Exit",
+      "REGION_UNDERWATER_ROUTE124/BIG_AREA": "ROUTE 124 Main First Dive Spot Near LILYCOVE",
+      "REGION_UNDERWATER_ROUTE124/SMALL_AREA_1": "ROUTE 124 Main Second Dive Spot North of House",
+      "REGION_UNDERWATER_ROUTE124/SMALL_AREA_2": "ROUTE 124 Main Dive Spot Closest to House",
+      "REGION_UNDERWATER_ROUTE124/SMALL_AREA_3": "ROUTE 124 Main Dive Spot South of House",
+      "REGION_UNDERWATER_ROUTE124/TUNNEL_1": "ROUTE 124 Main Third Dive Spot Near LILYCOVE",
+      "REGION_UNDERWATER_ROUTE124/TUNNEL_2": "ROUTE 124 Main Northeast Dive Spot",
+      "REGION_UNDERWATER_ROUTE124/TUNNEL_3": "ROUTE 124 Main Second Dive Spot Near LILYCOVE",
+      "REGION_UNDERWATER_ROUTE124/TUNNEL_4": "ROUTE 124 Main Second Dive Spot Southwest of House"
+    },
+    "warps": {
+      "MAP_ROUTE124:0/MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE:0": "ROUTE 124 House"
+    }
+  },
+  "REGION_ROUTE124/NORTH_ENCLOSED_AREA_1": {
+    "parent_map": "MAP_ROUTE124",
+    "name": "ROUTE 124 North Enclosed Area 1",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_124_RED_SHARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_UNDERWATER_ROUTE124/TUNNEL_1": "ROUTE 124 North Enclosed Area 1 Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE124/NORTH_ENCLOSED_AREA_2": {
+    "parent_map": "MAP_ROUTE124",
+    "name": "ROUTE 124 North Enclosed Area 2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_UNDERWATER_ROUTE124/TUNNEL_1": "ROUTE 124 North Enclosed Area 2 Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE124/NORTH_ENCLOSED_AREA_3": {
+    "parent_map": "MAP_ROUTE124",
+    "name": "ROUTE 124 North Enclosed Area 3",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_124_YELLOW_SHARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_UNDERWATER_ROUTE124/TUNNEL_2": "ROUTE 124 North Enclosed Area 3 Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE124/SOUTH_ENCLOSED_AREA_1": {
+    "parent_map": "MAP_ROUTE124",
+    "name": "ROUTE 124 South Enclosed Area 1",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_124_BLUE_SHARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_UNDERWATER_ROUTE124/TUNNEL_3": "ROUTE 124 South Enclosed Area 1 Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE124/SOUTH_ENCLOSED_AREA_2": {
+    "parent_map": "MAP_ROUTE124",
+    "name": "ROUTE 124 South Enclosed Area 2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_UNDERWATER_ROUTE124/TUNNEL_3": "ROUTE 124 South Enclosed Area 2 Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE124/SOUTH_ENCLOSED_AREA_3": {
+    "parent_map": "MAP_ROUTE124",
+    "name": "ROUTE 124 South Enclosed Area 3",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE126/NEAR_ROUTE_124": "ROUTE 124 South Exit",
+      "REGION_UNDERWATER_ROUTE124/TUNNEL_4": "ROUTE 124 South Enclosed Area 3 Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE124/BIG_AREA": {
+    "parent_map": "MAP_UNDERWATER_ROUTE124",
+    "name": "Underwater, ROUTE 124 Big Area",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_124_GREEN_SHARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE124/MAIN": "Underwater, ROUTE 124 Big Area Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE124/SMALL_AREA_1": {
+    "parent_map": "MAP_UNDERWATER_ROUTE124",
+    "name": "Underwater, ROUTE 124 Small Area 1",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_124_PEARL"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE124/MAIN": "Underwater, ROUTE 124 Small Area 1 Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE124/SMALL_AREA_2": {
+    "parent_map": "MAP_UNDERWATER_ROUTE124",
+    "name": "Underwater, ROUTE 124 Small Area 2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_124_BIG_PEARL"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE124/MAIN": "Underwater, ROUTE 124 Small Area 2 Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE124/SMALL_AREA_3": {
+    "parent_map": "MAP_UNDERWATER_ROUTE124",
+    "name": "Underwater, ROUTE 124 Small Area 3",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_124_HEART_SCALE_1"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE124/MAIN": "Underwater, ROUTE 124 Small Area 3 Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE124/TUNNEL_1": {
+    "parent_map": "MAP_UNDERWATER_ROUTE124",
+    "name": "Underwater, ROUTE 124 Tunnel 1",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_124_CALCIUM",
+      "HIDDEN_ITEM_UNDERWATER_124_HEART_SCALE_2"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE124/NORTH_ENCLOSED_AREA_1": "Underwater, ROUTE 124 Tunnel 1 Northwest Surface Spot",
+      "REGION_ROUTE124/NORTH_ENCLOSED_AREA_2": "Underwater, ROUTE 124 Tunnel 1 Northeast Surface Spot",
+      "REGION_ROUTE124/MAIN": "Underwater, ROUTE 124 Tunnel 1 South Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE124/TUNNEL_2": {
+    "parent_map": "MAP_UNDERWATER_ROUTE124",
+    "name": "Underwater, ROUTE 124 Tunnel 2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE124/NORTH_ENCLOSED_AREA_3": "Underwater, ROUTE 124 Tunnel 2 North Surface Spot",
+      "REGION_ROUTE124/MAIN": "Underwater, ROUTE 124 Tunnel 2 South Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE124/TUNNEL_3": {
+    "parent_map": "MAP_UNDERWATER_ROUTE124",
+    "name": "Underwater, ROUTE 124 Tunnel 3",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_124_CARBOS"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE124/SOUTH_ENCLOSED_AREA_1": "Underwater, ROUTE 124 Tunnel 3 Southwest Surface Spot",
+      "REGION_ROUTE124/SOUTH_ENCLOSED_AREA_2": "Underwater, ROUTE 124 Tunnel 3 Southeast Surface Spot",
+      "REGION_ROUTE124/MAIN": "Underwater, ROUTE 124 Tunnel 3 North Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE124/TUNNEL_4": {
+    "parent_map": "MAP_UNDERWATER_ROUTE124",
+    "name": "Underwater, ROUTE 124 Tunnel 4",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE124/SOUTH_ENCLOSED_AREA_3": "Underwater, ROUTE 124 Tunnel 4 South Surface Spot",
+      "REGION_ROUTE124/MAIN": "Underwater, ROUTE 124 Tunnel 4 North Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE/MAIN": {
+    "parent_map": "MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE",
+    "name": "DIVING TREASURE HUNTER's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE:0,1/MAP_ROUTE124:0": "DIVING TREASURE HUNTER's House Exit"
+    }
+  },
+  "REGION_ROUTE125/SEA": {
+    "parent_map": "MAP_ROUTE125",
+    "name": "ROUTE 125 Sea",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_125_BIG_PEARL",
+      "TRAINER_NOLEN_REWARD",
+      "TRAINER_ERNEST_1_REWARD",
+      "TRAINER_SHARON_REWARD",
+      "TRAINER_TANYA_REWARD",
+      "TRAINER_PRESLEY_REWARD",
+      "TRAINER_AURON_REWARD",
+      "TRAINER_STAN_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE125/SHOAL_CAVE_ENTRANCE": "ROUTE 125 Cave Landing Spot",
+      "REGION_MOSSDEEP_CITY/MAIN": "ROUTE 125 South Exit",
+      "REGION_UNDERWATER_ROUTE125/MARINE_CAVE_ENTRANCE_1": "ROUTE 125 West Dive Spot",
+      "REGION_UNDERWATER_ROUTE125/MARINE_CAVE_ENTRANCE_2": "ROUTE 125 East Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE125/SHOAL_CAVE_ENTRANCE": {
+    "parent_map": "MAP_ROUTE125",
+    "name": "ROUTE 125 SHOAL CAVE Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_KIM_AND_IRIS_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE125/SEA": "ROUTE 125 Cave Surfing Spot"
+    },
+    "warps": {
+      "MAP_ROUTE125:0/MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM:0": "ROUTE 125 Cave"
+    }
+  },
+  "REGION_UNDERWATER_ROUTE125/MARINE_CAVE_ENTRANCE_1": {
+    "parent_map": "MAP_UNDERWATER_ROUTE125",
+    "name": "Underwater, ROUTE 125 MARINE CAVE Entrance 1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE125/SEA": "Underwater, ROUTE 125 MARINE CAVE Entrance 1 Surface Spot",
+      "REGION_UNDERWATER_MARINE_CAVE/MAIN": "Underwater, ROUTE 125 MARINE CAVE Entrance 1 Cave Exit"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE125/MARINE_CAVE_ENTRANCE_2": {
+    "parent_map": "MAP_UNDERWATER_ROUTE125",
+    "name": "Underwater, ROUTE 125 MARINE CAVE Entrance 2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE125/SEA": "Underwater, ROUTE 125 MARINE CAVE Entrance 2 Surface Spot",
+      "REGION_UNDERWATER_MARINE_CAVE/MAIN": "Underwater, ROUTE 125 MARINE CAVE Entrance 2 Cave Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE126/MAIN": {
+    "parent_map": "MAP_ROUTE126",
+    "name": "ROUTE 126 Main",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_NIKKI_REWARD",
+      "TRAINER_BARRY_REWARD",
+      "TRAINER_SIENNA_REWARD",
+      "TRAINER_PABLO_1_REWARD",
+      "TRAINER_DEAN_REWARD",
+      "TRAINER_LEONARDO_REWARD",
+      "TRAINER_ISOBEL_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE127/MAIN": "ROUTE 126 East Exit",
+      "REGION_UNDERWATER_ROUTE126/MAIN": "ROUTE 126 Main Dive Spot",
+      "REGION_UNDERWATER_ROUTE126/SMALL_AREA_2": "ROUTE 126 Southwest Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE126/NEAR_ROUTE_124": {
+    "parent_map": "MAP_ROUTE126",
+    "name": "ROUTE 126 Near ROUTE 124",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE124/SOUTH_ENCLOSED_AREA_3": "ROUTE 126 North Exit",
+      "REGION_UNDERWATER_ROUTE126/TUNNEL": "ROUTE 126 North Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE126/NORTH_WEST_CORNER": {
+    "parent_map": "MAP_ROUTE126",
+    "name": "ROUTE 126 Northwest Corner",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_126_GREEN_SHARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_UNDERWATER_ROUTE126/TUNNEL": "ROUTE 126 Northwest Corner Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE126/WEST": {
+    "parent_map": "MAP_ROUTE126",
+    "name": "ROUTE 126 West",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_BRENDA_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_UNDERWATER_ROUTE126/SMALL_AREA_1": "ROUTE 126 West South Dive Spot",
+      "REGION_UNDERWATER_ROUTE126/MAIN": "ROUTE 126 West North Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE126/MAIN": {
+    "parent_map": "MAP_UNDERWATER_ROUTE126",
+    "name": "Underwater, ROUTE 126 Main",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_126_HEART_SCALE",
+      "HIDDEN_ITEM_UNDERWATER_126_ULTRA_BALL",
+      "HIDDEN_ITEM_UNDERWATER_126_STARDUST",
+      "HIDDEN_ITEM_UNDERWATER_126_BIG_PEARL"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE126/MAIN": "Underwater, ROUTE 126 Main Most Surface Spots",
+      "REGION_ROUTE126/WEST": "Underwater, ROUTE 126 Main Northwest Surface Spot"
+    },
+    "warps": {
+      "MAP_UNDERWATER_ROUTE126:0/MAP_UNDERWATER_SOOTOPOLIS_CITY:0": "Underwater, ROUTE 126 Main Cave"
+    }
+  },
+  "REGION_UNDERWATER_ROUTE126/TUNNEL": {
+    "parent_map": "MAP_UNDERWATER_ROUTE126",
+    "name": "Underwater, ROUTE 126 Tunnel",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE126/NORTH_WEST_CORNER": "Underwater, ROUTE 126 Tunnel West Surface Spot",
+      "REGION_ROUTE126/NEAR_ROUTE_124": "Underwater, ROUTE 126 Tunnel East Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE126/SMALL_AREA_1": {
+    "parent_map": "MAP_UNDERWATER_ROUTE126",
+    "name": "Underwater, ROUTE 126 Small Area 1",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_126_PEARL",
+      "HIDDEN_ITEM_UNDERWATER_126_IRON",
+      "HIDDEN_ITEM_UNDERWATER_126_YELLOW_SHARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE126/WEST": "Underwater, ROUTE 126 Small Area 1 Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE126/SMALL_AREA_2": {
+    "parent_map": "MAP_UNDERWATER_ROUTE126",
+    "name": "Underwater, ROUTE 126 Small Area 2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_126_BLUE_SHARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE126/MAIN": "Underwater, ROUTE 126 Small Area 2 Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE127/MAIN": {
+    "parent_map": "MAP_ROUTE127",
+    "name": "ROUTE 127",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_127_ZINC",
+      "ITEM_ROUTE_127_RARE_CANDY",
+      "TRAINER_CAMDEN_REWARD",
+      "TRAINER_ATHENA_REWARD",
+      "TRAINER_AIDAN_REWARD",
+      "TRAINER_JONAH_REWARD",
+      "TRAINER_HENRY_REWARD",
+      "TRAINER_ROGER_REWARD",
+      "TRAINER_DONNY_REWARD",
+      "TRAINER_KOJI_1_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE126/MAIN": "ROUTE 127 West Exit",
+      "REGION_MOSSDEEP_CITY/MAIN": "ROUTE 127 North Exit",
+      "REGION_ROUTE128/MAIN": "ROUTE 127 South Exit",
+      "REGION_UNDERWATER_ROUTE127/MAIN": "ROUTE 127 Main Dive Spot",
+      "REGION_UNDERWATER_ROUTE127/TUNNEL": "ROUTE 127 Dive Spot Above Southeast Island",
+      "REGION_UNDERWATER_ROUTE127/AREA_1": "ROUTE 127 Left Dive Spot",
+      "REGION_UNDERWATER_ROUTE127/AREA_2": "ROUTE 127 Right Dive Spot",
+      "REGION_UNDERWATER_ROUTE127/AREA_3": "ROUTE 127 Northeast Dive Spot",
+      "REGION_UNDERWATER_ROUTE127/MARINE_CAVE_ENTRANCE_1": "ROUTE 127 Dive Spot Above Northeast Island"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE127/ENCLOSED_AREA": {
+    "parent_map": "MAP_ROUTE127",
+    "name": "ROUTE 127 Enclosed Area",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_127_CARBOS"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_UNDERWATER_ROUTE127/TUNNEL": "ROUTE 127 South Dive Spot in Enclosed Area",
+      "REGION_UNDERWATER_ROUTE127/MARINE_CAVE_ENTRANCE_2": "ROUTE 127 North Dive Spot in Enclosed Area"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE127/MAIN": {
+    "parent_map": "MAP_UNDERWATER_ROUTE127",
+    "name": "Underwater, ROUTE 127",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_127_HEART_SCALE"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE127/MAIN": "Underwater, ROUTE 127 Main Surface Spot",
+      "REGION_UNDERWATER_ROUTE128/MAIN": "Underwater, ROUTE 127 South Exit"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE127/TUNNEL": {
+    "parent_map": "MAP_UNDERWATER_ROUTE127",
+    "name": "Underwater, ROUTE 127 Tunnel",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE127/MAIN": "Underwater, ROUTE 127 Tunnel South Surface Spot",
+      "REGION_ROUTE127/ENCLOSED_AREA": "Underwater, ROUTE 127 Tunnel North Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE127/AREA_1": {
+    "parent_map": "MAP_UNDERWATER_ROUTE127",
+    "name": "Underwater, ROUTE 127 Area 1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_127_STAR_PIECE"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE127/MAIN": "Underwater, ROUTE 127 Area 1 Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE127/AREA_2": {
+    "parent_map": "MAP_UNDERWATER_ROUTE127",
+    "name": "Underwater, ROUTE 127 Area 2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_127_HP_UP"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE127/MAIN": "Underwater, ROUTE 127 Area 2 Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE127/AREA_3": {
+    "parent_map": "MAP_UNDERWATER_ROUTE127",
+    "name": "Underwater, ROUTE 127 Area 3",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_127_RED_SHARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE127/MAIN": "Underwater, ROUTE 127 Area 3 Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE127/MARINE_CAVE_ENTRANCE_1": {
+    "parent_map": "MAP_UNDERWATER_ROUTE127",
+    "name": "Underwater, ROUTE 127 MARINE CAVE Entrance 1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE127/MAIN": "Underwater, ROUTE 127 MARINE CAVE Entrance 1 Surface Spot",
+      "REGION_UNDERWATER_MARINE_CAVE/MAIN": "Underwater, ROUTE 127 MARINE CAVE Entrance 1 Cave Exit"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE127/MARINE_CAVE_ENTRANCE_2": {
+    "parent_map": "MAP_UNDERWATER_ROUTE127",
+    "name": "Underwater, ROUTE 127 MARINE CAVE Entrance 2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE127/MAIN": "Underwater, ROUTE 127 MARINE CAVE Entrance 2 Surface Spot",
+      "REGION_UNDERWATER_MARINE_CAVE/MAIN": "Underwater, ROUTE 127 MARINE CAVE Entrance 2 Cave Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE128/MAIN": {
+    "parent_map": "MAP_ROUTE128",
+    "name": "ROUTE 128",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "HIDDEN_ITEM_ROUTE_128_HEART_SCALE_1",
+      "HIDDEN_ITEM_ROUTE_128_HEART_SCALE_2",
+      "HIDDEN_ITEM_ROUTE_128_HEART_SCALE_3",
+      "TRAINER_ALEXA_REWARD",
+      "TRAINER_RUBEN_REWARD",
+      "TRAINER_ISAIAH_1_REWARD",
+      "TRAINER_WAYNE_REWARD",
+      "TRAINER_KATELYN_1_REWARD",
+      "TRAINER_HARRISON_REWARD",
+      "TRAINER_CARLEE_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE127/MAIN": "ROUTE 128 North Exit",
+      "REGION_ROUTE129/MAIN": "ROUTE 128 South Exit",
+      "REGION_EVER_GRANDE_CITY/SEA": "ROUTE 128 East Exit",
+      "REGION_UNDERWATER_ROUTE128/MAIN": "ROUTE 128 Main Dive Spot",
+      "REGION_UNDERWATER_ROUTE128/AREA_1": "ROUTE 128 Pupil Dive Spot",
+      "REGION_UNDERWATER_ROUTE128/AREA_2": "ROUTE 128 East Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE128/MAIN": {
+    "parent_map": "MAP_UNDERWATER_ROUTE128",
+    "name": "Underwater, ROUTE 128",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE128/MAIN": "Underwater, ROUTE 128 Surface Spot",
+      "REGION_UNDERWATER_ROUTE127/MAIN": "Underwater, ROUTE 128 North Exit"
+    },
+    "warps": {
+      "MAP_UNDERWATER_ROUTE128:0/MAP_UNDERWATER_SEAFLOOR_CAVERN:0": "Underwater, ROUTE 128 Cave Exit"
+    }
+  },
+  "REGION_UNDERWATER_ROUTE128/AREA_1": {
+    "parent_map": "MAP_UNDERWATER_ROUTE128",
+    "name": "Underwater, ROUTE 128 Pupil Area",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_128_PROTEIN"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE128/MAIN": "Underwater, ROUTE 128 Pupil Area Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE128/AREA_2": {
+    "parent_map": "MAP_UNDERWATER_ROUTE128",
+    "name": "Underwater, ROUTE 128 East Area",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_UNDERWATER_128_PEARL"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE128/MAIN": "Underwater, ROUTE 128 East Area Surface Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE129/MAIN": {
+    "parent_map": "MAP_ROUTE129",
+    "name": "ROUTE 129",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_REED_REWARD",
+      "TRAINER_CHASE_REWARD",
+      "TRAINER_ALLISON_REWARD",
+      "TRAINER_TISHA_REWARD",
+      "TRAINER_CLARENCE_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE130/MAIN": "ROUTE 129 West Exit",
+      "REGION_ROUTE128/MAIN": "ROUTE 129 North Exit",
+      "REGION_UNDERWATER_ROUTE129/MARINE_CAVE_ENTRANCE_1": "ROUTE 129 West Dive Spot",
+      "REGION_UNDERWATER_ROUTE129/MARINE_CAVE_ENTRANCE_2": "ROUTE 129 East Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE129/MARINE_CAVE_ENTRANCE_1": {
+    "parent_map": "MAP_UNDERWATER_ROUTE129",
+    "name": "Underwater, ROUTE 129 MARINE CAVE Entrance 1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE129/MAIN": "Underwater, ROUTE 129 MARINE CAVE Entrance 1 Surface Spot",
+      "REGION_UNDERWATER_MARINE_CAVE/MAIN": "Underwater, ROUTE 129 MARINE CAVE Entrance 1 Cave Exit"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE129/MARINE_CAVE_ENTRANCE_2": {
+    "parent_map": "MAP_UNDERWATER_ROUTE129",
+    "name": "Underwater, ROUTE 129 MARINE CAVE Entrance 2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE129/MAIN": "Underwater, ROUTE 129 MARINE CAVE Entrance 2 Surface Spot",
+      "REGION_UNDERWATER_MARINE_CAVE/MAIN": "Underwater, ROUTE 129 MARINE CAVE Entrance 2 Cave Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE130/MAIN": {
+    "parent_map": "MAP_ROUTE130",
+    "name": "ROUTE 130",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_RODNEY_REWARD",
+      "TRAINER_KATIE_REWARD",
+      "TRAINER_SANTIAGO_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE130/MIRAGE_ISLAND": "MIRAGE ISLAND Landing Spot",
+      "REGION_ROUTE129/MAIN": "ROUTE 130 East Exit",
+      "REGION_ROUTE131/MAIN": "ROUTE 130 West Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE130/MIRAGE_ISLAND": {
+    "parent_map": "MAP_ROUTE130",
+    "name": "MIRAGE ISLAND",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "BERRY_TREE_82"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_ROUTE131/MAIN": {
+    "parent_map": "MAP_ROUTE131",
+    "name": "ROUTE 131",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "TRAINER_KEVIN_REWARD",
+      "TRAINER_TALIA_REWARD",
+      "TRAINER_RICHARD_REWARD",
+      "TRAINER_KARA_REWARD",
+      "TRAINER_HERMAN_REWARD",
+      "TRAINER_SUSIE_REWARD",
+      "TRAINER_RELI_AND_IAN_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_PACIFIDLOG_TOWN/MAIN": "ROUTE 131 West Exit",
+      "REGION_ROUTE130/MAIN": "ROUTE 131 East Exit"
+    },
+    "warps": {
+      "MAP_ROUTE131:0/MAP_SKY_PILLAR_ENTRANCE:0": "ROUTE 131 Cave Exit"
+    }
+  },
+  "REGION_ROUTE132/EAST": {
+    "parent_map": "MAP_ROUTE132",
+    "name": "ROUTE 132 East",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE132/WEST": "ROUTE 132 East Past Currents",
+      "REGION_PACIFIDLOG_TOWN/MAIN": "ROUTE 132 East Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE132/WEST": {
+    "parent_map": "MAP_ROUTE132",
+    "name": "ROUTE 132 West",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_132_RARE_CANDY",
+      "ITEM_ROUTE_132_PROTEIN",
+      "TRAINER_GILBERT_REWARD",
+      "TRAINER_RONALD_REWARD",
+      "TRAINER_DARCY_REWARD",
+      "TRAINER_PAXTON_REWARD",
+      "TRAINER_JONATHAN_REWARD",
+      "TRAINER_MAKAYLA_REWARD",
+      "TRAINER_KIYO_REWARD",
+      "TRAINER_DANA_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE133/MAIN": "ROUTE 132 West Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE133/MAIN": {
+    "parent_map": "MAP_ROUTE133",
+    "name": "ROUTE 133",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_133_BIG_PEARL",
+      "ITEM_ROUTE_133_STAR_PIECE",
+      "ITEM_ROUTE_133_MAX_REVIVE",
+      "TRAINER_LINDA_REWARD",
+      "TRAINER_FRANKLIN_REWARD",
+      "TRAINER_DEBRA_REWARD",
+      "TRAINER_MOLLIE_REWARD",
+      "TRAINER_CONOR_REWARD",
+      "TRAINER_WARREN_REWARD",
+      "TRAINER_BECK_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE134/MAIN": "ROUTE 133 West Exit"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE134/MAIN": {
+    "parent_map": "MAP_ROUTE134",
+    "name": "ROUTE 134",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_ROUTE_134_CARBOS",
+      "ITEM_ROUTE_134_STAR_PIECE",
+      "TRAINER_ALEX_REWARD",
+      "TRAINER_KELVIN_REWARD",
+      "TRAINER_HUDSON_REWARD",
+      "TRAINER_REYNA_REWARD",
+      "TRAINER_HITOSHI_REWARD",
+      "TRAINER_MARLEY_REWARD",
+      "TRAINER_AARON_REWARD",
+      "TRAINER_LAUREL_REWARD",
+      "TRAINER_JACK_REWARD"
+    ],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE134/WEST": "ROUTE 134 Past Currents",
+      "REGION_UNDERWATER_ROUTE134/MAIN": "ROUTE 134 Dive Spot"
+    },
+    "warps": {}
+  },
+  "REGION_ROUTE134/WEST": {
+    "parent_map": "MAP_ROUTE134",
+    "name": "ROUTE 134 West",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SLATEPORT_CITY/WATER": "ROUTE 134 West Exit"
+    },
+    "warps": {}
+  },
+  "REGION_UNDERWATER_ROUTE134/MAIN": {
+    "parent_map": "MAP_UNDERWATER_ROUTE134",
+    "name": "Underwater, ROUTE 134",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_ROUTE134/MAIN": "Underwater, ROUTE 134 Surface Spot"
+    },
+    "warps": {
+      "MAP_UNDERWATER_ROUTE134:0/MAP_UNDERWATER_SEALED_CHAMBER:0": "Underwater, ROUTE 134 Cave Exit"
+    }
+  }
+}

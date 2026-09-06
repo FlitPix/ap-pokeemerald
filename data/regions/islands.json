@@ -1,0 +1,406 @@
+{
+  "REGION_SOUTHERN_ISLAND_EXTERIOR/MAIN": {
+    "parent_map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
+    "name": "SOUTHERN ISLAND Dock",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY_HARBOR/MAIN": "SOUTHERN ISLAND Sail to LILYCOVE CITY"
+    },
+    "warps": {
+      "MAP_SOUTHERN_ISLAND_EXTERIOR:0,1/MAP_SOUTHERN_ISLAND_INTERIOR:0,1": "Enter SOUTHERN ISLAND"
+    }
+  },
+  "REGION_SOUTHERN_ISLAND_INTERIOR/MAIN": {
+    "parent_map": "MAP_SOUTHERN_ISLAND_INTERIOR",
+    "name": "SOUTHERN ISLAND",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [
+      "EVENT_ENCOUNTER_LATIAS"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_SOUTHERN_ISLAND_INTERIOR:0,1/MAP_SOUTHERN_ISLAND_EXTERIOR:0,1": "SOUTHERN ISLAND Exit"
+    }
+  },
+  "REGION_FARAWAY_ISLAND_ENTRANCE/MAIN": {
+    "parent_map": "MAP_FARAWAY_ISLAND_ENTRANCE",
+    "name": "FARAWAY ISLAND Dock",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY_HARBOR/MAIN": "FARAWAY ISLAND Sail to LILYCOVE CITY"
+    },
+    "warps": {
+      "MAP_FARAWAY_ISLAND_ENTRANCE:0,1/MAP_FARAWAY_ISLAND_INTERIOR:0,1": "Enter FARAWAY ISLAND"
+    }
+  },
+  "REGION_FARAWAY_ISLAND_INTERIOR/MAIN": {
+    "parent_map": "MAP_FARAWAY_ISLAND_INTERIOR",
+    "name": "FARAWAY ISLAND",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [
+      "EVENT_ENCOUNTER_MEW"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_FARAWAY_ISLAND_INTERIOR:0,1/MAP_FARAWAY_ISLAND_ENTRANCE:0,1": "FARAWAY ISLAND Exit"
+    }
+  },
+  "REGION_BIRTH_ISLAND_HARBOR/MAIN": {
+    "parent_map": "MAP_BIRTH_ISLAND_HARBOR",
+    "name": "BIRTH ISLAND Harbor",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY_HARBOR/MAIN": "BIRTH ISLAND Sail to LILYCOVE CITY"
+    },
+    "warps": {
+      "MAP_BIRTH_ISLAND_HARBOR:0/MAP_BIRTH_ISLAND_EXTERIOR:0": "BIRTH ISLAND Harbor Exit"
+    }
+  },
+  "REGION_BIRTH_ISLAND_EXTERIOR/MAIN": {
+    "parent_map": "MAP_BIRTH_ISLAND_EXTERIOR",
+    "name": "BIRTH ISLAND",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [
+      "EVENT_ENCOUNTER_DEOXYS"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_BIRTH_ISLAND_EXTERIOR:0/MAP_BIRTH_ISLAND_HARBOR:0": "BIRTH ISLAND Exit"
+    }
+  },
+  "REGION_NAVEL_ROCK_HARBOR/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_HARBOR",
+    "name": "NAVEL ROCK Harbor",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LILYCOVE_CITY_HARBOR/MAIN": "NAVEL ROCK Sail to LILYCOVE CITY"
+    },
+    "warps": {
+      "MAP_NAVEL_ROCK_HARBOR:0/MAP_NAVEL_ROCK_EXTERIOR:0": "NAVEL ROCK Harbor Exit"
+    }
+  },
+  "REGION_NAVEL_ROCK_EXTERIOR/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_EXTERIOR",
+    "name": "NAVEL ROCK Outside",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_EXTERIOR:0/MAP_NAVEL_ROCK_HARBOR:0": "NAVEL ROCK Outside South Exit",
+      "MAP_NAVEL_ROCK_EXTERIOR:1/MAP_NAVEL_ROCK_ENTRANCE:1": "NAVEL ROCK Outside Cave Entrance"
+    }
+  },
+  "REGION_NAVEL_ROCK_ENTRANCE/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_ENTRANCE",
+    "name": "NAVEL ROCK Entrance Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_ENTRANCE:0/MAP_NAVEL_ROCK_B1F:0": "NAVEL ROCK ER Ladder",
+      "MAP_NAVEL_ROCK_ENTRANCE:1/MAP_NAVEL_ROCK_EXTERIOR:1": "NAVEL ROCK ER South Exit"
+    }
+  },
+  "REGION_NAVEL_ROCK_B1F/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_B1F",
+    "name": "NAVEL ROCK B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_B1F:0/MAP_NAVEL_ROCK_ENTRANCE:0": "NAVEL ROCK B1F Upwards Ladder",
+      "MAP_NAVEL_ROCK_B1F:1/MAP_NAVEL_ROCK_FORK:1": "NAVEL ROCK B1F Downwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_FORK/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_FORK",
+    "name": "NAVEL ROCK Fork Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_FORK:0/MAP_NAVEL_ROCK_UP1:0": "NAVEL ROCK FR Left Ladder",
+      "MAP_NAVEL_ROCK_FORK:1/MAP_NAVEL_ROCK_B1F:1": "NAVEL ROCK FR South Ladder",
+      "MAP_NAVEL_ROCK_FORK:2/MAP_NAVEL_ROCK_DOWN01:0": "NAVEL ROCK FR Right Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_DOWN01/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_DOWN01",
+    "name": "NAVEL ROCK Descent 1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_DOWN01:0/MAP_NAVEL_ROCK_FORK:2": "NAVEL ROCK D1 Upwards Ladder",
+      "MAP_NAVEL_ROCK_DOWN01:1/MAP_NAVEL_ROCK_DOWN02:0": "NAVEL ROCK D1 Downwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_DOWN02/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_DOWN02",
+    "name": "NAVEL ROCK Descent 2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_DOWN02:1/MAP_NAVEL_ROCK_DOWN03:0": "NAVEL ROCK D2 Downwards Ladder",
+      "MAP_NAVEL_ROCK_DOWN02:0/MAP_NAVEL_ROCK_DOWN01:1": "NAVEL ROCK D2 Upwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_DOWN03/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_DOWN03",
+    "name": "NAVEL ROCK Descent 3",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_DOWN03:0/MAP_NAVEL_ROCK_DOWN02:1": "NAVEL ROCK D3 Upwards Ladder",
+      "MAP_NAVEL_ROCK_DOWN03:1/MAP_NAVEL_ROCK_DOWN04:0": "NAVEL ROCK D3 Downwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_DOWN04/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_DOWN04",
+    "name": "NAVEL ROCK Descent 4",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_DOWN04:1/MAP_NAVEL_ROCK_DOWN05:0": "NAVEL ROCK D4 Downwards Ladder",
+      "MAP_NAVEL_ROCK_DOWN04:0/MAP_NAVEL_ROCK_DOWN03:1": "NAVEL ROCK D4 Upwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_DOWN05/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_DOWN05",
+    "name": "NAVEL ROCK Descent 5",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_DOWN05:0/MAP_NAVEL_ROCK_DOWN04:1": "NAVEL ROCK D5 Upwards Ladder",
+      "MAP_NAVEL_ROCK_DOWN05:1/MAP_NAVEL_ROCK_DOWN06:0": "NAVEL ROCK D5 Downwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_DOWN06/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_DOWN06",
+    "name": "NAVEL ROCK Descent 6",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_DOWN06:1/MAP_NAVEL_ROCK_DOWN07:0": "NAVEL ROCK D6 Downwards Ladder",
+      "MAP_NAVEL_ROCK_DOWN06:0/MAP_NAVEL_ROCK_DOWN05:1": "NAVEL ROCK D6 Upwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_DOWN07/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_DOWN07",
+    "name": "NAVEL ROCK Descent 7",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_DOWN07:0/MAP_NAVEL_ROCK_DOWN06:1": "NAVEL ROCK D7 Upwards Ladder",
+      "MAP_NAVEL_ROCK_DOWN07:1/MAP_NAVEL_ROCK_DOWN08:0": "NAVEL ROCK D7 Downwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_DOWN08/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_DOWN08",
+    "name": "NAVEL ROCK Descent 8",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_DOWN08:1/MAP_NAVEL_ROCK_DOWN09:0": "NAVEL ROCK D8 Downwards Ladder",
+      "MAP_NAVEL_ROCK_DOWN08:0/MAP_NAVEL_ROCK_DOWN07:1": "NAVEL ROCK D8 Upwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_DOWN09/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_DOWN09",
+    "name": "NAVEL ROCK Descent 9",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_DOWN09:0/MAP_NAVEL_ROCK_DOWN08:1": "NAVEL ROCK D9 Upwards Ladder",
+      "MAP_NAVEL_ROCK_DOWN09:1/MAP_NAVEL_ROCK_DOWN10:0": "NAVEL ROCK D9 Downwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_DOWN10/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_DOWN10",
+    "name": "NAVEL ROCK Descent 10",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_DOWN10:1/MAP_NAVEL_ROCK_DOWN11:1": "NAVEL ROCK D10 Downwards Ladder",
+      "MAP_NAVEL_ROCK_DOWN10:0/MAP_NAVEL_ROCK_DOWN09:1": "NAVEL ROCK D10 Upwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_DOWN11/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_DOWN11",
+    "name": "NAVEL ROCK Descent 11",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_DOWN11:1/MAP_NAVEL_ROCK_DOWN10:1": "NAVEL ROCK D11 Upwards Ladder",
+      "MAP_NAVEL_ROCK_DOWN11:0/MAP_NAVEL_ROCK_BOTTOM:0": "NAVEL ROCK D11 Downwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_BOTTOM/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_BOTTOM",
+    "name": "NAVEL ROCK LUGIA's Chamber",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [
+      "EVENT_ENCOUNTER_LUGIA"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_BOTTOM:0/MAP_NAVEL_ROCK_DOWN11:0": "NAVEL ROCK LUGIA's Chamber Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_UP1/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_UP1",
+    "name": "NAVEL ROCK Ascent 1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_UP1:1/MAP_NAVEL_ROCK_UP2:0": "NAVEL ROCK A1 Upwards Ladder",
+      "MAP_NAVEL_ROCK_UP1:0/MAP_NAVEL_ROCK_FORK:0": "NAVEL ROCK A1 Downwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_UP2/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_UP2",
+    "name": "NAVEL ROCK Ascent 2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_UP2:0/MAP_NAVEL_ROCK_UP1:1": "NAVEL ROCK A2 Downwards Ladder",
+      "MAP_NAVEL_ROCK_UP2:1/MAP_NAVEL_ROCK_UP3:0": "NAVEL ROCK A2 Upwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_UP3/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_UP3",
+    "name": "NAVEL ROCK Ascent 3",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_UP3:1/MAP_NAVEL_ROCK_UP4:0": "NAVEL ROCK A3 Upwards Ladder",
+      "MAP_NAVEL_ROCK_UP3:0/MAP_NAVEL_ROCK_UP2:1": "NAVEL ROCK A3 Downwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_UP4/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_UP4",
+    "name": "NAVEL ROCK Ascent 4",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_UP4:0/MAP_NAVEL_ROCK_UP3:1": "NAVEL ROCK A4 Downwards Ladder",
+      "MAP_NAVEL_ROCK_UP4:1/MAP_NAVEL_ROCK_TOP:0": "NAVEL ROCK A4 Upwards Ladder"
+    }
+  },
+  "REGION_NAVEL_ROCK_TOP/MAIN": {
+    "parent_map": "MAP_NAVEL_ROCK_TOP",
+    "name": "NAVEL ROCK Summit",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_NAVEL_ROCK_TOP_SACRED_ASH"
+    ],
+    "events": [
+      "EVENT_ENCOUNTER_HO_OH"
+    ],
+    "exits": {},
+    "warps": {
+      "MAP_NAVEL_ROCK_TOP:0/MAP_NAVEL_ROCK_UP4:1": "NAVEL ROCK Ladder"
+    }
+  }
+}

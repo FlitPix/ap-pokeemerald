@@ -1,0 +1,1910 @@
+{
+  "BADGE_1": {
+    "name": "RUSTBORO CITY POKéMON GYM - Prize 1 from ROXANNE",
+    "tags": ["Gym Prizes", "Hoenn", "Rustboro City", "Rustboro Gym"],
+    "category": "BADGE"
+  },
+  "BADGE_2": {
+    "name": "DEWFORD TOWN POKéMON GYM - Prize 1 from BRAWLY",
+    "tags": ["Gym Prizes", "Hoenn", "Dewford Town", "Dewford Gym"],
+    "category": "BADGE"
+  },
+  "BADGE_3": {
+    "name": "MAUVILLE CITY POKéMON GYM - Prize 1 from WATTSON",
+    "tags": ["Gym Prizes", "Hoenn", "Mauville City", "Mauville Gym"],
+    "category": "BADGE"
+  },
+  "BADGE_4": {
+    "name": "LAVARIDGE TOWN POKéMON GYM - Prize 1 from FLANNERY",
+    "tags": ["Gym Prizes", "Hoenn", "Lavaridge Town", "Lavaridge Gym"],
+    "category": "BADGE"
+  },
+  "BADGE_5": {
+    "name": "PETALBURG CITY POKéMON GYM - Prize 1 from NORMAN",
+    "tags": ["Gym Prizes", "Hoenn", "Petalburg City", "Petalburg Gym"],
+    "category": "BADGE"
+  },
+  "BADGE_6": {
+    "name": "FORTREE CITY POKéMON GYM - Prize 1 from WINONA",
+    "tags": ["Gym Prizes", "Hoenn", "Fortree City", "Fortree Gym"],
+    "category": "BADGE"
+  },
+  "BADGE_7": {
+    "name": "MOSSDEEP CITY POKéMON GYM - Prize 1 from LIZA & TATE",
+    "tags": ["Gym Prizes", "Hoenn", "Mossdeep City", "Mossdeep Gym"],
+    "category": "BADGE"
+  },
+  "BADGE_8": {
+    "name": "SOOTOPOLIS CITY POKéMON GYM - Prize 1 from JUAN",
+    "tags": ["Gym Prizes", "Hoenn", "Sootopolis City", "Sootopolis Gym"],
+    "category": "BADGE"
+  },
+
+  "NPC_GIFT_RECEIVED_HM_CUT": {
+    "name": "RUSTBORO CITY - Gift from the CUTTER",
+    "tags": ["HMs", "NPC Gifts", "Hoenn", "Rustboro City"],
+    "category": "HM"
+  },
+  "NPC_GIFT_RECEIVED_HM_FLY": {
+    "name": "ROUTE 119 - Gift from Defeated Rival",
+    "tags": ["HMs", "NPC Gifts", "Hoenn", "Route 119"],
+    "category": "HM"
+  },
+  "NPC_GIFT_RECEIVED_HM_SURF": {
+    "name": "PETALBURG CITY - Gift from WALLY's Uncle",
+    "tags": ["HMs", "NPC Gifts", "Hoenn", "Petalburg City"],
+    "category": "HM"
+  },
+  "NPC_GIFT_RECEIVED_HM_STRENGTH": {
+    "name": "RUSTURF TUNNEL - Gift from Tunneler",
+    "tags": ["HMs", "NPC Gifts", "Hoenn", "Rusturf Tunnel"],
+    "category": "HM"
+  },
+  "NPC_GIFT_RECEIVED_HM_FLASH": {
+    "name": "GRANITE CAVE 1F - Gift from HIKER",
+    "tags": ["HMs", "NPC Gifts", "Hoenn", "Granite Cave"],
+    "category": "HM"
+  },
+  "NPC_GIFT_RECEIVED_HM_ROCK_SMASH": {
+    "name": "MAUVILLE CITY - Gift from ROCK SMASH GUY",
+    "tags": ["HMs", "NPC Gifts", "Hoenn", "Mauville City"],
+    "category": "HM"
+  },
+  "NPC_GIFT_RECEIVED_HM_WATERFALL": {
+    "name": "SOOTOPOLIS CITY - Gift from WALLACE",
+    "tags": ["HMs", "NPC Gifts", "Hoenn", "Sootopolis City"],
+    "category": "HM"
+  },
+  "NPC_GIFT_RECEIVED_HM_DIVE": {
+    "name": "MOSSDEEP CITY - Gift from STEVEN",
+    "tags": ["HMs", "NPC Gifts", "Hoenn", "Mossdeep City"],
+    "category": "HM"
+  },
+
+  "NPC_GIFT_RECEIVED_ACRO_BIKE": {
+    "name": "MAUVILLE CITY - Gift 1 from RYDEL",
+    "tags": ["NPC Gifts", "Hoenn", "Mauville City"],
+    "category": "BIKE"
+  },
+  "NPC_GIFT_RECEIVED_MACH_BIKE": {
+    "name": "MAUVILLE CITY - Gift 2 from RYDEL",
+    "tags": ["NPC Gifts", "Hoenn", "Mauville City"],
+    "category": "BIKE"
+  },
+
+  "NPC_GIFT_RECEIVED_WAILMER_PAIL": {
+    "name": "ROUTE 104 - Gift from Flower Shop Lady",
+    "tags": ["Key Items", "NPC Gifts", "Hoenn", "Route 104"],
+    "category": "KEY"
+  },
+  "NPC_GIFT_RECEIVED_DEVON_GOODS_RUSTURF_TUNNEL": {
+    "name": "RUSTURF TUNNEL - Item from AQUA GRUNT",
+    "tags": ["Key Items", "NPC Gifts", "Hoenn", "Rusturf Tunnel"],
+    "category": "KEY"
+  },
+  "NPC_GIFT_RECEIVED_LETTER": {
+    "name": "DEVON CORP. 3F - Gift 1 from MR. STONE",
+    "tags": ["Key Items", "NPC Gifts", "Hoenn", "Rustboro City"],
+    "category": "KEY"
+  },
+  "NPC_GIFT_RECEIVED_COIN_CASE": {
+    "name": "MAUVILLE CITY - Gift from Lady in House",
+    "tags": ["Key Items", "NPC Gifts", "Hoenn", "Mauville City"],
+    "category": "KEY"
+  },
+  "NPC_GIFT_RECEIVED_METEORITE": {
+    "name": "MT. CHIMNEY - Item from Machine",
+    "tags": ["Key Items", "NPC Gifts", "Hoenn", "Mt. Chimney"],
+    "category": "KEY"
+  },
+  "NPC_GIFT_RECEIVED_GO_GOGGLES": {
+    "name": "LAVARIDGE TOWN - Gift from Rival",
+    "tags": ["Key Items", "NPC Gifts", "Hoenn", "Lavaridge Town"],
+    "category": "KEY"
+  },
+  "NPC_GIFT_GOT_BASEMENT_KEY_FROM_WATTSON": {
+    "name": "MAUVILLE CITY - Gift from WATTSON",
+    "tags": ["Key Items", "NPC Gifts", "Hoenn", "Mauville City"],
+    "category": "KEY"
+  },
+  "NPC_GIFT_RECEIVED_ITEMFINDER": {
+    "name": "ROUTE 110 - Gift from Rival",
+    "tags": ["Key Items", "NPC Gifts", "Hoenn", "Route 110"],
+    "category": "KEY"
+  },
+  "NPC_GIFT_RECEIVED_DEVON_SCOPE": {
+    "name": "ROUTE 120 - Gift from STEVEN",
+    "tags": ["Key Items", "NPC Gifts", "Hoenn", "Route 120"],
+    "category": "KEY"
+  },
+  "NPC_GIFT_RECEIVED_MAGMA_EMBLEM": {
+    "name": "MT. PYRE Summit - Gift from Old Lady",
+    "tags": ["Key Items", "NPC Gifts", "Hoenn", "Mt. Pyre"],
+    "category": "KEY"
+  },
+  "ITEM_ABANDONED_SHIP_CAPTAINS_OFFICE_STORAGE_KEY": {
+    "name": "ABANDONED SHIP - Captain's Office Key",
+    "tags": ["Key Items", "Overworld Items", "Hoenn", "Abandoned Ship"],
+    "category": "KEY"
+  },
+  "HIDDEN_ITEM_ABANDONED_SHIP_RM_4_KEY": {
+    "name": "ABANDONED SHIP HF - RM. 4 KEY",
+    "tags": ["Key Items", "Hidden Items", "Hoenn", "Abandoned Ship"],
+    "category": "KEY"
+  },
+  "HIDDEN_ITEM_ABANDONED_SHIP_RM_1_KEY": {
+    "name": "ABANDONED SHIP HF - RM. 1 KEY",
+    "tags": ["Key Items", "Hidden Items", "Hoenn", "Abandoned Ship"],
+    "category": "KEY"
+  },
+  "HIDDEN_ITEM_ABANDONED_SHIP_RM_6_KEY": {
+    "name": "ABANDONED SHIP HF - RM. 6 KEY",
+    "tags": ["Key Items", "Hidden Items", "Hoenn", "Abandoned Ship"],
+    "category": "KEY"
+  },
+  "HIDDEN_ITEM_ABANDONED_SHIP_RM_2_KEY": {
+    "name": "ABANDONED SHIP HF - RM. 2 KEY",
+    "tags": ["Key Items", "Hidden Items", "Hoenn", "Abandoned Ship"],
+    "category": "KEY"
+  },
+  "ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_2_SCANNER": {
+    "name": "ABANDONED SHIP HF - SCANNER",
+    "tags": ["Key Items", "Overworld Items", "Hoenn", "Abandoned Ship"],
+    "category": "KEY"
+  },
+  "NPC_GIFT_RECEIVED_POKEBLOCK_CASE": {
+    "name": "LILYCOVE CITY - Gift from Contest Hall Receptionist",
+    "tags": ["Key Items", "NPC Gifts", "Hoenn", "Lilycove City"],
+    "category": "KEY"
+  },
+
+  "NPC_GIFT_RECEIVED_SS_TICKET": {
+    "name": "LITTLEROOT TOWN - Gift 1 from NORMAN",
+    "tags": ["Tickets", "NPC Gifts", "Hoenn", "Littleroot Town"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_EON_TICKET": {
+    "name": "LITTLEROOT TOWN - Gift 2 from NORMAN",
+    "tags": ["Tickets", "NPC Gifts", "Hoenn", "Littleroot Town"],
+    "category": "TICKET"
+  },
+  "NPC_GIFT_RECEIVED_OLD_SEA_MAP": {
+    "name": "LITTLEROOT TOWN - Gift 3 from NORMAN",
+    "tags": ["Tickets", "NPC Gifts", "Hoenn", "Littleroot Town"],
+    "category": "TICKET"
+  },
+  "NPC_GIFT_RECEIVED_AURORA_TICKET": {
+    "name": "LITTLEROOT TOWN - Gift 4 from NORMAN",
+    "tags": ["Tickets", "NPC Gifts", "Hoenn", "Littleroot Town"],
+    "category": "TICKET"
+  },
+  "NPC_GIFT_RECEIVED_MYSTIC_TICKET": {
+    "name": "LITTLEROOT TOWN - Gift 5 from NORMAN",
+    "tags": ["Tickets", "NPC Gifts", "Hoenn", "Littleroot Town"],
+    "category": "TICKET"
+  },
+
+  "NPC_GIFT_RECEIVED_OLD_ROD": {
+    "name": "DEWFORD TOWN - Gift from FISHERMAN",
+    "tags": ["NPC Gifts", "Hoenn", "Dewford Town"],
+    "category": "ROD"
+  },
+  "NPC_GIFT_RECEIVED_GOOD_ROD": {
+    "name": "ROUTE 118 - Gift from FISHERMAN",
+    "tags": ["NPC Gifts", "Hoenn", "Route 118"],
+    "category": "ROD"
+  },
+  "NPC_GIFT_RECEIVED_SUPER_ROD": {
+    "name": "MOSSDEEP CITY - Gift from FISHERMAN in House",
+    "tags": ["NPC Gifts", "Hoenn", "Mossdeep City"],
+    "category": "ROD"
+  },
+
+  "HIDDEN_ITEM_ARTISAN_CAVE_B1F_CALCIUM": {
+    "name": "ARTISAN CAVE B1F - Hidden Item 1",
+    "tags": ["Hidden Items", "Hoenn", "Artisan Cave"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ARTISAN_CAVE_B1F_IRON": {
+    "name": "ARTISAN CAVE B1F - Hidden Item 2",
+    "tags": ["Hidden Items", "Hoenn", "Artisan Cave"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ARTISAN_CAVE_B1F_PROTEIN": {
+    "name": "ARTISAN CAVE B1F - Hidden Item 3",
+    "tags": ["Hidden Items", "Hoenn", "Artisan Cave"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ARTISAN_CAVE_B1F_ZINC": {
+    "name": "ARTISAN CAVE B1F - Hidden Item 4",
+    "tags": ["Hidden Items", "Hoenn", "Artisan Cave"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_FALLARBOR_TOWN_NUGGET": {
+    "name": "FALLARBOR TOWN - Hidden Item in Crater",
+    "tags": ["Hidden Items", "Hoenn", "Fallarbor Town"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_GRANITE_CAVE_B2F_EVERSTONE_1": {
+    "name": "GRANITE CAVE B2F - Hidden Item After Crumbling Floor",
+    "tags": ["Hidden Items", "Hoenn", "Granite Cave"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_GRANITE_CAVE_B2F_EVERSTONE_2": {
+    "name": "GRANITE CAVE B2F - Hidden Item on Platform",
+    "tags": ["Hidden Items", "Hoenn", "Granite Cave"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_JAGGED_PASS_FULL_HEAL": {
+    "name": "JAGGED PASS - Hidden Item in Grass",
+    "tags": ["Hidden Items", "Hoenn", "Jagged Pass"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_JAGGED_PASS_GREAT_BALL": {
+    "name": "JAGGED PASS - Hidden Item in Corner",
+    "tags": ["Hidden Items", "Hoenn", "Jagged Pass"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_LAVARIDGE_TOWN_ICE_HEAL": {
+    "name": "LAVARIDGE TOWN - Hidden Item in Springs",
+    "tags": ["Hidden Items", "Hoenn", "Lavaridge Town"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_LILYCOVE_CITY_HEART_SCALE": {
+    "name": "LILYCOVE CITY - Hidden Item on Beach West",
+    "tags": ["Hidden Items", "Hoenn", "Lilycove City"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_LILYCOVE_CITY_POKE_BALL": {
+    "name": "LILYCOVE CITY - Hidden Item on Beach East",
+    "tags": ["Hidden Items", "Hoenn", "Lilycove City"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_LILYCOVE_CITY_PP_UP": {
+    "name": "LILYCOVE CITY - Hidden Item on Beach North",
+    "tags": ["Hidden Items", "Hoenn", "Lilycove City"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_MT_PYRE_EXTERIOR_MAX_ETHER": {
+    "name": "MT. PYRE Exterior - Hidden Item First Grave",
+    "tags": ["Hidden Items", "Hoenn", "Mt. Pyre"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_MT_PYRE_EXTERIOR_ULTRA_BALL": {
+    "name": "MT. PYRE Exterior - Hidden Item Second Grave",
+    "tags": ["Hidden Items", "Hoenn", "Mt. Pyre"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_MT_PYRE_SUMMIT_RARE_CANDY": {
+    "name": "MT. PYRE Summit - Hidden Item in Grass",
+    "tags": ["Hidden Items", "Hoenn", "Mt. Pyre"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_MT_PYRE_SUMMIT_ZINC": {
+    "name": "MT. PYRE Summit - Hidden Item Grave",
+    "tags": ["Hidden Items", "Hoenn", "Mt. Pyre"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_PETALBURG_CITY_RARE_CANDY": {
+    "name": "PETALBURG CITY - Hidden Item Past Pond South",
+    "tags": ["Hidden Items", "Hoenn", "Petalburg City"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_PETALBURG_WOODS_POKE_BALL": {
+    "name": "PETALBURG WOODS - Hidden Item After Grunt",
+    "tags": ["Hidden Items", "Hoenn", "Petalburg Woods"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_PETALBURG_WOODS_POTION": {
+    "name": "PETALBURG WOODS - Hidden Item Southeast",
+    "tags": ["Hidden Items", "Hoenn", "Petalburg Woods"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_PETALBURG_WOODS_TINY_MUSHROOM_1": {
+    "name": "PETALBURG WOODS - Hidden Item Past Tree North",
+    "tags": ["Hidden Items", "Hoenn", "Petalburg Woods"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_PETALBURG_WOODS_TINY_MUSHROOM_2": {
+    "name": "PETALBURG WOODS - Hidden Item Past Tree South",
+    "tags": ["Hidden Items", "Hoenn", "Petalburg Woods"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_104_ANTIDOTE": {
+    "name": "ROUTE 104 - Hidden Item on Beach 1",
+    "tags": ["Hidden Items", "Hoenn", "Route 104"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_104_HEART_SCALE": {
+    "name": "ROUTE 104 - Hidden Item on Beach 2",
+    "tags": ["Hidden Items", "Hoenn", "Route 104"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_104_POTION": {
+    "name": "ROUTE 104 - Hidden Item on Beach 3",
+    "tags": ["Hidden Items", "Hoenn", "Route 104"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_104_POKE_BALL": {
+    "name": "ROUTE 104 - Hidden Item Behind Flower Shop 1",
+    "tags": ["Hidden Items", "Hoenn", "Route 104"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_104_SUPER_POTION": {
+    "name": "ROUTE 104 - Hidden Item Behind Flower Shop 2",
+    "tags": ["Hidden Items", "Hoenn", "Route 104"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_105_BIG_PEARL": {
+    "name": "ROUTE 105 - Hidden Item Between Trainers",
+    "tags": ["Hidden Items", "Hoenn", "Route 105"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_105_HEART_SCALE": {
+    "name": "ROUTE 105 - Hidden Item on Small Island",
+    "tags": ["Hidden Items", "Hoenn", "Route 105"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_106_HEART_SCALE": {
+    "name": "ROUTE 106 - Hidden Item on Beach 1",
+    "tags": ["Hidden Items", "Hoenn", "Route 106"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_106_STARDUST": {
+    "name": "ROUTE 106 - Hidden Item on Beach 2",
+    "tags": ["Hidden Items", "Hoenn", "Route 106"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_106_POKE_BALL": {
+    "name": "ROUTE 106 - Hidden Item on Beach 3",
+    "tags": ["Hidden Items", "Hoenn", "Route 106"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_108_RARE_CANDY": {
+    "name": "ROUTE 108 - Hidden Item on Rock",
+    "tags": ["Hidden Items", "Hoenn", "Route 108"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_109_REVIVE": {
+    "name": "ROUTE 109 - Hidden Item on Beach Southwest",
+    "tags": ["Hidden Items", "Hoenn", "Route 109"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_109_ETHER": {
+    "name": "ROUTE 109 - Hidden Item on Beach Southeast",
+    "tags": ["Hidden Items", "Hoenn", "Route 109"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_109_HEART_SCALE_2": {
+    "name": "ROUTE 109 - Hidden Item on Beach Under Umbrella",
+    "tags": ["Hidden Items", "Hoenn", "Route 109"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_109_GREAT_BALL": {
+    "name": "ROUTE 109 - Hidden Item on Beach West",
+    "tags": ["Hidden Items", "Hoenn", "Route 109"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_109_HEART_SCALE_1": {
+    "name": "ROUTE 109 - Hidden Item on Beach Behind Old Man",
+    "tags": ["Hidden Items", "Hoenn", "Route 109"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_109_HEART_SCALE_3": {
+    "name": "ROUTE 109 - Hidden Item in Front of Couple",
+    "tags": ["Hidden Items", "Hoenn", "Route 109"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_110_FULL_HEAL": {
+    "name": "ROUTE 110 - Hidden Item South of Rival",
+    "tags": ["Hidden Items", "Hoenn", "Route 110"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_110_GREAT_BALL": {
+    "name": "ROUTE 110 - Hidden Item North of Rival",
+    "tags": ["Hidden Items", "Hoenn", "Route 110"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_110_REVIVE": {
+    "name": "ROUTE 110 - Hidden Item Behind Two Trainers",
+    "tags": ["Hidden Items", "Hoenn", "Route 110"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_110_POKE_BALL": {
+    "name": "ROUTE 110 - Hidden Item South of Berries",
+    "tags": ["Hidden Items", "Hoenn", "Route 110"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_111_PROTEIN": {
+    "name": "ROUTE 111 - Hidden Item Desert Behind Tower",
+    "tags": ["Hidden Items", "Hoenn", "Route 111"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_111_RARE_CANDY": {
+    "name": "ROUTE 111 - Hidden Item Desert on Rock 1",
+    "tags": ["Hidden Items", "Hoenn", "Route 111"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_111_STARDUST": {
+    "name": "ROUTE 111 - Hidden Item Desert on Rock 2",
+    "tags": ["Hidden Items", "Hoenn", "Route 111"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_113_ETHER": {
+    "name": "ROUTE 113 - Hidden Item Mound West of Three Trainers",
+    "tags": ["Hidden Items", "Hoenn", "Route 113"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_113_NUGGET": {
+    "name": "ROUTE 113 - Hidden Item Mound Between Trainers",
+    "tags": ["Hidden Items", "Hoenn", "Route 113"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_113_TM_DOUBLE_TEAM": {
+    "name": "ROUTE 113 - Hidden Item Mound West of Workshop",
+    "tags": ["Hidden Items", "Hoenn", "Route 113"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_114_CARBOS": {
+    "name": "ROUTE 114 - Hidden Item Rock in Grass",
+    "tags": ["Hidden Items", "Hoenn", "Route 114"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_114_REVIVE": {
+    "name": "ROUTE 114 - Hidden Item West of Bridge",
+    "tags": ["Hidden Items", "Hoenn", "Route 114"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_115_HEART_SCALE": {
+    "name": "ROUTE 115 - Hidden Item Behind Trainer on Beach",
+    "tags": ["Hidden Items", "Hoenn", "Route 115"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_116_BLACK_GLASSES": {
+    "name": "ROUTE 116 - Hidden Item in East",
+    "tags": ["Hidden Items", "Hoenn", "Route 116"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_116_SUPER_POTION": {
+    "name": "ROUTE 116 - Hidden Item in Tree Maze",
+    "tags": ["Hidden Items", "Hoenn", "Route 116"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_117_REPEL": {
+    "name": "ROUTE 117 - Hidden Item Behind Flower Patch",
+    "tags": ["Hidden Items", "Hoenn", "Route 117"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_118_HEART_SCALE": {
+    "name": "ROUTE 118 - Hidden Item West on Rock",
+    "tags": ["Hidden Items", "Hoenn", "Route 118"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_118_IRON": {
+    "name": "ROUTE 118 - Hidden Item East on Rock",
+    "tags": ["Hidden Items", "Hoenn", "Route 118"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_119_FULL_HEAL": {
+    "name": "ROUTE 119 - Hidden Item in South Tall Grass",
+    "tags": ["Hidden Items", "Hoenn", "Route 119"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_119_CALCIUM": {
+    "name": "ROUTE 119 - Hidden Item Across South Rail",
+    "tags": ["Hidden Items", "Hoenn", "Route 119"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_119_ULTRA_BALL": {
+    "name": "ROUTE 119 - Hidden Item in East Tall Grass",
+    "tags": ["Hidden Items", "Hoenn", "Route 119"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_119_MAX_ETHER": {
+    "name": "ROUTE 119 - Hidden Item Next to Waterfall",
+    "tags": ["Hidden Items", "Hoenn", "Route 119"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_120_RARE_CANDY_1": {
+    "name": "ROUTE 120 - Hidden Item Behind Trees",
+    "tags": ["Hidden Items", "Hoenn", "Route 120"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_120_REVIVE": {
+    "name": "ROUTE 120 - Hidden Item in North Tall Grass",
+    "tags": ["Hidden Items", "Hoenn", "Route 120"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_120_ZINC": {
+    "name": "ROUTE 120 - Hidden Item in Tall Grass Maze",
+    "tags": ["Hidden Items", "Hoenn", "Route 120"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_120_RARE_CANDY_2": {
+    "name": "ROUTE 120 - Hidden Item Behind Southwest Pool",
+    "tags": ["Hidden Items", "Hoenn", "Route 120"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_121_HP_UP": {
+    "name": "ROUTE 121 - Hidden Item West of Grunts",
+    "tags": ["Hidden Items", "Hoenn", "Route 121"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_121_FULL_HEAL": {
+    "name": "ROUTE 121 - Hidden Item in Maze 1",
+    "tags": ["Hidden Items", "Hoenn", "Route 121"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_121_MAX_REVIVE": {
+    "name": "ROUTE 121 - Hidden Item in Maze 2",
+    "tags": ["Hidden Items", "Hoenn", "Route 121"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_121_NUGGET": {
+    "name": "ROUTE 121 - Hidden Item Behind Tree",
+    "tags": ["Hidden Items", "Hoenn", "Route 121"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_123_PP_UP": {
+    "name": "ROUTE 123 - Hidden Item East Behind Tree 1",
+    "tags": ["Hidden Items", "Hoenn", "Route 123"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_123_RARE_CANDY": {
+    "name": "ROUTE 123 - Hidden Item East Behind Tree 2",
+    "tags": ["Hidden Items", "Hoenn", "Route 123"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_123_HYPER_POTION": {
+    "name": "ROUTE 123 - Hidden Item on Rock Before Ledges",
+    "tags": ["Hidden Items", "Hoenn", "Route 123"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_123_SUPER_REPEL": {
+    "name": "ROUTE 123 - Hidden Item in North Path Grass",
+    "tags": ["Hidden Items", "Hoenn", "Route 123"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_123_REVIVE": {
+    "name": "ROUTE 123 - Hidden Item Behind House",
+    "tags": ["Hidden Items", "Hoenn", "Route 123"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_128_HEART_SCALE_1": {
+    "name": "ROUTE 128 - Hidden Item North Island",
+    "tags": ["Hidden Items", "Hoenn", "Route 128"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_128_HEART_SCALE_2": {
+    "name": "ROUTE 128 - Hidden Item Center Island",
+    "tags": ["Hidden Items", "Hoenn", "Route 128"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_ROUTE_128_HEART_SCALE_3": {
+    "name": "ROUTE 128 - Hidden Item Southwest Island",
+    "tags": ["Hidden Items", "Hoenn", "Route 128"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_SAFARI_ZONE_NORTH_EAST_ZINC": {
+    "name": "SAFARI ZONE NE - Hidden Item North",
+    "tags": ["Hidden Items", "Hoenn", "Safari Zone"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_SAFARI_ZONE_NORTH_EAST_RARE_CANDY": {
+    "name": "SAFARI ZONE NE - Hidden Item East",
+    "tags": ["Hidden Items", "Hoenn", "Safari Zone"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_SAFARI_ZONE_SOUTH_EAST_FULL_RESTORE": {
+    "name": "SAFARI ZONE SE - Hidden Item in South Grass 1",
+    "tags": ["Hidden Items", "Hoenn", "Safari Zone"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_SAFARI_ZONE_SOUTH_EAST_PP_UP": {
+    "name": "SAFARI ZONE SE - Hidden Item in South Grass 2",
+    "tags": ["Hidden Items", "Hoenn", "Safari Zone"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_SS_TIDAL_LOWER_DECK_LEFTOVERS": {
+    "name": "S.S. TIDAL - Hidden Item in Lower Deck Trash Can",
+    "tags": ["Hidden Items", "Hoenn", "S.S. Tidal"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_124_GREEN_SHARD": {
+    "name": "ROUTE 124 UW - Hidden Item in Big Area",
+    "tags": ["Hidden Items", "Hoenn", "Route 124"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_124_CARBOS": {
+    "name": "ROUTE 124 UW - Hidden Item in Tunnel Alcove",
+    "tags": ["Hidden Items", "Hoenn", "Route 124"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_124_CALCIUM": {
+    "name": "ROUTE 124 UW - Hidden Item in North Tunnel 1",
+    "tags": ["Hidden Items", "Hoenn", "Route 124"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_124_HEART_SCALE_2": {
+    "name": "ROUTE 124 UW - Hidden Item in North Tunnel 2",
+    "tags": ["Hidden Items", "Hoenn", "Route 124"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_124_PEARL": {
+    "name": "ROUTE 124 UW - Hidden Item in Small Area North",
+    "tags": ["Hidden Items", "Hoenn", "Route 124"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_124_BIG_PEARL": {
+    "name": "ROUTE 124 UW - Hidden Item in Small Area Middle",
+    "tags": ["Hidden Items", "Hoenn", "Route 124"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_124_HEART_SCALE_1": {
+    "name": "ROUTE 124 UW - Hidden Item in Small Area South",
+    "tags": ["Hidden Items", "Hoenn", "Route 124"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_126_STARDUST": {
+    "name": "ROUTE 126 UW - Hidden Item Northeast",
+    "tags": ["Hidden Items", "Hoenn", "Route 126"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_126_ULTRA_BALL": {
+    "name": "ROUTE 126 UW - Hidden Item in North Alcove",
+    "tags": ["Hidden Items", "Hoenn", "Route 126"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_126_BIG_PEARL": {
+    "name": "ROUTE 126 UW - Hidden Item in Southeast",
+    "tags": ["Hidden Items", "Hoenn", "Route 126"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_126_HEART_SCALE": {
+    "name": "ROUTE 126 UW - Hidden Item in Northwest Alcove",
+    "tags": ["Hidden Items", "Hoenn", "Route 126"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_126_BLUE_SHARD": {
+    "name": "ROUTE 126 UW - Hidden Item in Southwest Area",
+    "tags": ["Hidden Items", "Hoenn", "Route 126"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_126_IRON": {
+    "name": "ROUTE 126 UW - Hidden Item in West Area 1",
+    "tags": ["Hidden Items", "Hoenn", "Route 126"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_126_PEARL": {
+    "name": "ROUTE 126 UW - Hidden Item in West Area 2",
+    "tags": ["Hidden Items", "Hoenn", "Route 126"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_126_YELLOW_SHARD": {
+    "name": "ROUTE 126 UW - Hidden Item in West Area 3",
+    "tags": ["Hidden Items", "Hoenn", "Route 126"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_127_STAR_PIECE": {
+    "name": "ROUTE 127 UW - Hidden Item in West Area",
+    "tags": ["Hidden Items", "Hoenn", "Route 127"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_127_HEART_SCALE": {
+    "name": "ROUTE 127 UW - Hidden Item in Center Area",
+    "tags": ["Hidden Items", "Hoenn", "Route 127"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_127_HP_UP": {
+    "name": "ROUTE 127 UW - Hidden Item in East Area",
+    "tags": ["Hidden Items", "Hoenn", "Route 127"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_127_RED_SHARD": {
+    "name": "ROUTE 127 UW - Hidden Item in Northeast Area",
+    "tags": ["Hidden Items", "Hoenn", "Route 127"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_128_PEARL": {
+    "name": "ROUTE 128 UW - Hidden Item in East Area",
+    "tags": ["Hidden Items", "Hoenn", "Route 128"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_UNDERWATER_128_PROTEIN": {
+    "name": "ROUTE 128 UW - Hidden Item in Small Area",
+    "tags": ["Hidden Items", "Hoenn", "Route 128"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_VICTORY_ROAD_1F_ULTRA_BALL": {
+    "name": "VICTORY ROAD 1F - Hidden Item on Southeast Ledge",
+    "tags": ["Hidden Items", "Hoenn", "Victory Road"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_VICTORY_ROAD_B2F_ELIXIR": {
+    "name": "VICTORY ROAD B2F - Hidden Item Above Waterfall",
+    "tags": ["Hidden Items", "Hoenn", "Victory Road"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_VICTORY_ROAD_B2F_MAX_REPEL": {
+    "name": "VICTORY ROAD B2F - Hidden Item in Northeast Corner",
+    "tags": ["Hidden Items", "Hoenn", "Victory Road"],
+    "category": "HIDDEN_ITEM"
+  },
+  "HIDDEN_ITEM_NAVEL_ROCK_TOP_SACRED_ASH": {
+    "name": "NAVEL ROCK Summit - Hidden Item Near HO-OH",
+    "tags": ["Hidden Items", "Sevii Islands", "Navel Rock"],
+    "category": "HIDDEN_ITEM"
+  },
+
+  "ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_1_TM_RAIN_DANCE": {
+    "name": "ABANDONED SHIP HF - Item in Room 1",
+    "tags": ["Overworld Items", "Hoenn", "Abandoned Ship"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_3_WATER_STONE": {
+    "name": "ABANDONED SHIP HF - Item in Room 3",
+    "tags": ["Overworld Items", "Hoenn", "Abandoned Ship"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_6_LUXURY_BALL": {
+    "name": "ABANDONED SHIP HF - Item in Room 6",
+    "tags": ["Overworld Items", "Hoenn", "Abandoned Ship"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ABANDONED_SHIP_ROOMS_1F_HARBOR_MAIL": {
+    "name": "ABANDONED SHIP 1F - Item in East Side Northwest Room",
+    "tags": ["Overworld Items", "Hoenn", "Abandoned Ship"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ABANDONED_SHIP_ROOMS_2_1F_REVIVE": {
+    "name": "ABANDONED SHIP 1F - Item in West Side North Room",
+    "tags": ["Overworld Items", "Hoenn", "Abandoned Ship"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ABANDONED_SHIP_ROOMS_B1F_ESCAPE_ROPE": {
+    "name": "ABANDONED SHIP B1F - Item in South Rooms",
+    "tags": ["Overworld Items", "Hoenn", "Abandoned Ship"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ABANDONED_SHIP_ROOMS_B1F_TM_ICE_BEAM": {
+    "name": "ABANDONED SHIP B1F - Item in Storage Room",
+    "tags": ["Overworld Items", "Hoenn", "Abandoned Ship"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ABANDONED_SHIP_ROOMS_2_B1F_DIVE_BALL": {
+    "name": "ABANDONED SHIP B1F - Item in North Rooms",
+    "tags": ["Overworld Items", "Hoenn", "Abandoned Ship"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_AQUA_HIDEOUT_B1F_MASTER_BALL": {
+    "name": "AQUA HIDEOUT B1F - Item in Center Room 1",
+    "tags": ["Overworld Items", "Hoenn", "Aqua Hideout"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_AQUA_HIDEOUT_B1F_NUGGET": {
+    "name": "AQUA HIDEOUT B1F - Item in Center Room 2",
+    "tags": ["Overworld Items", "Hoenn", "Aqua Hideout"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_AQUA_HIDEOUT_B1F_MAX_ELIXIR": {
+    "name": "AQUA HIDEOUT B1F - Item in East Room",
+    "tags": ["Overworld Items", "Hoenn", "Aqua Hideout"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_AQUA_HIDEOUT_B2F_NEST_BALL": {
+    "name": "AQUA HIDEOUT B2F - Item in Long Hallway",
+    "tags": ["Overworld Items", "Hoenn", "Aqua Hideout"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ARTISAN_CAVE_1F_CARBOS": {
+    "name": "ARTISAN CAVE 1F - Item",
+    "tags": ["Overworld Items", "Hoenn", "Artisan Cave"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ARTISAN_CAVE_B1F_HP_UP": {
+    "name": "ARTISAN CAVE B1F - Item",
+    "tags": ["Overworld Items", "Hoenn", "Artisan Cave"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_FIERY_PATH_FIRE_STONE": {
+    "name": "FIERY PATH - Item Behind Boulders 1",
+    "tags": ["Overworld Items", "Hoenn", "Fiery Path"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_FIERY_PATH_TM_TOXIC": {
+    "name": "FIERY PATH - Item Behind Boulders 2",
+    "tags": ["Overworld Items", "Hoenn", "Fiery Path"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_GRANITE_CAVE_1F_ESCAPE_ROPE": {
+    "name": "GRANITE CAVE 1F - Item Before Ladder",
+    "tags": ["Overworld Items", "Hoenn", "Granite Cave"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_GRANITE_CAVE_B1F_POKE_BALL": {
+    "name": "GRANITE CAVE B1F - Item in Alcove",
+    "tags": ["Overworld Items", "Hoenn", "Granite Cave"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_GRANITE_CAVE_B2F_RARE_CANDY": {
+    "name": "GRANITE CAVE B2F - Item After Crumbling Floor",
+    "tags": ["Overworld Items", "Hoenn", "Granite Cave"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_GRANITE_CAVE_B2F_REPEL": {
+    "name": "GRANITE CAVE B2F - Item After Mud Slope",
+    "tags": ["Overworld Items", "Hoenn", "Granite Cave"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_JAGGED_PASS_BURN_HEAL": {
+    "name": "JAGGED PASS - Item Below Hideout",
+    "tags": ["Overworld Items", "Hoenn", "Jagged Pass"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_LILYCOVE_CITY_MAX_REPEL": {
+    "name": "LILYCOVE CITY - Item on Peninsula",
+    "tags": ["Overworld Items", "Hoenn", "Lilycove City"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MAGMA_HIDEOUT_1F_RARE_CANDY": {
+    "name": "MAGMA HIDEOUT 1F - Item on Ledge",
+    "tags": ["Overworld Items", "Hoenn", "Magma Hideout"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MAGMA_HIDEOUT_2F_2R_FULL_RESTORE": {
+    "name": "MAGMA HIDEOUT 2F - Item on West Platform",
+    "tags": ["Overworld Items", "Hoenn", "Magma Hideout"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MAGMA_HIDEOUT_2F_2R_MAX_ELIXIR": {
+    "name": "MAGMA HIDEOUT 2F - Item on East Platform",
+    "tags": ["Overworld Items", "Hoenn", "Magma Hideout"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MAGMA_HIDEOUT_3F_1R_NUGGET": {
+    "name": "MAGMA HIDEOUT 3F - Item Before Last Floor",
+    "tags": ["Overworld Items", "Hoenn", "Magma Hideout"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MAGMA_HIDEOUT_3F_2R_PP_MAX": {
+    "name": "MAGMA HIDEOUT 3F - Item in Drill Room",
+    "tags": ["Overworld Items", "Hoenn", "Magma Hideout"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MAGMA_HIDEOUT_3F_3R_ECAPE_ROPE": {
+    "name": "MAGMA HIDEOUT 3F - Item After Groudon",
+    "tags": ["Overworld Items", "Hoenn", "Magma Hideout"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MAGMA_HIDEOUT_4F_MAX_REVIVE": {
+    "name": "MAGMA HIDEOUT 4F - Item Before Groudon",
+    "tags": ["Overworld Items", "Hoenn", "Magma Hideout"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MAUVILLE_CITY_X_SPEED": {
+    "name": "MAUVILLE CITY - Item",
+    "tags": ["Overworld Items", "Hoenn", "Mauville City"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_METEOR_FALLS_1F_1R_FULL_HEAL": {
+    "name": "METEOR FALLS 1F - Item Northeast",
+    "tags": ["Overworld Items", "Hoenn", "Meteor Falls"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_METEOR_FALLS_1F_1R_MOON_STONE": {
+    "name": "METEOR FALLS 1F - Item West",
+    "tags": ["Overworld Items", "Hoenn", "Meteor Falls"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_METEOR_FALLS_1F_1R_PP_UP": {
+    "name": "METEOR FALLS 1F - Item Below Waterfall",
+    "tags": ["Overworld Items", "Hoenn", "Meteor Falls"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_METEOR_FALLS_1F_1R_TM_IRON_TAIL": {
+    "name": "METEOR FALLS 1F - Item Before Steven's Cave",
+    "tags": ["Overworld Items", "Hoenn", "Meteor Falls"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_METEOR_FALLS_B1F_2R_TM_DRAGON_CLAW": {
+    "name": "METEOR FALLS B1F - Item in North Cave",
+    "tags": ["Overworld Items", "Hoenn", "Meteor Falls"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MOSSDEEP_CITY_NET_BALL": {
+    "name": "MOSSDEEP CITY - Item",
+    "tags": ["Overworld Items", "Hoenn", "Mossdeep City"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MT_PYRE_2F_ULTRA_BALL": {
+    "name": "MT. PYRE 2F - Item",
+    "tags": ["Overworld Items", "Hoenn", "Mt. Pyre"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MT_PYRE_3F_SUPER_REPEL": {
+    "name": "MT. PYRE 3F - Item",
+    "tags": ["Overworld Items", "Hoenn", "Mt. Pyre"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MT_PYRE_4F_SEA_INCENSE": {
+    "name": "MT. PYRE 4F - Item",
+    "tags": ["Overworld Items", "Hoenn", "Mt. Pyre"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MT_PYRE_5F_LAX_INCENSE": {
+    "name": "MT. PYRE 5F - Item",
+    "tags": ["Overworld Items", "Hoenn", "Mt. Pyre"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MT_PYRE_6F_TM_SHADOW_BALL": {
+    "name": "MT. PYRE 6F - Item",
+    "tags": ["Overworld Items", "Hoenn", "Mt. Pyre"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MT_PYRE_EXTERIOR_TM_SKILL_SWAP": {
+    "name": "MT. PYRE Exterior - Item 1",
+    "tags": ["Overworld Items", "Hoenn", "Mt. Pyre"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_MT_PYRE_EXTERIOR_MAX_POTION": {
+    "name": "MT. PYRE Exterior - Item 2",
+    "tags": ["Overworld Items", "Hoenn", "Mt. Pyre"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_NEW_MAUVILLE_ESCAPE_ROPE": {
+    "name": "NEW MAUVILLE - Item 1",
+    "tags": ["Overworld Items", "Hoenn", "New Mauville"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_NEW_MAUVILLE_PARALYZE_HEAL": {
+    "name": "NEW MAUVILLE - Item 2",
+    "tags": ["Overworld Items", "Hoenn", "New Mauville"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_NEW_MAUVILLE_FULL_HEAL": {
+    "name": "NEW MAUVILLE - Item 3",
+    "tags": ["Overworld Items", "Hoenn", "New Mauville"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_NEW_MAUVILLE_THUNDER_STONE": {
+    "name": "NEW MAUVILLE - Item 4",
+    "tags": ["Overworld Items", "Hoenn", "New Mauville"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_NEW_MAUVILLE_ULTRA_BALL": {
+    "name": "NEW MAUVILLE - Item 5",
+    "tags": ["Overworld Items", "Hoenn", "New Mauville"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_PETALBURG_CITY_ETHER": {
+    "name": "PETALBURG CITY - Item Past Pond South",
+    "tags": ["Overworld Items", "Hoenn", "Petalburg City"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_PETALBURG_CITY_MAX_REVIVE": {
+    "name": "PETALBURG CITY - Item Past Pond North",
+    "tags": ["Overworld Items", "Hoenn", "Petalburg City"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_PETALBURG_WOODS_ETHER": {
+    "name": "PETALBURG WOODS - Item Northwest",
+    "tags": ["Overworld Items", "Hoenn", "Petalburg City"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_PETALBURG_WOODS_PARALYZE_HEAL": {
+    "name": "PETALBURG WOODS - Item Southwest",
+    "tags": ["Overworld Items", "Hoenn", "Petalburg City"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_PETALBURG_WOODS_GREAT_BALL": {
+    "name": "PETALBURG WOODS - Item Past Tree Northeast",
+    "tags": ["Overworld Items", "Hoenn", "Petalburg City"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_PETALBURG_WOODS_X_ATTACK": {
+    "name": "PETALBURG WOODS - Item Past Tree South",
+    "tags": ["Overworld Items", "Hoenn", "Petalburg City"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_102_POTION": {
+    "name": "ROUTE 102 - Item",
+    "tags": ["Overworld Items", "Hoenn", "Route 102"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_103_GUARD_SPEC": {
+    "name": "ROUTE 103 - Item Near Berries",
+    "tags": ["Overworld Items", "Hoenn", "Route 103"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_103_PP_UP": {
+    "name": "ROUTE 103 - Item in Tree Maze",
+    "tags": ["Overworld Items", "Hoenn", "Route 103"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_104_POKE_BALL": {
+    "name": "ROUTE 104 - Item Near MR. BRINEY on Ledge",
+    "tags": ["Overworld Items", "Hoenn", "Route 104"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_104_POTION": {
+    "name": "ROUTE 104 - Item Behind Flower Shop",
+    "tags": ["Overworld Items", "Hoenn", "Route 104"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_104_X_ACCURACY": {
+    "name": "ROUTE 104 - Item Behind Tree",
+    "tags": ["Overworld Items", "Hoenn", "Route 104"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_104_PP_UP": {
+    "name": "ROUTE 104 - Item East Past Pond",
+    "tags": ["Overworld Items", "Hoenn", "Route 104"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_105_IRON": {
+    "name": "ROUTE 105 - Item on Island",
+    "tags": ["Overworld Items", "Hoenn", "Route 105"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_106_PROTEIN": {
+    "name": "ROUTE 106 - Item on West Beach",
+    "tags": ["Overworld Items", "Hoenn", "Route 106"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_108_STAR_PIECE": {
+    "name": "ROUTE 108 - Item Between Trainers",
+    "tags": ["Overworld Items", "Hoenn", "Route 108"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_109_POTION": {
+    "name": "ROUTE 109 - Item on Beach",
+    "tags": ["Overworld Items", "Hoenn", "Route 109"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_109_PP_UP": {
+    "name": "ROUTE 109 - Item on Island",
+    "tags": ["Overworld Items", "Hoenn", "Route 109"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_110_DIRE_HIT": {
+    "name": "ROUTE 110 - Item South of Rival",
+    "tags": ["Overworld Items", "Hoenn", "Route 110"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_110_ELIXIR": {
+    "name": "ROUTE 110 - Item South of Berries",
+    "tags": ["Overworld Items", "Hoenn", "Route 110"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_110_RARE_CANDY": {
+    "name": "ROUTE 110 - Item on Island",
+    "tags": ["Overworld Items", "Hoenn", "Route 110"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_111_ELIXIR": {
+    "name": "ROUTE 111 - Item Near WINSTRATES",
+    "tags": ["Overworld Items", "Hoenn", "Route 111"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_111_HP_UP": {
+    "name": "ROUTE 111 - Item West of Pond Near WINSTRATES",
+    "tags": ["Overworld Items", "Hoenn", "Route 111"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_111_STARDUST": {
+    "name": "ROUTE 111 - Item Desert Near Tower",
+    "tags": ["Overworld Items", "Hoenn", "Route 111"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_111_TM_SANDSTORM": {
+    "name": "ROUTE 111 - Item Desert South",
+    "tags": ["Overworld Items", "Hoenn", "Route 111"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_112_NUGGET": {
+    "name": "ROUTE 112 - Item on Ledges",
+    "tags": ["Overworld Items", "Hoenn", "Route 112"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_113_SUPER_REPEL": {
+    "name": "ROUTE 113 - Item Past Three Trainers",
+    "tags": ["Overworld Items", "Hoenn", "Route 113"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_113_MAX_ETHER": {
+    "name": "ROUTE 113 - Item on Ledge",
+    "tags": ["Overworld Items", "Hoenn", "Route 113"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_113_HYPER_POTION": {
+    "name": "ROUTE 113 - Item Near FALLARBOR South",
+    "tags": ["Overworld Items", "Hoenn", "Route 113"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_114_ENERGY_POWDER": {
+    "name": "ROUTE 114 - Item Between Trainers",
+    "tags": ["Overworld Items", "Hoenn", "Route 114"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_114_PROTEIN": {
+    "name": "ROUTE 114 - Item Behind Smashable Rock",
+    "tags": ["Overworld Items", "Hoenn", "Route 114"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_114_RARE_CANDY": {
+    "name": "ROUTE 114 - Item Above Waterfall",
+    "tags": ["Overworld Items", "Hoenn", "Route 114"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_115_SUPER_POTION": {
+    "name": "ROUTE 115 - Item on Beach",
+    "tags": ["Overworld Items", "Hoenn", "Route 115"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_115_PP_UP": {
+    "name": "ROUTE 115 - Item on Ledge",
+    "tags": ["Overworld Items", "Hoenn", "Route 115"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_115_GREAT_BALL": {
+    "name": "ROUTE 115 - Item Behind Smashable Rock",
+    "tags": ["Overworld Items", "Hoenn", "Route 115"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_115_HEAL_POWDER": {
+    "name": "ROUTE 115 - Item North Near Trainers",
+    "tags": ["Overworld Items", "Hoenn", "Route 115"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_115_TM_FOCUS_PUNCH": {
+    "name": "ROUTE 115 - Item Near Mud Slope",
+    "tags": ["Overworld Items", "Hoenn", "Route 115"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_115_IRON": {
+    "name": "ROUTE 115 - Item Past Mud Slope",
+    "tags": ["Overworld Items", "Hoenn", "Route 115"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_116_REPEL": {
+    "name": "ROUTE 116 - Item in Grass",
+    "tags": ["Overworld Items", "Hoenn", "Route 116"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_116_X_SPECIAL": {
+    "name": "ROUTE 116 - Item Near Tunnel",
+    "tags": ["Overworld Items", "Hoenn", "Route 116"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_116_POTION": {
+    "name": "ROUTE 116 - Item in Tree Maze 1",
+    "tags": ["Overworld Items", "Hoenn", "Route 116"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_116_ETHER": {
+    "name": "ROUTE 116 - Item in Tree Maze 2",
+    "tags": ["Overworld Items", "Hoenn", "Route 116"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_116_HP_UP": {
+    "name": "ROUTE 116 - Item in East",
+    "tags": ["Overworld Items", "Hoenn", "Route 116"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_117_GREAT_BALL": {
+    "name": "ROUTE 117 - Item Behind Flower Patch",
+    "tags": ["Overworld Items", "Hoenn", "Route 117"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_117_REVIVE": {
+    "name": "ROUTE 117 - Item Behind Tree",
+    "tags": ["Overworld Items", "Hoenn", "Route 117"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_118_HYPER_POTION": {
+    "name": "ROUTE 118 - Item",
+    "tags": ["Overworld Items", "Hoenn", "Route 118"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_119_SUPER_REPEL": {
+    "name": "ROUTE 119 - Item in South Tall Grass 1",
+    "tags": ["Overworld Items", "Hoenn", "Route 119"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_119_HYPER_POTION_1": {
+    "name": "ROUTE 119 - Item in South Tall Grass 2",
+    "tags": ["Overworld Items", "Hoenn", "Route 119"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_119_ZINC": {
+    "name": "ROUTE 119 - Item Across River South",
+    "tags": ["Overworld Items", "Hoenn", "Route 119"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_119_HYPER_POTION_2": {
+    "name": "ROUTE 119 - Item Near Mud Slope",
+    "tags": ["Overworld Items", "Hoenn", "Route 119"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_119_ELIXIR_1": {
+    "name": "ROUTE 119 - Item East of Mud Slope",
+    "tags": ["Overworld Items", "Hoenn", "Route 119"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_119_ELIXIR_2": {
+    "name": "ROUTE 119 - Item on River Bank",
+    "tags": ["Overworld Items", "Hoenn", "Route 119"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_119_LEAF_STONE": {
+    "name": "ROUTE 119 - Item Near South Waterfall",
+    "tags": ["Overworld Items", "Hoenn", "Route 119"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_119_NUGGET": {
+    "name": "ROUTE 119 - Item Above North Waterfall 1",
+    "tags": ["Overworld Items", "Hoenn", "Route 119"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_119_RARE_CANDY": {
+    "name": "ROUTE 119 - Item Above North Waterfall 2",
+    "tags": ["Overworld Items", "Hoenn", "Route 119"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_120_NEST_BALL": {
+    "name": "ROUTE 120 - Item Near North Pond",
+    "tags": ["Overworld Items", "Hoenn", "Route 120"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_120_REVIVE": {
+    "name": "ROUTE 120 - Item in North Puddles",
+    "tags": ["Overworld Items", "Hoenn", "Route 120"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_120_NUGGET": {
+    "name": "ROUTE 120 - Item in Tall Grass Maze",
+    "tags": ["Overworld Items", "Hoenn", "Route 120"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_120_HYPER_POTION": {
+    "name": "ROUTE 120 - Item in Tall Grass South",
+    "tags": ["Overworld Items", "Hoenn", "Route 120"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_120_FULL_HEAL": {
+    "name": "ROUTE 120 - Item Behind Southwest Pool",
+    "tags": ["Overworld Items", "Hoenn", "Route 120"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_121_ZINC": {
+    "name": "ROUTE 121 - Item Near SAFARI ZONE",
+    "tags": ["Overworld Items", "Hoenn", "Route 121"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_121_REVIVE": {
+    "name": "ROUTE 121 - Item in Maze 1",
+    "tags": ["Overworld Items", "Hoenn", "Route 121"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_121_CARBOS": {
+    "name": "ROUTE 121 - Item in Maze 2",
+    "tags": ["Overworld Items", "Hoenn", "Route 121"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_123_ULTRA_BALL": {
+    "name": "ROUTE 123 - Item Below Ledges",
+    "tags": ["Overworld Items", "Hoenn", "Route 123"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_123_ELIXIR": {
+    "name": "ROUTE 123 - Item on Ledges 1",
+    "tags": ["Overworld Items", "Hoenn", "Route 123"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_123_REVIVAL_HERB": {
+    "name": "ROUTE 123 - Item on Ledges 2",
+    "tags": ["Overworld Items", "Hoenn", "Route 123"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_123_PP_UP": {
+    "name": "ROUTE 123 - Item on Ledges 3",
+    "tags": ["Overworld Items", "Hoenn", "Route 123"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_123_CALCIUM": {
+    "name": "ROUTE 123 - Item on Ledges 4",
+    "tags": ["Overworld Items", "Hoenn", "Route 123"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_124_RED_SHARD": {
+    "name": "ROUTE 124 - Item in Northwest Area",
+    "tags": ["Overworld Items", "Hoenn", "Route 124"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_124_YELLOW_SHARD": {
+    "name": "ROUTE 124 - Item in Northeast Area",
+    "tags": ["Overworld Items", "Hoenn", "Route 124"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_124_BLUE_SHARD": {
+    "name": "ROUTE 124 - Item in Southwest Area",
+    "tags": ["Overworld Items", "Hoenn", "Route 124"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_125_BIG_PEARL": {
+    "name": "ROUTE 125 - Item Between Trainers",
+    "tags": ["Overworld Items", "Hoenn", "Route 125"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_126_GREEN_SHARD": {
+    "name": "ROUTE 126 - Item in Separated Area",
+    "tags": ["Overworld Items", "Hoenn", "Route 126"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_127_ZINC": {
+    "name": "ROUTE 127 - Item North",
+    "tags": ["Overworld Items", "Hoenn", "Route 127"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_127_CARBOS": {
+    "name": "ROUTE 127 - Item East",
+    "tags": ["Overworld Items", "Hoenn", "Route 127"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_127_RARE_CANDY": {
+    "name": "ROUTE 127 - Item Between Trainers",
+    "tags": ["Overworld Items", "Hoenn", "Route 127"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_132_PROTEIN": {
+    "name": "ROUTE 132 - Item 1",
+    "tags": ["Overworld Items", "Hoenn", "Route 132"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_132_RARE_CANDY": {
+    "name": "ROUTE 132 - Item 2",
+    "tags": ["Overworld Items", "Hoenn", "Route 132"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_133_BIG_PEARL": {
+    "name": "ROUTE 133 - Item 1",
+    "tags": ["Overworld Items", "Hoenn", "Route 133"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_133_MAX_REVIVE": {
+    "name": "ROUTE 133 - Item 2",
+    "tags": ["Overworld Items", "Hoenn", "Route 133"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_133_STAR_PIECE": {
+    "name": "ROUTE 133 - Item 3",
+    "tags": ["Overworld Items", "Hoenn", "Route 133"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_134_CARBOS": {
+    "name": "ROUTE 134 - Item 1",
+    "tags": ["Overworld Items", "Hoenn", "Route 134"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_ROUTE_134_STAR_PIECE": {
+    "name": "ROUTE 134 - Item 2",
+    "tags": ["Overworld Items", "Hoenn", "Route 134"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_RUSTBORO_CITY_X_DEFEND": {
+    "name": "RUSTBORO CITY - Item Behind Fences",
+    "tags": ["Overworld Items", "Hoenn", "Rustboro City"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_RUSTURF_TUNNEL_POKE_BALL": {
+    "name": "RUSTURF TUNNEL - Item West",
+    "tags": ["Overworld Items", "Hoenn", "Rusturf Tunnel"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_RUSTURF_TUNNEL_MAX_ETHER": {
+    "name": "RUSTURF TUNNEL - Item East",
+    "tags": ["Overworld Items", "Hoenn", "Rusturf Tunnel"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SAFARI_ZONE_NORTH_CALCIUM": {
+    "name": "SAFARI ZONE N - Item in Grass",
+    "tags": ["Overworld Items", "Hoenn", "Safari Zone"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET": {
+    "name": "SAFARI ZONE NE - Item on Ledge",
+    "tags": ["Overworld Items", "Hoenn", "Safari Zone"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SAFARI_ZONE_NORTH_WEST_TM_SOLAR_BEAM": {
+    "name": "SAFARI ZONE NW - Item Behind Pond",
+    "tags": ["Overworld Items", "Hoenn", "Safari Zone"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL": {
+    "name": "SAFARI ZONE SE - Item in Grass",
+    "tags": ["Overworld Items", "Hoenn", "Safari Zone"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SAFARI_ZONE_SOUTH_WEST_MAX_REVIVE": {
+    "name": "SAFARI ZONE SW - Item Behind Pond",
+    "tags": ["Overworld Items", "Hoenn", "Safari Zone"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SCORCHED_SLAB_TM_SUNNY_DAY": {
+    "name": "SCORCHED SLAB - Item",
+    "tags": ["Overworld Items", "Hoenn", "Scorched Slab"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SEAFLOOR_CAVERN_ROOM_9_TM_EARTHQUAKE": {
+    "name": "SEAFLOOR CAVERN Room 9 - Item Before KYOGRE",
+    "tags": ["Overworld Items", "Hoenn", "Seafloor Cavern"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SHOAL_CAVE_ENTRANCE_BIG_PEARL": {
+    "name": "SHOAL CAVE Entrance - Item on Ledge",
+    "tags": ["Overworld Items", "Hoenn", "Shoal Cave"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SHOAL_CAVE_ICE_ROOM_NEVER_MELT_ICE": {
+    "name": "SHOAL CAVE Ice Room - Item 1",
+    "tags": ["Overworld Items", "Hoenn", "Shoal Cave"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SHOAL_CAVE_ICE_ROOM_TM_HAIL": {
+    "name": "SHOAL CAVE Ice Room - Item 2",
+    "tags": ["Overworld Items", "Hoenn", "Shoal Cave"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SHOAL_CAVE_INNER_ROOM_RARE_CANDY": {
+    "name": "SHOAL CAVE Inner Room - Item in Center",
+    "tags": ["Overworld Items", "Hoenn", "Shoal Cave"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_SHOAL_CAVE_STAIRS_ROOM_ICE_HEAL": {
+    "name": "SHOAL CAVE Stairs Room - Item",
+    "tags": ["Overworld Items", "Hoenn", "Shoal Cave"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_TRICK_HOUSE_PUZZLE_1_ORANGE_MAIL": {
+    "name": "TRICK HOUSE Puzzle 1 - Item",
+    "tags": ["Overworld Items", "Hoenn", "Route 110", "Trick House"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_TRICK_HOUSE_PUZZLE_2_HARBOR_MAIL": {
+    "name": "TRICK HOUSE Puzzle 2 - Item 1",
+    "tags": ["Overworld Items", "Hoenn", "Route 110", "Trick House"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_TRICK_HOUSE_PUZZLE_2_WAVE_MAIL": {
+    "name": "TRICK HOUSE Puzzle 2 - Item 2",
+    "tags": ["Overworld Items", "Hoenn", "Route 110", "Trick House"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_TRICK_HOUSE_PUZZLE_3_SHADOW_MAIL": {
+    "name": "TRICK HOUSE Puzzle 3 - Item 1",
+    "tags": ["Overworld Items", "Hoenn", "Route 110", "Trick House"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_TRICK_HOUSE_PUZZLE_3_WOOD_MAIL": {
+    "name": "TRICK HOUSE Puzzle 3 - Item 2",
+    "tags": ["Overworld Items", "Hoenn", "Route 110", "Trick House"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_TRICK_HOUSE_PUZZLE_4_MECH_MAIL": {
+    "name": "TRICK HOUSE Puzzle 4 - Item",
+    "tags": ["Overworld Items", "Hoenn", "Route 110", "Trick House"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_TRICK_HOUSE_PUZZLE_6_GLITTER_MAIL": {
+    "name": "TRICK HOUSE Puzzle 6 - Item",
+    "tags": ["Overworld Items", "Hoenn", "Route 110", "Trick House"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_TRICK_HOUSE_PUZZLE_7_TROPIC_MAIL": {
+    "name": "TRICK HOUSE Puzzle 7 - Item",
+    "tags": ["Overworld Items", "Hoenn", "Route 110", "Trick House"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_TRICK_HOUSE_PUZZLE_8_BEAD_MAIL": {
+    "name": "TRICK HOUSE Puzzle 8 - Item",
+    "tags": ["Overworld Items", "Hoenn", "Route 110", "Trick House"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_VICTORY_ROAD_1F_MAX_ELIXIR": {
+    "name": "VICTORY ROAD 1F - Item East",
+    "tags": ["Overworld Items", "Hoenn", "Victory Road"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_VICTORY_ROAD_1F_PP_UP": {
+    "name": "VICTORY ROAD 1F - Item on Southeast Ledge",
+    "tags": ["Overworld Items", "Hoenn", "Victory Road"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_VICTORY_ROAD_B1F_FULL_RESTORE": {
+    "name": "VICTORY ROAD B1F - Item Behind Boulders",
+    "tags": ["Overworld Items", "Hoenn", "Victory Road"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_VICTORY_ROAD_B1F_TM_PSYCHIC": {
+    "name": "VICTORY ROAD B1F - Item on Northeast Ledge",
+    "tags": ["Overworld Items", "Hoenn", "Victory Road"],
+    "category": "OVERWORLD_ITEM"
+  },
+  "ITEM_VICTORY_ROAD_B2F_FULL_HEAL": {
+    "name": "VICTORY ROAD B2F - Item Above Waterfall",
+    "tags": ["Overworld Items", "Hoenn", "Victory Road"],
+    "category": "OVERWORLD_ITEM"
+  },
+
+  "NPC_GIFT_GOT_TM_THUNDERBOLT_FROM_WATTSON": {
+    "name": "MAUVILLE CITY - Gift from Wattson (Clear NEW MAUVILLE)",
+    "tags": ["NPC Gifts", "Hoenn", "Mauville City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_6_SODA_POP": {
+    "name": "ROUTE 109 - Seashore House Reward",
+    "tags": ["NPC Gifts", "Hoenn", "Route 109"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_AMULET_COIN": {
+    "name": "LITTLEROOT TOWN - Gift from Mom",
+    "tags": ["NPC Gifts", "Hoenn", "Littleroot Town"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_CHARCOAL": {
+    "name": "LAVARIDGE TOWN HERB SHOP - Gift from Man",
+    "tags": ["NPC Gifts", "Hoenn", "Lavaridge Town"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_CHESTO_BERRY_ROUTE_104": {
+    "name": "ROUTE 104 - Gift from Woman Near Berries",
+    "tags": ["NPC Gifts", "Hoenn", "Route 104"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_CLEANSE_TAG": {
+    "name": "MT. PYRE 1F - Gift from Woman in NE Corner",
+    "tags": ["NPC Gifts", "Hoenn", "Mt. Pyre"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_EXP_SHARE": {
+    "name": "DEVON CORP. 3F - Gift 2 from MR. STONE (Deliver LETTER)",
+    "tags": ["NPC Gifts", "Hoenn", "Rustboro City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_FOCUS_BAND": {
+    "name": "SHOAL CAVE Lower Room - Gift from Black Belt",
+    "tags": ["NPC Gifts", "Hoenn", "Shoal Cave"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_GREAT_BALL_PETALBURG_WOODS": {
+    "name": "PETALBURG WOODS - Gift from DEVON Employee",
+    "tags": ["NPC Gifts", "Hoenn", "Petalburg Woods"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_GREAT_BALL_RUSTBORO_CITY": {
+    "name": "RUSTBORO CITY - Gift from DEVON Employee",
+    "tags": ["NPC Gifts", "Hoenn", "Rustboro City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_KINGS_ROCK": {
+    "name": "MOSSDEEP CITY - Gift from Boy",
+    "tags": ["NPC Gifts", "Hoenn", "Mossdeep City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_MACHO_BRACE": {
+    "name": "ROUTE 111 - Gift from the WINSTRATE FAMILY",
+    "tags": ["NPC Gifts", "Hoenn", "Route 111"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_MENTAL_HERB": {
+    "name": "FORTREE CITY - WINGULL Delivery Reward",
+    "tags": ["NPC Gifts", "Hoenn", "Fortree City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_MIRACLE_SEED": {
+    "name": "PETALBURG WOODS - Gift from Lady",
+    "tags": ["NPC Gifts", "Hoenn", "Petalburg Woods"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_POTION_OLDALE": {
+    "name": "OLDALE TOWN - Free Sample",
+    "tags": ["NPC Gifts", "Hoenn", "Oldale Town"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_POWDER_JAR": {
+    "name": "SLATEPORT CITY - Gift from Lady in Market",
+    "tags": ["NPC Gifts", "Hoenn", "Slateport City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_PREMIER_BALL_RUSTBORO": {
+    "name": "RUSTBORO CITY - Gift from Boy in Apartments",
+    "tags": ["NPC Gifts", "Hoenn", "Rustboro City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_QUICK_CLAW": {
+    "name": "RUSTBORO CITY - Gift from TRAINER SCHOOL Teacher",
+    "tags": ["NPC Gifts", "Hoenn", "Rustboro City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_REPEAT_BALL": {
+    "name": "ROUTE 116 - Gift from DEVON Researcher",
+    "tags": ["NPC Gifts", "Hoenn", "Route 116"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_SECRET_POWER": {
+    "name": "ROUTE 111 - Gift from Man Near Tree",
+    "tags": ["NPC Gifts", "Hoenn", "Route 111"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_SILK_SCARF": {
+    "name": "DEWFORD TOWN - Gift from Man in House",
+    "tags": ["NPC Gifts", "Hoenn", "Dewford Town"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_SOFT_SAND": {
+    "name": "ROUTE 109 - Soft Sand from Tuber",
+    "tags": ["NPC Gifts", "Hoenn", "Route 109"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_SOOT_SACK": {
+    "name": "ROUTE 113 - Soot Sack from Glass Blower",
+    "tags": ["NPC Gifts", "Hoenn", "Route 113"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_SOOTHE_BELL": {
+    "name": "SLATEPORT CITY - Gift from Woman in Fan Club",
+    "tags": ["NPC Gifts", "Hoenn", "Slateport City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_SUN_STONE_MOSSDEEP": {
+    "name": "MOSSDEEP SPACE CENTER - Gift from Man",
+    "tags": ["NPC Gifts", "Hoenn", "Mossdeep City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_WATER_PULSE": {
+    "name": "SOOTOPOLIS CITY POKéMON GYM - Prize 2 from JUAN",
+    "tags": ["NPC Gifts", "Hoenn", "Sootopolis City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_CALM_MIND": {
+    "name": "MOSSDEEP CITY POKéMON GYM - Prize 2 from LIZA & TATE",
+    "tags": ["NPC Gifts", "Gym TMs", "Hoenn", "Mossdeep City", "Mossdeep Gym"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_ROAR": {
+    "name": "ROUTE 114 - Gift from Roaring Man",
+    "tags": ["NPC Gifts", "Hoenn", "Route 114"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_BULK_UP": {
+    "name": "DEWFORD TOWN POKéMON GYM - Prize 2 from BRAWLY",
+    "tags": ["NPC Gifts", "Gym TMs", "Hoenn", "Dewford Town", "Dewford Gym"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_BULLET_SEED": {
+    "name": "ROUTE 104 - Gift from Boy",
+    "tags": ["NPC Gifts", "Hoenn", "Route 104"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_HIDDEN_POWER": {
+    "name": "FORTREE CITY - Gift from HIDDEN POWER Lady",
+    "tags": ["NPC Gifts", "Hoenn", "Fortree City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_GIGA_DRAIN": {
+    "name": "ROUTE 123 - Gift from Girl near Berries",
+    "tags": ["NPC Gifts", "Hoenn", "Route 123"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_FRUSTRATION": {
+    "name": "PACIFIDLOG TOWN - Gift 1 from Man in House",
+    "tags": ["NPC Gifts", "Hoenn", "Pacifidlog Town"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_RETURN": {
+    "name": "FALLARBOR TOWN - Gift from COZMO",
+    "tags": ["NPC Gifts", "Hoenn", "Fallarbor Town"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_RETURN_2": {
+    "name": "PACIFIDLOG TOWN - Gift 2 from Man in House",
+    "tags": ["NPC Gifts", "Hoenn", "Pacifidlog Town"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_DIG": {
+    "name": "ROUTE 114 - Gift from FOSSIL MANIAC's Brother",
+    "tags": ["NPC Gifts", "Hoenn", "Route 114"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_BRICK_BREAK": {
+    "name": "SOOTOPOLIS CITY - Gift from Black Belt in House",
+    "tags": ["NPC Gifts", "Hoenn", "Sootopolis City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_SHOCK_WAVE": {
+    "name": "MAUVILLE CITY POKéMON GYM - Prize 2 from WATTSON",
+    "tags": ["NPC Gifts", "Gym TMs", "Hoenn", "Mauville City", "Mauville Gym"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_SLUDGE_BOMB": {
+    "name": "DEWFORD TOWN - Gift from SLUDGE BOMB Man",
+    "tags": ["NPC Gifts", "Hoenn", "Dewford Town"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_ROCK_TOMB": {
+    "name": "RUSTBORO CITY POKéMON GYM - Prize 2 from ROXANNE",
+    "tags": ["NPC Gifts", "Gym TMs", "Hoenn", "Rustboro City", "Rustboro Gym"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_AERIAL_ACE": {
+    "name": "FORTREE CITY POKéMON GYM - Prize 2 from WINONA",
+    "tags": ["NPC Gifts", "Gym TMs", "Hoenn", "Fortree City", "Fortree Gym"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_TORMENT": {
+    "name": "SLATEPORT CITY - Gift from SAILOR in BATTLE TENT",
+    "tags": ["NPC Gifts", "Hoenn", "Slateport City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_FACADE": {
+    "name": "PETALBURG CITY POKéMON GYM - Prize 2 from NORMAN",
+    "tags": ["NPC Gifts", "Gym TMs", "Hoenn", "Petalburg City", "Petalburg Gym"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_REST": {
+    "name": "LILYCOVE CITY - Gift from Man in House",
+    "tags": ["NPC Gifts", "Hoenn", "Lilycove City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_ATTRACT": {
+    "name": "VERDANTURF TOWN - Gift from Woman in BATTLE TENT",
+    "tags": ["NPC Gifts", "Hoenn", "Verdanturf Town"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_THIEF": {
+    "name": "OCEANIC MUSEUM - Gift from AQUA GRUNT",
+    "tags": ["NPC Gifts", "Hoenn", "Slateport City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_STEEL_WING": {
+    "name": "GRANITE CAVE 1F - Gift from STEVEN",
+    "tags": ["NPC Gifts", "Hoenn", "Granite Cave"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_SNATCH": {
+    "name": "S.S. TIDAL - Gift from Thief",
+    "tags": ["NPC Gifts", "Hoenn", "S.S. Tidal"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TM_OVERHEAT": {
+    "name": "LAVARIDGE TOWN POKéMON GYM - Prize 2 from FLANNERY",
+    "tags": ["NPC Gifts", "Gym TMs", "Hoenn", "Lavaridge Town", "Lavaridge Gym"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_WHITE_HERB": {
+    "name": "ROUTE 104 - Gift from Lady Near Flower Shop",
+    "tags": ["NPC Gifts", "Hoenn", "Route 104"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_FLOWER_SHOP_RECEIVED_BERRY": {
+    "name": "ROUTE 104 - Gift from Girl in Flower Shop",
+    "tags": ["NPC Gifts", "Hoenn", "Route 104"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_DEEP_SEA_SCALE": {
+    "name": "SLATEPORT CITY - Gift 1 from CAPT. STERN",
+    "tags": ["NPC Gifts", "Hoenn", "Slateport City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_DEEP_SEA_TOOTH": {
+    "name": "SLATEPORT CITY - Gift 2 from CAPT. STERN",
+    "tags": ["NPC Gifts", "Hoenn", "Slateport City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_1": {
+    "name": "TRICK HOUSE Puzzle 1 - Reward",
+    "tags": ["NPC Gifts", "Hoenn", "Route 110", "Trick House"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_2": {
+    "name": "TRICK HOUSE Puzzle 2 - Reward",
+    "tags": ["NPC Gifts", "Hoenn", "Route 110", "Trick House"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_3": {
+    "name": "TRICK HOUSE Puzzle 3 - Reward",
+    "tags": ["NPC Gifts", "Hoenn", "Route 110", "Trick House"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_4": {
+    "name": "TRICK HOUSE Puzzle 4 - Reward",
+    "tags": ["NPC Gifts", "Hoenn", "Route 110", "Trick House"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_5": {
+    "name": "TRICK HOUSE Puzzle 5 - Reward",
+    "tags": ["NPC Gifts", "Hoenn", "Route 110", "Trick House"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_6": {
+    "name": "TRICK HOUSE Puzzle 6 - Reward",
+    "tags": ["NPC Gifts", "Hoenn", "Route 110", "Trick House"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_TRICK_HOUSE_REWARD_7": {
+    "name": "TRICK HOUSE Puzzle 7 - Reward",
+    "tags": ["NPC Gifts", "Hoenn", "Route 110", "Trick House"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_RECEIVED_5_POKE_BALLS": {
+    "name": "LITTLEROOT TOWN - Gift from Rival",
+    "tags": ["NPC Gifts", "Hoenn", "Littleroot Town"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_SOOTOPOLIS_RECEIVED_BERRY_1": {
+    "name": "SOOTOPOLIS CITY - Gift 1 from Girl on Grass",
+    "tags": ["NPC Gifts", "Hoenn", "Sootopolis City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_SOOTOPOLIS_RECEIVED_BERRY_2": {
+    "name": "SOOTOPOLIS CITY - Gift 2 from Girl on Grass",
+    "tags": ["NPC Gifts", "Hoenn", "Sootopolis City"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_ROUTE_111_RECEIVED_BERRY": {
+    "name": "ROUTE 111 - Gift from Girl Near Berry Trees",
+    "tags": ["NPC Gifts", "Hoenn", "Route 111"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_ROUTE_114_RECEIVED_BERRY": {
+    "name": "ROUTE 114 - Gift from Man Near House",
+    "tags": ["NPC Gifts", "Hoenn", "Route 114"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_ROUTE_120_RECEIVED_BERRY": {
+    "name": "ROUTE 120 - Gift from Lady Near Berry Trees",
+    "tags": ["NPC Gifts", "Hoenn", "Route 120"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_BERRY_MASTER_RECEIVED_BERRY_1": {
+    "name": "ROUTE 123 - Gift 1 from BERRY MASTER",
+    "tags": ["NPC Gifts", "Hoenn", "Route 123"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_BERRY_MASTER_RECEIVED_BERRY_2": {
+    "name": "ROUTE 123 - Gift 2 from BERRY MASTER",
+    "tags": ["NPC Gifts", "Hoenn", "Route 123"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_BERRY_MASTERS_WIFE": {
+    "name": "ROUTE 123 - Gift from BERRY MASTER's Wife",
+    "tags": ["NPC Gifts", "Hoenn", "Route 123"],
+    "category": "NPC_GIFT"
+  },
+  "NPC_GIFT_LILYCOVE_RECEIVED_BERRY": {
+    "name": "LILYCOVE CITY - Gift from GENTLEMAN Above Ledges",
+    "tags": ["NPC Gifts", "Hoenn", "Lilycove City"],
+    "category": "NPC_GIFT"
+  }
+}

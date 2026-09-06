@@ -1,0 +1,478 @@
+{
+  "REGION_BATTLE_FRONTIER_RECEPTION_GATE/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_RECEPTION_GATE",
+    "name": "BATTLE FRONTIER Reception Gate",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_RECEPTION_GATE:0/MAP_BATTLE_FRONTIER_OUTSIDE_WEST:8": "BATTLE FRONTIER Reception Gate South Exit",
+      "MAP_BATTLE_FRONTIER_RECEPTION_GATE:1/MAP_BATTLE_FRONTIER_OUTSIDE_WEST:9": "BATTLE FRONTIER Reception Gate North Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_OUTSIDE_WEST/DOCK": {
+    "parent_map": "MAP_BATTLE_FRONTIER_OUTSIDE_WEST",
+    "name": "BATTLE FRONTIER Dock",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_SS_TIDAL_CORRIDOR/MAIN": "Board S.S. Tidal from BATTLE FRONTIER"
+    },
+    "warps": {
+      "MAP_BATTLE_FRONTIER_OUTSIDE_WEST:8/MAP_BATTLE_FRONTIER_RECEPTION_GATE:0": "BATTLE FRONTIER Dock Exit to Reception Gate"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_OUTSIDE_WEST/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_OUTSIDE_WEST",
+    "name": "BATTLE FRONTIER West",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_BATTLE_FRONTIER_OUTSIDE_EAST/MAIN": "BATTLE FRONTIER West to East"
+    },
+    "warps": {
+      "MAP_BATTLE_FRONTIER_OUTSIDE_WEST:7/MAP_BATTLE_FRONTIER_LOUNGE7:0": "BATTLE FRONTIER Lounge West of BATTLE DOME",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_WEST:2/MAP_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY:0": "BATTLE FACTORY",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_WEST:1/MAP_BATTLE_FRONTIER_BATTLE_DOME_LOBBY:0": "BATTLE DOME",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_WEST:9/MAP_BATTLE_FRONTIER_RECEPTION_GATE:1": "BATTLE FRONTIER Exit to Reception Gate",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_WEST:0/MAP_BATTLE_FRONTIER_BATTLE_PIKE_LOBBY:0": "BATTLE PIKE",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_WEST:5/MAP_BATTLE_FRONTIER_SCOTTS_HOUSE:0": "BATTLE FRONTIER House East of BATTLE DOME",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_WEST:3/MAP_BATTLE_FRONTIER_LOUNGE2:0": "BATTLE FRONTIER Large Lounge North of POKeMON MART",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_WEST:4/MAP_BATTLE_FRONTIER_MART:0": "BATTLE FRONTIER POKeMON MART",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_WEST:6/MAP_BATTLE_FRONTIER_LOUNGE4:0": "BATTLE FRONTIER Small Lounge North of POKeMON MART"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_OUTSIDE_WEST/WATER": {
+    "parent_map": "MAP_BATTLE_FRONTIER_OUTSIDE_WEST",
+    "name": "BATTLE FRONTIER West Water",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_BATTLE_FRONTIER_OUTSIDE_EAST/WATER": "BATTLE FRONTIER Water West to East",
+      "REGION_BATTLE_FRONTIER_OUTSIDE_WEST/CAVE_ENTRANCE": "BATTLE FRONTIER West Landing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_BATTLE_FRONTIER_OUTSIDE_WEST/CAVE_ENTRANCE": {
+    "parent_map": "MAP_BATTLE_FRONTIER_OUTSIDE_WEST",
+    "name": "BATTLE FRONTIER ARTISAN CAVE Entrance",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_BATTLE_FRONTIER_OUTSIDE_WEST/WATER": "BATTLE FRONTIER West Surfing Spot"
+    },
+    "warps": {
+      "MAP_BATTLE_FRONTIER_OUTSIDE_WEST:10/MAP_ARTISAN_CAVE_B1F:0": "BATTLE FRONTIER West Cave Entrance"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_OUTSIDE_EAST/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_OUTSIDE_EAST",
+    "name": "BATTLE FRONTIER East",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_BATTLE_FRONTIER_OUTSIDE_WEST/MAIN": "BATTLE FRONTIER East to West",
+      "REGION_BATTLE_FRONTIER_OUTSIDE_EAST/ABOVE_WATERFALL": "BATTLE FRONTIER After SUDOWOODO"
+    },
+    "warps": {
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:12/MAP_BATTLE_FRONTIER_POKEMON_CENTER_1F:0": "BATTLE FRONTIER POKeMON CENTER",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:5/MAP_BATTLE_FRONTIER_LOUNGE1:0": "BATTLE FRONTIER Lounge North of POKeMON CENTER",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:8/MAP_BATTLE_FRONTIER_LOUNGE6:0": "BATTLE FRONTIER Lounge West of BATTLE TOWER",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:6/MAP_BATTLE_FRONTIER_EXCHANGE_SERVICE_CORNER:0": "BATTLE FRONTIER EXCHANGE SERVICE CORNER",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:10/MAP_BATTLE_FRONTIER_LOUNGE8:0": "BATTLE FRONTIER Small Lounge East of POKeMON CENTER",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:0/MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY:0": "BATTLE TOWER",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:7/MAP_BATTLE_FRONTIER_LOUNGE5:0": "BATTLE FRONTIER Large Lounge East of POKeMON CENTER",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:4/MAP_BATTLE_FRONTIER_RANKING_HALL:0": "BATTLE FRONTIER RANKING HALL",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:1/MAP_BATTLE_FRONTIER_BATTLE_ARENA_LOBBY:0": "BATTLE ARENA",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:2/MAP_BATTLE_FRONTIER_BATTLE_PALACE_LOBBY:0": "BATTLE PALACE",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:3/MAP_BATTLE_FRONTIER_BATTLE_PYRAMID_LOBBY:0": "BATTLE PYRAMID",
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:9/MAP_BATTLE_FRONTIER_LOUNGE3:0": "BATTLE FRONTIER Lounge South of BATTLE PYRAMID"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_OUTSIDE_EAST/CAVE_ENTRANCE": {
+    "parent_map": "MAP_BATTLE_FRONTIER_OUTSIDE_EAST",
+    "name": "BATTLE FRONTIER ARTISAN CAVE Exit",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_BATTLE_FRONTIER_OUTSIDE_EAST/MAIN": "ARTISAN CAVE Exit Ledge"
+    },
+    "warps": {
+      "MAP_BATTLE_FRONTIER_OUTSIDE_EAST:13/MAP_ARTISAN_CAVE_1F:0": "ARTISAN CAVE From Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_OUTSIDE_EAST/ABOVE_WATERFALL": {
+    "parent_map": "MAP_BATTLE_FRONTIER_OUTSIDE_EAST",
+    "name": "BATTLE FRONTIER Above Waterfall",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_BATTLE_FRONTIER_OUTSIDE_EAST/MAIN": "BATTLE FRONTIER Before SUDOWOODO",
+      "REGION_BATTLE_FRONTIER_OUTSIDE_EAST/WATER": "BATTLE FRONTIER East Surfing Spot"
+    },
+    "warps": {}
+  },
+  "REGION_BATTLE_FRONTIER_OUTSIDE_EAST/WATER": {
+    "parent_map": "MAP_BATTLE_FRONTIER_OUTSIDE_EAST",
+    "name": "BATTLE FRONTIER East Water",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_BATTLE_FRONTIER_OUTSIDE_EAST/ABOVE_WATERFALL": "BATTLE FRONTIER East Landing Spot",
+      "REGION_BATTLE_FRONTIER_OUTSIDE_WEST/WATER": "BATTLE FRONTIER Down Waterfall"
+    },
+    "warps": {}
+  },
+  "REGION_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY",
+    "name": "BATTLE FACTORY Lobby",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY:0,1/MAP_BATTLE_FRONTIER_OUTSIDE_WEST:2": "BATTLE FACTORY Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_BATTLE_PIKE_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_PIKE_LOBBY",
+    "name": "BATTLE PIKE Lobby",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_BATTLE_PIKE_LOBBY:0,1,2/MAP_BATTLE_FRONTIER_OUTSIDE_WEST:0": "BATTLE PIKE Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_BATTLE_ARENA_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_ARENA_LOBBY",
+    "name": "BATTLE ARENA Lobby",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_BATTLE_ARENA_LOBBY:0/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:1": "BATTLE ARENA Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_BATTLE_PYRAMID_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_PYRAMID_LOBBY",
+    "name": "BATTLE PYRAMID Lobby",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_BATTLE_PYRAMID_LOBBY:0/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:3": "BATTLE PYRAMID Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_BATTLE_DOME_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_DOME_LOBBY",
+    "name": "BATTLE DOME Lobby",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_BATTLE_DOME_LOBBY:0,1/MAP_BATTLE_FRONTIER_OUTSIDE_WEST:1": "BATTLE DOME Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_BATTLE_PALACE_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_PALACE_LOBBY",
+    "name": "BATTLE PALACE Lobby",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_BATTLE_PALACE_LOBBY:0,1/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:2": "BATTLE PALACE Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY",
+    "name": "BATTLE TOWER Lobby",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY:2/MAP_BATTLE_FRONTIER_BATTLE_TOWER_BATTLE_ROOM:0": "Enter BATTLE TOWER Challenge",
+      "MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY:0,1/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:0": "BATTLE TOWER Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_BATTLE_TOWER_BATTLE_ROOM/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_TOWER_BATTLE_ROOM",
+    "name": "BATTLE TOWER Battle Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_BATTLE_TOWER_BATTLE_ROOM:0,1/MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY:2": "Finish BATTLE TOWER Challenge"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_EXCHANGE_SERVICE_CORNER/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_EXCHANGE_SERVICE_CORNER",
+    "name": "BATTLE FRONTIER EXCHANGE SERVICE CORNER",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_EXCHANGE_SERVICE_CORNER:0,1,2/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:6": "BATTLE FRONTIER EXCHANGE SERVICE CORNER Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_RANKING_HALL/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_RANKING_HALL",
+    "name": "BATTLE FRONTIER RANKING HALL",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_RANKING_HALL:0,1/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:4": "BATTLE FRONTIER RANKING HALL Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_POKEMON_CENTER_1F",
+    "name": "BATTLE FRONTIER POKeMON CENTER 1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_POKEMON_CENTER_1F:2/MAP_BATTLE_FRONTIER_POKEMON_CENTER_2F:0": "BATTLE FRONTIER POKeMON CENTER 1F Escalator",
+      "MAP_BATTLE_FRONTIER_POKEMON_CENTER_1F:0,1/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:12": "BATTLE FRONTIER POKeMON CENTER Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_POKEMON_CENTER_2F",
+    "name": "BATTLE FRONTIER POKeMON CENTER 2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_POKEMON_CENTER_2F:0/MAP_BATTLE_FRONTIER_POKEMON_CENTER_1F:2": "BATTLE FRONTIER POKeMON CENTER 2F Escalator"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_MART/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_MART",
+    "name": "BATTLE FRONTIER POKeMON MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_MART:0,1/MAP_BATTLE_FRONTIER_OUTSIDE_WEST:4": "BATTLE FRONTIER POKeMON MART Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_SCOTTS_HOUSE/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_SCOTTS_HOUSE",
+    "name": "SCOTT's House",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_SCOTTS_HOUSE:0,1/MAP_BATTLE_FRONTIER_OUTSIDE_WEST:5": "SCOTT's House Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_LOUNGE1/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_LOUNGE1",
+    "name": "BATTLE FRONTIER IV Checker Lounge",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_LOUNGE1:0/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:5": "BATTLE FRONTIER IV Checker Lounge Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_LOUNGE2/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_LOUNGE2",
+    "name": "BATTLE FRONTIER Maniac Lounge",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_LOUNGE2:0,1/MAP_BATTLE_FRONTIER_OUTSIDE_WEST:3": "BATTLE FRONTIER Maniac Lounge Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_LOUNGE3/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_LOUNGE3",
+    "name": "BATTLE FRONTIER Gambler Lounge",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_LOUNGE3:0/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:9": "BATTLE FRONTIER Gambler Lounge Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_LOUNGE4/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_LOUNGE4",
+    "name": "BATTLE FRONTIER Lounge 4",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_LOUNGE4:0/MAP_BATTLE_FRONTIER_OUTSIDE_WEST:6": "BATTLE FRONTIER Lounge 4 Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_LOUNGE5/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_LOUNGE5",
+    "name": "BATTLE FRONTIER Nature Checker Lounge",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_LOUNGE5:0,1/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:7": "BATTLE FRONTIER Nature Checker Lounge Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_LOUNGE6/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_LOUNGE6",
+    "name": "BATTLE FRONTIER Trader Lounge",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_LOUNGE6:0/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:8": "BATTLE FRONTIER Trader Lounge Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_LOUNGE7/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_LOUNGE7",
+    "name": "BATTLE FRONTIER Move Tutor Lounge",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_LOUNGE7:0/MAP_BATTLE_FRONTIER_OUTSIDE_WEST:7": "BATTLE FRONTIER Move Tutor Lounge Exit"
+    }
+  },
+  "REGION_BATTLE_FRONTIER_LOUNGE8/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_LOUNGE8",
+    "name": "BATTLE FRONTIER Lounge 8",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_BATTLE_FRONTIER_LOUNGE8:0/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:10": "BATTLE FRONTIER Lounge 8 Exit"
+    }
+  },
+
+  "REGION_ARTISAN_CAVE_1F/MAIN": {
+    "parent_map": "MAP_ARTISAN_CAVE_1F",
+    "name": "ARTISAN CAVE 1F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ARTISAN_CAVE_1F_CARBOS"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ARTISAN_CAVE_1F:1/MAP_ARTISAN_CAVE_B1F:1": "ARTISAN CAVE 1F Ladder",
+      "MAP_ARTISAN_CAVE_1F:0/MAP_BATTLE_FRONTIER_OUTSIDE_EAST:13": "ARTISAN CAVE East Exit"
+    }
+  },
+  "REGION_ARTISAN_CAVE_B1F/MAIN": {
+    "parent_map": "MAP_ARTISAN_CAVE_B1F",
+    "name": "ARTISAN CAVE B1F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ARTISAN_CAVE_B1F_HP_UP",
+      "HIDDEN_ITEM_ARTISAN_CAVE_B1F_ZINC",
+      "HIDDEN_ITEM_ARTISAN_CAVE_B1F_CALCIUM",
+      "HIDDEN_ITEM_ARTISAN_CAVE_B1F_PROTEIN",
+      "HIDDEN_ITEM_ARTISAN_CAVE_B1F_IRON"
+    ],
+    "events": [],
+    "exits": {},
+    "warps": {
+      "MAP_ARTISAN_CAVE_B1F:0/MAP_BATTLE_FRONTIER_OUTSIDE_WEST:10": "ARTISAN CAVE West Exit",
+      "MAP_ARTISAN_CAVE_B1F:1/MAP_ARTISAN_CAVE_1F:1": "ARTISAN CAVE B1F Ladder"
+    }
+  }
+}

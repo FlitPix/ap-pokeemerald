@@ -1,0 +1,46 @@
+{
+  "REGION_BATTLE_FRONTIER_BATTLE_DOME_PRE_BATTLE_ROOM/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_DOME_PRE_BATTLE_ROOM",
+    "name": "BATTLE DOME Pre-Battle Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_BATTLE_FRONTIER_BATTLE_DOME_CORRIDOR/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_DOME_CORRIDOR",
+    "name": "BATTLE DOME Corridor",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_BATTLE_FRONTIER_BATTLE_PALACE_CORRIDOR/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_PALACE_CORRIDOR",
+    "name": "BATTLE PALACE Corridor",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+  "REGION_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM",
+    "name": "BATTLE PALACE Battle Room",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  }
+}
