@@ -16,10 +16,6 @@ if TYPE_CHECKING:
 class PokemonEmeraldFlitPatchExtension(APPatchExtension):
     game = GAME_NAME
 
-    #@staticmethod
-    #def apply_bsdiff4(caller: APProcedurePatch, rom: bytes, patch: str) -> bytes:
-    #    rom_data = bytearray(rom)
-
 class PokemonEmeraldFlitProcedurePatch(APProcedurePatch, APTokenMixin):
     game = GAME_NAME
     hash = ROM_HASH
