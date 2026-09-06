@@ -123,7 +123,7 @@ class PokemonEmeraldFlitClient(BizHawkClient):
             read_result = await bizhawk.guarded_read(
                 ctx.bizhawk_ctx,
                 [
-                    (sb1_address + 0x1450, 0x96, "System Bus")],  # flags
+                    (sb1_address + 0x13D8, 0x96, "System Bus")],  # flags
                 [guards["IN OVERWORLD"], guards["SAVE BLOCK 1"]]
             )
             if read_result is None:  # not in overworld, or save block moved
@@ -132,7 +132,7 @@ class PokemonEmeraldFlitClient(BizHawkClient):
 
             read_result = await bizhawk.guarded_read(
                 ctx.bizhawk_ctx,
-                [(sb1_address + 0x14E6, 0x96, "System Bus")],  # more flags
+                [(sb1_address + 0x146E, 0x96, "System Bus")],  # more flags
                 [guards["IN OVERWORLD"], guards["SAVE BLOCK 1"]]
             )
             if read_result is not None:
@@ -189,7 +189,7 @@ class PokemonEmeraldFlitClient(BizHawkClient):
         read_result = await bizhawk.guarded_read(
             ctx.bizhawk_ctx,
             [
-                (sb1_address + 0x3778, 2, "System Bus"),      # Number of received items
+                (sb1_address + 0x3700, 2, "System Bus"),      # Number of received items
                 (received_item_address + 4, 1, "System Bus")  # Received item struct full?
             ],
             [guards["IN OVERWORLD"], guards["SAVE BLOCK 1"]]
