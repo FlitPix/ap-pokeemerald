@@ -60,10 +60,11 @@ class PokemonEmeraldFlitClient(BizHawkClient):
 
         return True
     
-    async def set_auth(self, ctx: "BizHawkClientContext") -> None:
-        from base64 import b64encode
-        auth_raw = (await bizhawk.read(ctx.bizhawk_ctx, [data.rom_addresses["gArchipelagoInfo"], 16, "ROM"]))[0]
-        ctx.auth = b64encode(auth_raw).decode("utf-8")
+    # TODO: fix
+    #async def set_auth(self, ctx: "BizHawkClientContext") -> None:
+    #    from base64 import b64encode
+    #    auth_raw = (await bizhawk.read(ctx.bizhawk_ctx, [data.rom_addresses["gArchipelagoInfo"], 16, "ROM"]))[0]
+    #    ctx.auth = b64encode(auth_raw).decode("utf-8")
 
     async def game_watcher(self, ctx: "BizHawkClientContext") -> None:
         if ctx.server is None or ctx.server.socket.closed or ctx.slot_data is None:
