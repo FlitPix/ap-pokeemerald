@@ -87,8 +87,8 @@ def set_rules(world: "PokemonEmeraldFlitWorld") -> None:
     entrance_rules["LILYCOVE HARBOR Board with S.S. TICKET"] = Has("S.S. Ticket")
     entrance_rules["LILYCOVE HARBOR Board with EON TICKET"] = Has("Eon Ticket")
     entrance_rules["LILYCOVE HARBOR Board with OLD SEA MAP"] = Has("Old Sea Map")
-    #entrance_rules["LILYCOVE HARBOR Board with AURORATICKET"] = Has("AuroraTicket")
-    #entrance_rules["LILYCOVE HARBOR Board with MYSTICTICKET"] = Has("MysticTicket")
+    entrance_rules["LILYCOVE HARBOR Board with AURORATICKET"] = Has("AuroraTicket")
+    entrance_rules["LILYCOVE HARBOR Board with MYSTICTICKET"] = Has("MysticTicket")
     entrance_rules["LILYCOVE CITY East Exit"] = (
         #OptionFilter(WorldBlockers, "Remove Lilycove City Wailmer", operator="contains") |
         Has("Clear AQUA HIDEOUT")
