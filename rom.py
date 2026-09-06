@@ -6,7 +6,8 @@ from worlds.Files import APPatchExtension, APProcedurePatch, APTokenMixin, APTok
 from settings import get_settings
 
 from .constants import GAME_NAME, ROM_HASH
-from .data import GAME_OPTIONS, data
+from .data import GAME_OPTIONS, GameOptionGroup, data
+from .locations import PokemonEmeraldFlitLocation
 from .util import BIT_TABLE
 
 if TYPE_CHECKING:
@@ -47,11 +48,11 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
             continue
 
         item_address = location.item_address
-
-        if not world.options.remote_items and location.item.player == world.player:
-            item_id = location.item.code
-        else:
-            item_id = data.constants["ITEM_ARCHIPELAGO"]
+        item_id = location.item.code
+        #if not world.options.remote_items and location.item.player == world.player:
+        #    item_id = location.item.code
+        #else:
+        #    item_id = data.constants["ITEM_ARCHIPELAGO"]
 
         patch.write_token(
             APTokenTypes.WRITE,
@@ -65,7 +66,7 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
 
     player_name_ids: Dict[str, int] = {world.player_name: 0}
     player_name_address = data.rom_addresses["gArchipelagoPlayerNames"]
-    for i, (flag, item_player, item_name) in enumerate(sorted(locationn_info, key=lambda t: t[0])):
+    for i, (flag, item_player, item_name) in enumerate(sorted(location_info, key=lambda t: t[0])):
         if item_player == world.player or world.multiworld.is_race:
             patch.write_token(
                 APTokenTypes.WRITE,
@@ -250,11 +251,11 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
     options_address = data.rom_addresses["gArchipelagoOptions"]
 
     # set pokemon in birch intro
-    patch.write_token(
-        APTokenTypes.WRITE,
-        options_address + 0x00,
-        struct.pack("<H", world.random.choice(list(data.species.keys())))
-    )
+    #patch.write_token(
+    #    APTokenTypes.WRITE,
+    #    options_address + 0x00,
+    #    struct.pack("<H", world.random.choice(list(data.species.keys())))
+    #)
 
     # options from 0x08 through 0x0B are bitpacked
     game_options_1: int = 0
@@ -265,9 +266,9 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
         else:
             value = option.default
 
-        if option.option_group == GROUP_ONE:
+        if option.option_group == GameOptionGroup.GROUP_ONE:
             game_options_1 |= (value << option.option_number)
-        elif option.option_group == GROUP_TWO:
+        elif option.option_group == GameOptionGroup.GROUP_TWO:
             game_options_2 |= (value << option.option_number)
     
     #if world.options.death_link:
@@ -336,11 +337,11 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
     )
 
     # set starting money
-    patch.write_token(
-        APTokenTypes.WRITE,
-        options_address + 0x29,
-        struct.pack("<I", world.options.starting_money.value)
-    )
+    #patch.write_token(
+    #    APTokenTypes.WRITE,
+    #    options_address + 0x29,
+    #    struct.pack("<I", world.options.starting_money.value)
+    #)
 
     # set challenge mode
     patch.write_token(

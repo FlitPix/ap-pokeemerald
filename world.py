@@ -125,8 +125,8 @@ class PokemonEmeraldFlitWorld(World):
     def generate_basic(self) -> None:
         self.auth = self.random.getrandbits(16 * 8).to_bytes(16, "little")
 
-    def generate_output(self) -> None:
-        patch = PokemonEmeraldFlitProcedurePatch(player=self.player, player_name=self.player.player_name)
+    def generate_output(self, output_directory: str) -> None:
+        patch = PokemonEmeraldFlitProcedurePatch(player=self.player, player_name=self.player_name)
         patch.write_file("base_patch.bsdiff4", pkgutil.get_data(__name__, "data/base_patch.bsdiff4"))
         write_tokens(self, patch)
 
