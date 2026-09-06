@@ -53,6 +53,7 @@ class PokemonEmeraldFlitClient(BizHawkClient):
 
         ctx.game = self.game
         ctx.want_slot_data = True
+        ctx.items_handling = 0b001
         ctx.watcher_timeout = 0.125
 
         self.initialize_client()
