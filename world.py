@@ -135,7 +135,7 @@ class PokemonEmeraldFlitWorld(World):
 
     def fill_slot_data(self) -> Dict[str, Any]:
         # TODO: add most options to slot data for trackers to use
-        slot_data = self.options_as_dict(
+        slot_data = self.options.as_dict(
             "goals"
         )
 
