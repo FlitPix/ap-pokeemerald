@@ -54,11 +54,19 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
         #else:
         #    item_id = data.constants["ITEM_ARCHIPELAGO"]
 
-        patch.write_token(
-            APTokenTypes.WRITE,
-            item_address,
-            struct.pack("<H", item_id)
-        )
+        if type(item_address) is int:
+            patch.write_token(
+                APTokenTypes.WRITE,
+                item_address,
+                struct.pack("<H", item_id)
+            )
+        elif type(item_address) is list:
+            for address in item_address:
+                patch.write_token(
+                APTokenTypes.WRITE,
+                address,
+                struct.pack("<H", item_id)
+            )
 
         # create a list of item info to store in tables later. the tables are used to display the item and player name
         # in a text box. in the case of not enough space, the game will default to "found an ARCHIPELAGO ITEM"
