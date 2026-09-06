@@ -73,8 +73,16 @@ def set_rules(world: "PokemonEmeraldFlitWorld") -> None:
     location_rules["RUSTBORO CITY - Return DEVON GOODS"] = Has("Devon Goods")
 
     # Devon Corp
-    entrance_rules["DEVON CORP. 1F Stairs"] = Has("Meet MR. STONE")
+    entrance_rules["DEVON CORP. 1F Stairs"] = Has("Return DEVON GOODS")
 
+    # Slateport City
+    location_rules["STERN'S SHIPYARD 1F - Talk to DOCK"] = Has("Return DEVON GOODS")
+    location_rules["SLATEPORT HARBOR - TEAM AQUA Steals SUBMARINE EXPLORER 1"] = Has("Release GROUDON")
+
+    entrance_rules["SLATEPORT CITY Surfing Spot"] = CanSurf()
+    entrance_rules["OCEANIC MUSEUM"] = Has("Talk to DOCK")
+    entrance_rules["SLATEPORT HARBOR Board S.S. TIDAL"] = Has("S.S. Ticket")
+    
     # Lavaridge Town
     location_rules["LAVARIDGE TOWN - Gift from Rival"] = Has("Defeat FLANNERY")
 
@@ -217,6 +225,8 @@ def set_rules(world: "PokemonEmeraldFlitWorld") -> None:
     entrance_rules["ROUTE 115 South Below Ledge -> Above Ledge"] = False_()
 
     # Route 116
+    location_rules["ROUTE 116 - Gift from DEVON Researcher"] = Has("Liberate OCEANIC MUSEUM")
+
     entrance_rules["ROUTE 116 Past CUT Tree"] = CanCut()
     #entrance_rules["ROUTE 116 West TERRA CAVE Entrance"] = HasTerraMarineCaveRequirements("TERRA CAVE: ROUTE 116 West")
     #entrance_rules["ROUTE 116 West TERRA CAVE Entrance"] = HasTerraMarineCaveRequirements("TERRA CAVE: ROUTE 116 East")
