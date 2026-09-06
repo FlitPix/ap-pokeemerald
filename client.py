@@ -95,11 +95,11 @@ class PokemonEmeraldFlitClient(BizHawkClient):
                         4,
                         "System Bus"
                     ),
-                    (
-                        data.ram_addresses["gSaveBlock2Ptr"],
-                        4,
-                        "System Bus"
-                    )
+                    #(
+                    #    data.ram_addresses["gSaveBlock2Ptr"],
+                    #    4,
+                    #    "System Bus"
+                    #)
                 ])
             
             # check that save data hasn't moved
@@ -108,14 +108,14 @@ class PokemonEmeraldFlitClient(BizHawkClient):
                 read_result[0],
                 "System Bus"
             )
-            guards["SAVE BLOCK 2"] = (
-                data.ram_addresses["gSaveBlock2Ptr"],
-                read_result[1],
-                "System Bus"
-            )
+            #guards["SAVE BLOCK 2"] = (
+            #    data.ram_addresses["gSaveBlock2Ptr"],
+            #    read_result[1],
+            #    "System Bus"
+            #)
 
             sb1_address = int.from_bytes(guards["SAVE BLOCK 1"][1], "little")
-            sb2_address = int.from_bytes(guards["SAVE BLOCK 2"][1], "little")
+            #sb2_address = int.from_bytes(guards["SAVE BLOCK 2"][1], "little")
 
             await self.handle_received_items(ctx, guards)
 
