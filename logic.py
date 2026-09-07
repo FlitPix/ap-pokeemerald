@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING, Dict, List
 from typing_extensions import override
 
-from rule_builder.rules import (Rule, CanReachEntrance, Has, HasAll, HasAny, HasGroupUnique, OptionFilter, True_, False_)
+from rule_builder.rules import (Rule, CanReachEntrance, Has, HasAll, HasAny, HasGroupUnique, HasFromListUnique, OptionFilter, True_, False_)
 
 from .constants import GAME_NAME
 from .options import NormanCount, NormanRequirement, HoennEliteFourRequirement, HoennEliteFourCount
