@@ -402,9 +402,6 @@ class GameOptions(OptionDict):
 
 class PokemonEmeraldFlitStartInventory(StartInventory):
     __doc__ = StartInventory.__doc__ + "\n\n    Currently, your starting inventory will be placed in your PC's item storage."
-
-class PokemonEmeraldFlitStartInventoryPool(StartInventoryPool):
-    __doc__ = StartInventoryPool.__doc__ + "\n    Currently, your starting inventory will be placed in your PC's item storage."
     
 
 @dataclass
@@ -444,13 +441,11 @@ class PokemonEmeraldFlitOptions(PerGameCommonOptions):
     #easier_cracked_floors: EasierCrackedFloors
 
     start_inventory: PokemonEmeraldFlitStartInventory
-    start_inventory_from_pool: PokemonEmeraldFlitStartInventoryPool
 
 OPTION_GROUPS = [
     OptionGroup(
         "Item & Location Options", [
             PokemonEmeraldFlitStartInventory,
-            PokemonEmeraldFlitStartInventoryPool,
         ], True,
     )
 ]
