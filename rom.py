@@ -138,23 +138,21 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
 
     start_inventory = world.options.start_inventory.value.copy()
 
+    badges = (
+        "Stone Badge",
+        "Knuckle Badge",
+        "Dynamo Badge",
+        "Heat Badge",
+        "Balance Badge",
+        "Feather Badge",
+        "Mind Badge",
+        "Rain Badge"
+    )
+
     starting_badges = 0
-    if start_inventory.pop("Stone Badge", 0) > 0:
-        starting_badges |= (1 << 0)
-    if start_inventory.pop("Knuckle Badge", 0) > 0:
-        starting_badges |= (1 << 1)
-    if start_inventory.pop("Dynamo Badge", 0) > 0:
-        starting_badges |= (1 << 2)
-    if start_inventory.pop("Heat Badge", 0) > 0:
-        starting_badges |= (1 << 3)
-    if start_inventory.pop("Balance Badge", 0) > 0:
-        starting_badges |= (1 << 4)
-    if start_inventory.pop("Feather Badge", 0) > 0:
-        starting_badges |= (1 << 5)
-    if start_inventory.pop("Mind Badge", 0) > 0:
-        starting_badges |= (1 << 6)
-    if start_inventory.pop("Rain Badge", 0) > 0:
-        starting_badges |= (1 << 7)
+    for i, badge in enumerate(badges):
+        if start_inventory.pop(badge, 0) > 0:
+            starting_badges |= BIT_TABLE[i]
 
     # TODO: add starting items to bag instead
     pc_slots: List[Tuple[str, int]] = []
@@ -178,7 +176,7 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
 
     for i, slot in enumerate(pc_slots):
         address = data.rom_addresses["sNewGamePCItems"] + (i * 4)
-        item = reverse_offset_item_value(world.item_name_to_id[slot[0]])
+        item = world.item_name_to_id[slot[0]]
         patch.write_token(APTokenTypes.WRITE, address + 0, struct.pack("<H", item))
         patch.write_token(APTokenTypes.WRITE, address + 2, struct.pack("<H", slot[1]))
 
@@ -247,11 +245,12 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
     #     /* 0x27 */ bool8 shufflePokenav;
     #     /* 0x28 */ bool8 shuffleRunningShoes;
     # 
-    #     /* 0x29 */ u32 startingMoney;
-    #     /* 0x2D */ bool8 wonderTradeAllowed;
-    #     /* 0x2E */ bool8 remoteItems;
-    #     /* 0x2F */ bool8 isChallengeMode;
-    # }
+    #     /* 0x?? */ u32 startingMoney;
+    #     /* 0x30 */ u8 startingBadges;
+    #     /* 0x31 */ bool8 wonderTradeAllowed;
+    #     /* 0x32 */ bool8 remoteItems;
+    #     /* 0x33 */ bool8 isChallengeMode;
+    # };  // offsets may be incorrect from unlockSeenDexInfo to startingMoney. i'll worry about it as i implement those features...
     options_address = data.rom_addresses["gArchipelagoOptions"]
 
     # set pokemon in birch intro
@@ -347,10 +346,17 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
     #    struct.pack("<I", world.options.starting_money.value)
     #)
 
+    # set starting badges
+    patch.write_token(
+        APTokenTypes.WRITE,
+        options_address + 0x30,
+        struct.pack("<B", starting_badges)
+    )
+
     # set challenge mode
     patch.write_token(
         APTokenTypes.WRITE,
-        options_address + 0x2F,
+        options_address + 0x33,
         struct.pack("<B", world.options.challenge_mode.value)
     )
 
