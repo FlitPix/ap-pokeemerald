@@ -8,7 +8,7 @@ from settings import get_settings
 from .constants import GAME_NAME, ROM_HASH
 from .data import GAME_OPTIONS, GameOptionGroup, data
 from .locations import PokemonEmeraldFlitLocation
-from .util import BIT_TABLE
+from .util import BIT_TABLE, encode_string
 
 if TYPE_CHECKING:
     from . import PokemonEmeraldFlitWorld
@@ -44,7 +44,10 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
             continue
 
         item_address = location.item_address
-        item_id = location.item.code
+        if location.item.player == world.player:
+            item_id = location.item.code
+        else:
+            item_id = data.constants["ITEM_ARCHIPELAGO"]
         #if not world.options.remote_items and location.item.player == world.player:
         #    item_id = location.item.code
         #else:
@@ -70,6 +73,9 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
 
     player_name_ids: Dict[str, int] = {world.player_name: 0}
     player_name_address = data.rom_addresses["gArchipelagoPlayerNames"]
+    item_name_offsets: Dict[str, int] = {}
+    item_name_address = data.rom_addresses["gArchipelagoItemNames"]
+    next_item_name_offset = 0
     for i, (flag, item_player, item_name) in enumerate(sorted(location_info, key=lambda t: t[0])):
         if item_player == world.player or world.multiworld.is_race:
             patch.write_token(
@@ -95,7 +101,7 @@ def write_tokens(world: "PokemonEmeraldFlitWorld", patch: PokemonEmeraldFlitProc
                 if len(player_name_ids) >= 50:
                     continue
 
-                player_name_ids[player_name] = lenn(player_name_ids)
+                player_name_ids[player_name] = len(player_name_ids)
                 for j, b in enumerate(encode_string(player_name, 17)):
                     patch.write_token(
                         APTokenTypes.WRITE,
