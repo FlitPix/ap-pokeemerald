@@ -206,7 +206,7 @@ class PokemonEmeraldFlitClient(BizHawkClient):
             next_item = ctx.items_received[num_received_items]
             should_display = 1 if next_item.flags & 1 or next_item.player == ctx.slot else 0
             await bizhawk.write(ctx.bizhawk_ctx, [
-                (received_item_address + 0, (next_item.item - BASE_OFFSET).to_bytes(2, "little"), "System Bus"),
+                (received_item_address + 0, (next_item.item).to_bytes(2, "little"), "System Bus"),
                 (received_item_address + 2, (num_received_items + 1).to_bytes(2, "little"), "System Bus"),
                 (received_item_address + 4, [1], "System Bus"),
                 (received_item_address + 5, [should_display], "System Bus"),
