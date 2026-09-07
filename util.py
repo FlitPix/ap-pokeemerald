@@ -2,7 +2,7 @@ from typing import Optional, Iterable
 
 from .data import data
 
-BIT_TABLE = {
+BIT_TABLE = (
     1 << 0,
     1 << 1,
     1 << 2,
@@ -35,7 +35,7 @@ BIT_TABLE = {
     1 << 29,
     1 << 30,
     1 << 31,
-}
+)
 
 CHARACTER_DECODING_MAP = {
     0x00: " ", 0x01: "À", 0x02: "Á", 0x03: "Â", 0x04: "Ç",
