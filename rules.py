@@ -337,6 +337,10 @@ def set_rules(world: "PokemonEmeraldFlitWorld") -> None:
 
     # Petalburg Woods
     entrance_rules["PETALBURG WOODS MP Past CUT Tree"] = CanCut()
+
+    # Granite Cave
+    entrance_rules["GRANITE CAVE B1F Up Muddy Slope"] = Has("Mach Bike")
+    entrance_rules["GRANITE CAVE B1F Complete MACH BIKE Challenge"] = Has("Mach Bike")
     
     # Rusturf Tunnel
     location_rules["RUSTURF TUNNEL - Gift from Tunneler"] = CanRockSmash()
@@ -534,6 +538,7 @@ def set_rules(world: "PokemonEmeraldFlitWorld") -> None:
         )
 
         # Mauville City
+        location_rules["MAUVILLE CITY - Gift from WATTSON (Defeat NORMAN)"] = Has("Defeat NORMAN")
         location_rules["MAUVILLE CITY - Gift from Wattson (Clear NEW MAUVILLE)"] = HasAll(
             "Defeat NORMAN",
             "Turn Off Generator"
