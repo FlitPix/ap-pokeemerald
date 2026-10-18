@@ -66,7 +66,7 @@ def create_items(world: "PokemonEmeraldFlitWorld") -> None:
             location.show_in_spoiler = False
         location.place_locked_item(item)
         location.progress_type = LocationProgressType.DEFAULT
-        #world.item_pool.remove(item)
+        world.item_pool.remove(item)
 
     item_locations = [
         location
@@ -99,6 +99,20 @@ def create_items(world: "PokemonEmeraldFlitWorld") -> None:
     item_locations = [loc for loc in item_locations if loc.category not in filter_categories]
     world.item_pool = [world.create_item_by_id(loc.default_item_id) for loc in item_locations]
 
+    # These locations aren't being shuffled for whatever reason... To match in-game, set them to vanilla for now.
+    # TODO: fix them
+    location_names_to_set_vanilla = [
+        "PETALBURG WOODS - Hidden Item Southeast",
+        "PETALBURG WOODS - Hidden Item After Grunt",
+    ]
+    
+    for loc in [
+        location
+        for location in item_locations
+        if location.name in location_names_to_set_vanilla
+    ]:
+        fill_unrandomized_location(loc, False)
+
     # replace copies of unique items placed in starting inventory
     unique_items: Set[str] = set(item_groups["Unique Items"] | item_groups["Progressive Items"])
     for item in world.multiworld.precollected_items[world.player]:
@@ -109,5 +123,3 @@ def create_items(world: "PokemonEmeraldFlitWorld") -> None:
                 world.item_pool.append(world.create_item(get_random_item(world, ItemClassification.filler)))
             except ValueError:
                 continue
-
-    
