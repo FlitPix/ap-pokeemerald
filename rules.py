@@ -65,8 +65,17 @@ def set_rules(world: "PokemonEmeraldFlitWorld") -> None:
     entrance_rules["Accuracy Room Door"] = HasPetalburgGymRequirements()
 
     # Dewford Town
-    #entrance_rules["MR. BRINEY Sails to SLATEPORT"]
-    #entrance_rules["MR. BRINEY Sails Home"]
+    entrance_rules["MR. BRINEY Sails to SLATEPORT"] = (
+        #OptionsFilter(WorldBlockers, "Mr. Briney All Destinations at Start", operator="contains") |
+        (
+            CanReachEntrance("MR. BRINEY Sails to DEWFORD from Cottage") &
+            Has("Deliver LETTER")
+        )
+    )
+    entrance_rules["MR. BRINEY Sails Home"] = (
+        #OptionsFilter(WorldBlockers, "Mr. Briney All Destinations at Start", operator="contains") |
+        CanReachEntrance("MR. BRINEY Sails to DEWFORD from Cottage")
+    )
     entrance_rules["DEWFORD TOWN Surfing Spot"] = CanSurf()
 
     # Rustboro City
@@ -156,10 +165,10 @@ def set_rules(world: "PokemonEmeraldFlitWorld") -> None:
     entrance_rules["ROUTE 104 South Surfing Spot"] = CanSurf()
     entrance_rules["ROUTE 104 North Surfing Spot"] = CanSurf()
     entrance_rules["ROUTE 104 North Past CUT Tree"] = CanCut()
-    #entrance_rules["MR. BRINEY Sails to DEWFORD from Home"] = (
-    #    OptionFilter(WorldBlockers, "Mr. Briney at Start", "contains") |
-    #    Has("Meet MR. STONE")
-    #)
+    entrance_rules["MR. BRINEY Sails to DEWFORD from Cottage"] = (
+        #OptionFilter(WorldBlockers, "Mr. Briney at Start", "contains") |
+        Has("Meet MR. STONE")
+    )
 
     # Route 105
     entrance_rules["ROUTE 105 Island Cave"] = Has("Release LEGENDARY GIANTS")
@@ -174,13 +183,13 @@ def set_rules(world: "PokemonEmeraldFlitWorld") -> None:
     entrance_rules["DEWFORD TOWN East Exit"] = CanSurf()
 
     # Route 109
-    #entrance_rules["MR. BRINEY Sails to DEWFORD from SLATEPORT"] = (
-    #    OptionsFilter(WorldBlockers, "Mr. Briney All Destinations at Start", operator="contains") |
-    #    (
-    #        CanReachEntrance("MR. BRINEY Sails to DEWFORD from Home") &
-    #        CanReachEntrance("MR. BRINEY Sails to SLATEPORT")
-    #    )
-    #)
+    entrance_rules["MR. BRINEY Sails to DEWFORD from SLATEPORT"] = (
+        #OptionsFilter(WorldBlockers, "Mr. Briney All Destinations at Start", operator="contains") |
+        (
+            CanReachEntrance("MR. BRINEY Sails to DEWFORD from Cottage") &
+            CanReachEntrance("MR. BRINEY Sails to SLATEPORT")
+        )
+    )
     entrance_rules["ROUTE 109 Surfing Spot"] = CanSurf()
 
     # Route 110
@@ -341,6 +350,8 @@ def set_rules(world: "PokemonEmeraldFlitWorld") -> None:
     # Granite Cave
     entrance_rules["GRANITE CAVE B1F Up Muddy Slope"] = Has("Mach Bike")
     entrance_rules["GRANITE CAVE B1F Complete MACH BIKE Challenge"] = Has("Mach Bike")
+    location_rules["GRANITE CAVE 1F - Delivery for STEVEN"] = Has("Letter")
+    location_rules["GRANITE CAVE 1F - Gift from STEVEN"] = Has("Letter")
     
     # Rusturf Tunnel
     location_rules["RUSTURF TUNNEL - Gift from Tunneler"] = CanRockSmash()
