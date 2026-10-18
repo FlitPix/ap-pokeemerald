@@ -200,14 +200,22 @@ class PokemonEmeraldFlitClient(BizHawkClient):
         num_received_items = int.from_bytes(read_result[0], "little")
         received_item_is_empty = read_result[1][0] == 0
 
-        # If the game hasn't received all items yet and the received item struct doesn't contain an item, then
+        # If the game hasn't received all items yet and the received item struct doesn't contain an item,
         # fill it with the next item
         if num_received_items < len(ctx.items_received) and received_item_is_empty:
             next_item = ctx.items_received[num_received_items]
-            should_display = 1 if next_item.flags & 1 or next_item.player == ctx.slot else 0
+            # determine item classification
+            if next_item.flags & 0b001:
+                classification = 2  # progression
+            elif next_item.flags & 0b010:
+                classification = 1  # useful
+            elif next_item.flags & 0b100:
+                classification = 3  # trap
+            else: classification = 0  # filler
+
             await bizhawk.write(ctx.bizhawk_ctx, [
                 (received_item_address + 0, (next_item.item).to_bytes(2, "little"), "System Bus"),
                 (received_item_address + 2, (num_received_items + 1).to_bytes(2, "little"), "System Bus"),
                 (received_item_address + 4, [1], "System Bus"),
-                (received_item_address + 5, [should_display], "System Bus"),
+                (received_item_address + 5, [classification], "System Bus"),
             ])
