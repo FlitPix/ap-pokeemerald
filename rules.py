@@ -79,6 +79,7 @@ def set_rules(world: "PokemonEmeraldFlitWorld") -> None:
     entrance_rules["DEWFORD TOWN Surfing Spot"] = CanSurf()
 
     # Rustboro City
+    location_rules["RUSTBORO CITY - Gift from DEVON Employee"] = Has("Devon Goods")
     location_rules["RUSTBORO CITY - Return DEVON GOODS"] = Has("Devon Goods")
 
     # Devon Corp
