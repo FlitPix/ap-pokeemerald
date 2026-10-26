@@ -238,7 +238,7 @@
     "item": "Visited MAUVILLE CITY",
     "category": "EVENT"
   },
-  "EVENT_VISITED_VERDANTURF TOWN": {
+  "EVENT_VISITED_VERDANTURF_TOWN": {
     "name": "VERDANTURF TOWN - First Visit",
     "item": "Visited VERDANTURF TOWN",
     "category": "EVENT"

@@ -36,7 +36,9 @@
     "has_grass": false,
     "has_water": false,
     "has_fishing": false,
-    "locations": [],
+    "locations": [
+      "EVENT_VISITED_LITTLEROOT_TOWN"
+    ],
     "events": [],
     "exits": {
       "REGION_ROUTE101/MAIN": "LITTLEROOT TOWN North Exit"
@@ -133,7 +135,9 @@
     "locations": [
       "NPC_GIFT_RECEIVED_POTION_OLDALE"
     ],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_OLDALE_TOWN"
+    ],
     "exits": {
       "REGION_ROUTE101/MAIN": "OLDALE TOWN South Exit",
       "REGION_ROUTE102/MAIN": "OLDALE TOWN West Exit",
@@ -220,7 +224,9 @@
     "has_water": false,
     "has_fishing": true,
     "locations": [],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_PETALBURG_CITY"
+    ],
     "exits": {
       "REGION_PETALBURG_CITY/SOUTH_POND": "PETALBURG CITY South Surfing Spot",
       "REGION_PETALBURG_CITY/NORTH_POND": "PETALBURG CITY North Surfing Spot",
@@ -514,7 +520,8 @@
       "TRAINER_BRENDAN_RUSTBORO_MUDKIP_REWARD"
     ],
     "events": [
-      "EVENT_RETURN_DEVON_GOODS"
+      "EVENT_RETURN_DEVON_GOODS",
+      "EVENT_VISITED_RUSTBORO_CITY"
     ],
     "exits": {
       "REGION_ROUTE104/NORTH": "RUSTBORO CITY South Exit",
@@ -792,7 +799,9 @@
     "locations": [
       "NPC_GIFT_RECEIVED_OLD_ROD"
     ],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_DEWFORD_TOWN"
+    ],
     "exits": {
       "REGION_DEWFORD_TOWN/WATER": "DEWFORD TOWN Surfing Spot",
       "REGION_ROUTE106/EAST": "DEWFORD TOWN North Exit",
@@ -927,6 +936,7 @@
       "NPC_GIFT_RECEIVED_POWDER_JAR"
     ],
     "events": [
+      "EVENT_VISITED_SLATEPORT_CITY",
       "EVENT_AQUA_STEALS_SUBMARINE"
     ],
     "exits": {
@@ -1154,7 +1164,9 @@
       "NPC_GIFT_GOT_TM_THUNDERBOLT_FROM_WATTSON",
       "TRAINER_WALLY_MAUVILLE_REWARD"
     ],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_MAUVILLE_CITY"
+    ],
     "exits": {
       "REGION_ROUTE111/SOUTH": "MAUVILLE CITY North Exit",
       "REGION_ROUTE117/MAIN": "MAUVILLE CITY West Exit",
@@ -1302,7 +1314,9 @@
     "has_water": false,
     "has_fishing": false,
     "locations": [],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_VERDANTURF_TOWN"
+    ],
     "exits": {
       "REGION_ROUTE117/MAIN": "VERDANTURF TOWN East Exit"
     },
@@ -1420,7 +1434,9 @@
     "locations": [
       "HIDDEN_ITEM_FALLARBOR_TOWN_NUGGET"
     ],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_FALLARBOR_TOWN"
+    ],
     "exits": {
       "REGION_ROUTE114/MAIN": "FALLARBOR TOWN West Exit",
       "REGION_ROUTE113/MAIN": "FALLARBOR TOWN East Exit"
@@ -1524,7 +1540,9 @@
     "locations": [
       "NPC_GIFT_RECEIVED_GO_GOGGLES"
     ],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_LAVARIDGE_TOWN"
+    ],
     "exits": {
       "REGION_ROUTE112/SOUTH_WEST": "LAVARIDGE TOWN East Exit"
     },
@@ -1890,7 +1908,9 @@
     "has_water": false,
     "has_fishing": false,
     "locations": [],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_FORTREE_CITY"
+    ],
     "exits": {
       "REGION_FORTREE_CITY/BEFORE_GYM": "FORTREE CITY Before Gym",
       "REGION_ROUTE119/UPPER": "FORTREE CITY West Exit",
@@ -2088,7 +2108,9 @@
       "NPC_GIFT_LILYCOVE_RECEIVED_BERRY",
       "TRAINER_BRENDAN_LILYCOVE_MUDKIP_REWARD"
     ],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_LILYCOVE_CITY"
+    ],
     "exits": {
       "REGION_ROUTE121/EAST": "LILYCOVE CITY West Exit",
       "REGION_LILYCOVE_CITY/SEA": "LILYCOVE CITY Surfing Spot"
@@ -2526,7 +2548,9 @@
       "ITEM_MOSSDEEP_CITY_NET_BALL",
       "NPC_GIFT_RECEIVED_KINGS_ROCK"
     ],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_MOSSDEEP_CITY"
+    ],
     "exits": {
       "REGION_MOSSDEEP_CITY/WATER": "MOSSDEEP CITY Surfing Spot"
     },
@@ -2889,7 +2913,9 @@
     "has_water": false,
     "has_fishing": true,
     "locations": [],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_SOOTOPOLIS_CITY"
+    ],
     "exits": {
       "REGION_SOOTOPOLIS_CITY/WATER": "SOOTOPOLIS CITY East Surfing Spot"
     },
@@ -3281,7 +3307,9 @@
     "has_water": false,
     "has_fishing": true,
     "locations": [],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_PACIFIDLOG_TOWN"
+    ],
     "exits": {
       "REGION_PACIFIDLOG_TOWN/WATER": "PACIFIDLOG TOWN Surfing Spot"
     },
@@ -3425,7 +3453,9 @@
     "has_water": false,
     "has_fishing": true,
     "locations": [],
-    "events": [],
+    "events": [
+      "EVENT_VISITED_EVER_GRANDE_CITY"
+    ],
     "exits": {
       "REGION_EVER_GRANDE_CITY/SEA": "EVER GRANDE CITY Surfing Spot"
     },
