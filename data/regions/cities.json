@@ -36,10 +36,10 @@
     "has_grass": false,
     "has_water": false,
     "has_fishing": false,
-    "locations": [
+    "locations": [],
+    "events": [
       "EVENT_VISITED_LITTLEROOT_TOWN"
     ],
-    "events": [],
     "exits": {
       "REGION_ROUTE101/MAIN": "LITTLEROOT TOWN North Exit"
     },
