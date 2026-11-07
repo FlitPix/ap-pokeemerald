@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: Eijebong/ap-actions/fuzz@main
         with:
-          apworld-path: ./
+          apworld-path: .
           ap-version: 0.6.8
           python-version: '3.12'
           runs: 500
