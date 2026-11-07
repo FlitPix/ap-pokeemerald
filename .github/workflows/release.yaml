@@ -1,0 +1,67 @@
+name: Release APWorld
+on:
+  push:
+    tags:
+      - "**"
+
+env:
+  AP_VERSION: '0.6.8'
+  PYTHON_VERSION: '3.12'
+
+jobs:
+  variant:
+    runs-on: ubuntu-latest
+    outputs:
+      prerelease: ${{ steps.v.outputs.prerelease }}
+      apworld-name: ${{ steps.v.outputs.apworld-name }}
+    steps:
+      - id: v
+        run: |
+          if [[ "$GITHUB_REF_NAME" =~ -(alpha|beta|rc) ]]; then
+            echo "prerelease=true" >> "$GITHUB_OUTPUT"
+            echo "apworld-name=pokemon_emerald_flit_prerelease" >> "$GITHUB_OUTPUT"
+          else
+            echo "prerelease=false" >> "$GITHUB_OUTPUT"
+            echo "apworld-name=pokemon_emerald_flit" >> "$GITHUB_OUTPUT"
+          fi
+
+  package:
+    runs-on: ubuntu-latest
+    needs: variant
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stamp prerelease game name
+        if: needs.variant.outputs.prerelease == 'true'
+        run: |
+          f=archipelago.json
+          jq '.game += " Prerelease"' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
+      - uses: Eijebong/ap-actions/package-apworld@main
+        id: apworld
+        with:
+          checkout: false
+          path: ./
+          apworld-name: ${{ needs.variant.outputs.apworld-name }}
+          ap-version: ${{ env.AP_VERSION }}
+          python-version: ${{ env.PYTHON_VERSION }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: apworld
+          path: ${{ steps.apworld.outputs.apworld }}
+
+  publish:
+    runs-on: ubuntu-latest
+    needs: variant
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: apworld
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: '*'
+          allowUpdates: true
+          prerelease: ${{ needs.variant.outputs.prerelease }}
+          immutableCreate: true
+          omitBodyDuringUpdate: true
+          omitNameDuringUpdate: true
