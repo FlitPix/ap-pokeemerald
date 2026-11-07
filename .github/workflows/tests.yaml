@@ -1,0 +1,19 @@
+name: Test APWorld
+on:
+  push:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Eijebong/ap-actions/ap-tests@main
+        with:
+          apworld-path: .
+          apworld-name: pokemon_emerald_flit
+          ap-version: 0.6.8
+          python-version: '3.12'
