@@ -1,0 +1,16 @@
+name: Enhancement
+description: Suggest a new feature.
+labels: ["is: enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a new feature or improvement!
+
+        Please note that this issue tracker is for *APWorld-related suggestions*. Suggestions for the game itself, unrelated to ROM patching or world logic, should instead be posted on the [basepatch repo](https://github.com/FlitPix/pokeemerald).
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like to see added?
+    validations:
+      required: true
