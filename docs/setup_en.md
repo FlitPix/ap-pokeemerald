@@ -57,11 +57,20 @@ you can use the [mGBA connector script](https://github.com/Zunawe/bhc-substitute
 
 Using the mGBA connector script is not in the scope of this setup guide. To use it, please follow its instructions.
 
-Note that some Archipelago forks may already include the connector script.
+Note that some Archipelago forks may already include the mGBA connector script.
+
+### Mesen
+
+If you wish to instead use [Mesen](https://github.com/nesdev-org/MesenCE),
+you can use the [Mesen connector script](https://github.com/Zunawe/bhc-substitutes/tree/main/mesen2).
+
+Using the Mesen connector script is not in the scope of this setup guide. To use it, please follow its instructions.
+
+Note that some Archipelago forks may already include the Mesen connector script.
 
 ## Patching the ROM and automatically connecting to the multiworld
 
-These steps will only fully work when using BizHawk. If you want to use mGBA, you'll need to follow the
+These steps will only fully work when using BizHawk. If you want to use mGBA or Mesen, you'll need to follow the
 "Manually connecting to the multiworld" section below.
 
 1. In the Launcher, search for `Open Patch` and click its Open button.
@@ -83,8 +92,8 @@ Archipelago will not allow you to choose again without some text editing.
 2. Use Ctrl-F (or similar) to search for `bizhawkclient_options`.
 3. Delete the line with `bizhawkclient_options`, as well as the next six lines.
 This should include `emuhawk_path` and `rom_start`.
-4. Use Ctrl-F (or similar) to search for `pokemon_emerald_settings`.
-5. Underneath `pokemon_emerald_settings`, you will find `rom_file`. Delete this line.
+4. Use Ctrl-F (or similar) to search for `pokemon_emerald_settings_flit`.
+5. Underneath `pokemon_emerald_settings_flit`, you will find `rom_file`. Delete this line.
 6. Make sure you save the file.
 
 Now, when using `Open Patch`, you should be prompted for your ROM and EmuHawk files again. If this didn't work,
@@ -92,7 +101,7 @@ feel free to [ask for help](#i-need-help).
 
 ## Manually connecting to the multiworld
 
-If the above steps didn't fully work, or you are using mGBA, follow the steps below.
+If the above steps didn't fully work, or you are using mGBA or Mesen, follow the steps below.
 
 1. If your emulator didn't automatically open with your patched ROM in the Patching the ROM section, open it now.
 2. If you haven't already done so, open the **BizHawk Client**, by doing one of the following:
@@ -102,13 +111,15 @@ If the above steps didn't fully work, or you are using mGBA, follow the steps be
 3. This step depends on the emulator you're using.
     - In **BizHawk**, *only if this did not happen automatically in the Patching the ROM section*, go to Tools > Lua Console.
     Then, go to Script > Open Script, and look for this file: `<Archipelago folder>/data/lua/connector_bizhawk_generic.lua`
-    - To use **mGBA**, follow the mGBA connector script's included instructions.
+    - To use **mGBA** or **Mesen**, follow the connector script's included instructions.
 4. In BizHawk Client, ensure the message `Running handler for Pokemon Emerald Version - Flit's ver.` appears.
-    - If it does not appear, verify you opened the *patched ROM*. You know the ROM is patched if the "OPTIONS" menu
-    has been overhauled.
-    - If an error message appears instead, heed its advice.
+    - If it does not appear, verify you opened the *patched ROM*. It should be in the same spot as the patch file.
+    You know the ROM is patched when the "OPTIONS" menu has been overhauled.
+    - If an error message appears instead, heed its advice. If the error isn't useful or you don't understand it,
+    you can [ask for help](#i-need-help).
 5. In BizHawk Client, enter the connection info using the connect textbox at the top of the window, then click Connect.
-6. When prompted, enter your slot name. If prompted, enter the room password.
+6. If prompted, enter your slot name.
+7. If prompted, enter the room password.
 
 Congratulations! You have connected to the multiworld. You can now select "NEW GAME" from the main menu and start playing.
 Have fun!
@@ -126,8 +137,6 @@ in the Players folder, this is planned for the future.
 
 ## I need help!
 
-
-
 If that doesn't help, you can get help in the following places:
 
 - GitHub Issues:
@@ -135,7 +144,7 @@ If that doesn't help, you can get help in the following places:
     for *in-game* issues (crashes, visual quirks, etc)
     - [FlitPix/ap-pokeemerald](https://github.com/FlitPix/ap-pokeemerald/issues/new?template=bug_reports_emerald.yaml),
     for *APWorld* issues (logic, ROM patching, etc)
-- The [AP: Pokemon Emerald Version (Flit's ver.)](https://forum.flitpix.net/board/viewforum.php?f=44) subforum,
-on my personal forums
+<!-- - The [AP: Pokemon Emerald Version (Flit's ver.)](https://forum.flitpix.net/board/viewforum.php?f=44) subforum,
+on my personal forums -->
 - The [#Pokemon Emerald Version (Flit's ver.)](https://discord.com/channels/1345801058609270794/1482906015677681924) thread,
 in the [Archipelago Unofficial Discord server](https://discord.gg/Nu4X9gmGDR)
