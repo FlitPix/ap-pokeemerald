@@ -98,13 +98,6 @@ def create_items(world: "PokemonEmeraldFlitWorld") -> None:
     # filter down locations to actual items that will be filled, and create the item pool
     item_locations = [loc for loc in item_locations if loc.category not in filter_categories]
     world.item_pool = [world.create_item_by_id(loc.default_item_id) for loc in item_locations]
-    
-    for loc in [
-        location
-        for location in item_locations
-        if location.name in location_names_to_set_vanilla
-    ]:
-        fill_unrandomized_location(loc, False)
 
     # replace copies of unique items placed in starting inventory
     unique_items: Set[str] = set(item_groups["Unique Items"] | item_groups["Progressive Items"])
