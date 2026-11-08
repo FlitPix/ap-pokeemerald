@@ -89,19 +89,19 @@ class PokemonEmeraldFlitWorld(World):
                             "Enabling Hall of Fame.")
             self.options.goals.value.add("Hall of Fame")
         
-        if self.options.exclude_postgame_locations:
-            if "Steven" in self.options.goals:
-                logging.warning(f"Flit's Pokemon Emerald: Including postgame locations for player {self.player} "
-                                f"({self.player_name}), since Steven is set as a goal condition.")
-                self.options.exclude_postgame_locations.value = ExcludePostHofLocations.option_false
-            if (
-                not self.options.shuffle_overworld and
-                not self.options.shuffle_hidden and
-                not self.options.shuffle_gifts
-            ):
-                raise OptionError(f"Flit's Pokemon Emerald: Player {self.player} ({self.player_name}) must either "
-                                  "include postgame locations, or shuffle at least one of Overworld, Hidden, or NPC Gift "
-                                  "locations.")
+        if self.options.exclude_postgame_locations and "Steven" in self.options.goals:
+            logging.warning(f"Flit's Pokemon Emerald: Including postgame locations for player {self.player} "
+                            f"({self.player_name}), since Steven is set as a goal condition.")
+            self.options.exclude_postgame_locations.value = ExcludePostHofLocations.option_false
+        
+        if (
+            not self.options.shuffle_overworld and
+            not self.options.shuffle_hidden and
+            not self.options.shuffle_gifts
+        ):
+            raise OptionError(f"Flit's Pokemon Emerald: Player {self.player} ({self.player_name}) must either "
+                              "include postgame locations, or shuffle at least one of Overworld, Hidden, or NPC Gift "
+                              "locations.")
 
         # with vanilla badges and the Surf badge requirement, Norman locks the ability to use Surf.
         # this means reaching Fortree Gym, Mossdeep Gym, and Sootopolis Gym isn't guaranteed,
