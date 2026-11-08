@@ -66,7 +66,6 @@ def create_items(world: "PokemonEmeraldFlitWorld") -> None:
             location.show_in_spoiler = False
         location.place_locked_item(item)
         location.progress_type = LocationProgressType.DEFAULT
-        world.item_pool.remove(item)
 
     item_locations = [
         location
