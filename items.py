@@ -98,13 +98,6 @@ def create_items(world: "PokemonEmeraldFlitWorld") -> None:
     # filter down locations to actual items that will be filled, and create the item pool
     item_locations = [loc for loc in item_locations if loc.category not in filter_categories]
     world.item_pool = [world.create_item_by_id(loc.default_item_id) for loc in item_locations]
-
-    # These locations aren't being shuffled for whatever reason... To match in-game, set them to vanilla for now.
-    # TODO: fix them
-    location_names_to_set_vanilla = [
-        "PETALBURG WOODS - Hidden Item Southeast",
-        "PETALBURG WOODS - Hidden Item After Grunt",
-    ]
     
     for loc in [
         location
