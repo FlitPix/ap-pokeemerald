@@ -67,8 +67,8 @@ def create_regions(world: "PokemonEmeraldFlitWorld") -> Dict[str, Region]:
     for name, source, dest in connections:
         regions[source].connect(regions[dest], name)
     
-    regions["Menu"] = PokemonEmeraldFlitRegion("Menu", world.player, world.multiworld)
     # TODO: use starting town instead
-    regions["Menu"].connect(regions["LITTLEROOT TOWN"], "Start Game")
+    regions["Title Screen"].connect(regions["LITTLEROOT TOWN"], "Start Game")
+    regions["Title Screen"].connect(regions["Skies of HOENN"], "Use FLY in HOENN")
 
     return regions

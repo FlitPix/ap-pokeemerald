@@ -1,0 +1,44 @@
+{
+  "TITLE_SCREEN": {
+    "parent_map": "MAP_LITTLEROOT_TOWN",
+    "name": "Title Screen",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {},
+    "warps": {}
+  },
+
+  "REGION_SKY_HOENN": {
+    "parent_map": "MAP_LITTLEROOT_TOWN",
+    "name": "Skies of HOENN",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": {
+      "REGION_LITTLEROOT_TOWN/MAIN": "LITTLEROOT TOWN Fly Point",
+      "REGION_OLDALE_TOWN/MAIN": "OLDALE TOWN Fly Point",
+      "REGION_PETALBURG_CITY/MAIN": "PETALBURG CITY Fly Point",
+      "REGION_RUSTBORO_CITY/MAIN": "RUSTBORO CITY Fly Point",
+      "REGION_DEWFORD_TOWN/MAIN": "DEWFORD TOWN Fly Point",
+      "REGION_SLATEPORT_CITY/MAIN": "SLATEPORT CITY Fly Point",
+      "REGION_MAUVILLE_CITY/MAIN": "MAUVILLE CITY Fly Point",
+      "REGION_VERDANTURF_TOWN/MAIN": "VERDANTURF TOWN Fly Point",
+      "REGION_FALLARBOR_TOWN/MAIN": "FALLARBOR TOWN Fly Point",
+      "REGION_LAVARIDGE_TOWN/MAIN": "LAVARIDGE TOWN Fly Point",
+      "REGION_FORTREE_CITY/MAIN": "FORTREE CITY Fly Point",
+      "REGION_LILYCOVE_CITY/MAIN": "LILYCOVE CITY Fly Point",
+      "REGION_MOSSDEEP_CITY/MAIN": "MOSSDEEP CITY Fly Point",
+      "REGION_SOOTOPOLIS_CITY/EAST": "SOOTOPOLIS CITY Fly Point",
+      "REGION_PACIFIDLOG_TOWN/MAIN": "PACIFIDLOG TOWN Fly Point",
+      "REGION_EVER_GRANDE_CITY/SOUTH": "EVER GRANDE CITY Fly Point",
+      "REGION_EVER_GRANDE_CITY/NORTH": "HOENN POKeMON LEAGUE Fly Point",
+      "REGION_BATTLE_FRONTIER_OUTSIDE_WEST/MAIN": "BATTLE FRONTIER Fly Point"
+    },
+    "warps": {}
+  }
+}

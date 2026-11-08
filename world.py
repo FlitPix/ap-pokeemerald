@@ -66,6 +66,7 @@ class PokemonEmeraldFlitWorld(World):
     location_name_groups = location_groups
 
     #required_client_version = (0, 6, 7)
+    origin_region_name = "Title Screen"
 
     item_pool: List[PokemonEmeraldFlitItem]
     badge_shuffle_info: Optional[List[Tuple[PokemonEmeraldFlitLocation, PokemonEmeraldFlitItem]]]

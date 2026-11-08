@@ -30,7 +30,7 @@ def set_rules(world: "PokemonEmeraldFlitWorld") -> None:
     )
 
     # Fly
-    entrance_rules["Skies of HOENN"] = CanFly()
+    entrance_rules["Use FLY in HOENN"] = CanFly()
     entrance_rules["LITTLEROOT TOWN Fly Point"] = Has("Visited LITTLEROOT TOWN")
     entrance_rules["OLDALE TOWN Fly Point"] = Has("Visited OLDALE TOWN")
     entrance_rules["PETALBURG CITY Fly Point"] = Has("Visited PETALBURG CITY")
