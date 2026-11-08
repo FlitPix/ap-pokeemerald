@@ -344,11 +344,12 @@ class GameOptions(OptionDict):
     - Button Mode: Normal, LR, L=A
     - Frame: 1-20
     - Turbo Button: None, A, B
+    - Auto Run: Off, On
     - Blind Trainers: Off, On
     - Always Catch: Off, On
     - Always Escape: Off, On
-    - AP Messages: Filler, Useful, Progression
     - Always Reel: Off, On
+    - AP Messages: Filler, Useful, Progression
 
     NOTE: In-game options not listed here don't work yet. Sorry!
     """
@@ -365,8 +366,8 @@ class GameOptions(OptionDict):
                                      And(bool, lambda s: s in GAME_OPTIONS["turbo button"].options.keys()),),
         #Optional("Skip Nickname"): Or(And(str, lambda s: s in GAME_OPTIONS["skip nickname"].options.keys()),
         #                               And(bool, lambda s: s in GAME_OPTIONS["skip nickname"].options.keys()),),
-        #Optional("Auto Run"): Or(And(str, lambda s: s in GAME_OPTIONS["auto run"].options.keys()),
-        #                               And(bool, lambda s: s in GAME_OPTIONS["auto run"].options.keys()),),
+        Optional("Auto Run"): Or(And(str, lambda s: s in GAME_OPTIONS["auto run"].options.keys()),
+                                       And(bool, lambda s: s in GAME_OPTIONS["auto run"].options.keys()),),
         Optional("Bike Music"): Or(And(str, lambda s: s in GAME_OPTIONS["bike music"].options.keys()),
                                        And(bool, lambda s: s in GAME_OPTIONS["bike music"].options.keys()),),
         Optional("Surf Music"): Or(And(str, lambda s: s in GAME_OPTIONS["surf music"].options.keys()),
@@ -393,7 +394,7 @@ class GameOptions(OptionDict):
         "Frame": 1,
         "Turbo Button": "A",
         #"Skip Nickname": "On",
-        #"Auto Run": "Off",
+        "Auto Run": "Off",
         "Bike Music": "On",
         "Surf Music": "On",
         "Low HP Beep": "Off",
