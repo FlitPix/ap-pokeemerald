@@ -86,7 +86,7 @@ class PokemonEmeraldFlitWorld(World):
         if not bool(self.options.goals):
             logging.warning(f"Flit's Pokemon Emerald: Player {self.player} ({self.player_name}) has no goals set. "
                             "Enabling Hall of Fame.")
-            self.options.goals = {"Hall of Fame"}
+            self.options.goals.value.add("Hall of Fame")
         
         if self.options.exclude_postgame_locations:
             if "Steven" in self.options.goals:
