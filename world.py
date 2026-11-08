@@ -101,8 +101,7 @@ class PokemonEmeraldFlitWorld(World):
         regions = create_regions(self)
         create_locations(self, regions)
         self.multiworld.regions.extend(regions.values())
-        if self.options.exclude_postgame_locations:
-            exclude_locations(self)
+        exclude_locations(self)
 
     def create_items(self) -> None:
         create_items(self)

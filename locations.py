@@ -96,27 +96,27 @@ def create_locations(world: "PokemonEmeraldFlitWorld", regions: Dict[str, Region
             region.locations.append(create_location(location_name))
 
 def exclude_locations(world: "PokemonEmeraldFlitWorld") -> None:
-    POST_HALL_OF_FAME_LOCATIONS = [
-        "LITTLEROOT TOWN - Gift 1 from NORMAN",
-        "LITTLEROOT TOWN - Gift 2 from NORMAN",
-        "LITTLEROOT TOWN - Gift 3 from NORMAN",
-        "LITTLEROOT TOWN - Gift 4 from NORMAN",
-        "LITTLEROOT TOWN - Gift 5 from NORMAN",
-        "TRICK HOUSE Puzzle 8 - Item",
-        # TEMPORARY: for now, the Safari Zone construction workers don't move until post-HoF.
-        # TODO: split into separate list? after pokedex shuffle is fully implemented.
-        "SAFARI ZONE NE - Item on Ledge",
-        "SAFARI ZONE NE - Hidden Item North",
-        "SAFARI ZONE NE - Hidden Item East",
-        "SAFARI ZONE SE - Item in Grass",
-        "SAFARI ZONE SE - Hidden Item in South Grass 1",
-        "SAFARI ZONE SE - Hidden Item in South Grass 2",
-    ]
-
     locations_to_exclude = []
 
-    # exclude post-HoF locations if HoF is the only goal.
-    if all(goal == "Hall of Fame" for goal in world.options.goals):
+    # exclude post-HoF locations if desired
+    if world.options.exclude_postgame_locations:
+        POST_HALL_OF_FAME_LOCATIONS = [
+            "LITTLEROOT TOWN - Gift 1 from NORMAN",
+            "LITTLEROOT TOWN - Gift 2 from NORMAN",
+            "LITTLEROOT TOWN - Gift 3 from NORMAN",
+            "LITTLEROOT TOWN - Gift 4 from NORMAN",
+            "LITTLEROOT TOWN - Gift 5 from NORMAN",
+            "TRICK HOUSE Puzzle 8 - Item",
+            # TEMPORARY: for now, the Safari Zone construction workers don't move until post-HoF.
+            # TODO: split into separate list after pokedex shuffle is fully implemented.
+            "SAFARI ZONE NE - Item on Ledge",
+            "SAFARI ZONE NE - Hidden Item North",
+            "SAFARI ZONE NE - Hidden Item East",
+            "SAFARI ZONE SE - Item in Grass",
+            "SAFARI ZONE SE - Hidden Item in South Grass 1",
+            "SAFARI ZONE SE - Hidden Item in South Grass 2",
+        ]
+
         locations_to_exclude.extend(POST_HALL_OF_FAME_LOCATIONS)
 
         # Navel Rock can only be accessed with the MysticTicket, so if tickets aren't shuffled, its hidden item is also post-HoF.
