@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from schema import Schema, And, Optional, Or
 
-from Options import (Choice, DeathLink, DefaultOnToggle, NamedRange, OptionDict, OptionGroup,
+from Options import (Choice, DeathLink, DefaultOnToggle, ItemsAccessibility, NamedRange, OptionDict, OptionGroup,
                     OptionSet, PerGameCommonOptions, Range, StartInventory, StartInventoryPool, Toggle)
 
 from .data import data, GAME_OPTIONS
@@ -440,6 +440,7 @@ class PokemonEmeraldFlitOptions(PerGameCommonOptions):
     remove_badge_requirement: HoennRemoveBadgeRequirement
     #easier_cracked_floors: EasierCrackedFloors
 
+    accessibility: ItemsAccessibility
     start_inventory: PokemonEmeraldFlitStartInventory
 
 OPTION_GROUPS = [

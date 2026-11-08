@@ -6,6 +6,7 @@ from typing import ClassVar, Dict, Any, List, Tuple, Optional
 from settings import Group, UserFilePath
 from worlds.AutoWorld import WebWorld, World
 from BaseClasses import Tutorial, MultiWorld, ItemClassification
+from Options import OptionError
 
 from .constants import GAME_NAME
 from .items import PokemonEmeraldFlitItem, create_items, create_item_name_to_id_map, get_item_classification, get_random_item
@@ -82,6 +83,14 @@ class PokemonEmeraldFlitWorld(World):
         return get_random_item(self, ItemClassification.filler)
 
     def generate_early(self) -> None:
+        if self.options.exclude_postgame_locations:
+            if "Steven" in self.options.goals:
+                logging.warning(f"Flit's Pokemon Emerald: Including postgame locations for player %s (%s), since Steven is set as a goal condition.",
+                                self.player, self.player_name)
+                self.options.exclude_postgame_locations = ExcludePostHofLocations.option_false
+            if self.options.accessibility != "minimal" and not self.options.shuffle_overworld and not self.options.shuffle_hidden and not self.options.shuffle_gifts:
+                raise OptionError(f"Flit's Pokemon Emerald: Player {self.player} ({self.player_name}) must either include postgame options, or shuffle at least one of Overworld, Hidden, or NPC Gift locations, since accessibility is not minimal.")
+
         # handle local items
         #if self.options.shuffle_badges == ShuffleBadges.option_leaders:
         #    self.options.local_items.value.update(item_groups["Badges"])
@@ -89,11 +98,6 @@ class PokemonEmeraldFlitWorld(World):
             self.options.local_items.value.update(item_groups["Bikes"])
         if not self.options.shuffle_tickets:
             self.options.local_items.value.update(item_groups["Event Tickets"])
-
-        if self.options.exclude_postgame_locations and "Steven" in self.options.goals:
-            logging.warning(f"Flit's Pokemon Emerald: Including postgame locations for player %s (%s), since Steven is set as a goal condition.",
-                            self.player, self.player_name)
-            self.options.exclude_postgame_locations = ExcludePostHofLocations.option_false
 
     def create_regions(self) -> None:
         from .regions import create_regions
