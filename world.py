@@ -94,14 +94,13 @@ class PokemonEmeraldFlitWorld(World):
                                 f"({self.player_name}), since Steven is set as a goal condition.")
                 self.options.exclude_postgame_locations.value = ExcludePostHofLocations.option_false
             if (
-                self.options.accessibility != "minimal" and
                 not self.options.shuffle_overworld and
                 not self.options.shuffle_hidden and
                 not self.options.shuffle_gifts
             ):
                 raise OptionError(f"Flit's Pokemon Emerald: Player {self.player} ({self.player_name}) must either "
-                                  "include postgame options, or shuffle at least one of Overworld, Hidden, or NPC Gift "
-                                  "locations, since accessibility is not minimal.")
+                                  "include postgame locations, or shuffle at least one of Overworld, Hidden, or NPC Gift "
+                                  "locations.")
 
         # with vanilla badges and the Surf badge requirement, Norman locks the ability to use Surf.
         # this means reaching Fortree Gym, Mossdeep Gym, and Sootopolis Gym isn't guaranteed,
