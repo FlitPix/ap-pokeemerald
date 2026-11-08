@@ -181,7 +181,7 @@
   "NPC_GIFT_RECEIVED_SS_TICKET": {
     "name": "LITTLEROOT TOWN - Gift 1 from NORMAN",
     "tags": ["Tickets", "NPC Gifts", "Hoenn", "Littleroot Town"],
-    "category": "NPC_GIFT"
+    "category": "KEY"
   },
   "NPC_GIFT_RECEIVED_EON_TICKET": {
     "name": "LITTLEROOT TOWN - Gift 2 from NORMAN",
