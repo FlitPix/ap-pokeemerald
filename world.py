@@ -87,7 +87,7 @@ class PokemonEmeraldFlitWorld(World):
             if "Steven" in self.options.goals:
                 logging.warning(f"Flit's Pokemon Emerald: Including postgame locations for player %s (%s), since Steven is set as a goal condition.",
                                 self.player, self.player_name)
-                self.options.exclude_postgame_locations = ExcludePostHofLocations.option_false
+                self.options.exclude_postgame_locations.value = ExcludePostHofLocations.option_false
             if self.options.accessibility != "minimal" and not self.options.shuffle_overworld and not self.options.shuffle_hidden and not self.options.shuffle_gifts:
                 raise OptionError(f"Flit's Pokemon Emerald: Player {self.player} ({self.player_name}) must either include postgame options, or shuffle at least one of Overworld, Hidden, or NPC Gift locations, since accessibility is not minimal.")
 
