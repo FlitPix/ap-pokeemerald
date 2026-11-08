@@ -84,7 +84,7 @@
   "ITEM_ACRO_BIKE": {
     "name": "Acro Bike",
     "classification": "PROGRESSION",
-    "tags": ["Key Items", "Bike", "Unique Items"]
+    "tags": ["Key Items", "Bikes", "Unique Items"]
   },
   "ITEM_AURORA_TICKET": {
     "name": "AuroraTicket",
