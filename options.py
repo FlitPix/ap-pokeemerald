@@ -348,6 +348,7 @@ class GameOptions(OptionDict):
     - Always Catch: Off, On
     - Always Escape: Off, On
     - AP Messages: Filler, Useful, Progression
+    - Always Reel: Off, On
 
     NOTE: In-game options not listed here don't work yet. Sorry!
     """
@@ -378,8 +379,8 @@ class GameOptions(OptionDict):
                                          And(bool, lambda s: s in GAME_OPTIONS["always catch"].options.keys()),),
         Optional("Always Escape"): Or(And(str, lambda s: s in GAME_OPTIONS["always escape"].options.keys()),
                                        And(bool, lambda s: s in GAME_OPTIONS["always escape"].options.keys()),),
-        #Optional("Always Reel"): Or(And(str, lambda s: s in GAME_OPTIONS["always reel"].options.keys()),
-        #                               And(bool, lambda s: s in GAME_OPTIONS["always reel"].options.keys()),),
+        Optional("Always Reel"): Or(And(str, lambda s: s in GAME_OPTIONS["always reel"].options.keys()),
+                                       And(bool, lambda s: s in GAME_OPTIONS["always reel"].options.keys()),),
         Optional("AP Messages"): And(str, lambda s: s in GAME_OPTIONS["ap messages"].options.keys()),
     })
 
@@ -391,12 +392,15 @@ class GameOptions(OptionDict):
         "Button Mode": "LR",
         "Frame": 1,
         "Turbo Button": "A",
+        #"Skip Nickname": "On",
+        #"Auto Run": "Off",
         "Bike Music": "On",
         "Surf Music": "On",
         "Low HP Beep": "Off",
         "Blind Trainers": "Off",
         "Always Catch": "Off",
         "Always Escape": "Off",
+        "Always Reel": "Off",
         "AP Messages": "Progression"
     }
 
