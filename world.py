@@ -86,7 +86,7 @@ class PokemonEmeraldFlitWorld(World):
         #if self.options.shuffle_badges == ShuffleBadges.option_leaders:
         #    self.options.local_items.value.update(item_groups["Badges"])
         if not self.options.shuffle_bikes:
-            self.options.local_items.value.update(item_groups["Bike"])
+            self.options.local_items.value.update(item_groups["Bikes"])
         if not self.options.shuffle_tickets:
             self.options.local_items.value.update(item_groups["Event Tickets"])
 
